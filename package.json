@@ -15,8 +15,7 @@
     "istanbul": "~0.2.11",
     "jscs": "^1.4.5",
     "eslint": "^0.6.2",
-    "mocha": "~1.20.1",
-    "retext": "~0.0.8"
+    "mocha": "~1.20.1"
   },
   "repository": {
     "type": "git",
