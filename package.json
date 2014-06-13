@@ -1,0 +1,48 @@
+{
+  "name": "gemoji",
+  "version": "0.0.1",
+  "description": "Named and unicode Gemoji",
+  "keywords": [
+    "gemoji",
+    "emoji",
+    "unicode",
+    "name",
+    "shortcode"
+  ],
+  "author": "Titus Wormer <tituswormer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "~0.2.11",
+    "jscs": "^1.4.5",
+    "eslint": "^0.6.2",
+    "mocha": "~1.20.1",
+    "retext": "~0.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/gemoji.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports spec/gemoji.spec.js",
+    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports spec/gemoji.spec.js",
+    "lint": "node_modules/.bin/eslint index.js --env node --env browser --rule 'quotes: [2, single]' && node_modules/.bin/eslint spec/gemoji.spec.js --env node --env mocha --rule 'quotes: [2, single], no-loop-func: false' && node_modules/.bin/jscs index.js spec/gemoji.spec.js --reporter=inline",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec spec/gemoji.spec.js",
+    "make": "npm run-script lint && npm run-script coverage"
+  },
+  "testling": {
+    "files": "spec/gemoji.spec.js",
+    "harness": "mocha",
+    "browsers": [
+      "iexplore/latest",
+      "chrome/latest",
+      "chrome/canary",
+      "firefox/latest",
+      "firefox/nightly",
+      "opera/latest",
+      "opera/next",
+      "safari/latest",
+      "iphone/latest",
+      "android-browser/latest"
+    ]
+  }
+}
