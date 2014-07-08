@@ -1,4 +1,10 @@
 
+n.n.n / 2014-07-08
+==================
+
+ * Mentioned the list of supported gemoji in documentation
+ * Supported gemoji are now listed (fixes #1)
+
 0.0.3 / 2014-06-19
 ==================
 
