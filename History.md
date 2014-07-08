@@ -1,5 +1,5 @@
 
-n.n.n / 2014-07-08
+0.1.0 / 2014-07-08
 ==================
 
  * Mentioned the list of supported gemoji in documentation
