@@ -29,6 +29,8 @@
     "lint-test": "node_modules/.bin/eslint spec/gemoji.spec.js --env node --env mocha --rule 'quotes: [2, single], no-loop-func: false'",
     "lint-style": "node_modules/.bin/jscs index.js spec/gemoji.spec.js --reporter=inline",
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/gemoji.spec.js",
-    "make": "npm run-script lint && npm run-script coverage"
+    "build-supported-gemoji" : "node build-supported-gemoji.js",
+    "prepublish" : "npm run build-supported-gemoji",
+    "make": "npm run-script lint && npm run-script coverage && npm run build-supported-gemoji"
   }
 }
