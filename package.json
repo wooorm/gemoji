@@ -25,12 +25,14 @@
     "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports spec/gemoji.spec.js",
     "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports spec/gemoji.spec.js",
     "lint": "npm run-script lint-api && npm run-script lint-test && npm run-script lint-style",
-    "lint-api": "node_modules/.bin/eslint index.js --env node --env browser --rule 'quotes: [2, single]'",
+    "lint-api": "node_modules/.bin/eslint index.js build-data.js --env node --env browser --rule 'quotes: [2, single]'",
     "lint-test": "node_modules/.bin/eslint spec/gemoji.spec.js --env node --env mocha --rule 'quotes: [2, single], no-loop-func: false'",
-    "lint-style": "node_modules/.bin/jscs index.js spec/gemoji.spec.js --reporter=inline",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/gemoji.spec.js",
+    "lint-style": "node_modules/.bin/jscs index.js build-data.js build-supported-gemoji.js spec/gemoji.spec.js --reporter=inline",
+    "scrape-data": "curl --connect-timeout 5 --max-time 10 -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/github/gemoji/contents/db/emoji.json -o data/emoji.json || exit 0",
+    "build-data" : "node build-data.js",
     "build-supported-gemoji" : "node build-supported-gemoji.js",
-    "prepublish" : "npm run build-supported-gemoji",
+    "prepublish" : "npm run scrape-data && npm run build-data && npm run build-supported-gemoji",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/gemoji.spec.js",
     "make": "npm run-script lint && npm run-script coverage && npm run build-supported-gemoji"
   }
 }
