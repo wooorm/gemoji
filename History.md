@@ -1,4 +1,22 @@
 
+n.n.n / 2014-09-09
+==================
+
+ * Add bower to installation methods in docs
+ * Add bower.json
+ * Update license in Readme.md
+ * Add missing new line
+ * Fix Component.js > Component
+ * Fix NPM > npm
+ * Remove section on browser support
+ * Remove gemoji short-codes from Supported-gemoji.md
+ * Refactor supported gemoji for new emoji data
+ * Refactor spec to depend on new emoji data
+ * Add new emoji data file to component.json
+ * Refactor module to depend on external (scraped) data
+ * Add functionality to scrape emoji in build-step
+ * Update istanbul, jscs, eslint, mocha
+
 0.1.0 / 2014-07-08
 ==================
 
