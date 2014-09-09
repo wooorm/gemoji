@@ -1,5 +1,5 @@
 
-n.n.n / 2014-09-09
+0.1.1 / 2014-09-09
 ==================
 
  * Add bower to installation methods in docs
