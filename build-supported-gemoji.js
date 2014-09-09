@@ -1,10 +1,12 @@
 var fs = require('fs');
 
-function unescape(value) {
-    return value.replace(/\\u([\d\w]{4})/gi, function ($0, $1) {
-        return String.fromCharCode(parseInt($1, 16));
-    });
+function escape(value) {
+    return value.split('').map(function (character) {
+        return '\\u' + character.charCodeAt(0).toString(16);
+    }).join('');
 }
+
+var data = require('./data/gemoji.json');
 
 fs.writeFileSync('Supported-Gemoji.md',
     'Supported Gemoji:\n' +
@@ -13,28 +15,13 @@ fs.writeFileSync('Supported-Gemoji.md',
     '| github | unicode | name | escaped unicode |\n' +
     '|:------:|:-------:|:----:|:---------------:|\n' +
 
-    fs.readFileSync('./index.js', 'utf-8')
-
-        // Remove start.
-        .replace(/[\s\S]+?gemoji = \(\n/, '')
-
-        // Remove end.
-        .replace(/\n\)[\s\S]+/, '')
-
-        .split('\n')
-        .map(function (row) {
-            row = row
-                // Remove start.
-                .replace(/[\s\S]+?'/, '')
-
-                // Remove end.
-                .replace(/\|?'[\s\S]*/, '')
-                // split.
-                .split('|')
-
-            return '| :' + row[0] + ': | ' + unescape(row[1]) + ' | ' + row[0] + ' | ' + row[1] + ' |'
-        })
-        .join('\n') +
+    Object.keys(data).map(function (name) {
+        return '|' +
+            ' :' + name + ': | ' +
+            data[name] + ' | ' +
+            name + ' | ' +
+            escape(data[name]) + ' |'
+    }).join('\n') +
 
     '\n'
 );
