@@ -1,17 +1,10 @@
 'use strict';
 
-var gemoji, assert, fs, inputs, outputs, iterator, input, output;
+var emoji, gemoji, assert;
 
+emoji = require('../data/emoji.json');
 gemoji = require('..');
 assert = require('assert');
-fs = require('fs');
-
-inputs = fs.readFileSync('./spec/input.txt', 'utf-8').split('\n');
-outputs = fs.readFileSync('./spec/output.txt', 'utf-8').split('\n');
-
-/* Remove last newline before EOF */
-inputs.pop();
-outputs.pop();
 
 describe('gemoji', function () {
     it('should have a `name` property', function () {
@@ -27,29 +20,30 @@ describe('gemoji', function () {
     });
 });
 
-/* Convert escaped unicode characters into actual unicode characters. */
-function unescapeUnicode($0, $1) {
-    return String.fromCharCode(parseInt($1, 16));
-}
+function describeGemojiObject(gemojiObject) {
+    var unicode = gemojiObject.emoji,
+        description = gemojiObject.description,
+        name = gemojiObject.aliases[0];
 
-iterator = -1;
+    if (!unicode) {
+        return;
+    }
 
-while (inputs[++iterator]) {
-    input = inputs[iterator].replace(/\\u([\d\w]{4})/gi, unescapeUnicode);
+    describe(unicode + '   ' + description, function () {
+        gemojiObject.aliases.forEach(function (alias) {
+            it('should be accessible by name (' + alias + ' > unicode)',
+                function () {
+                    assert(gemoji.name[alias] === unicode);
+                }
+            );
+        });
 
-    output = outputs[iterator];
-
-    describe('gemoji `' + output + '`', function () {
-        it('should get the name of the gemoji (from `' + input + '` to `' +
-            output + '`)', function () {
-                assert(gemoji.name[output] === input);
-            }
-        );
-
-        it('should get the gemoji from the name (from `' + output + '` to `' +
-            input + '`)', function () {
-                assert(gemoji.unicode[input] === output);
+        it('should get an alias by unicode (unicode > ' + name + ')',
+            function () {
+                assert(gemoji.unicode[unicode] === name);
             }
         );
     });
 }
+
+emoji.forEach(describeGemojiObject);
