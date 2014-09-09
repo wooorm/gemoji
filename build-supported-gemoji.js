@@ -12,12 +12,14 @@ fs.writeFileSync('Supported-Gemoji.md',
     'Supported Gemoji:\n' +
     '=================\n' +
     '\n' +
-    '| github | unicode | name | escaped unicode |\n' +
-    '|:------:|:-------:|:----:|:---------------:|\n' +
+    'Note that this file does not contain the gemoji\'s as rendered by' +
+    'GitHub; 870 small images would make viewing this document very slow.\n' +
+    '\n' +
+    '| unicode | name | escaped unicode |\n' +
+    '|:-------:|:----:|:---------------:|\n' +
 
     Object.keys(data).map(function (name) {
-        return '|' +
-            ' :' + name + ': | ' +
+        return '| ' +
             data[name] + ' | ' +
             name + ' | ' +
             escape(data[name]) + ' |'

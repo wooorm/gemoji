@@ -1,875 +1,877 @@
 Supported Gemoji:
 =================
 
-| github | unicode | name | escaped unicode |
-|:------:|:-------:|:----:|:---------------:|
-| :100: | 💯 | 100 | \ud83d\udcaf |
-| :1234: | 🔢 | 1234 | \ud83d\udd22 |
-| :smile: | 😄 | smile | \ud83d\ude04 |
-| :smiley: | 😃 | smiley | \ud83d\ude03 |
-| :grinning: | 😀 | grinning | \ud83d\ude00 |
-| :blush: | 😊 | blush | \ud83d\ude0a |
-| :relaxed: | ☺️ | relaxed | \u263a\ufe0f |
-| :wink: | 😉 | wink | \ud83d\ude09 |
-| :heart_eyes: | 😍 | heart_eyes | \ud83d\ude0d |
-| :kissing_heart: | 😘 | kissing_heart | \ud83d\ude18 |
-| :kissing_closed_eyes: | 😚 | kissing_closed_eyes | \ud83d\ude1a |
-| :kissing: | 😗 | kissing | \ud83d\ude17 |
-| :kissing_smiling_eyes: | 😙 | kissing_smiling_eyes | \ud83d\ude19 |
-| :stuck_out_tongue_winking_eye: | 😜 | stuck_out_tongue_winking_eye | \ud83d\ude1c |
-| :stuck_out_tongue_closed_eyes: | 😝 | stuck_out_tongue_closed_eyes | \ud83d\ude1d |
-| :stuck_out_tongue: | 😛 | stuck_out_tongue | \ud83d\ude1b |
-| :flushed: | 😳 | flushed | \ud83d\ude33 |
-| :grin: | 😁 | grin | \ud83d\ude01 |
-| :pensive: | 😔 | pensive | \ud83d\ude14 |
-| :relieved: | 😌 | relieved | \ud83d\ude0c |
-| :unamused: | 😒 | unamused | \ud83d\ude12 |
-| :disappointed: | 😞 | disappointed | \ud83d\ude1e |
-| :persevere: | 😣 | persevere | \ud83d\ude23 |
-| :cry: | 😢 | cry | \ud83d\ude22 |
-| :joy: | 😂 | joy | \ud83d\ude02 |
-| :sob: | 😭 | sob | \ud83d\ude2d |
-| :sleepy: | 😪 | sleepy | \ud83d\ude2a |
-| :disappointed_relieved: | 😥 | disappointed_relieved | \ud83d\ude25 |
-| :cold_sweat: | 😰 | cold_sweat | \ud83d\ude30 |
-| :sweat_smile: | 😅 | sweat_smile | \ud83d\ude05 |
-| :sweat: | 😓 | sweat | \ud83d\ude13 |
-| :weary: | 😩 | weary | \ud83d\ude29 |
-| :tired_face: | 😫 | tired_face | \ud83d\ude2b |
-| :fearful: | 😨 | fearful | \ud83d\ude28 |
-| :scream: | 😱 | scream | \ud83d\ude31 |
-| :angry: | 😠 | angry | \ud83d\ude20 |
-| :rage: | 😡 | rage | \ud83d\ude21 |
-| :triumph: | 😤 | triumph | \ud83d\ude24 |
-| :confounded: | 😖 | confounded | \ud83d\ude16 |
-| :laughing: | 😆 | laughing | \ud83d\ude06 |
-| :satisfied: | 😆 | satisfied | \ud83d\ude06 |
-| :yum: | 😋 | yum | \ud83d\ude0b |
-| :mask: | 😷 | mask | \ud83d\ude37 |
-| :sunglasses: | 😎 | sunglasses | \ud83d\ude0e |
-| :sleeping: | 😴 | sleeping | \ud83d\ude34 |
-| :dizzy_face: | 😵 | dizzy_face | \ud83d\ude35 |
-| :astonished: | 😲 | astonished | \ud83d\ude32 |
-| :worried: | 😟 | worried | \ud83d\ude1f |
-| :frowning: | 😦 | frowning | \ud83d\ude26 |
-| :anguished: | 😧 | anguished | \ud83d\ude27 |
-| :smiling_imp: | 😈 | smiling_imp | \ud83d\ude08 |
-| :imp: | 👿 | imp | \ud83d\udc7f |
-| :open_mouth: | 😮 | open_mouth | \ud83d\ude2e |
-| :grimacing: | 😬 | grimacing | \ud83d\ude2c |
-| :neutral_face: | 😐 | neutral_face | \ud83d\ude10 |
-| :confused: | 😕 | confused | \ud83d\ude15 |
-| :hushed: | 😯 | hushed | \ud83d\ude2f |
-| :no_mouth: | 😶 | no_mouth | \ud83d\ude36 |
-| :innocent: | 😇 | innocent | \ud83d\ude07 |
-| :smirk: | 😏 | smirk | \ud83d\ude0f |
-| :expressionless: | 😑 | expressionless | \ud83d\ude11 |
-| :man_with_gua_pi_mao: | 👲 | man_with_gua_pi_mao | \ud83d\udc72 |
-| :man_with_turban: | 👳 | man_with_turban | \ud83d\udc73 |
-| :cop: | 👮 | cop | \ud83d\udc6e |
-| :construction_worker: | 👷 | construction_worker | \ud83d\udc77 |
-| :guardsman: | 💂 | guardsman | \ud83d\udc82 |
-| :baby: | 👶 | baby | \ud83d\udc76 |
-| :boy: | 👦 | boy | \ud83d\udc66 |
-| :girl: | 👧 | girl | \ud83d\udc67 |
-| :man: | 👨 | man | \ud83d\udc68 |
-| :woman: | 👩 | woman | \ud83d\udc69 |
-| :older_man: | 👴 | older_man | \ud83d\udc74 |
-| :older_woman: | 👵 | older_woman | \ud83d\udc75 |
-| :person_with_blond_hair: | 👱 | person_with_blond_hair | \ud83d\udc71 |
-| :angel: | 👼 | angel | \ud83d\udc7c |
-| :princess: | 👸 | princess | \ud83d\udc78 |
-| :smiley_cat: | 😺 | smiley_cat | \ud83d\ude3a |
-| :smile_cat: | 😸 | smile_cat | \ud83d\ude38 |
-| :heart_eyes_cat: | 😻 | heart_eyes_cat | \ud83d\ude3b |
-| :kissing_cat: | 😽 | kissing_cat | \ud83d\ude3d |
-| :smirk_cat: | 😼 | smirk_cat | \ud83d\ude3c |
-| :scream_cat: | 🙀 | scream_cat | \ud83d\ude40 |
-| :crying_cat_face: | 😿 | crying_cat_face | \ud83d\ude3f |
-| :joy_cat: | 😹 | joy_cat | \ud83d\ude39 |
-| :pouting_cat: | 😾 | pouting_cat | \ud83d\ude3e |
-| :japanese_ogre: | 👹 | japanese_ogre | \ud83d\udc79 |
-| :japanese_goblin: | 👺 | japanese_goblin | \ud83d\udc7a |
-| :see_no_evil: | 🙈 | see_no_evil | \ud83d\ude48 |
-| :hear_no_evil: | 🙉 | hear_no_evil | \ud83d\ude49 |
-| :speak_no_evil: | 🙊 | speak_no_evil | \ud83d\ude4a |
-| :skull: | 💀 | skull | \ud83d\udc80 |
-| :alien: | 👽 | alien | \ud83d\udc7d |
-| :hankey: | 💩 | hankey | \ud83d\udca9 |
-| :poop: | 💩 | poop | \ud83d\udca9 |
-| :shit: | 💩 | shit | \ud83d\udca9 |
-| :fire: | 🔥 | fire | \ud83d\udd25 |
-| :sparkles: | ✨ | sparkles | \u2728 |
-| :star2: | 🌟 | star2 | \ud83c\udf1f |
-| :dizzy: | 💫 | dizzy | \ud83d\udcab |
-| :boom: | 💥 | boom | \ud83d\udca5 |
-| :collision: | 💥 | collision | \ud83d\udca5 |
-| :anger: | 💢 | anger | \ud83d\udca2 |
-| :sweat_drops: | 💦 | sweat_drops | \ud83d\udca6 |
-| :droplet: | 💧 | droplet | \ud83d\udca7 |
-| :zzz: | 💤 | zzz | \ud83d\udca4 |
-| :dash: | 💨 | dash | \ud83d\udca8 |
-| :ear: | 👂 | ear | \ud83d\udc42 |
-| :eyes: | 👀 | eyes | \ud83d\udc40 |
-| :nose: | 👃 | nose | \ud83d\udc43 |
-| :tongue: | 👅 | tongue | \ud83d\udc45 |
-| :lips: | 👄 | lips | \ud83d\udc44 |
-| :+1: | 👍 | +1 | \ud83d\udc4d |
-| :thumbsup: | 👍 | thumbsup | \ud83d\udc4d |
-| :-1: | 👎 | -1 | \ud83d\udc4e |
-| :thumbsdown: | 👎 | thumbsdown | \ud83d\udc4e |
-| :ok_hand: | 👌 | ok_hand | \ud83d\udc4c |
-| :facepunch: | 👊 | facepunch | \ud83d\udc4a |
-| :punch: | 👊 | punch | \ud83d\udc4a |
-| :fist: | ✊ | fist | \u270a |
-| :v: | ✌️ | v | \u270c\ufe0f |
-| :wave: | 👋 | wave | \ud83d\udc4b |
-| :hand: | ✋ | hand | \u270b |
-| :raised_hand: | ✋ | raised_hand | \u270b |
-| :open_hands: | 👐 | open_hands | \ud83d\udc50 |
-| :point_up_2: | 👆 | point_up_2 | \ud83d\udc46 |
-| :point_down: | 👇 | point_down | \ud83d\udc47 |
-| :point_right: | 👉 | point_right | \ud83d\udc49 |
-| :point_left: | 👈 | point_left | \ud83d\udc48 |
-| :raised_hands: | 🙌 | raised_hands | \ud83d\ude4c |
-| :pray: | 🙏 | pray | \ud83d\ude4f |
-| :point_up: | ☝️ | point_up | \u261d\ufe0f |
-| :clap: | 👏 | clap | \ud83d\udc4f |
-| :muscle: | 💪 | muscle | \ud83d\udcaa |
-| :walking: | 🚶 | walking | \ud83d\udeb6 |
-| :runner: | 🏃 | runner | \ud83c\udfc3 |
-| :running: | 🏃 | running | \ud83c\udfc3 |
-| :dancer: | 💃 | dancer | \ud83d\udc83 |
-| :couple: | 👫 | couple | \ud83d\udc6b |
-| :family: | 👪 | family | \ud83d\udc6a |
-| :two_men_holding_hands: | 👬 | two_men_holding_hands | \ud83d\udc6c |
-| :two_women_holding_hands: | 👭 | two_women_holding_hands | \ud83d\udc6d |
-| :couplekiss: | 💏 | couplekiss | \ud83d\udc8f |
-| :couple_with_heart: | 💑 | couple_with_heart | \ud83d\udc91 |
-| :dancers: | 👯 | dancers | \ud83d\udc6f |
-| :ok_woman: | 🙆 | ok_woman | \ud83d\ude46 |
-| :no_good: | 🙅 | no_good | \ud83d\ude45 |
-| :information_desk_person: | 💁 | information_desk_person | \ud83d\udc81 |
-| :raising_hand: | 🙋 | raising_hand | \ud83d\ude4b |
-| :massage: | 💆 | massage | \ud83d\udc86 |
-| :haircut: | 💇 | haircut | \ud83d\udc87 |
-| :nail_care: | 💅 | nail_care | \ud83d\udc85 |
-| :bride_with_veil: | 👰 | bride_with_veil | \ud83d\udc70 |
-| :person_with_pouting_face: | 🙎 | person_with_pouting_face | \ud83d\ude4e |
-| :person_frowning: | 🙍 | person_frowning | \ud83d\ude4d |
-| :bow: | 🙇 | bow | \ud83d\ude47 |
-| :tophat: | 🎩 | tophat | \ud83c\udfa9 |
-| :crown: | 👑 | crown | \ud83d\udc51 |
-| :womans_hat: | 👒 | womans_hat | \ud83d\udc52 |
-| :athletic_shoe: | 👟 | athletic_shoe | \ud83d\udc5f |
-| :mans_shoe: | 👞 | mans_shoe | \ud83d\udc5e |
-| :shoe: | 👞 | shoe | \ud83d\udc5e |
-| :sandal: | 👡 | sandal | \ud83d\udc61 |
-| :high_heel: | 👠 | high_heel | \ud83d\udc60 |
-| :boot: | 👢 | boot | \ud83d\udc62 |
-| :shirt: | 👕 | shirt | \ud83d\udc55 |
-| :tshirt: | 👕 | tshirt | \ud83d\udc55 |
-| :necktie: | 👔 | necktie | \ud83d\udc54 |
-| :womans_clothes: | 👚 | womans_clothes | \ud83d\udc5a |
-| :dress: | 👗 | dress | \ud83d\udc57 |
-| :running_shirt_with_sash: | 🎽 | running_shirt_with_sash | \ud83c\udfbd |
-| :jeans: | 👖 | jeans | \ud83d\udc56 |
-| :kimono: | 👘 | kimono | \ud83d\udc58 |
-| :bikini: | 👙 | bikini | \ud83d\udc59 |
-| :briefcase: | 💼 | briefcase | \ud83d\udcbc |
-| :handbag: | 👜 | handbag | \ud83d\udc5c |
-| :pouch: | 👝 | pouch | \ud83d\udc5d |
-| :purse: | 👛 | purse | \ud83d\udc5b |
-| :eyeglasses: | 👓 | eyeglasses | \ud83d\udc53 |
-| :ribbon: | 🎀 | ribbon | \ud83c\udf80 |
-| :closed_umbrella: | 🌂 | closed_umbrella | \ud83c\udf02 |
-| :lipstick: | 💄 | lipstick | \ud83d\udc84 |
-| :yellow_heart: | 💛 | yellow_heart | \ud83d\udc9b |
-| :blue_heart: | 💙 | blue_heart | \ud83d\udc99 |
-| :purple_heart: | 💜 | purple_heart | \ud83d\udc9c |
-| :green_heart: | 💚 | green_heart | \ud83d\udc9a |
-| :heart: | ❤️ | heart | \u2764\ufe0f |
-| :broken_heart: | 💔 | broken_heart | \ud83d\udc94 |
-| :heartpulse: | 💗 | heartpulse | \ud83d\udc97 |
-| :heartbeat: | 💓 | heartbeat | \ud83d\udc93 |
-| :two_hearts: | 💕 | two_hearts | \ud83d\udc95 |
-| :sparkling_heart: | 💖 | sparkling_heart | \ud83d\udc96 |
-| :revolving_hearts: | 💞 | revolving_hearts | \ud83d\udc9e |
-| :cupid: | 💘 | cupid | \ud83d\udc98 |
-| :love_letter: | 💌 | love_letter | \ud83d\udc8c |
-| :kiss: | 💋 | kiss | \ud83d\udc8b |
-| :ring: | 💍 | ring | \ud83d\udc8d |
-| :gem: | 💎 | gem | \ud83d\udc8e |
-| :bust_in_silhouette: | 👤 | bust_in_silhouette | \ud83d\udc64 |
-| :busts_in_silhouette: | 👥 | busts_in_silhouette | \ud83d\udc65 |
-| :speech_balloon: | 💬 | speech_balloon | \ud83d\udcac |
-| :footprints: | 👣 | footprints | \ud83d\udc63 |
-| :thought_balloon: | 💭 | thought_balloon | \ud83d\udcad |
-| :dog: | 🐶 | dog | \ud83d\udc36 |
-| :wolf: | 🐺 | wolf | \ud83d\udc3a |
-| :cat: | 🐱 | cat | \ud83d\udc31 |
-| :mouse: | 🐭 | mouse | \ud83d\udc2d |
-| :hamster: | 🐹 | hamster | \ud83d\udc39 |
-| :rabbit: | 🐰 | rabbit | \ud83d\udc30 |
-| :frog: | 🐸 | frog | \ud83d\udc38 |
-| :tiger: | 🐯 | tiger | \ud83d\udc2f |
-| :koala: | 🐨 | koala | \ud83d\udc28 |
-| :bear: | 🐻 | bear | \ud83d\udc3b |
-| :pig: | 🐷 | pig | \ud83d\udc37 |
-| :pig_nose: | 🐽 | pig_nose | \ud83d\udc3d |
-| :cow: | 🐮 | cow | \ud83d\udc2e |
-| :boar: | 🐗 | boar | \ud83d\udc17 |
-| :monkey_face: | 🐵 | monkey_face | \ud83d\udc35 |
-| :monkey: | 🐒 | monkey | \ud83d\udc12 |
-| :horse: | 🐴 | horse | \ud83d\udc34 |
-| :sheep: | 🐑 | sheep | \ud83d\udc11 |
-| :elephant: | 🐘 | elephant | \ud83d\udc18 |
-| :panda_face: | 🐼 | panda_face | \ud83d\udc3c |
-| :penguin: | 🐧 | penguin | \ud83d\udc27 |
-| :bird: | 🐦 | bird | \ud83d\udc26 |
-| :baby_chick: | 🐤 | baby_chick | \ud83d\udc24 |
-| :hatched_chick: | 🐥 | hatched_chick | \ud83d\udc25 |
-| :hatching_chick: | 🐣 | hatching_chick | \ud83d\udc23 |
-| :chicken: | 🐔 | chicken | \ud83d\udc14 |
-| :snake: | 🐍 | snake | \ud83d\udc0d |
-| :turtle: | 🐢 | turtle | \ud83d\udc22 |
-| :bug: | 🐛 | bug | \ud83d\udc1b |
-| :bee: | 🐝 | bee | \ud83d\udc1d |
-| :honeybee: | 🐝 | honeybee | \ud83d\udc1d |
-| :ant: | 🐜 | ant | \ud83d\udc1c |
-| :beetle: | 🐞 | beetle | \ud83d\udc1e |
-| :snail: | 🐌 | snail | \ud83d\udc0c |
-| :octopus: | 🐙 | octopus | \ud83d\udc19 |
-| :shell: | 🐚 | shell | \ud83d\udc1a |
-| :tropical_fish: | 🐠 | tropical_fish | \ud83d\udc20 |
-| :fish: | 🐟 | fish | \ud83d\udc1f |
-| :dolphin: | 🐬 | dolphin | \ud83d\udc2c |
-| :flipper: | 🐬 | flipper | \ud83d\udc2c |
-| :whale: | 🐳 | whale | \ud83d\udc33 |
-| :whale2: | 🐋 | whale2 | \ud83d\udc0b |
-| :cow2: | 🐄 | cow2 | \ud83d\udc04 |
-| :ram: | 🐏 | ram | \ud83d\udc0f |
-| :rat: | 🐀 | rat | \ud83d\udc00 |
-| :water_buffalo: | 🐃 | water_buffalo | \ud83d\udc03 |
-| :tiger2: | 🐅 | tiger2 | \ud83d\udc05 |
-| :rabbit2: | 🐇 | rabbit2 | \ud83d\udc07 |
-| :dragon: | 🐉 | dragon | \ud83d\udc09 |
-| :racehorse: | 🐎 | racehorse | \ud83d\udc0e |
-| :goat: | 🐐 | goat | \ud83d\udc10 |
-| :rooster: | 🐓 | rooster | \ud83d\udc13 |
-| :dog2: | 🐕 | dog2 | \ud83d\udc15 |
-| :pig2: | 🐖 | pig2 | \ud83d\udc16 |
-| :mouse2: | 🐁 | mouse2 | \ud83d\udc01 |
-| :ox: | 🐂 | ox | \ud83d\udc02 |
-| :dragon_face: | 🐲 | dragon_face | \ud83d\udc32 |
-| :blowfish: | 🐡 | blowfish | \ud83d\udc21 |
-| :crocodile: | 🐊 | crocodile | \ud83d\udc0a |
-| :camel: | 🐫 | camel | \ud83d\udc2b |
-| :dromedary_camel: | 🐪 | dromedary_camel | \ud83d\udc2a |
-| :leopard: | 🐆 | leopard | \ud83d\udc06 |
-| :cat2: | 🐈 | cat2 | \ud83d\udc08 |
-| :poodle: | 🐩 | poodle | \ud83d\udc29 |
-| :feet: | 🐾 | feet | \ud83d\udc3e |
-| :paw_prints: | 🐾 | paw_prints | \ud83d\udc3e |
-| :bouquet: | 💐 | bouquet | \ud83d\udc90 |
-| :cherry_blossom: | 🌸 | cherry_blossom | \ud83c\udf38 |
-| :tulip: | 🌷 | tulip | \ud83c\udf37 |
-| :four_leaf_clover: | 🍀 | four_leaf_clover | \ud83c\udf40 |
-| :rose: | 🌹 | rose | \ud83c\udf39 |
-| :sunflower: | 🌻 | sunflower | \ud83c\udf3b |
-| :hibiscus: | 🌺 | hibiscus | \ud83c\udf3a |
-| :maple_leaf: | 🍁 | maple_leaf | \ud83c\udf41 |
-| :leaves: | 🍃 | leaves | \ud83c\udf43 |
-| :fallen_leaf: | 🍂 | fallen_leaf | \ud83c\udf42 |
-| :herb: | 🌿 | herb | \ud83c\udf3f |
-| :ear_of_rice: | 🌾 | ear_of_rice | \ud83c\udf3e |
-| :mushroom: | 🍄 | mushroom | \ud83c\udf44 |
-| :cactus: | 🌵 | cactus | \ud83c\udf35 |
-| :palm_tree: | 🌴 | palm_tree | \ud83c\udf34 |
-| :evergreen_tree: | 🌲 | evergreen_tree | \ud83c\udf32 |
-| :deciduous_tree: | 🌳 | deciduous_tree | \ud83c\udf33 |
-| :chestnut: | 🌰 | chestnut | \ud83c\udf30 |
-| :seedling: | 🌱 | seedling | \ud83c\udf31 |
-| :blossom: | 🌼 | blossom | \ud83c\udf3c |
-| :globe_with_meridians: | 🌐 | globe_with_meridians | \ud83c\udf10 |
-| :sun_with_face: | 🌞 | sun_with_face | \ud83c\udf1e |
-| :full_moon_with_face: | 🌝 | full_moon_with_face | \ud83c\udf1d |
-| :new_moon_with_face: | 🌚 | new_moon_with_face | \ud83c\udf1a |
-| :new_moon: | 🌑 | new_moon | \ud83c\udf11 |
-| :waxing_crescent_moon: | 🌒 | waxing_crescent_moon | \ud83c\udf12 |
-| :first_quarter_moon: | 🌓 | first_quarter_moon | \ud83c\udf13 |
-| :moon: | 🌔 | moon | \ud83c\udf14 |
-| :waxing_gibbous_moon: | 🌔 | waxing_gibbous_moon | \ud83c\udf14 |
-| :full_moon: | 🌕 | full_moon | \ud83c\udf15 |
-| :waning_gibbous_moon: | 🌖 | waning_gibbous_moon | \ud83c\udf16 |
-| :last_quarter_moon: | 🌗 | last_quarter_moon | \ud83c\udf17 |
-| :waning_crescent_moon: | 🌘 | waning_crescent_moon | \ud83c\udf18 |
-| :last_quarter_moon_with_face: | 🌜 | last_quarter_moon_with_face | \ud83c\udf1c |
-| :first_quarter_moon_with_face: | 🌛 | first_quarter_moon_with_face | \ud83c\udf1b |
-| :crescent_moon: | 🌙 | crescent_moon | \ud83c\udf19 |
-| :earth_africa: | 🌍 | earth_africa | \ud83c\udf0d |
-| :earth_americas: | 🌎 | earth_americas | \ud83c\udf0e |
-| :earth_asia: | 🌏 | earth_asia | \ud83c\udf0f |
-| :volcano: | 🌋 | volcano | \ud83c\udf0b |
-| :milky_way: | 🌌 | milky_way | \ud83c\udf0c |
-| :stars: | 🌠 | stars | \ud83c\udf20 |
-| :star: | ⭐ | star | \u2b50 |
-| :sunny: | ☀️ | sunny | \u2600\ufe0f |
-| :partly_sunny: | ⛅ | partly_sunny | \u26c5 |
-| :cloud: | ☁️ | cloud | \u2601\ufe0f |
-| :zap: | ⚡ | zap | \u26a1 |
-| :umbrella: | ☔ | umbrella | \u2614 |
-| :snowflake: | ❄️ | snowflake | \u2744\ufe0f |
-| :snowman: | ⛄ | snowman | \u26c4 |
-| :cyclone: | 🌀 | cyclone | \ud83c\udf00 |
-| :foggy: | 🌁 | foggy | \ud83c\udf01 |
-| :rainbow: | 🌈 | rainbow | \ud83c\udf08 |
-| :ocean: | 🌊 | ocean | \ud83c\udf0a |
-| :bamboo: | 🎍 | bamboo | \ud83c\udf8d |
-| :gift_heart: | 💝 | gift_heart | \ud83d\udc9d |
-| :dolls: | 🎎 | dolls | \ud83c\udf8e |
-| :school_satchel: | 🎒 | school_satchel | \ud83c\udf92 |
-| :mortar_board: | 🎓 | mortar_board | \ud83c\udf93 |
-| :flags: | 🎏 | flags | \ud83c\udf8f |
-| :fireworks: | 🎆 | fireworks | \ud83c\udf86 |
-| :sparkler: | 🎇 | sparkler | \ud83c\udf87 |
-| :wind_chime: | 🎐 | wind_chime | \ud83c\udf90 |
-| :rice_scene: | 🎑 | rice_scene | \ud83c\udf91 |
-| :jack_o_lantern: | 🎃 | jack_o_lantern | \ud83c\udf83 |
-| :ghost: | 👻 | ghost | \ud83d\udc7b |
-| :santa: | 🎅 | santa | \ud83c\udf85 |
-| :christmas_tree: | 🎄 | christmas_tree | \ud83c\udf84 |
-| :gift: | 🎁 | gift | \ud83c\udf81 |
-| :tanabata_tree: | 🎋 | tanabata_tree | \ud83c\udf8b |
-| :tada: | 🎉 | tada | \ud83c\udf89 |
-| :confetti_ball: | 🎊 | confetti_ball | \ud83c\udf8a |
-| :balloon: | 🎈 | balloon | \ud83c\udf88 |
-| :crossed_flags: | 🎌 | crossed_flags | \ud83c\udf8c |
-| :crystal_ball: | 🔮 | crystal_ball | \ud83d\udd2e |
-| :movie_camera: | 🎥 | movie_camera | \ud83c\udfa5 |
-| :camera: | 📷 | camera | \ud83d\udcf7 |
-| :video_camera: | 📹 | video_camera | \ud83d\udcf9 |
-| :vhs: | 📼 | vhs | \ud83d\udcfc |
-| :cd: | 💿 | cd | \ud83d\udcbf |
-| :dvd: | 📀 | dvd | \ud83d\udcc0 |
-| :minidisc: | 💽 | minidisc | \ud83d\udcbd |
-| :floppy_disk: | 💾 | floppy_disk | \ud83d\udcbe |
-| :computer: | 💻 | computer | \ud83d\udcbb |
-| :iphone: | 📱 | iphone | \ud83d\udcf1 |
-| :phone: | ☎️ | phone | \u260e\ufe0f |
-| :telephone: | ☎️ | telephone | \u260e\ufe0f |
-| :telephone_receiver: | 📞 | telephone_receiver | \ud83d\udcde |
-| :pager: | 📟 | pager | \ud83d\udcdf |
-| :fax: | 📠 | fax | \ud83d\udce0 |
-| :satellite: | 📡 | satellite | \ud83d\udce1 |
-| :tv: | 📺 | tv | \ud83d\udcfa |
-| :radio: | 📻 | radio | \ud83d\udcfb |
-| :loud_sound: | 🔊 | loud_sound | \ud83d\udd0a |
-| :sound: | 🔉 | sound | \ud83d\udd09 |
-| :speaker: | 🔈 | speaker | \ud83d\udd08 |
-| :mute: | 🔇 | mute | \ud83d\udd07 |
-| :bell: | 🔔 | bell | \ud83d\udd14 |
-| :no_bell: | 🔕 | no_bell | \ud83d\udd15 |
-| :loudspeaker: | 📢 | loudspeaker | \ud83d\udce2 |
-| :mega: | 📣 | mega | \ud83d\udce3 |
-| :hourglass_flowing_sand: | ⏳ | hourglass_flowing_sand | \u23f3 |
-| :hourglass: | ⌛ | hourglass | \u231b |
-| :alarm_clock: | ⏰ | alarm_clock | \u23f0 |
-| :watch: | ⌚ | watch | \u231a |
-| :unlock: | 🔓 | unlock | \ud83d\udd13 |
-| :lock: | 🔒 | lock | \ud83d\udd12 |
-| :lock_with_ink_pen: | 🔏 | lock_with_ink_pen | \ud83d\udd0f |
-| :closed_lock_with_key: | 🔐 | closed_lock_with_key | \ud83d\udd10 |
-| :key: | 🔑 | key | \ud83d\udd11 |
-| :mag_right: | 🔎 | mag_right | \ud83d\udd0e |
-| :bulb: | 💡 | bulb | \ud83d\udca1 |
-| :flashlight: | 🔦 | flashlight | \ud83d\udd26 |
-| :high_brightness: | 🔆 | high_brightness | \ud83d\udd06 |
-| :low_brightness: | 🔅 | low_brightness | \ud83d\udd05 |
-| :electric_plug: | 🔌 | electric_plug | \ud83d\udd0c |
-| :battery: | 🔋 | battery | \ud83d\udd0b |
-| :mag: | 🔍 | mag | \ud83d\udd0d |
-| :bathtub: | 🛁 | bathtub | \ud83d\udec1 |
-| :bath: | 🛀 | bath | \ud83d\udec0 |
-| :shower: | 🚿 | shower | \ud83d\udebf |
-| :toilet: | 🚽 | toilet | \ud83d\udebd |
-| :wrench: | 🔧 | wrench | \ud83d\udd27 |
-| :nut_and_bolt: | 🔩 | nut_and_bolt | \ud83d\udd29 |
-| :hammer: | 🔨 | hammer | \ud83d\udd28 |
-| :door: | 🚪 | door | \ud83d\udeaa |
-| :smoking: | 🚬 | smoking | \ud83d\udeac |
-| :bomb: | 💣 | bomb | \ud83d\udca3 |
-| :gun: | 🔫 | gun | \ud83d\udd2b |
-| :hocho: | 🔪 | hocho | \ud83d\udd2a |
-| :knife: | 🔪 | knife | \ud83d\udd2a |
-| :pill: | 💊 | pill | \ud83d\udc8a |
-| :syringe: | 💉 | syringe | \ud83d\udc89 |
-| :moneybag: | 💰 | moneybag | \ud83d\udcb0 |
-| :yen: | 💴 | yen | \ud83d\udcb4 |
-| :dollar: | 💵 | dollar | \ud83d\udcb5 |
-| :pound: | 💷 | pound | \ud83d\udcb7 |
-| :euro: | 💶 | euro | \ud83d\udcb6 |
-| :credit_card: | 💳 | credit_card | \ud83d\udcb3 |
-| :money_with_wings: | 💸 | money_with_wings | \ud83d\udcb8 |
-| :calling: | 📲 | calling | \ud83d\udcf2 |
-| :e-mail: | 📧 | e-mail | \ud83d\udce7 |
-| :inbox_tray: | 📥 | inbox_tray | \ud83d\udce5 |
-| :outbox_tray: | 📤 | outbox_tray | \ud83d\udce4 |
-| :email: | ✉️ | email | \u2709\ufe0f |
-| :envelope: | ✉️ | envelope | \u2709\ufe0f |
-| :envelope_with_arrow: | 📩 | envelope_with_arrow | \ud83d\udce9 |
-| :incoming_envelope: | 📨 | incoming_envelope | \ud83d\udce8 |
-| :postal_horn: | 📯 | postal_horn | \ud83d\udcef |
-| :mailbox: | 📫 | mailbox | \ud83d\udceb |
-| :mailbox_closed: | 📪 | mailbox_closed | \ud83d\udcea |
-| :mailbox_with_mail: | 📬 | mailbox_with_mail | \ud83d\udcec |
-| :mailbox_with_no_mail: | 📭 | mailbox_with_no_mail | \ud83d\udced |
-| :postbox: | 📮 | postbox | \ud83d\udcee |
-| :package: | 📦 | package | \ud83d\udce6 |
-| :memo: | 📝 | memo | \ud83d\udcdd |
-| :pencil: | 📝 | pencil | \ud83d\udcdd |
-| :page_facing_up: | 📄 | page_facing_up | \ud83d\udcc4 |
-| :page_with_curl: | 📃 | page_with_curl | \ud83d\udcc3 |
-| :bookmark_tabs: | 📑 | bookmark_tabs | \ud83d\udcd1 |
-| :bar_chart: | 📊 | bar_chart | \ud83d\udcca |
-| :chart_with_upwards_trend: | 📈 | chart_with_upwards_trend | \ud83d\udcc8 |
-| :chart_with_downwards_trend: | 📉 | chart_with_downwards_trend | \ud83d\udcc9 |
-| :scroll: | 📜 | scroll | \ud83d\udcdc |
-| :clipboard: | 📋 | clipboard | \ud83d\udccb |
-| :date: | 📅 | date | \ud83d\udcc5 |
-| :calendar: | 📆 | calendar | \ud83d\udcc6 |
-| :card_index: | 📇 | card_index | \ud83d\udcc7 |
-| :file_folder: | 📁 | file_folder | \ud83d\udcc1 |
-| :open_file_folder: | 📂 | open_file_folder | \ud83d\udcc2 |
-| :scissors: | ✂️ | scissors | \u2702\ufe0f |
-| :pushpin: | 📌 | pushpin | \ud83d\udccc |
-| :paperclip: | 📎 | paperclip | \ud83d\udcce |
-| :black_nib: | ✒️ | black_nib | \u2712\ufe0f |
-| :pencil2: | ✏️ | pencil2 | \u270f\ufe0f |
-| :straight_ruler: | 📏 | straight_ruler | \ud83d\udccf |
-| :triangular_ruler: | 📐 | triangular_ruler | \ud83d\udcd0 |
-| :closed_book: | 📕 | closed_book | \ud83d\udcd5 |
-| :green_book: | 📗 | green_book | \ud83d\udcd7 |
-| :blue_book: | 📘 | blue_book | \ud83d\udcd8 |
-| :orange_book: | 📙 | orange_book | \ud83d\udcd9 |
-| :notebook: | 📓 | notebook | \ud83d\udcd3 |
-| :notebook_with_decorative_cover: | 📔 | notebook_with_decorative_cover | \ud83d\udcd4 |
-| :ledger: | 📒 | ledger | \ud83d\udcd2 |
-| :books: | 📚 | books | \ud83d\udcda |
-| :book: | 📖 | book | \ud83d\udcd6 |
-| :open_book: | 📖 | open_book | \ud83d\udcd6 |
-| :bookmark: | 🔖 | bookmark | \ud83d\udd16 |
-| :name_badge: | 📛 | name_badge | \ud83d\udcdb |
-| :microscope: | 🔬 | microscope | \ud83d\udd2c |
-| :telescope: | 🔭 | telescope | \ud83d\udd2d |
-| :newspaper: | 📰 | newspaper | \ud83d\udcf0 |
-| :art: | 🎨 | art | \ud83c\udfa8 |
-| :clapper: | 🎬 | clapper | \ud83c\udfac |
-| :microphone: | 🎤 | microphone | \ud83c\udfa4 |
-| :headphones: | 🎧 | headphones | \ud83c\udfa7 |
-| :musical_score: | 🎼 | musical_score | \ud83c\udfbc |
-| :musical_note: | 🎵 | musical_note | \ud83c\udfb5 |
-| :notes: | 🎶 | notes | \ud83c\udfb6 |
-| :musical_keyboard: | 🎹 | musical_keyboard | \ud83c\udfb9 |
-| :violin: | 🎻 | violin | \ud83c\udfbb |
-| :trumpet: | 🎺 | trumpet | \ud83c\udfba |
-| :saxophone: | 🎷 | saxophone | \ud83c\udfb7 |
-| :guitar: | 🎸 | guitar | \ud83c\udfb8 |
-| :space_invader: | 👾 | space_invader | \ud83d\udc7e |
-| :video_game: | 🎮 | video_game | \ud83c\udfae |
-| :black_joker: | 🃏 | black_joker | \ud83c\udccf |
-| :flower_playing_cards: | 🎴 | flower_playing_cards | \ud83c\udfb4 |
-| :mahjong: | 🀄 | mahjong | \ud83c\udc04 |
-| :game_die: | 🎲 | game_die | \ud83c\udfb2 |
-| :dart: | 🎯 | dart | \ud83c\udfaf |
-| :football: | 🏈 | football | \ud83c\udfc8 |
-| :basketball: | 🏀 | basketball | \ud83c\udfc0 |
-| :soccer: | ⚽ | soccer | \u26bd |
-| :baseball: | ⚾️ | baseball | \u26be\ufe0f |
-| :tennis: | 🎾 | tennis | \ud83c\udfbe |
-| :8ball: | 🎱 | 8ball | \ud83c\udfb1 |
-| :rugby_football: | 🏉 | rugby_football | \ud83c\udfc9 |
-| :bowling: | 🎳 | bowling | \ud83c\udfb3 |
-| :golf: | ⛳ | golf | \u26f3 |
-| :mountain_bicyclist: | 🚵 | mountain_bicyclist | \ud83d\udeb5 |
-| :bicyclist: | 🚴 | bicyclist | \ud83d\udeb4 |
-| :checkered_flag: | 🏁 | checkered_flag | \ud83c\udfc1 |
-| :horse_racing: | 🏇 | horse_racing | \ud83c\udfc7 |
-| :trophy: | 🏆 | trophy | \ud83c\udfc6 |
-| :ski: | 🎿 | ski | \ud83c\udfbf |
-| :snowboarder: | 🏂 | snowboarder | \ud83c\udfc2 |
-| :swimmer: | 🏊 | swimmer | \ud83c\udfca |
-| :surfer: | 🏄 | surfer | \ud83c\udfc4 |
-| :fishing_pole_and_fish: | 🎣 | fishing_pole_and_fish | \ud83c\udfa3 |
-| :coffee: | ☕ | coffee | \u2615 |
-| :tea: | 🍵 | tea | \ud83c\udf75 |
-| :sake: | 🍶 | sake | \ud83c\udf76 |
-| :baby_bottle: | 🍼 | baby_bottle | \ud83c\udf7c |
-| :beer: | 🍺 | beer | \ud83c\udf7a |
-| :beers: | 🍻 | beers | \ud83c\udf7b |
-| :cocktail: | 🍸 | cocktail | \ud83c\udf78 |
-| :tropical_drink: | 🍹 | tropical_drink | \ud83c\udf79 |
-| :wine_glass: | 🍷 | wine_glass | \ud83c\udf77 |
-| :fork_and_knife: | 🍴 | fork_and_knife | \ud83c\udf74 |
-| :pizza: | 🍕 | pizza | \ud83c\udf55 |
-| :hamburger: | 🍔 | hamburger | \ud83c\udf54 |
-| :fries: | 🍟 | fries | \ud83c\udf5f |
-| :poultry_leg: | 🍗 | poultry_leg | \ud83c\udf57 |
-| :meat_on_bone: | 🍖 | meat_on_bone | \ud83c\udf56 |
-| :spaghetti: | 🍝 | spaghetti | \ud83c\udf5d |
-| :curry: | 🍛 | curry | \ud83c\udf5b |
-| :fried_shrimp: | 🍤 | fried_shrimp | \ud83c\udf64 |
-| :bento: | 🍱 | bento | \ud83c\udf71 |
-| :sushi: | 🍣 | sushi | \ud83c\udf63 |
-| :fish_cake: | 🍥 | fish_cake | \ud83c\udf65 |
-| :rice_ball: | 🍙 | rice_ball | \ud83c\udf59 |
-| :rice_cracker: | 🍘 | rice_cracker | \ud83c\udf58 |
-| :rice: | 🍚 | rice | \ud83c\udf5a |
-| :ramen: | 🍜 | ramen | \ud83c\udf5c |
-| :stew: | 🍲 | stew | \ud83c\udf72 |
-| :oden: | 🍢 | oden | \ud83c\udf62 |
-| :dango: | 🍡 | dango | \ud83c\udf61 |
-| :egg: | 🍳 | egg | \ud83c\udf73 |
-| :bread: | 🍞 | bread | \ud83c\udf5e |
-| :doughnut: | 🍩 | doughnut | \ud83c\udf69 |
-| :custard: | 🍮 | custard | \ud83c\udf6e |
-| :icecream: | 🍦 | icecream | \ud83c\udf66 |
-| :ice_cream: | 🍨 | ice_cream | \ud83c\udf68 |
-| :shaved_ice: | 🍧 | shaved_ice | \ud83c\udf67 |
-| :birthday: | 🎂 | birthday | \ud83c\udf82 |
-| :cake: | 🍰 | cake | \ud83c\udf70 |
-| :cookie: | 🍪 | cookie | \ud83c\udf6a |
-| :chocolate_bar: | 🍫 | chocolate_bar | \ud83c\udf6b |
-| :candy: | 🍬 | candy | \ud83c\udf6c |
-| :lollipop: | 🍭 | lollipop | \ud83c\udf6d |
-| :honey_pot: | 🍯 | honey_pot | \ud83c\udf6f |
-| :apple: | 🍎 | apple | \ud83c\udf4e |
-| :green_apple: | 🍏 | green_apple | \ud83c\udf4f |
-| :tangerine: | 🍊 | tangerine | \ud83c\udf4a |
-| :lemon: | 🍋 | lemon | \ud83c\udf4b |
-| :cherries: | 🍒 | cherries | \ud83c\udf52 |
-| :grapes: | 🍇 | grapes | \ud83c\udf47 |
-| :watermelon: | 🍉 | watermelon | \ud83c\udf49 |
-| :strawberry: | 🍓 | strawberry | \ud83c\udf53 |
-| :peach: | 🍑 | peach | \ud83c\udf51 |
-| :melon: | 🍈 | melon | \ud83c\udf48 |
-| :banana: | 🍌 | banana | \ud83c\udf4c |
-| :pear: | 🍐 | pear | \ud83c\udf50 |
-| :pineapple: | 🍍 | pineapple | \ud83c\udf4d |
-| :sweet_potato: | 🍠 | sweet_potato | \ud83c\udf60 |
-| :eggplant: | 🍆 | eggplant | \ud83c\udf46 |
-| :tomato: | 🍅 | tomato | \ud83c\udf45 |
-| :corn: | 🌽 | corn | \ud83c\udf3d |
-| :house: | 🏠 | house | \ud83c\udfe0 |
-| :house_with_garden: | 🏡 | house_with_garden | \ud83c\udfe1 |
-| :school: | 🏫 | school | \ud83c\udfeb |
-| :office: | 🏢 | office | \ud83c\udfe2 |
-| :post_office: | 🏣 | post_office | \ud83c\udfe3 |
-| :hospital: | 🏥 | hospital | \ud83c\udfe5 |
-| :bank: | 🏦 | bank | \ud83c\udfe6 |
-| :convenience_store: | 🏪 | convenience_store | \ud83c\udfea |
-| :love_hotel: | 🏩 | love_hotel | \ud83c\udfe9 |
-| :hotel: | 🏨 | hotel | \ud83c\udfe8 |
-| :wedding: | 💒 | wedding | \ud83d\udc92 |
-| :church: | ⛪ | church | \u26ea |
-| :department_store: | 🏬 | department_store | \ud83c\udfec |
-| :european_post_office: | 🏤 | european_post_office | \ud83c\udfe4 |
-| :city_sunrise: | 🌇 | city_sunrise | \ud83c\udf07 |
-| :city_sunset: | 🌆 | city_sunset | \ud83c\udf06 |
-| :japanese_castle: | 🏯 | japanese_castle | \ud83c\udfef |
-| :european_castle: | 🏰 | european_castle | \ud83c\udff0 |
-| :tent: | ⛺ | tent | \u26fa |
-| :factory: | 🏭 | factory | \ud83c\udfed |
-| :tokyo_tower: | 🗼 | tokyo_tower | \ud83d\uddfc |
-| :japan: | 🗾 | japan | \ud83d\uddfe |
-| :mount_fuji: | 🗻 | mount_fuji | \ud83d\uddfb |
-| :sunrise_over_mountains: | 🌄 | sunrise_over_mountains | \ud83c\udf04 |
-| :sunrise: | 🌅 | sunrise | \ud83c\udf05 |
-| :night_with_stars: | 🌃 | night_with_stars | \ud83c\udf03 |
-| :statue_of_liberty: | 🗽 | statue_of_liberty | \ud83d\uddfd |
-| :bridge_at_night: | 🌉 | bridge_at_night | \ud83c\udf09 |
-| :carousel_horse: | 🎠 | carousel_horse | \ud83c\udfa0 |
-| :ferris_wheel: | 🎡 | ferris_wheel | \ud83c\udfa1 |
-| :fountain: | ⛲ | fountain | \u26f2 |
-| :roller_coaster: | 🎢 | roller_coaster | \ud83c\udfa2 |
-| :ship: | 🚢 | ship | \ud83d\udea2 |
-| :boat: | ⛵ | boat | \u26f5 |
-| :sailboat: | ⛵ | sailboat | \u26f5 |
-| :speedboat: | 🚤 | speedboat | \ud83d\udea4 |
-| :rowboat: | 🚣 | rowboat | \ud83d\udea3 |
-| :anchor: | ⚓ | anchor | \u2693 |
-| :rocket: | 🚀 | rocket | \ud83d\ude80 |
-| :airplane: | ✈️ | airplane | \u2708\ufe0f |
-| :seat: | 💺 | seat | \ud83d\udcba |
-| :helicopter: | 🚁 | helicopter | \ud83d\ude81 |
-| :steam_locomotive: | 🚂 | steam_locomotive | \ud83d\ude82 |
-| :tram: | 🚊 | tram | \ud83d\ude8a |
-| :station: | 🚉 | station | \ud83d\ude89 |
-| :mountain_railway: | 🚞 | mountain_railway | \ud83d\ude9e |
-| :train2: | 🚆 | train2 | \ud83d\ude86 |
-| :bullettrain_side: | 🚄 | bullettrain_side | \ud83d\ude84 |
-| :bullettrain_front: | 🚅 | bullettrain_front | \ud83d\ude85 |
-| :light_rail: | 🚈 | light_rail | \ud83d\ude88 |
-| :metro: | 🚇 | metro | \ud83d\ude87 |
-| :monorail: | 🚝 | monorail | \ud83d\ude9d |
-| :train: | 🚋 | train | \ud83d\ude8b |
-| :railway_car: | 🚃 | railway_car | \ud83d\ude83 |
-| :trolleybus: | 🚎 | trolleybus | \ud83d\ude8e |
-| :bus: | 🚌 | bus | \ud83d\ude8c |
-| :oncoming_bus: | 🚍 | oncoming_bus | \ud83d\ude8d |
-| :blue_car: | 🚙 | blue_car | \ud83d\ude99 |
-| :oncoming_automobile: | 🚘 | oncoming_automobile | \ud83d\ude98 |
-| :car: | 🚗 | car | \ud83d\ude97 |
-| :red_car: | 🚗 | red_car | \ud83d\ude97 |
-| :taxi: | 🚕 | taxi | \ud83d\ude95 |
-| :oncoming_taxi: | 🚖 | oncoming_taxi | \ud83d\ude96 |
-| :articulated_lorry: | 🚛 | articulated_lorry | \ud83d\ude9b |
-| :truck: | 🚚 | truck | \ud83d\ude9a |
-| :rotating_light: | 🚨 | rotating_light | \ud83d\udea8 |
-| :police_car: | 🚓 | police_car | \ud83d\ude93 |
-| :oncoming_police_car: | 🚔 | oncoming_police_car | \ud83d\ude94 |
-| :fire_engine: | 🚒 | fire_engine | \ud83d\ude92 |
-| :ambulance: | 🚑 | ambulance | \ud83d\ude91 |
-| :minibus: | 🚐 | minibus | \ud83d\ude90 |
-| :bike: | 🚲 | bike | \ud83d\udeb2 |
-| :aerial_tramway: | 🚡 | aerial_tramway | \ud83d\udea1 |
-| :suspension_railway: | 🚟 | suspension_railway | \ud83d\ude9f |
-| :mountain_cableway: | 🚠 | mountain_cableway | \ud83d\udea0 |
-| :tractor: | 🚜 | tractor | \ud83d\ude9c |
-| :barber: | 💈 | barber | \ud83d\udc88 |
-| :busstop: | 🚏 | busstop | \ud83d\ude8f |
-| :ticket: | 🎫 | ticket | \ud83c\udfab |
-| :vertical_traffic_light: | 🚦 | vertical_traffic_light | \ud83d\udea6 |
-| :traffic_light: | 🚥 | traffic_light | \ud83d\udea5 |
-| :warning: | ⚠️ | warning | \u26a0\ufe0f |
-| :construction: | 🚧 | construction | \ud83d\udea7 |
-| :beginner: | 🔰 | beginner | \ud83d\udd30 |
-| :fuelpump: | ⛽ | fuelpump | \u26fd |
-| :izakaya_lantern: | 🏮 | izakaya_lantern | \ud83c\udfee |
-| :lantern: | 🏮 | lantern | \ud83c\udfee |
-| :slot_machine: | 🎰 | slot_machine | \ud83c\udfb0 |
-| :hotsprings: | ♨️ | hotsprings | \u2668\ufe0f |
-| :moyai: | 🗿 | moyai | \ud83d\uddff |
-| :circus_tent: | 🎪 | circus_tent | \ud83c\udfaa |
-| :performing_arts: | 🎭 | performing_arts | \ud83c\udfad |
-| :round_pushpin: | 📍 | round_pushpin | \ud83d\udccd |
-| :triangular_flag_on_post: | 🚩 | triangular_flag_on_post | \ud83d\udea9 |
-| :jp: | 🇯🇵 | jp | \ud83c\uddef\ud83c\uddf5 |
-| :kr: | 🇰🇷 | kr | \ud83c\uddf0\ud83c\uddf7 |
-| :de: | 🇩🇪 | de | \ud83c\udde9\ud83c\uddea |
-| :cn: | 🇨🇳 | cn | \ud83c\udde8\ud83c\uddf3 |
-| :us: | 🇺🇸 | us | \ud83c\uddfa\ud83c\uddf8 |
-| :fr: | 🇫🇷 | fr | \ud83c\uddeb\ud83c\uddf7 |
-| :es: | 🇪🇸 | es | \ud83c\uddea\ud83c\uddf8 |
-| :it: | 🇮🇹 | it | \ud83c\uddee\ud83c\uddf9 |
-| :ru: | 🇷🇺 | ru | \ud83c\uddf7\ud83c\uddfa |
-| :gb: | 🇬🇧 | gb | \ud83c\uddec\ud83c\udde7 |
-| :uk: | 🇬🇧 | uk | \ud83c\uddec\ud83c\udde7 |
-| :one: | 1️⃣ | one | \u31\ufe0f\u20e3 |
-| :two: | 2️⃣ | two | \u32\ufe0f\u20e3 |
-| :three: | 3️⃣ | three | \u33\ufe0f\u20e3 |
-| :four: | 4️⃣ | four | \u34\ufe0f\u20e3 |
-| :five: | 5️⃣ | five | \u35\ufe0f\u20e3 |
-| :six: | 6️⃣ | six | \u36\ufe0f\u20e3 |
-| :seven: | 7️⃣ | seven | \u37\ufe0f\u20e3 |
-| :eight: | 8️⃣ | eight | \u38\ufe0f\u20e3 |
-| :nine: | 9️⃣ | nine | \u39\ufe0f\u20e3 |
-| :zero: | 0️⃣ | zero | \u30\ufe0f\u20e3 |
-| :keycap_ten: | 🔟 | keycap_ten | \ud83d\udd1f |
-| :hash: | #️⃣ | hash | \u23\ufe0f\u20e3 |
-| :symbols: | 🔣 | symbols | \ud83d\udd23 |
-| :arrow_up: | ⬆️ | arrow_up | \u2b06\ufe0f |
-| :arrow_down: | ⬇️ | arrow_down | \u2b07\ufe0f |
-| :arrow_left: | ⬅️ | arrow_left | \u2b05\ufe0f |
-| :arrow_right: | ➡️ | arrow_right | \u27a1\ufe0f |
-| :capital_abcd: | 🔠 | capital_abcd | \ud83d\udd20 |
-| :abcd: | 🔡 | abcd | \ud83d\udd21 |
-| :abc: | 🔤 | abc | \ud83d\udd24 |
-| :arrow_upper_right: | ↗️ | arrow_upper_right | \u2197\ufe0f |
-| :arrow_upper_left: | ↖️ | arrow_upper_left | \u2196\ufe0f |
-| :arrow_lower_right: | ↘️ | arrow_lower_right | \u2198\ufe0f |
-| :arrow_lower_left: | ↙️ | arrow_lower_left | \u2199\ufe0f |
-| :left_right_arrow: | ↔️ | left_right_arrow | \u2194\ufe0f |
-| :arrow_up_down: | ↕️ | arrow_up_down | \u2195\ufe0f |
-| :arrows_counterclockwise: | 🔄 | arrows_counterclockwise | \ud83d\udd04 |
-| :arrow_backward: | ◀️ | arrow_backward | \u25c0\ufe0f |
-| :arrow_forward: | ▶️ | arrow_forward | \u25b6\ufe0f |
-| :arrow_up_small: | 🔼 | arrow_up_small | \ud83d\udd3c |
-| :arrow_down_small: | 🔽 | arrow_down_small | \ud83d\udd3d |
-| :leftwards_arrow_with_hook: | ↩️ | leftwards_arrow_with_hook | \u21a9\ufe0f |
-| :arrow_right_hook: | ↪️ | arrow_right_hook | \u21aa\ufe0f |
-| :information_source: | ℹ️ | information_source | \u2139\ufe0f |
-| :rewind: | ⏪ | rewind | \u23ea |
-| :fast_forward: | ⏩ | fast_forward | \u23e9 |
-| :arrow_double_up: | ⏫ | arrow_double_up | \u23eb |
-| :arrow_double_down: | ⏬ | arrow_double_down | \u23ec |
-| :arrow_heading_down: | ⤵️ | arrow_heading_down | \u2935\ufe0f |
-| :arrow_heading_up: | ⤴️ | arrow_heading_up | \u2934\ufe0f |
-| :ok: | 🆗 | ok | \ud83c\udd97 |
-| :twisted_rightwards_arrows: | 🔀 | twisted_rightwards_arrows | \ud83d\udd00 |
-| :repeat: | 🔁 | repeat | \ud83d\udd01 |
-| :repeat_one: | 🔂 | repeat_one | \ud83d\udd02 |
-| :new: | 🆕 | new | \ud83c\udd95 |
-| :up: | 🆙 | up | \ud83c\udd99 |
-| :cool: | 🆒 | cool | \ud83c\udd92 |
-| :free: | 🆓 | free | \ud83c\udd93 |
-| :ng: | 🆖 | ng | \ud83c\udd96 |
-| :signal_strength: | 📶 | signal_strength | \ud83d\udcf6 |
-| :cinema: | 🎦 | cinema | \ud83c\udfa6 |
-| :koko: | 🈁 | koko | \ud83c\ude01 |
-| :u6307: | 🈯 | u6307 | \ud83c\ude2f |
-| :u7a7a: | 🈳 | u7a7a | \ud83c\ude33 |
-| :u6e80: | 🈵 | u6e80 | \ud83c\ude35 |
-| :u5408: | 🈴 | u5408 | \ud83c\ude34 |
-| :u7981: | 🈲 | u7981 | \ud83c\ude32 |
-| :ideograph_advantage: | 🉐 | ideograph_advantage | \ud83c\ude50 |
-| :u5272: | 🈹 | u5272 | \ud83c\ude39 |
-| :u55b6: | 🈺 | u55b6 | \ud83c\ude3a |
-| :u6709: | 🈶 | u6709 | \ud83c\ude36 |
-| :u7121: | 🈚 | u7121 | \ud83c\ude1a |
-| :restroom: | 🚻 | restroom | \ud83d\udebb |
-| :mens: | 🚹 | mens | \ud83d\udeb9 |
-| :womens: | 🚺 | womens | \ud83d\udeba |
-| :baby_symbol: | 🚼 | baby_symbol | \ud83d\udebc |
-| :wc: | 🚾 | wc | \ud83d\udebe |
-| :potable_water: | 🚰 | potable_water | \ud83d\udeb0 |
-| :put_litter_in_its_place: | 🚮 | put_litter_in_its_place | \ud83d\udeae |
-| :parking: | 🅿️ | parking | \ud83c\udd7f\ufe0f |
-| :wheelchair: | ♿ | wheelchair | \u267f |
-| :no_smoking: | 🚭 | no_smoking | \ud83d\udead |
-| :u6708: | 🈷️ | u6708 | \ud83c\ude37\ufe0f |
-| :u7533: | 🈸 | u7533 | \ud83c\ude38 |
-| :sa: | 🈂️ | sa | \ud83c\ude02\ufe0f |
-| :m: | Ⓜ️ | m | \u24c2\ufe0f |
-| :passport_control: | 🛂 | passport_control | \ud83d\udec2 |
-| :baggage_claim: | 🛄 | baggage_claim | \ud83d\udec4 |
-| :left_luggage: | 🛅 | left_luggage | \ud83d\udec5 |
-| :customs: | 🛃 | customs | \ud83d\udec3 |
-| :accept: | 🉑 | accept | \ud83c\ude51 |
-| :secret: | ㊙️ | secret | \u3299\ufe0f |
-| :congratulations: | ㊗️ | congratulations | \u3297\ufe0f |
-| :cl: | 🆑 | cl | \ud83c\udd91 |
-| :sos: | 🆘 | sos | \ud83c\udd98 |
-| :id: | 🆔 | id | \ud83c\udd94 |
-| :no_entry_sign: | 🚫 | no_entry_sign | \ud83d\udeab |
-| :underage: | 🔞 | underage | \ud83d\udd1e |
-| :no_mobile_phones: | 📵 | no_mobile_phones | \ud83d\udcf5 |
-| :do_not_litter: | 🚯 | do_not_litter | \ud83d\udeaf |
-| :non-potable_water: | 🚱 | non-potable_water | \ud83d\udeb1 |
-| :no_bicycles: | 🚳 | no_bicycles | \ud83d\udeb3 |
-| :no_pedestrians: | 🚷 | no_pedestrians | \ud83d\udeb7 |
-| :children_crossing: | 🚸 | children_crossing | \ud83d\udeb8 |
-| :no_entry: | ⛔ | no_entry | \u26d4 |
-| :eight_spoked_asterisk: | ✳️ | eight_spoked_asterisk | \u2733\ufe0f |
-| :sparkle: | ❇️ | sparkle | \u2747\ufe0f |
-| :negative_squared_cross_mark: | ❎ | negative_squared_cross_mark | \u274e |
-| :white_check_mark: | ✅ | white_check_mark | \u2705 |
-| :eight_pointed_black_star: | ✴️ | eight_pointed_black_star | \u2734\ufe0f |
-| :heart_decoration: | 💟 | heart_decoration | \ud83d\udc9f |
-| :vs: | 🆚 | vs | \ud83c\udd9a |
-| :vibration_mode: | 📳 | vibration_mode | \ud83d\udcf3 |
-| :mobile_phone_off: | 📴 | mobile_phone_off | \ud83d\udcf4 |
-| :a: | 🅰️ | a | \ud83c\udd70\ufe0f |
-| :b: | 🅱️ | b | \ud83c\udd71\ufe0f |
-| :ab: | 🆎 | ab | \ud83c\udd8e |
-| :o2: | 🅾️ | o2 | \ud83c\udd7e\ufe0f |
-| :diamond_shape_with_a_dot_inside: | 💠 | diamond_shape_with_a_dot_inside | \ud83d\udca0 |
-| :loop: | ➿ | loop | \u27bf |
-| :recycle: | ♻️ | recycle | \u267b\ufe0f |
-| :aries: | ♈ | aries | \u2648 |
-| :taurus: | ♉ | taurus | \u2649 |
-| :gemini: | ♊ | gemini | \u264a |
-| :cancer: | ♋ | cancer | \u264b |
-| :leo: | ♌ | leo | \u264c |
-| :virgo: | ♍ | virgo | \u264d |
-| :libra: | ♎ | libra | \u264e |
-| :scorpius: | ♏ | scorpius | \u264f |
-| :sagittarius: | ♐ | sagittarius | \u2650 |
-| :capricorn: | ♑ | capricorn | \u2651 |
-| :aquarius: | ♒ | aquarius | \u2652 |
-| :pisces: | ♓ | pisces | \u2653 |
-| :ophiuchus: | ⛎ | ophiuchus | \u26ce |
-| :six_pointed_star: | 🔯 | six_pointed_star | \ud83d\udd2f |
-| :atm: | 🏧 | atm | \ud83c\udfe7 |
-| :chart: | 💹 | chart | \ud83d\udcb9 |
-| :heavy_dollar_sign: | 💲 | heavy_dollar_sign | \ud83d\udcb2 |
-| :currency_exchange: | 💱 | currency_exchange | \ud83d\udcb1 |
-| :copyright: | ©️ | copyright | \ua9\ufe0f |
-| :registered: | ®️ | registered | \uae\ufe0f |
-| :tm: | ™️ | tm | \u2122\ufe0f |
-| :x: | ❌ | x | \u274c |
-| :bangbang: | ‼️ | bangbang | \u203c\ufe0f |
-| :interrobang: | ⁉️ | interrobang | \u2049\ufe0f |
-| :exclamation: | ❗ | exclamation | \u2757 |
-| :heavy_exclamation_mark: | ❗ | heavy_exclamation_mark | \u2757 |
-| :question: | ❓ | question | \u2753 |
-| :grey_exclamation: | ❕ | grey_exclamation | \u2755 |
-| :grey_question: | ❔ | grey_question | \u2754 |
-| :o: | ⭕ | o | \u2b55 |
-| :top: | 🔝 | top | \ud83d\udd1d |
-| :end: | 🔚 | end | \ud83d\udd1a |
-| :back: | 🔙 | back | \ud83d\udd19 |
-| :on: | 🔛 | on | \ud83d\udd1b |
-| :soon: | 🔜 | soon | \ud83d\udd1c |
-| :arrows_clockwise: | 🔃 | arrows_clockwise | \ud83d\udd03 |
-| :clock12: | 🕛 | clock12 | \ud83d\udd5b |
-| :clock1230: | 🕧 | clock1230 | \ud83d\udd67 |
-| :clock1: | 🕐 | clock1 | \ud83d\udd50 |
-| :clock130: | 🕜 | clock130 | \ud83d\udd5c |
-| :clock2: | 🕑 | clock2 | \ud83d\udd51 |
-| :clock230: | 🕝 | clock230 | \ud83d\udd5d |
-| :clock3: | 🕒 | clock3 | \ud83d\udd52 |
-| :clock330: | 🕞 | clock330 | \ud83d\udd5e |
-| :clock4: | 🕓 | clock4 | \ud83d\udd53 |
-| :clock430: | 🕟 | clock430 | \ud83d\udd5f |
-| :clock5: | 🕔 | clock5 | \ud83d\udd54 |
-| :clock530: | 🕠 | clock530 | \ud83d\udd60 |
-| :clock6: | 🕕 | clock6 | \ud83d\udd55 |
-| :clock7: | 🕖 | clock7 | \ud83d\udd56 |
-| :clock8: | 🕗 | clock8 | \ud83d\udd57 |
-| :clock9: | 🕘 | clock9 | \ud83d\udd58 |
-| :clock10: | 🕙 | clock10 | \ud83d\udd59 |
-| :clock11: | 🕚 | clock11 | \ud83d\udd5a |
-| :clock630: | 🕡 | clock630 | \ud83d\udd61 |
-| :clock730: | 🕢 | clock730 | \ud83d\udd62 |
-| :clock830: | 🕣 | clock830 | \ud83d\udd63 |
-| :clock930: | 🕤 | clock930 | \ud83d\udd64 |
-| :clock1030: | 🕥 | clock1030 | \ud83d\udd65 |
-| :clock1130: | 🕦 | clock1130 | \ud83d\udd66 |
-| :heavy_multiplication_x: | ✖️ | heavy_multiplication_x | \u2716\ufe0f |
-| :heavy_plus_sign: | ➕ | heavy_plus_sign | \u2795 |
-| :heavy_minus_sign: | ➖ | heavy_minus_sign | \u2796 |
-| :heavy_division_sign: | ➗ | heavy_division_sign | \u2797 |
-| :spades: | ♠️ | spades | \u2660\ufe0f |
-| :hearts: | ♥️ | hearts | \u2665\ufe0f |
-| :clubs: | ♣️ | clubs | \u2663\ufe0f |
-| :diamonds: | ♦️ | diamonds | \u2666\ufe0f |
-| :white_flower: | 💮 | white_flower | \ud83d\udcae |
-| :heavy_check_mark: | ✔️ | heavy_check_mark | \u2714\ufe0f |
-| :ballot_box_with_check: | ☑️ | ballot_box_with_check | \u2611\ufe0f |
-| :radio_button: | 🔘 | radio_button | \ud83d\udd18 |
-| :link: | 🔗 | link | \ud83d\udd17 |
-| :curly_loop: | ➰ | curly_loop | \u27b0 |
-| :wavy_dash: | 〰️ | wavy_dash | \u3030\ufe0f |
-| :part_alternation_mark: | 〽️ | part_alternation_mark | \u303d\ufe0f |
-| :trident: | 🔱 | trident | \ud83d\udd31 |
-| :black_medium_square: | ◼️ | black_medium_square | \u25fc\ufe0f |
-| :white_medium_square: | ◻️ | white_medium_square | \u25fb\ufe0f |
-| :black_medium_small_square: | ◾ | black_medium_small_square | \u25fe |
-| :white_medium_small_square: | ◽ | white_medium_small_square | \u25fd |
-| :black_small_square: | ▪️ | black_small_square | \u25aa\ufe0f |
-| :white_small_square: | ▫️ | white_small_square | \u25ab\ufe0f |
-| :small_red_triangle: | 🔺 | small_red_triangle | \ud83d\udd3a |
-| :black_square_button: | 🔲 | black_square_button | \ud83d\udd32 |
-| :white_square_button: | 🔳 | white_square_button | \ud83d\udd33 |
-| :black_circle: | ⚫ | black_circle | \u26ab |
-| :white_circle: | ⚪ | white_circle | \u26aa |
-| :red_circle: | 🔴 | red_circle | \ud83d\udd34 |
-| :large_blue_circle: | 🔵 | large_blue_circle | \ud83d\udd35 |
-| :small_red_triangle_down: | 🔻 | small_red_triangle_down | \ud83d\udd3b |
-| :white_large_square: | ⬜ | white_large_square | \u2b1c |
-| :black_large_square: | ⬛ | black_large_square | \u2b1b |
-| :large_orange_diamond: | 🔶 | large_orange_diamond | \ud83d\udd36 |
-| :large_blue_diamond: | 🔷 | large_blue_diamond | \ud83d\udd37 |
-| :small_orange_diamond: | 🔸 | small_orange_diamond | \ud83d\udd38 |
-| :small_blue_diamond: | 🔹 | small_blue_diamond | \ud83d\udd39 |
+Note that this file does not contain the gemoji's as rendered byGitHub; 870 small images would make viewing this document very slow.
+
+| unicode | name | escaped unicode |
+|:-------:|:----:|:---------------:|
+| 💯 | 100 | \ud83d\udcaf |
+| 🔢 | 1234 | \ud83d\udd22 |
+| 😄 | smile | \ud83d\ude04 |
+| 😃 | smiley | \ud83d\ude03 |
+| 😀 | grinning | \ud83d\ude00 |
+| 😊 | blush | \ud83d\ude0a |
+| ☺️ | relaxed | \u263a\ufe0f |
+| 😉 | wink | \ud83d\ude09 |
+| 😍 | heart_eyes | \ud83d\ude0d |
+| 😘 | kissing_heart | \ud83d\ude18 |
+| 😚 | kissing_closed_eyes | \ud83d\ude1a |
+| 😗 | kissing | \ud83d\ude17 |
+| 😙 | kissing_smiling_eyes | \ud83d\ude19 |
+| 😜 | stuck_out_tongue_winking_eye | \ud83d\ude1c |
+| 😝 | stuck_out_tongue_closed_eyes | \ud83d\ude1d |
+| 😛 | stuck_out_tongue | \ud83d\ude1b |
+| 😳 | flushed | \ud83d\ude33 |
+| 😁 | grin | \ud83d\ude01 |
+| 😔 | pensive | \ud83d\ude14 |
+| 😌 | relieved | \ud83d\ude0c |
+| 😒 | unamused | \ud83d\ude12 |
+| 😞 | disappointed | \ud83d\ude1e |
+| 😣 | persevere | \ud83d\ude23 |
+| 😢 | cry | \ud83d\ude22 |
+| 😂 | joy | \ud83d\ude02 |
+| 😭 | sob | \ud83d\ude2d |
+| 😪 | sleepy | \ud83d\ude2a |
+| 😥 | disappointed_relieved | \ud83d\ude25 |
+| 😰 | cold_sweat | \ud83d\ude30 |
+| 😅 | sweat_smile | \ud83d\ude05 |
+| 😓 | sweat | \ud83d\ude13 |
+| 😩 | weary | \ud83d\ude29 |
+| 😫 | tired_face | \ud83d\ude2b |
+| 😨 | fearful | \ud83d\ude28 |
+| 😱 | scream | \ud83d\ude31 |
+| 😠 | angry | \ud83d\ude20 |
+| 😡 | rage | \ud83d\ude21 |
+| 😤 | triumph | \ud83d\ude24 |
+| 😖 | confounded | \ud83d\ude16 |
+| 😆 | laughing | \ud83d\ude06 |
+| 😆 | satisfied | \ud83d\ude06 |
+| 😋 | yum | \ud83d\ude0b |
+| 😷 | mask | \ud83d\ude37 |
+| 😎 | sunglasses | \ud83d\ude0e |
+| 😴 | sleeping | \ud83d\ude34 |
+| 😵 | dizzy_face | \ud83d\ude35 |
+| 😲 | astonished | \ud83d\ude32 |
+| 😟 | worried | \ud83d\ude1f |
+| 😦 | frowning | \ud83d\ude26 |
+| 😧 | anguished | \ud83d\ude27 |
+| 😈 | smiling_imp | \ud83d\ude08 |
+| 👿 | imp | \ud83d\udc7f |
+| 😮 | open_mouth | \ud83d\ude2e |
+| 😬 | grimacing | \ud83d\ude2c |
+| 😐 | neutral_face | \ud83d\ude10 |
+| 😕 | confused | \ud83d\ude15 |
+| 😯 | hushed | \ud83d\ude2f |
+| 😶 | no_mouth | \ud83d\ude36 |
+| 😇 | innocent | \ud83d\ude07 |
+| 😏 | smirk | \ud83d\ude0f |
+| 😑 | expressionless | \ud83d\ude11 |
+| 👲 | man_with_gua_pi_mao | \ud83d\udc72 |
+| 👳 | man_with_turban | \ud83d\udc73 |
+| 👮 | cop | \ud83d\udc6e |
+| 👷 | construction_worker | \ud83d\udc77 |
+| 💂 | guardsman | \ud83d\udc82 |
+| 👶 | baby | \ud83d\udc76 |
+| 👦 | boy | \ud83d\udc66 |
+| 👧 | girl | \ud83d\udc67 |
+| 👨 | man | \ud83d\udc68 |
+| 👩 | woman | \ud83d\udc69 |
+| 👴 | older_man | \ud83d\udc74 |
+| 👵 | older_woman | \ud83d\udc75 |
+| 👱 | person_with_blond_hair | \ud83d\udc71 |
+| 👼 | angel | \ud83d\udc7c |
+| 👸 | princess | \ud83d\udc78 |
+| 😺 | smiley_cat | \ud83d\ude3a |
+| 😸 | smile_cat | \ud83d\ude38 |
+| 😻 | heart_eyes_cat | \ud83d\ude3b |
+| 😽 | kissing_cat | \ud83d\ude3d |
+| 😼 | smirk_cat | \ud83d\ude3c |
+| 🙀 | scream_cat | \ud83d\ude40 |
+| 😿 | crying_cat_face | \ud83d\ude3f |
+| 😹 | joy_cat | \ud83d\ude39 |
+| 😾 | pouting_cat | \ud83d\ude3e |
+| 👹 | japanese_ogre | \ud83d\udc79 |
+| 👺 | japanese_goblin | \ud83d\udc7a |
+| 🙈 | see_no_evil | \ud83d\ude48 |
+| 🙉 | hear_no_evil | \ud83d\ude49 |
+| 🙊 | speak_no_evil | \ud83d\ude4a |
+| 💀 | skull | \ud83d\udc80 |
+| 👽 | alien | \ud83d\udc7d |
+| 💩 | hankey | \ud83d\udca9 |
+| 💩 | poop | \ud83d\udca9 |
+| 💩 | shit | \ud83d\udca9 |
+| 🔥 | fire | \ud83d\udd25 |
+| ✨ | sparkles | \u2728 |
+| 🌟 | star2 | \ud83c\udf1f |
+| 💫 | dizzy | \ud83d\udcab |
+| 💥 | boom | \ud83d\udca5 |
+| 💥 | collision | \ud83d\udca5 |
+| 💢 | anger | \ud83d\udca2 |
+| 💦 | sweat_drops | \ud83d\udca6 |
+| 💧 | droplet | \ud83d\udca7 |
+| 💤 | zzz | \ud83d\udca4 |
+| 💨 | dash | \ud83d\udca8 |
+| 👂 | ear | \ud83d\udc42 |
+| 👀 | eyes | \ud83d\udc40 |
+| 👃 | nose | \ud83d\udc43 |
+| 👅 | tongue | \ud83d\udc45 |
+| 👄 | lips | \ud83d\udc44 |
+| 👍 | +1 | \ud83d\udc4d |
+| 👍 | thumbsup | \ud83d\udc4d |
+| 👎 | -1 | \ud83d\udc4e |
+| 👎 | thumbsdown | \ud83d\udc4e |
+| 👌 | ok_hand | \ud83d\udc4c |
+| 👊 | facepunch | \ud83d\udc4a |
+| 👊 | punch | \ud83d\udc4a |
+| ✊ | fist | \u270a |
+| ✌️ | v | \u270c\ufe0f |
+| 👋 | wave | \ud83d\udc4b |
+| ✋ | hand | \u270b |
+| ✋ | raised_hand | \u270b |
+| 👐 | open_hands | \ud83d\udc50 |
+| 👆 | point_up_2 | \ud83d\udc46 |
+| 👇 | point_down | \ud83d\udc47 |
+| 👉 | point_right | \ud83d\udc49 |
+| 👈 | point_left | \ud83d\udc48 |
+| 🙌 | raised_hands | \ud83d\ude4c |
+| 🙏 | pray | \ud83d\ude4f |
+| ☝️ | point_up | \u261d\ufe0f |
+| 👏 | clap | \ud83d\udc4f |
+| 💪 | muscle | \ud83d\udcaa |
+| 🚶 | walking | \ud83d\udeb6 |
+| 🏃 | runner | \ud83c\udfc3 |
+| 🏃 | running | \ud83c\udfc3 |
+| 💃 | dancer | \ud83d\udc83 |
+| 👫 | couple | \ud83d\udc6b |
+| 👪 | family | \ud83d\udc6a |
+| 👬 | two_men_holding_hands | \ud83d\udc6c |
+| 👭 | two_women_holding_hands | \ud83d\udc6d |
+| 💏 | couplekiss | \ud83d\udc8f |
+| 💑 | couple_with_heart | \ud83d\udc91 |
+| 👯 | dancers | \ud83d\udc6f |
+| 🙆 | ok_woman | \ud83d\ude46 |
+| 🙅 | no_good | \ud83d\ude45 |
+| 💁 | information_desk_person | \ud83d\udc81 |
+| 🙋 | raising_hand | \ud83d\ude4b |
+| 💆 | massage | \ud83d\udc86 |
+| 💇 | haircut | \ud83d\udc87 |
+| 💅 | nail_care | \ud83d\udc85 |
+| 👰 | bride_with_veil | \ud83d\udc70 |
+| 🙎 | person_with_pouting_face | \ud83d\ude4e |
+| 🙍 | person_frowning | \ud83d\ude4d |
+| 🙇 | bow | \ud83d\ude47 |
+| 🎩 | tophat | \ud83c\udfa9 |
+| 👑 | crown | \ud83d\udc51 |
+| 👒 | womans_hat | \ud83d\udc52 |
+| 👟 | athletic_shoe | \ud83d\udc5f |
+| 👞 | mans_shoe | \ud83d\udc5e |
+| 👞 | shoe | \ud83d\udc5e |
+| 👡 | sandal | \ud83d\udc61 |
+| 👠 | high_heel | \ud83d\udc60 |
+| 👢 | boot | \ud83d\udc62 |
+| 👕 | shirt | \ud83d\udc55 |
+| 👕 | tshirt | \ud83d\udc55 |
+| 👔 | necktie | \ud83d\udc54 |
+| 👚 | womans_clothes | \ud83d\udc5a |
+| 👗 | dress | \ud83d\udc57 |
+| 🎽 | running_shirt_with_sash | \ud83c\udfbd |
+| 👖 | jeans | \ud83d\udc56 |
+| 👘 | kimono | \ud83d\udc58 |
+| 👙 | bikini | \ud83d\udc59 |
+| 💼 | briefcase | \ud83d\udcbc |
+| 👜 | handbag | \ud83d\udc5c |
+| 👝 | pouch | \ud83d\udc5d |
+| 👛 | purse | \ud83d\udc5b |
+| 👓 | eyeglasses | \ud83d\udc53 |
+| 🎀 | ribbon | \ud83c\udf80 |
+| 🌂 | closed_umbrella | \ud83c\udf02 |
+| 💄 | lipstick | \ud83d\udc84 |
+| 💛 | yellow_heart | \ud83d\udc9b |
+| 💙 | blue_heart | \ud83d\udc99 |
+| 💜 | purple_heart | \ud83d\udc9c |
+| 💚 | green_heart | \ud83d\udc9a |
+| ❤️ | heart | \u2764\ufe0f |
+| 💔 | broken_heart | \ud83d\udc94 |
+| 💗 | heartpulse | \ud83d\udc97 |
+| 💓 | heartbeat | \ud83d\udc93 |
+| 💕 | two_hearts | \ud83d\udc95 |
+| 💖 | sparkling_heart | \ud83d\udc96 |
+| 💞 | revolving_hearts | \ud83d\udc9e |
+| 💘 | cupid | \ud83d\udc98 |
+| 💌 | love_letter | \ud83d\udc8c |
+| 💋 | kiss | \ud83d\udc8b |
+| 💍 | ring | \ud83d\udc8d |
+| 💎 | gem | \ud83d\udc8e |
+| 👤 | bust_in_silhouette | \ud83d\udc64 |
+| 👥 | busts_in_silhouette | \ud83d\udc65 |
+| 💬 | speech_balloon | \ud83d\udcac |
+| 👣 | footprints | \ud83d\udc63 |
+| 💭 | thought_balloon | \ud83d\udcad |
+| 🐶 | dog | \ud83d\udc36 |
+| 🐺 | wolf | \ud83d\udc3a |
+| 🐱 | cat | \ud83d\udc31 |
+| 🐭 | mouse | \ud83d\udc2d |
+| 🐹 | hamster | \ud83d\udc39 |
+| 🐰 | rabbit | \ud83d\udc30 |
+| 🐸 | frog | \ud83d\udc38 |
+| 🐯 | tiger | \ud83d\udc2f |
+| 🐨 | koala | \ud83d\udc28 |
+| 🐻 | bear | \ud83d\udc3b |
+| 🐷 | pig | \ud83d\udc37 |
+| 🐽 | pig_nose | \ud83d\udc3d |
+| 🐮 | cow | \ud83d\udc2e |
+| 🐗 | boar | \ud83d\udc17 |
+| 🐵 | monkey_face | \ud83d\udc35 |
+| 🐒 | monkey | \ud83d\udc12 |
+| 🐴 | horse | \ud83d\udc34 |
+| 🐑 | sheep | \ud83d\udc11 |
+| 🐘 | elephant | \ud83d\udc18 |
+| 🐼 | panda_face | \ud83d\udc3c |
+| 🐧 | penguin | \ud83d\udc27 |
+| 🐦 | bird | \ud83d\udc26 |
+| 🐤 | baby_chick | \ud83d\udc24 |
+| 🐥 | hatched_chick | \ud83d\udc25 |
+| 🐣 | hatching_chick | \ud83d\udc23 |
+| 🐔 | chicken | \ud83d\udc14 |
+| 🐍 | snake | \ud83d\udc0d |
+| 🐢 | turtle | \ud83d\udc22 |
+| 🐛 | bug | \ud83d\udc1b |
+| 🐝 | bee | \ud83d\udc1d |
+| 🐝 | honeybee | \ud83d\udc1d |
+| 🐜 | ant | \ud83d\udc1c |
+| 🐞 | beetle | \ud83d\udc1e |
+| 🐌 | snail | \ud83d\udc0c |
+| 🐙 | octopus | \ud83d\udc19 |
+| 🐚 | shell | \ud83d\udc1a |
+| 🐠 | tropical_fish | \ud83d\udc20 |
+| 🐟 | fish | \ud83d\udc1f |
+| 🐬 | dolphin | \ud83d\udc2c |
+| 🐬 | flipper | \ud83d\udc2c |
+| 🐳 | whale | \ud83d\udc33 |
+| 🐋 | whale2 | \ud83d\udc0b |
+| 🐄 | cow2 | \ud83d\udc04 |
+| 🐏 | ram | \ud83d\udc0f |
+| 🐀 | rat | \ud83d\udc00 |
+| 🐃 | water_buffalo | \ud83d\udc03 |
+| 🐅 | tiger2 | \ud83d\udc05 |
+| 🐇 | rabbit2 | \ud83d\udc07 |
+| 🐉 | dragon | \ud83d\udc09 |
+| 🐎 | racehorse | \ud83d\udc0e |
+| 🐐 | goat | \ud83d\udc10 |
+| 🐓 | rooster | \ud83d\udc13 |
+| 🐕 | dog2 | \ud83d\udc15 |
+| 🐖 | pig2 | \ud83d\udc16 |
+| 🐁 | mouse2 | \ud83d\udc01 |
+| 🐂 | ox | \ud83d\udc02 |
+| 🐲 | dragon_face | \ud83d\udc32 |
+| 🐡 | blowfish | \ud83d\udc21 |
+| 🐊 | crocodile | \ud83d\udc0a |
+| 🐫 | camel | \ud83d\udc2b |
+| 🐪 | dromedary_camel | \ud83d\udc2a |
+| 🐆 | leopard | \ud83d\udc06 |
+| 🐈 | cat2 | \ud83d\udc08 |
+| 🐩 | poodle | \ud83d\udc29 |
+| 🐾 | feet | \ud83d\udc3e |
+| 🐾 | paw_prints | \ud83d\udc3e |
+| 💐 | bouquet | \ud83d\udc90 |
+| 🌸 | cherry_blossom | \ud83c\udf38 |
+| 🌷 | tulip | \ud83c\udf37 |
+| 🍀 | four_leaf_clover | \ud83c\udf40 |
+| 🌹 | rose | \ud83c\udf39 |
+| 🌻 | sunflower | \ud83c\udf3b |
+| 🌺 | hibiscus | \ud83c\udf3a |
+| 🍁 | maple_leaf | \ud83c\udf41 |
+| 🍃 | leaves | \ud83c\udf43 |
+| 🍂 | fallen_leaf | \ud83c\udf42 |
+| 🌿 | herb | \ud83c\udf3f |
+| 🌾 | ear_of_rice | \ud83c\udf3e |
+| 🍄 | mushroom | \ud83c\udf44 |
+| 🌵 | cactus | \ud83c\udf35 |
+| 🌴 | palm_tree | \ud83c\udf34 |
+| 🌲 | evergreen_tree | \ud83c\udf32 |
+| 🌳 | deciduous_tree | \ud83c\udf33 |
+| 🌰 | chestnut | \ud83c\udf30 |
+| 🌱 | seedling | \ud83c\udf31 |
+| 🌼 | blossom | \ud83c\udf3c |
+| 🌐 | globe_with_meridians | \ud83c\udf10 |
+| 🌞 | sun_with_face | \ud83c\udf1e |
+| 🌝 | full_moon_with_face | \ud83c\udf1d |
+| 🌚 | new_moon_with_face | \ud83c\udf1a |
+| 🌑 | new_moon | \ud83c\udf11 |
+| 🌒 | waxing_crescent_moon | \ud83c\udf12 |
+| 🌓 | first_quarter_moon | \ud83c\udf13 |
+| 🌔 | moon | \ud83c\udf14 |
+| 🌔 | waxing_gibbous_moon | \ud83c\udf14 |
+| 🌕 | full_moon | \ud83c\udf15 |
+| 🌖 | waning_gibbous_moon | \ud83c\udf16 |
+| 🌗 | last_quarter_moon | \ud83c\udf17 |
+| 🌘 | waning_crescent_moon | \ud83c\udf18 |
+| 🌜 | last_quarter_moon_with_face | \ud83c\udf1c |
+| 🌛 | first_quarter_moon_with_face | \ud83c\udf1b |
+| 🌙 | crescent_moon | \ud83c\udf19 |
+| 🌍 | earth_africa | \ud83c\udf0d |
+| 🌎 | earth_americas | \ud83c\udf0e |
+| 🌏 | earth_asia | \ud83c\udf0f |
+| 🌋 | volcano | \ud83c\udf0b |
+| 🌌 | milky_way | \ud83c\udf0c |
+| 🌠 | stars | \ud83c\udf20 |
+| ⭐ | star | \u2b50 |
+| ☀️ | sunny | \u2600\ufe0f |
+| ⛅ | partly_sunny | \u26c5 |
+| ☁️ | cloud | \u2601\ufe0f |
+| ⚡ | zap | \u26a1 |
+| ☔ | umbrella | \u2614 |
+| ❄️ | snowflake | \u2744\ufe0f |
+| ⛄ | snowman | \u26c4 |
+| 🌀 | cyclone | \ud83c\udf00 |
+| 🌁 | foggy | \ud83c\udf01 |
+| 🌈 | rainbow | \ud83c\udf08 |
+| 🌊 | ocean | \ud83c\udf0a |
+| 🎍 | bamboo | \ud83c\udf8d |
+| 💝 | gift_heart | \ud83d\udc9d |
+| 🎎 | dolls | \ud83c\udf8e |
+| 🎒 | school_satchel | \ud83c\udf92 |
+| 🎓 | mortar_board | \ud83c\udf93 |
+| 🎏 | flags | \ud83c\udf8f |
+| 🎆 | fireworks | \ud83c\udf86 |
+| 🎇 | sparkler | \ud83c\udf87 |
+| 🎐 | wind_chime | \ud83c\udf90 |
+| 🎑 | rice_scene | \ud83c\udf91 |
+| 🎃 | jack_o_lantern | \ud83c\udf83 |
+| 👻 | ghost | \ud83d\udc7b |
+| 🎅 | santa | \ud83c\udf85 |
+| 🎄 | christmas_tree | \ud83c\udf84 |
+| 🎁 | gift | \ud83c\udf81 |
+| 🎋 | tanabata_tree | \ud83c\udf8b |
+| 🎉 | tada | \ud83c\udf89 |
+| 🎊 | confetti_ball | \ud83c\udf8a |
+| 🎈 | balloon | \ud83c\udf88 |
+| 🎌 | crossed_flags | \ud83c\udf8c |
+| 🔮 | crystal_ball | \ud83d\udd2e |
+| 🎥 | movie_camera | \ud83c\udfa5 |
+| 📷 | camera | \ud83d\udcf7 |
+| 📹 | video_camera | \ud83d\udcf9 |
+| 📼 | vhs | \ud83d\udcfc |
+| 💿 | cd | \ud83d\udcbf |
+| 📀 | dvd | \ud83d\udcc0 |
+| 💽 | minidisc | \ud83d\udcbd |
+| 💾 | floppy_disk | \ud83d\udcbe |
+| 💻 | computer | \ud83d\udcbb |
+| 📱 | iphone | \ud83d\udcf1 |
+| ☎️ | phone | \u260e\ufe0f |
+| ☎️ | telephone | \u260e\ufe0f |
+| 📞 | telephone_receiver | \ud83d\udcde |
+| 📟 | pager | \ud83d\udcdf |
+| 📠 | fax | \ud83d\udce0 |
+| 📡 | satellite | \ud83d\udce1 |
+| 📺 | tv | \ud83d\udcfa |
+| 📻 | radio | \ud83d\udcfb |
+| 🔊 | loud_sound | \ud83d\udd0a |
+| 🔉 | sound | \ud83d\udd09 |
+| 🔈 | speaker | \ud83d\udd08 |
+| 🔇 | mute | \ud83d\udd07 |
+| 🔔 | bell | \ud83d\udd14 |
+| 🔕 | no_bell | \ud83d\udd15 |
+| 📢 | loudspeaker | \ud83d\udce2 |
+| 📣 | mega | \ud83d\udce3 |
+| ⏳ | hourglass_flowing_sand | \u23f3 |
+| ⌛ | hourglass | \u231b |
+| ⏰ | alarm_clock | \u23f0 |
+| ⌚ | watch | \u231a |
+| 🔓 | unlock | \ud83d\udd13 |
+| 🔒 | lock | \ud83d\udd12 |
+| 🔏 | lock_with_ink_pen | \ud83d\udd0f |
+| 🔐 | closed_lock_with_key | \ud83d\udd10 |
+| 🔑 | key | \ud83d\udd11 |
+| 🔎 | mag_right | \ud83d\udd0e |
+| 💡 | bulb | \ud83d\udca1 |
+| 🔦 | flashlight | \ud83d\udd26 |
+| 🔆 | high_brightness | \ud83d\udd06 |
+| 🔅 | low_brightness | \ud83d\udd05 |
+| 🔌 | electric_plug | \ud83d\udd0c |
+| 🔋 | battery | \ud83d\udd0b |
+| 🔍 | mag | \ud83d\udd0d |
+| 🛁 | bathtub | \ud83d\udec1 |
+| 🛀 | bath | \ud83d\udec0 |
+| 🚿 | shower | \ud83d\udebf |
+| 🚽 | toilet | \ud83d\udebd |
+| 🔧 | wrench | \ud83d\udd27 |
+| 🔩 | nut_and_bolt | \ud83d\udd29 |
+| 🔨 | hammer | \ud83d\udd28 |
+| 🚪 | door | \ud83d\udeaa |
+| 🚬 | smoking | \ud83d\udeac |
+| 💣 | bomb | \ud83d\udca3 |
+| 🔫 | gun | \ud83d\udd2b |
+| 🔪 | hocho | \ud83d\udd2a |
+| 🔪 | knife | \ud83d\udd2a |
+| 💊 | pill | \ud83d\udc8a |
+| 💉 | syringe | \ud83d\udc89 |
+| 💰 | moneybag | \ud83d\udcb0 |
+| 💴 | yen | \ud83d\udcb4 |
+| 💵 | dollar | \ud83d\udcb5 |
+| 💷 | pound | \ud83d\udcb7 |
+| 💶 | euro | \ud83d\udcb6 |
+| 💳 | credit_card | \ud83d\udcb3 |
+| 💸 | money_with_wings | \ud83d\udcb8 |
+| 📲 | calling | \ud83d\udcf2 |
+| 📧 | e-mail | \ud83d\udce7 |
+| 📥 | inbox_tray | \ud83d\udce5 |
+| 📤 | outbox_tray | \ud83d\udce4 |
+| ✉️ | email | \u2709\ufe0f |
+| ✉️ | envelope | \u2709\ufe0f |
+| 📩 | envelope_with_arrow | \ud83d\udce9 |
+| 📨 | incoming_envelope | \ud83d\udce8 |
+| 📯 | postal_horn | \ud83d\udcef |
+| 📫 | mailbox | \ud83d\udceb |
+| 📪 | mailbox_closed | \ud83d\udcea |
+| 📬 | mailbox_with_mail | \ud83d\udcec |
+| 📭 | mailbox_with_no_mail | \ud83d\udced |
+| 📮 | postbox | \ud83d\udcee |
+| 📦 | package | \ud83d\udce6 |
+| 📝 | memo | \ud83d\udcdd |
+| 📝 | pencil | \ud83d\udcdd |
+| 📄 | page_facing_up | \ud83d\udcc4 |
+| 📃 | page_with_curl | \ud83d\udcc3 |
+| 📑 | bookmark_tabs | \ud83d\udcd1 |
+| 📊 | bar_chart | \ud83d\udcca |
+| 📈 | chart_with_upwards_trend | \ud83d\udcc8 |
+| 📉 | chart_with_downwards_trend | \ud83d\udcc9 |
+| 📜 | scroll | \ud83d\udcdc |
+| 📋 | clipboard | \ud83d\udccb |
+| 📅 | date | \ud83d\udcc5 |
+| 📆 | calendar | \ud83d\udcc6 |
+| 📇 | card_index | \ud83d\udcc7 |
+| 📁 | file_folder | \ud83d\udcc1 |
+| 📂 | open_file_folder | \ud83d\udcc2 |
+| ✂️ | scissors | \u2702\ufe0f |
+| 📌 | pushpin | \ud83d\udccc |
+| 📎 | paperclip | \ud83d\udcce |
+| ✒️ | black_nib | \u2712\ufe0f |
+| ✏️ | pencil2 | \u270f\ufe0f |
+| 📏 | straight_ruler | \ud83d\udccf |
+| 📐 | triangular_ruler | \ud83d\udcd0 |
+| 📕 | closed_book | \ud83d\udcd5 |
+| 📗 | green_book | \ud83d\udcd7 |
+| 📘 | blue_book | \ud83d\udcd8 |
+| 📙 | orange_book | \ud83d\udcd9 |
+| 📓 | notebook | \ud83d\udcd3 |
+| 📔 | notebook_with_decorative_cover | \ud83d\udcd4 |
+| 📒 | ledger | \ud83d\udcd2 |
+| 📚 | books | \ud83d\udcda |
+| 📖 | book | \ud83d\udcd6 |
+| 📖 | open_book | \ud83d\udcd6 |
+| 🔖 | bookmark | \ud83d\udd16 |
+| 📛 | name_badge | \ud83d\udcdb |
+| 🔬 | microscope | \ud83d\udd2c |
+| 🔭 | telescope | \ud83d\udd2d |
+| 📰 | newspaper | \ud83d\udcf0 |
+| 🎨 | art | \ud83c\udfa8 |
+| 🎬 | clapper | \ud83c\udfac |
+| 🎤 | microphone | \ud83c\udfa4 |
+| 🎧 | headphones | \ud83c\udfa7 |
+| 🎼 | musical_score | \ud83c\udfbc |
+| 🎵 | musical_note | \ud83c\udfb5 |
+| 🎶 | notes | \ud83c\udfb6 |
+| 🎹 | musical_keyboard | \ud83c\udfb9 |
+| 🎻 | violin | \ud83c\udfbb |
+| 🎺 | trumpet | \ud83c\udfba |
+| 🎷 | saxophone | \ud83c\udfb7 |
+| 🎸 | guitar | \ud83c\udfb8 |
+| 👾 | space_invader | \ud83d\udc7e |
+| 🎮 | video_game | \ud83c\udfae |
+| 🃏 | black_joker | \ud83c\udccf |
+| 🎴 | flower_playing_cards | \ud83c\udfb4 |
+| 🀄 | mahjong | \ud83c\udc04 |
+| 🎲 | game_die | \ud83c\udfb2 |
+| 🎯 | dart | \ud83c\udfaf |
+| 🏈 | football | \ud83c\udfc8 |
+| 🏀 | basketball | \ud83c\udfc0 |
+| ⚽ | soccer | \u26bd |
+| ⚾️ | baseball | \u26be\ufe0f |
+| 🎾 | tennis | \ud83c\udfbe |
+| 🎱 | 8ball | \ud83c\udfb1 |
+| 🏉 | rugby_football | \ud83c\udfc9 |
+| 🎳 | bowling | \ud83c\udfb3 |
+| ⛳ | golf | \u26f3 |
+| 🚵 | mountain_bicyclist | \ud83d\udeb5 |
+| 🚴 | bicyclist | \ud83d\udeb4 |
+| 🏁 | checkered_flag | \ud83c\udfc1 |
+| 🏇 | horse_racing | \ud83c\udfc7 |
+| 🏆 | trophy | \ud83c\udfc6 |
+| 🎿 | ski | \ud83c\udfbf |
+| 🏂 | snowboarder | \ud83c\udfc2 |
+| 🏊 | swimmer | \ud83c\udfca |
+| 🏄 | surfer | \ud83c\udfc4 |
+| 🎣 | fishing_pole_and_fish | \ud83c\udfa3 |
+| ☕ | coffee | \u2615 |
+| 🍵 | tea | \ud83c\udf75 |
+| 🍶 | sake | \ud83c\udf76 |
+| 🍼 | baby_bottle | \ud83c\udf7c |
+| 🍺 | beer | \ud83c\udf7a |
+| 🍻 | beers | \ud83c\udf7b |
+| 🍸 | cocktail | \ud83c\udf78 |
+| 🍹 | tropical_drink | \ud83c\udf79 |
+| 🍷 | wine_glass | \ud83c\udf77 |
+| 🍴 | fork_and_knife | \ud83c\udf74 |
+| 🍕 | pizza | \ud83c\udf55 |
+| 🍔 | hamburger | \ud83c\udf54 |
+| 🍟 | fries | \ud83c\udf5f |
+| 🍗 | poultry_leg | \ud83c\udf57 |
+| 🍖 | meat_on_bone | \ud83c\udf56 |
+| 🍝 | spaghetti | \ud83c\udf5d |
+| 🍛 | curry | \ud83c\udf5b |
+| 🍤 | fried_shrimp | \ud83c\udf64 |
+| 🍱 | bento | \ud83c\udf71 |
+| 🍣 | sushi | \ud83c\udf63 |
+| 🍥 | fish_cake | \ud83c\udf65 |
+| 🍙 | rice_ball | \ud83c\udf59 |
+| 🍘 | rice_cracker | \ud83c\udf58 |
+| 🍚 | rice | \ud83c\udf5a |
+| 🍜 | ramen | \ud83c\udf5c |
+| 🍲 | stew | \ud83c\udf72 |
+| 🍢 | oden | \ud83c\udf62 |
+| 🍡 | dango | \ud83c\udf61 |
+| 🍳 | egg | \ud83c\udf73 |
+| 🍞 | bread | \ud83c\udf5e |
+| 🍩 | doughnut | \ud83c\udf69 |
+| 🍮 | custard | \ud83c\udf6e |
+| 🍦 | icecream | \ud83c\udf66 |
+| 🍨 | ice_cream | \ud83c\udf68 |
+| 🍧 | shaved_ice | \ud83c\udf67 |
+| 🎂 | birthday | \ud83c\udf82 |
+| 🍰 | cake | \ud83c\udf70 |
+| 🍪 | cookie | \ud83c\udf6a |
+| 🍫 | chocolate_bar | \ud83c\udf6b |
+| 🍬 | candy | \ud83c\udf6c |
+| 🍭 | lollipop | \ud83c\udf6d |
+| 🍯 | honey_pot | \ud83c\udf6f |
+| 🍎 | apple | \ud83c\udf4e |
+| 🍏 | green_apple | \ud83c\udf4f |
+| 🍊 | tangerine | \ud83c\udf4a |
+| 🍋 | lemon | \ud83c\udf4b |
+| 🍒 | cherries | \ud83c\udf52 |
+| 🍇 | grapes | \ud83c\udf47 |
+| 🍉 | watermelon | \ud83c\udf49 |
+| 🍓 | strawberry | \ud83c\udf53 |
+| 🍑 | peach | \ud83c\udf51 |
+| 🍈 | melon | \ud83c\udf48 |
+| 🍌 | banana | \ud83c\udf4c |
+| 🍐 | pear | \ud83c\udf50 |
+| 🍍 | pineapple | \ud83c\udf4d |
+| 🍠 | sweet_potato | \ud83c\udf60 |
+| 🍆 | eggplant | \ud83c\udf46 |
+| 🍅 | tomato | \ud83c\udf45 |
+| 🌽 | corn | \ud83c\udf3d |
+| 🏠 | house | \ud83c\udfe0 |
+| 🏡 | house_with_garden | \ud83c\udfe1 |
+| 🏫 | school | \ud83c\udfeb |
+| 🏢 | office | \ud83c\udfe2 |
+| 🏣 | post_office | \ud83c\udfe3 |
+| 🏥 | hospital | \ud83c\udfe5 |
+| 🏦 | bank | \ud83c\udfe6 |
+| 🏪 | convenience_store | \ud83c\udfea |
+| 🏩 | love_hotel | \ud83c\udfe9 |
+| 🏨 | hotel | \ud83c\udfe8 |
+| 💒 | wedding | \ud83d\udc92 |
+| ⛪ | church | \u26ea |
+| 🏬 | department_store | \ud83c\udfec |
+| 🏤 | european_post_office | \ud83c\udfe4 |
+| 🌇 | city_sunrise | \ud83c\udf07 |
+| 🌆 | city_sunset | \ud83c\udf06 |
+| 🏯 | japanese_castle | \ud83c\udfef |
+| 🏰 | european_castle | \ud83c\udff0 |
+| ⛺ | tent | \u26fa |
+| 🏭 | factory | \ud83c\udfed |
+| 🗼 | tokyo_tower | \ud83d\uddfc |
+| 🗾 | japan | \ud83d\uddfe |
+| 🗻 | mount_fuji | \ud83d\uddfb |
+| 🌄 | sunrise_over_mountains | \ud83c\udf04 |
+| 🌅 | sunrise | \ud83c\udf05 |
+| 🌃 | night_with_stars | \ud83c\udf03 |
+| 🗽 | statue_of_liberty | \ud83d\uddfd |
+| 🌉 | bridge_at_night | \ud83c\udf09 |
+| 🎠 | carousel_horse | \ud83c\udfa0 |
+| 🎡 | ferris_wheel | \ud83c\udfa1 |
+| ⛲ | fountain | \u26f2 |
+| 🎢 | roller_coaster | \ud83c\udfa2 |
+| 🚢 | ship | \ud83d\udea2 |
+| ⛵ | boat | \u26f5 |
+| ⛵ | sailboat | \u26f5 |
+| 🚤 | speedboat | \ud83d\udea4 |
+| 🚣 | rowboat | \ud83d\udea3 |
+| ⚓ | anchor | \u2693 |
+| 🚀 | rocket | \ud83d\ude80 |
+| ✈️ | airplane | \u2708\ufe0f |
+| 💺 | seat | \ud83d\udcba |
+| 🚁 | helicopter | \ud83d\ude81 |
+| 🚂 | steam_locomotive | \ud83d\ude82 |
+| 🚊 | tram | \ud83d\ude8a |
+| 🚉 | station | \ud83d\ude89 |
+| 🚞 | mountain_railway | \ud83d\ude9e |
+| 🚆 | train2 | \ud83d\ude86 |
+| 🚄 | bullettrain_side | \ud83d\ude84 |
+| 🚅 | bullettrain_front | \ud83d\ude85 |
+| 🚈 | light_rail | \ud83d\ude88 |
+| 🚇 | metro | \ud83d\ude87 |
+| 🚝 | monorail | \ud83d\ude9d |
+| 🚋 | train | \ud83d\ude8b |
+| 🚃 | railway_car | \ud83d\ude83 |
+| 🚎 | trolleybus | \ud83d\ude8e |
+| 🚌 | bus | \ud83d\ude8c |
+| 🚍 | oncoming_bus | \ud83d\ude8d |
+| 🚙 | blue_car | \ud83d\ude99 |
+| 🚘 | oncoming_automobile | \ud83d\ude98 |
+| 🚗 | car | \ud83d\ude97 |
+| 🚗 | red_car | \ud83d\ude97 |
+| 🚕 | taxi | \ud83d\ude95 |
+| 🚖 | oncoming_taxi | \ud83d\ude96 |
+| 🚛 | articulated_lorry | \ud83d\ude9b |
+| 🚚 | truck | \ud83d\ude9a |
+| 🚨 | rotating_light | \ud83d\udea8 |
+| 🚓 | police_car | \ud83d\ude93 |
+| 🚔 | oncoming_police_car | \ud83d\ude94 |
+| 🚒 | fire_engine | \ud83d\ude92 |
+| 🚑 | ambulance | \ud83d\ude91 |
+| 🚐 | minibus | \ud83d\ude90 |
+| 🚲 | bike | \ud83d\udeb2 |
+| 🚡 | aerial_tramway | \ud83d\udea1 |
+| 🚟 | suspension_railway | \ud83d\ude9f |
+| 🚠 | mountain_cableway | \ud83d\udea0 |
+| 🚜 | tractor | \ud83d\ude9c |
+| 💈 | barber | \ud83d\udc88 |
+| 🚏 | busstop | \ud83d\ude8f |
+| 🎫 | ticket | \ud83c\udfab |
+| 🚦 | vertical_traffic_light | \ud83d\udea6 |
+| 🚥 | traffic_light | \ud83d\udea5 |
+| ⚠️ | warning | \u26a0\ufe0f |
+| 🚧 | construction | \ud83d\udea7 |
+| 🔰 | beginner | \ud83d\udd30 |
+| ⛽ | fuelpump | \u26fd |
+| 🏮 | izakaya_lantern | \ud83c\udfee |
+| 🏮 | lantern | \ud83c\udfee |
+| 🎰 | slot_machine | \ud83c\udfb0 |
+| ♨️ | hotsprings | \u2668\ufe0f |
+| 🗿 | moyai | \ud83d\uddff |
+| 🎪 | circus_tent | \ud83c\udfaa |
+| 🎭 | performing_arts | \ud83c\udfad |
+| 📍 | round_pushpin | \ud83d\udccd |
+| 🚩 | triangular_flag_on_post | \ud83d\udea9 |
+| 🇯🇵 | jp | \ud83c\uddef\ud83c\uddf5 |
+| 🇰🇷 | kr | \ud83c\uddf0\ud83c\uddf7 |
+| 🇩🇪 | de | \ud83c\udde9\ud83c\uddea |
+| 🇨🇳 | cn | \ud83c\udde8\ud83c\uddf3 |
+| 🇺🇸 | us | \ud83c\uddfa\ud83c\uddf8 |
+| 🇫🇷 | fr | \ud83c\uddeb\ud83c\uddf7 |
+| 🇪🇸 | es | \ud83c\uddea\ud83c\uddf8 |
+| 🇮🇹 | it | \ud83c\uddee\ud83c\uddf9 |
+| 🇷🇺 | ru | \ud83c\uddf7\ud83c\uddfa |
+| 🇬🇧 | gb | \ud83c\uddec\ud83c\udde7 |
+| 🇬🇧 | uk | \ud83c\uddec\ud83c\udde7 |
+| 1️⃣ | one | \u31\ufe0f\u20e3 |
+| 2️⃣ | two | \u32\ufe0f\u20e3 |
+| 3️⃣ | three | \u33\ufe0f\u20e3 |
+| 4️⃣ | four | \u34\ufe0f\u20e3 |
+| 5️⃣ | five | \u35\ufe0f\u20e3 |
+| 6️⃣ | six | \u36\ufe0f\u20e3 |
+| 7️⃣ | seven | \u37\ufe0f\u20e3 |
+| 8️⃣ | eight | \u38\ufe0f\u20e3 |
+| 9️⃣ | nine | \u39\ufe0f\u20e3 |
+| 0️⃣ | zero | \u30\ufe0f\u20e3 |
+| 🔟 | keycap_ten | \ud83d\udd1f |
+| #️⃣ | hash | \u23\ufe0f\u20e3 |
+| 🔣 | symbols | \ud83d\udd23 |
+| ⬆️ | arrow_up | \u2b06\ufe0f |
+| ⬇️ | arrow_down | \u2b07\ufe0f |
+| ⬅️ | arrow_left | \u2b05\ufe0f |
+| ➡️ | arrow_right | \u27a1\ufe0f |
+| 🔠 | capital_abcd | \ud83d\udd20 |
+| 🔡 | abcd | \ud83d\udd21 |
+| 🔤 | abc | \ud83d\udd24 |
+| ↗️ | arrow_upper_right | \u2197\ufe0f |
+| ↖️ | arrow_upper_left | \u2196\ufe0f |
+| ↘️ | arrow_lower_right | \u2198\ufe0f |
+| ↙️ | arrow_lower_left | \u2199\ufe0f |
+| ↔️ | left_right_arrow | \u2194\ufe0f |
+| ↕️ | arrow_up_down | \u2195\ufe0f |
+| 🔄 | arrows_counterclockwise | \ud83d\udd04 |
+| ◀️ | arrow_backward | \u25c0\ufe0f |
+| ▶️ | arrow_forward | \u25b6\ufe0f |
+| 🔼 | arrow_up_small | \ud83d\udd3c |
+| 🔽 | arrow_down_small | \ud83d\udd3d |
+| ↩️ | leftwards_arrow_with_hook | \u21a9\ufe0f |
+| ↪️ | arrow_right_hook | \u21aa\ufe0f |
+| ℹ️ | information_source | \u2139\ufe0f |
+| ⏪ | rewind | \u23ea |
+| ⏩ | fast_forward | \u23e9 |
+| ⏫ | arrow_double_up | \u23eb |
+| ⏬ | arrow_double_down | \u23ec |
+| ⤵️ | arrow_heading_down | \u2935\ufe0f |
+| ⤴️ | arrow_heading_up | \u2934\ufe0f |
+| 🆗 | ok | \ud83c\udd97 |
+| 🔀 | twisted_rightwards_arrows | \ud83d\udd00 |
+| 🔁 | repeat | \ud83d\udd01 |
+| 🔂 | repeat_one | \ud83d\udd02 |
+| 🆕 | new | \ud83c\udd95 |
+| 🆙 | up | \ud83c\udd99 |
+| 🆒 | cool | \ud83c\udd92 |
+| 🆓 | free | \ud83c\udd93 |
+| 🆖 | ng | \ud83c\udd96 |
+| 📶 | signal_strength | \ud83d\udcf6 |
+| 🎦 | cinema | \ud83c\udfa6 |
+| 🈁 | koko | \ud83c\ude01 |
+| 🈯 | u6307 | \ud83c\ude2f |
+| 🈳 | u7a7a | \ud83c\ude33 |
+| 🈵 | u6e80 | \ud83c\ude35 |
+| 🈴 | u5408 | \ud83c\ude34 |
+| 🈲 | u7981 | \ud83c\ude32 |
+| 🉐 | ideograph_advantage | \ud83c\ude50 |
+| 🈹 | u5272 | \ud83c\ude39 |
+| 🈺 | u55b6 | \ud83c\ude3a |
+| 🈶 | u6709 | \ud83c\ude36 |
+| 🈚 | u7121 | \ud83c\ude1a |
+| 🚻 | restroom | \ud83d\udebb |
+| 🚹 | mens | \ud83d\udeb9 |
+| 🚺 | womens | \ud83d\udeba |
+| 🚼 | baby_symbol | \ud83d\udebc |
+| 🚾 | wc | \ud83d\udebe |
+| 🚰 | potable_water | \ud83d\udeb0 |
+| 🚮 | put_litter_in_its_place | \ud83d\udeae |
+| 🅿️ | parking | \ud83c\udd7f\ufe0f |
+| ♿ | wheelchair | \u267f |
+| 🚭 | no_smoking | \ud83d\udead |
+| 🈷️ | u6708 | \ud83c\ude37\ufe0f |
+| 🈸 | u7533 | \ud83c\ude38 |
+| 🈂️ | sa | \ud83c\ude02\ufe0f |
+| Ⓜ️ | m | \u24c2\ufe0f |
+| 🛂 | passport_control | \ud83d\udec2 |
+| 🛄 | baggage_claim | \ud83d\udec4 |
+| 🛅 | left_luggage | \ud83d\udec5 |
+| 🛃 | customs | \ud83d\udec3 |
+| 🉑 | accept | \ud83c\ude51 |
+| ㊙️ | secret | \u3299\ufe0f |
+| ㊗️ | congratulations | \u3297\ufe0f |
+| 🆑 | cl | \ud83c\udd91 |
+| 🆘 | sos | \ud83c\udd98 |
+| 🆔 | id | \ud83c\udd94 |
+| 🚫 | no_entry_sign | \ud83d\udeab |
+| 🔞 | underage | \ud83d\udd1e |
+| 📵 | no_mobile_phones | \ud83d\udcf5 |
+| 🚯 | do_not_litter | \ud83d\udeaf |
+| 🚱 | non-potable_water | \ud83d\udeb1 |
+| 🚳 | no_bicycles | \ud83d\udeb3 |
+| 🚷 | no_pedestrians | \ud83d\udeb7 |
+| 🚸 | children_crossing | \ud83d\udeb8 |
+| ⛔ | no_entry | \u26d4 |
+| ✳️ | eight_spoked_asterisk | \u2733\ufe0f |
+| ❇️ | sparkle | \u2747\ufe0f |
+| ❎ | negative_squared_cross_mark | \u274e |
+| ✅ | white_check_mark | \u2705 |
+| ✴️ | eight_pointed_black_star | \u2734\ufe0f |
+| 💟 | heart_decoration | \ud83d\udc9f |
+| 🆚 | vs | \ud83c\udd9a |
+| 📳 | vibration_mode | \ud83d\udcf3 |
+| 📴 | mobile_phone_off | \ud83d\udcf4 |
+| 🅰️ | a | \ud83c\udd70\ufe0f |
+| 🅱️ | b | \ud83c\udd71\ufe0f |
+| 🆎 | ab | \ud83c\udd8e |
+| 🅾️ | o2 | \ud83c\udd7e\ufe0f |
+| 💠 | diamond_shape_with_a_dot_inside | \ud83d\udca0 |
+| ➿ | loop | \u27bf |
+| ♻️ | recycle | \u267b\ufe0f |
+| ♈ | aries | \u2648 |
+| ♉ | taurus | \u2649 |
+| ♊ | gemini | \u264a |
+| ♋ | cancer | \u264b |
+| ♌ | leo | \u264c |
+| ♍ | virgo | \u264d |
+| ♎ | libra | \u264e |
+| ♏ | scorpius | \u264f |
+| ♐ | sagittarius | \u2650 |
+| ♑ | capricorn | \u2651 |
+| ♒ | aquarius | \u2652 |
+| ♓ | pisces | \u2653 |
+| ⛎ | ophiuchus | \u26ce |
+| 🔯 | six_pointed_star | \ud83d\udd2f |
+| 🏧 | atm | \ud83c\udfe7 |
+| 💹 | chart | \ud83d\udcb9 |
+| 💲 | heavy_dollar_sign | \ud83d\udcb2 |
+| 💱 | currency_exchange | \ud83d\udcb1 |
+| ©️ | copyright | \ua9\ufe0f |
+| ®️ | registered | \uae\ufe0f |
+| ™️ | tm | \u2122\ufe0f |
+| ❌ | x | \u274c |
+| ‼️ | bangbang | \u203c\ufe0f |
+| ⁉️ | interrobang | \u2049\ufe0f |
+| ❗ | exclamation | \u2757 |
+| ❗ | heavy_exclamation_mark | \u2757 |
+| ❓ | question | \u2753 |
+| ❕ | grey_exclamation | \u2755 |
+| ❔ | grey_question | \u2754 |
+| ⭕ | o | \u2b55 |
+| 🔝 | top | \ud83d\udd1d |
+| 🔚 | end | \ud83d\udd1a |
+| 🔙 | back | \ud83d\udd19 |
+| 🔛 | on | \ud83d\udd1b |
+| 🔜 | soon | \ud83d\udd1c |
+| 🔃 | arrows_clockwise | \ud83d\udd03 |
+| 🕛 | clock12 | \ud83d\udd5b |
+| 🕧 | clock1230 | \ud83d\udd67 |
+| 🕐 | clock1 | \ud83d\udd50 |
+| 🕜 | clock130 | \ud83d\udd5c |
+| 🕑 | clock2 | \ud83d\udd51 |
+| 🕝 | clock230 | \ud83d\udd5d |
+| 🕒 | clock3 | \ud83d\udd52 |
+| 🕞 | clock330 | \ud83d\udd5e |
+| 🕓 | clock4 | \ud83d\udd53 |
+| 🕟 | clock430 | \ud83d\udd5f |
+| 🕔 | clock5 | \ud83d\udd54 |
+| 🕠 | clock530 | \ud83d\udd60 |
+| 🕕 | clock6 | \ud83d\udd55 |
+| 🕖 | clock7 | \ud83d\udd56 |
+| 🕗 | clock8 | \ud83d\udd57 |
+| 🕘 | clock9 | \ud83d\udd58 |
+| 🕙 | clock10 | \ud83d\udd59 |
+| 🕚 | clock11 | \ud83d\udd5a |
+| 🕡 | clock630 | \ud83d\udd61 |
+| 🕢 | clock730 | \ud83d\udd62 |
+| 🕣 | clock830 | \ud83d\udd63 |
+| 🕤 | clock930 | \ud83d\udd64 |
+| 🕥 | clock1030 | \ud83d\udd65 |
+| 🕦 | clock1130 | \ud83d\udd66 |
+| ✖️ | heavy_multiplication_x | \u2716\ufe0f |
+| ➕ | heavy_plus_sign | \u2795 |
+| ➖ | heavy_minus_sign | \u2796 |
+| ➗ | heavy_division_sign | \u2797 |
+| ♠️ | spades | \u2660\ufe0f |
+| ♥️ | hearts | \u2665\ufe0f |
+| ♣️ | clubs | \u2663\ufe0f |
+| ♦️ | diamonds | \u2666\ufe0f |
+| 💮 | white_flower | \ud83d\udcae |
+| ✔️ | heavy_check_mark | \u2714\ufe0f |
+| ☑️ | ballot_box_with_check | \u2611\ufe0f |
+| 🔘 | radio_button | \ud83d\udd18 |
+| 🔗 | link | \ud83d\udd17 |
+| ➰ | curly_loop | \u27b0 |
+| 〰️ | wavy_dash | \u3030\ufe0f |
+| 〽️ | part_alternation_mark | \u303d\ufe0f |
+| 🔱 | trident | \ud83d\udd31 |
+| ◼️ | black_medium_square | \u25fc\ufe0f |
+| ◻️ | white_medium_square | \u25fb\ufe0f |
+| ◾ | black_medium_small_square | \u25fe |
+| ◽ | white_medium_small_square | \u25fd |
+| ▪️ | black_small_square | \u25aa\ufe0f |
+| ▫️ | white_small_square | \u25ab\ufe0f |
+| 🔺 | small_red_triangle | \ud83d\udd3a |
+| 🔲 | black_square_button | \ud83d\udd32 |
+| 🔳 | white_square_button | \ud83d\udd33 |
+| ⚫ | black_circle | \u26ab |
+| ⚪ | white_circle | \u26aa |
+| 🔴 | red_circle | \ud83d\udd34 |
+| 🔵 | large_blue_circle | \ud83d\udd35 |
+| 🔻 | small_red_triangle_down | \ud83d\udd3b |
+| ⬜ | white_large_square | \u2b1c |
+| ⬛ | black_large_square | \u2b1b |
+| 🔶 | large_orange_diamond | \ud83d\udd36 |
+| 🔷 | large_blue_diamond | \ud83d\udd37 |
+| 🔸 | small_orange_diamond | \ud83d\udd38 |
+| 🔹 | small_blue_diamond | \ud83d\udd39 |
