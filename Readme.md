@@ -16,6 +16,11 @@ Component:
 $ component install wooorm/gemoji
 ```
 
+Bower:
+```sh
+$ bower install gemoji
+```
+
 ## Usage
 
 ```js
