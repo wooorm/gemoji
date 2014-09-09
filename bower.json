@@ -1,0 +1,30 @@
+{
+  "name": "gemoji",
+  "main": "index.js",
+  "description": "Named and unicode Gemoji",
+  "license": "MIT",
+  "keywords": [
+    "gemoji",
+    "emoji",
+    "unicode",
+    "name",
+    "shortcode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/gemoji.git"
+  },
+  "authors": [
+    "Titus Wormer <tituswormer@gmail.com>"
+  ],
+  "ignore": [
+    ".*",
+    "*.log",
+    "*.md",
+    "component.json",
+    "package.json",
+    "coverage",
+    "node_modules",
+    "spec"
+  ]
+}
