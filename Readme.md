@@ -11,7 +11,7 @@ npm:
 $ npm install gemoji
 ```
 
-Component.js:
+Component:
 ```sh
 $ component install wooorm/gemoji
 ```
