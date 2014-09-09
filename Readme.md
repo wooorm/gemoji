@@ -6,7 +6,7 @@ Named and unicode Gemoji.
 
 ## Installation
 
-NPM:
+npm:
 ```sh
 $ npm install gemoji
 ```
