@@ -1,5 +1,5 @@
 
-n.n.n / 2014-10-04
+0.1.2 / 2014-10-04
 ==================
 
  * Remove `npm update npm` from travis
