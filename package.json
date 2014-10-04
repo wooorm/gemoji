@@ -2,6 +2,7 @@
   "name": "gemoji",
   "version": "0.1.1",
   "description": "Named and unicode Gemoji",
+  "license": "MIT",
   "keywords": [
     "gemoji",
     "emoji",
@@ -9,18 +10,17 @@
     "name",
     "shortcode"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/gemoji.git"
+  },
   "author": "Titus Wormer <tituswormer@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "eslint": "^0.8.0",
     "istanbul": "^0.3.0",
     "jscs": "^1.6.0",
     "markdown-table": "0.0.1",
     "mocha": "^1.20.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wooorm/gemoji.git"
   },
   "scripts": {
     "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports spec/gemoji.spec.js",
