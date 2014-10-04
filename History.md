@@ -1,4 +1,15 @@
 
+n.n.n / 2014-10-04
+==================
+
+ * Remove `npm update npm` from travis
+ * Update .gitignore, .npmignore, bower ignore
+ * Refactor property order in component.json, bower.json
+ * Refactor Readme.md
+ * Refactor support generation to use markdown-table
+ * Add markdown-table as a dependency
+ * Add npm deployment to travis
+
 0.1.1 / 2014-09-09
 ==================
 
