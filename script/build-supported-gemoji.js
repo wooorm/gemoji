@@ -13,7 +13,10 @@ table = require('markdown-table');
 gemoji = require('../data/gemoji');
 
 /**
- * Escape a unicode emoji.
+ * Escape a string into its unicode points..
+ *
+ * @param {string} value
+ * @return {string} value
  */
 
 function escape(value) {
@@ -43,9 +46,7 @@ var data;
 
 data = [
     ['Unicode', 'Name', 'Escaped Unicode']
-];
-
-data = data.concat(
+].concat(
     Object.keys(gemoji).map(function (name) {
         return [
             gemoji[name],
