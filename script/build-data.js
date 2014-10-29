@@ -37,4 +37,4 @@ data.forEach(function (emojiObject) {
  * Write the dictionary.
  */
 
-fs.writeFileSync('data/gemoji.json', JSON.stringify(map));
+fs.writeFileSync('data/gemoji.json', JSON.stringify(map, null, 2));
