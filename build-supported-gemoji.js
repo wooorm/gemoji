@@ -69,8 +69,8 @@ fs.writeFileSync('Supported-Gemoji.md',
     '\n' +
 
     table(data, {
-        'align' : ['c', 'c', 'c'],
-        'stringLength' : function (value) {
+        'align': ['c', 'c', 'c'],
+        'stringLength': function (value) {
             return value.replace(expression, '  ').length;
         }
     }) +
