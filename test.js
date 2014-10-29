@@ -2,8 +2,8 @@
 
 var emoji, gemoji, assert;
 
-emoji = require('../data/emoji.json');
-gemoji = require('..');
+emoji = require('./data/emoji.json');
+gemoji = require('./');
 assert = require('assert');
 
 describe('gemoji', function () {
