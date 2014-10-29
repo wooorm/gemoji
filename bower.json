@@ -21,13 +21,15 @@
     ".*",
     "*.log",
     "*.md",
-    "data/emoji.json",
+    "build/",
+    "components/",
+    "coverage/",
+    "node_modules/",
+    "build-data.js",
+    "build-supported-gemoji.js",
+    "test.js",
     "component.json",
-    "components",
-    "build",
     "package.json",
-    "coverage",
-    "node_modules",
-    "spec"
+    "data/emoji.json"
   ]
 }
