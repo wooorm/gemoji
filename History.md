@@ -1,4 +1,20 @@
 
+n.n.n / 2014-10-29
+==================
+
+ * Add flat badges to `Readme.md`
+ * Refactor module, interface for more emoji information
+ * Add pretty build-output
+ * Refactor script
+ * Refactor test
+ * Move build scripts to `script/`
+ * Update `.gitignore`, `.npmignore`, bower ignore
+ * Move `spec/gemoji.spec.js` to `test.js`
+ * Add `.eslintrc`
+ * Refactor .jscs.json
+ * Refactor to disallow space after object keys
+ * Update eslint, mocha
+
 0.1.2 / 2014-10-04
 ==================
 
