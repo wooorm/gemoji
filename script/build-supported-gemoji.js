@@ -31,12 +31,7 @@ function escape(value) {
 
 var expression;
 
-expression = new RegExp(
-    Object.keys(gemoji).map(function (name) {
-        return gemoji[name];
-    }).join('|'),
-    'g'
-)
+expression = new RegExp(Object.keys(gemoji).join('|'), 'g');
 
 /**
  * Set up data.
@@ -45,13 +40,14 @@ expression = new RegExp(
 var data;
 
 data = [
-    ['Unicode', 'Name', 'Escaped Unicode']
+    ['Emoji', 'Name(s)', 'Tags', 'Escaped Unicode']
 ].concat(
-    Object.keys(gemoji).map(function (name) {
+    Object.keys(gemoji).map(function (emoji) {
         return [
-            gemoji[name],
-            name,
-            escape(gemoji[name])
+            emoji,
+            gemoji[emoji].names.join('; '),
+            gemoji[emoji].tags.join('; '),
+            escape(emoji)
         ]
     })
 );
@@ -68,9 +64,12 @@ fs.writeFileSync('Supported-Gemoji.md',
     'GitHub;\n' + Object.keys(gemoji).length + ' small images would make ' +
     'viewing this document very slow.\n' +
     '\n' +
+    'Also: You need a browser capable of viewing unicode-emoji to make ' +
+    'sense of the first column!\n' +
+    '\n' +
 
     table(data, {
-        'align': ['c', 'c', 'c'],
+        'align': ['c', 'c', 'c', 'c'],
         'stringLength': function (value) {
             return value.replace(expression, '  ').length;
         }

@@ -22,7 +22,7 @@ describe('gemoji', function () {
             Object.prototype.toString.call(gemoji.name) === '[object Object]'
         );
     });
-    it('should have a `unicode` property', function () {
+    it('should have an `unicode` property', function () {
         assert(
             Object.prototype.toString.call(gemoji.unicode) ===
             '[object Object]'
@@ -41,18 +41,24 @@ describe('gemoji', function () {
  *   description of the picture.
  * @param {Array.<string>} gemojiObject.aliases - List
  *   of names used by GitHub.
+ * @param {Array.<string>} gemojiObject.tags - List
+ *   of tags.
  */
 
 function describeGemojiObject(gemojiObject) {
     var unicode,
+        information,
         description,
+        aliases,
+        tags,
         name;
 
     unicode = gemojiObject.emoji;
 
     /**
      * Some gemoji, such as `octocat`, do not have a
-     * unicode representation. Exit.
+     * unicode representation. Those are not present in
+     * `gemoji`. Exit.
      */
 
     if (!unicode) {
@@ -60,22 +66,76 @@ function describeGemojiObject(gemojiObject) {
     }
 
     description = gemojiObject.description;
-    name = gemojiObject.aliases[0];
+    aliases = gemojiObject.aliases;
+    tags = gemojiObject.tags;
+    name = aliases[0];
+
+    information = gemoji.unicode[unicode];
 
     describe(unicode + '   ' + description, function () {
-        gemojiObject.aliases.forEach(function (alias) {
-            it('should be accessible by name (' + alias + ' > unicode)',
+        aliases.forEach(function (alias) {
+            it('should be accessible by name (' + alias + ' > object)',
                 function () {
-                    assert(gemoji.name[alias] === unicode);
+                    assert(gemoji.name[alias].emoji === unicode);
                 }
             );
         });
 
-        it('should get an alias by unicode (unicode > ' + name + ')',
+        it('should be accessible by emoji (' + unicode + '  > object)',
             function () {
-                assert(gemoji.unicode[unicode] === name);
+                assert(gemoji.unicode[unicode].name === name);
             }
         );
+
+        describe('Information', function () {
+            it('should have a `name` field', function () {
+                assert(typeof information.name === 'string');
+
+                assert(information.name === name);
+            });
+
+            it('should have an `emoji` field', function () {
+                assert(typeof information.emoji === 'string');
+
+                assert(information.emoji === unicode);
+            });
+
+            it('should have a `description` field', function () {
+                assert(typeof information.description === 'string');
+
+                assert(information.description === description);
+            });
+
+            it('should have a `names` list', function () {
+                assert(Array.isArray(information.names) === true);
+
+                assert(information.names.length >= 1);
+
+                information.names.forEach(function (name) {
+                    assert(typeof name === 'string');
+
+                    assert(aliases.indexOf(name) !== -1);
+                });
+
+                aliases.forEach(function (name) {
+                    assert(information.names.indexOf(name) !== -1);
+                });
+            });
+
+            it('should have a `tags` list', function () {
+                assert(Array.isArray(information.tags) === true);
+
+                information.tags.forEach(function (tag) {
+                    assert(typeof tag === 'string');
+
+                    assert(tags.indexOf(tag) !== -1);
+                });
+
+                tags.forEach(function (tag) {
+                    assert(information.tags.indexOf(tag) !== -1);
+                });
+            });
+        });
     });
 }
 

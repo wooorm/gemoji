@@ -1,6 +1,6 @@
 # gemoji [![Build Status](https://travis-ci.org/wooorm/gemoji.svg?branch=master)](https://travis-ci.org/wooorm/gemoji) [![Coverage Status](https://img.shields.io/coveralls/wooorm/gemoji.svg)](https://coveralls.io/r/wooorm/gemoji?branch=master)
 
-Named and unicode Gemoji.
+Accessible information regarding (GitHub) emoji: gemoji.
 
 ## Installation
 
@@ -24,9 +24,55 @@ $ bower install gemoji
 ```js
 var gemoji = require('gemoji');
 
-gemoji.name["cat"]; // "🐱"
-gemoji.unicode["🐶"]; // "dog"
-gemoji.unicode["\uD83D\uDCA9"]; // "poop"
+gemoji.name['cat'];
+```
+
+Yields:
+
+```json
+{
+  "description": "cat face",
+  "names": ["cat"],
+  "tags": ["pet"],
+  "name": "cat",
+  "emoji": "🐱"
+}
+```
+
+### By unicode emoji
+
+```js
+gemoji.unicode['🐶'];
+```
+
+Yields:
+
+```json
+{
+  "description": "dog face",
+  "names": ["dog"],
+  "tags": ["pet"],
+  "name": "dog",
+  "emoji": "🐶"
+}
+```
+
+...and...
+
+```js
+gemoji.unicode['\uD83D\uDCA9'];
+```
+
+Yields:
+
+```json
+{
+  "description": "pile of poo",
+  "names": ["hankey", "poop", "shit"],
+  "tags": ["crap"],
+  "name": "hankey",
+  "emoji": "💩"
+}
 ```
 
 ## Supported Gemoji

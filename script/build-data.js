@@ -28,9 +28,15 @@ var map;
 map = {};
 
 data.forEach(function (emojiObject) {
-    emojiObject.aliases.forEach(function (alias) {
-        map[alias] = emojiObject.emoji;
-    });
+    if (emojiObject.emoji in map) {
+        console.log('duplicate!', emojiObject, map[emojiObject.emoji]);
+    }
+
+    map[emojiObject.emoji] = {
+        'description': emojiObject.description,
+        'names': emojiObject.aliases,
+        'tags': emojiObject.tags
+    };
 });
 
 /**

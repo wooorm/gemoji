@@ -1,14 +1,17 @@
 {
   "name": "gemoji",
   "main": "index.js",
-  "description": "Named and unicode Gemoji",
+  "description": "Information regarding (GitHub) emoji: gemoji",
   "license": "MIT",
   "keywords": [
     "gemoji",
     "emoji",
     "unicode",
     "name",
-    "shortcode"
+    "shortcode",
+    "tag",
+    "alias",
+    "name"
   ],
   "repository": {
     "type": "git",

@@ -1,27 +1,96 @@
 'use strict';
 
-var gemoji, named, unicodes, unicode, has, key;
+/**
+ * Data.
+ */
+
+var gemoji;
 
 gemoji = require('./data/gemoji.json');
 
+/**
+ * Cached methods.
+ */
+
+var has;
+
 has = Object.prototype.hasOwnProperty;
 
-unicodes = {};
+/**
+ * Create a dictionary to hold the emoji by name.
+ */
+
+var named;
+
 named = {};
 
-for (key in gemoji) {
-    /* istanbul ignore else */
-    if (has.call(gemoji, key)) {
-        unicode = gemoji[key];
-        named[key] = unicode;
+/**
+ * Transform an emoji.
+ *
+ * @param {string} emoji - Unicode emoji to extend.
+ */
 
-        /* Some unicode emoji have aliasses, here we make sure the emoji is
-         * written once. */
-        if (!has.call(unicodes, unicode)) {
-            unicodes[unicode] = key;
-        }
+function enhanceEmoji(emoji) {
+    var information,
+        names,
+        index,
+        length;
+
+    information = gemoji[emoji];
+    names = information.names;
+
+    /**
+     * Add the main `name`.
+     */
+
+    information.name = names[0];
+
+    /**
+     * Add the emoji to the object too.
+     */
+
+    information.emoji = emoji;
+
+    /**
+     * Add the main `name` to `named`.
+     */
+
+    named[names[0]] = information;
+
+    /**
+     * If the emoji is known by other names,
+     * add those too to the map.
+     */
+
+    index = 0;
+    length = names.length;
+
+    while (++index < length) {
+        named[names[index]] = information;
     }
 }
 
-exports.unicode = unicodes;
+/**
+ * Transform all emoji.
+ */
+
+var emoji;
+
+for (emoji in gemoji) {
+    /* istanbul ignore else */
+    if (has.call(gemoji, emoji)) {
+        enhanceEmoji(emoji);
+    }
+}
+
+/**
+ * Expose the extended data (`gemoji`) as `unicode`.
+ */
+
+exports.unicode = gemoji;
+
+/**
+ * Expose the name-to-unicode dictionary (`named`) as `name`.
+ */
+
 exports.name = named;
