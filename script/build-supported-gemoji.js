@@ -10,7 +10,7 @@ var fs,
 
 fs = require('fs');
 table = require('markdown-table');
-gemoji = require('./data/gemoji');
+gemoji = require('../data/gemoji');
 
 /**
  * Escape a unicode emoji.

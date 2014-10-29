@@ -5,8 +5,7 @@ build/
 components/
 coverage/
 node_modules/
-build-data.js
-build-supported-gemoji.js
+script/
 test.js
 bower.json
 component.json

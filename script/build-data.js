@@ -3,7 +3,7 @@
 var fs, data, map;
 
 fs = require('fs');
-data = require('./data/emoji.json');
+data = require('../data/emoji.json');
 
 function isEmoji(emojiObject) {
     return 'emoji' in emojiObject;
