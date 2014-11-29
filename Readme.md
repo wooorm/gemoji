@@ -77,7 +77,7 @@ Yields:
 
 ## Supported Gemoji
 
-See [Supported-Gemoji.md](Supported-Gemoji.md).
+See [Support.md](Support.md).
 
 ## Data
 

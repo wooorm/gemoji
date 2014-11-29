@@ -56,7 +56,7 @@ data = [
  * Write support.
  */
 
-fs.writeFileSync('Supported-Gemoji.md',
+fs.writeFileSync('Support.md',
     'Supported Gemoji:\n' +
     '=================\n' +
     '\n' +
