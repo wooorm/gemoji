@@ -1,4 +1,17 @@
 
+n.n.n / 2014-11-29
+==================
+
+ * Fix verbose name of `run-script` to `run` in `package.json`
+ * Move `Supported-Gemoji.md` to `Support.md`
+ * Move `script/build-supported-gemoji.js` to `script/build-support.js`
+ * Refactor npm script targets in `package.json`
+ * Add link to personal website in `Readme.md`
+ * Add shorter description to `Readme.md`, `package.json`, `component.json`, `bower.json`
+ * Fix incorrect executive rights on `test.js`
+ * Re-crawl
+ * Update eslint, jscs, markdown-table
+
 0.2.0 / 2014-10-29
 ==================
 
