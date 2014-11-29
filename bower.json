@@ -1,7 +1,7 @@
 {
   "name": "gemoji",
   "main": "index.js",
-  "description": "Information regarding (GitHub) emoji: gemoji",
+  "description": "GitHub emoji: gemoji",
   "license": "MIT",
   "keywords": [
     "gemoji",

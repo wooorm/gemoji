@@ -1,6 +1,6 @@
 # gemoji [![Build Status](https://img.shields.io/travis/wooorm/gemoji.svg?style=flat)](https://travis-ci.org/wooorm/gemoji) [![Coverage Status](https://img.shields.io/coveralls/wooorm/gemoji.svg?style=flat)](https://coveralls.io/r/wooorm/gemoji?branch=master)
 
-Accessible information regarding (GitHub) emoji: gemoji.
+GitHub emoji: gemoji.
 
 ## Installation
 
