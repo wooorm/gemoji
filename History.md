@@ -1,5 +1,5 @@
 
-n.n.n / 2014-11-29
+0.2.1 / 2014-11-29
 ==================
 
  * Fix verbose name of `run-script` to `run` in `package.json`
