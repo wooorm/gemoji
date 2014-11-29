@@ -32,13 +32,13 @@
     "lint": "npm run-script lint-api && npm run-script lint-test && npm run-script lint-style",
     "lint-api": "node_modules/.bin/eslint index.js",
     "lint-test": "node_modules/.bin/eslint test.js --env mocha",
-    "lint-script": "node_modules/.bin/eslint script/build-data.js script/build-supported-gemoji.js",
-    "lint-style": "node_modules/.bin/jscs index.js script/build-data.js script/build-supported-gemoji.js test.js --reporter=inline",
-    "make": "npm run-script lint && npm run-script coverage && npm run build-supported-gemoji",
+    "lint-script": "node_modules/.bin/eslint script/build-data.js script/build-support.js",
+    "lint-style": "node_modules/.bin/jscs index.js script/build-data.js script/build-support.js test.js --reporter=inline",
+    "make": "npm run-script lint && npm run-script coverage && npm run build-support",
     "scrape-data": "curl --connect-timeout 5 --max-time 10 -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/github/gemoji/contents/db/emoji.json -o data/emoji.json || exit 0",
     "build-data": "node script/build-data.js",
-    "build-supported-gemoji": "node script/build-supported-gemoji.js",
-    "build": "npm run scrape-data && npm run build-data && npm run build-supported-gemoji",
+    "build-support": "node script/build-support.js",
+    "build": "npm run scrape-data && npm run build-data && npm run build-support",
     "prepublish": "npm run build"
   }
 }
