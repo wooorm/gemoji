@@ -88,4 +88,4 @@ No images are included in this repository—the copyrighted material may or may 
 
 ## License
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)
