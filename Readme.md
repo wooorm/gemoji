@@ -22,6 +22,12 @@ $ component install wooorm/gemoji
 $ bower install gemoji
 ```
 
+[Duo](http://duojs.org/#getting-started):
+
+```javascript
+var gemoji = require('wooorm/gemoji');
+```
+
 ## Usage
 
 ```javascript
