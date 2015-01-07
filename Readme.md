@@ -4,24 +4,27 @@ GitHub emoji: gemoji.
 
 ## Installation
 
-npm:
-```sh
+[npm](https://docs.npmjs.com/cli/install):
+
+```bash
 $ npm install gemoji
 ```
 
-Component:
-```sh
+[Component.js](https://github.com/componentjs/component):
+
+```bash
 $ component install wooorm/gemoji
 ```
 
-Bower:
-```sh
+[Bower](http://bower.io/#install-packages):
+
+```bash
 $ bower install gemoji
 ```
 
 ## Usage
 
-```js
+```javascript
 var gemoji = require('gemoji');
 
 gemoji.name['cat'];
@@ -41,7 +44,7 @@ Yields:
 
 ### By unicode emoji
 
-```js
+```javascript
 gemoji.unicode['🐶'];
 ```
 
@@ -59,7 +62,7 @@ Yields:
 
 ...and...
 
-```js
+```javascript
 gemoji.unicode['\uD83D\uDCA9'];
 ```
 
