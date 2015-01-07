@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Dependencies.
  */
 
@@ -10,7 +10,7 @@ var fs,
 fs = require('fs');
 data = require('../data/emoji.json');
 
-/**
+/*
  * Remove all gemoji without a unicode representation.
  */
 
@@ -18,7 +18,7 @@ data = data.filter(function (emojiObject) {
     return 'emoji' in emojiObject;
 });
 
-/**
+/*
  * Create a dictionary with GitHub names as keys,
  * and unicode emoji is values.
  */
@@ -39,7 +39,7 @@ data.forEach(function (emojiObject) {
     };
 });
 
-/**
+/*
  * Write the dictionary.
  */
 

@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Data.
  */
 
@@ -8,7 +8,7 @@ var gemoji;
 
 gemoji = require('./data/gemoji.json');
 
-/**
+/*
  * Cached methods.
  */
 
@@ -16,7 +16,7 @@ var has;
 
 has = Object.prototype.hasOwnProperty;
 
-/**
+/*
  * Create a dictionary to hold the emoji by name.
  */
 
@@ -27,9 +27,8 @@ named = {};
 /**
  * Transform an emoji.
  *
- * @param {string} emoji - Unicode emoji to extend.
+ * @param {string} character - Unicode emoji to extend.
  */
-
 function enhanceEmoji(character) {
     var information,
         names,
@@ -39,25 +38,25 @@ function enhanceEmoji(character) {
     information = gemoji[character];
     names = information.names;
 
-    /**
+    /*
      * Add the main `name`.
      */
 
     information.name = names[0];
 
-    /**
+    /*
      * Add the emoji to the object too.
      */
 
     information.emoji = character;
 
-    /**
+    /*
      * Add the main `name` to `named`.
      */
 
     named[names[0]] = information;
 
-    /**
+    /*
      * If the emoji is known by other names,
      * add those too to the map.
      */
@@ -70,7 +69,7 @@ function enhanceEmoji(character) {
     }
 }
 
-/**
+/*
  * Transform all emoji.
  */
 
@@ -83,13 +82,13 @@ for (emoji in gemoji) {
     }
 }
 
-/**
+/*
  * Expose the extended data (`gemoji`) as `unicode`.
  */
 
 exports.unicode = gemoji;
 
-/**
+/*
  * Expose the name-to-unicode dictionary (`named`) as `name`.
  */
 

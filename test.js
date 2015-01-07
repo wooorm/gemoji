@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Dependencies.
  */
 
@@ -12,7 +12,7 @@ emoji = require('./data/emoji.json');
 gemoji = require('./');
 assert = require('assert');
 
-/**
+/*
  * Tests for basic structure.
  */
 
@@ -44,7 +44,6 @@ describe('gemoji', function () {
  * @param {Array.<string>} gemojiObject.tags - List
  *   of tags.
  */
-
 function describeGemojiObject(gemojiObject) {
     var unicode,
         information,
@@ -55,7 +54,7 @@ function describeGemojiObject(gemojiObject) {
 
     unicode = gemojiObject.emoji;
 
-    /**
+    /*
      * Some gemoji, such as `octocat`, do not have a
      * unicode representation. Those are not present in
      * `gemoji`. Exit.
@@ -139,7 +138,7 @@ function describeGemojiObject(gemojiObject) {
     });
 }
 
-/**
+/*
  * Validate all crawled gemoji-objects.
  */
 
