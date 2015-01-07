@@ -26,19 +26,18 @@
     "mocha": "^2.0.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports test.js",
-    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports test.js",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test.js",
-    "lint": "npm run lint-api && npm run lint-test && npm run lint-style",
-    "lint-api": "node_modules/.bin/eslint index.js",
-    "lint-test": "node_modules/.bin/eslint test.js --env mocha",
-    "lint-script": "node_modules/.bin/eslint script/build-data.js script/build-support.js",
-    "lint-style": "node_modules/.bin/jscs index.js script/build-data.js script/build-support.js test.js --reporter=inline",
-    "make": "npm run lint && npm run coverage && npm run build-support",
-    "scrape-data": "curl --connect-timeout 5 --max-time 10 -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/github/gemoji/contents/db/emoji.json -o data/emoji.json || exit 0",
-    "build-data": "node script/build-data.js",
-    "build-support": "node script/build-support.js",
-    "build": "npm run scrape-data && npm run build-data && npm run build-support",
+    "test": "_mocha --check-leaks test.js",
+    "test-travis": "istanbul cover _mocha --report lcovonly -- --check-leaks test.js",
+    "coverage": "istanbul cover _mocha -- -- test.js",
+    "lint-api": "eslint index.js",
+    "lint-test": "eslint --env mocha test.js",
+    "lint-script": "eslint script/build-data.js script/build-support.js",
+    "lint-style": "jscs --reporter inline index.js test.js script/build-data.js script/build-support.js",
+    "lint": "npm run lint-api && npm run lint-test && npm run lint-script && npm run lint-style",
+    "make": "npm run lint && npm run coverage",
+    "prebuild": "curl --connect-timeout 5 --max-time 10 -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/github/gemoji/contents/db/emoji.json -o data/emoji.json || exit 0",
+    "build": "node script/build-data.js",
+    "postbuild": "node script/build-support.js",
     "prepublish": "npm run build"
   }
 }
