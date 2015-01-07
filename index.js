@@ -30,13 +30,13 @@ named = {};
  * @param {string} emoji - Unicode emoji to extend.
  */
 
-function enhanceEmoji(emoji) {
+function enhanceEmoji(character) {
     var information,
         names,
         index,
         length;
 
-    information = gemoji[emoji];
+    information = gemoji[character];
     names = information.names;
 
     /**
@@ -49,7 +49,7 @@ function enhanceEmoji(emoji) {
      * Add the emoji to the object too.
      */
 
-    information.emoji = emoji;
+    information.emoji = character;
 
     /**
      * Add the main `name` to `named`.

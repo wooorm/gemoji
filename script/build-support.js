@@ -48,7 +48,7 @@ data = [
             gemoji[emoji].names.join('; '),
             gemoji[emoji].tags.join('; '),
             escape(emoji)
-        ]
+        ];
     })
 );
 

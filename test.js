@@ -51,7 +51,7 @@ function describeGemojiObject(gemojiObject) {
         description,
         aliases,
         tags,
-        name;
+        alias;
 
     unicode = gemojiObject.emoji;
 
@@ -68,22 +68,22 @@ function describeGemojiObject(gemojiObject) {
     description = gemojiObject.description;
     aliases = gemojiObject.aliases;
     tags = gemojiObject.tags;
-    name = aliases[0];
+    alias = aliases[0];
 
     information = gemoji.unicode[unicode];
 
     describe(unicode + '   ' + description, function () {
-        aliases.forEach(function (alias) {
-            it('should be accessible by name (' + alias + ' > object)',
+        aliases.forEach(function (name) {
+            it('should be accessible by name (' + name + ' > object)',
                 function () {
-                    assert(gemoji.name[alias].emoji === unicode);
+                    assert(gemoji.name[name].emoji === unicode);
                 }
             );
         });
 
         it('should be accessible by emoji (' + unicode + '  > object)',
             function () {
-                assert(gemoji.unicode[unicode].name === name);
+                assert(gemoji.unicode[unicode].name === alias);
             }
         );
 
@@ -91,7 +91,7 @@ function describeGemojiObject(gemojiObject) {
             it('should have a `name` field', function () {
                 assert(typeof information.name === 'string');
 
-                assert(information.name === name);
+                assert(information.name === alias);
             });
 
             it('should have an `emoji` field', function () {
