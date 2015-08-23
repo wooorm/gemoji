@@ -2,6 +2,11 @@
 
 <!--lint disable no-multiple-toplevel-headings-->
 
+1.0.0 / 2015-08-23
+==================
+
+*   Refactor module ([f6901c8](https://github.com/wooorm/gemoji/commit/f6901c8))
+
 0.2.2 / 2015-01-07
 ==================
 
