@@ -1,28 +1,31 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2015 Titus Wormer
+ * @license MIT
+ * @module gemoji
+ * @fileoverview GitHub emoji: gemoji.
+ */
+
 'use strict';
+
+/* eslint-env commonjs */
 
 /*
  * Data.
  */
 
-var gemoji;
-
-gemoji = require('./data/gemoji.json');
+var data = require('./data/gemoji.json');
 
 /*
- * Cached methods.
+ * Dictionaries.
  */
 
-var has;
+var named = {};
 
-has = Object.prototype.hasOwnProperty;
-
-/*
- * Create a dictionary to hold the emoji by name.
- */
-
-var named;
-
-named = {};
+var gemoji = {
+    'unicode': data,
+    'name': named
+};
 
 /**
  * Transform an emoji.
@@ -30,13 +33,10 @@ named = {};
  * @param {string} character - Unicode emoji to extend.
  */
 function enhanceEmoji(character) {
-    var information,
-        names,
-        index,
-        length;
-
-    information = gemoji[character];
-    names = information.names;
+    var information = data[character];
+    var names = information.names;
+    var index = 0; // first must be skipped.
+    var length = names.length;
 
     /*
      * Add the main `name`.
@@ -58,11 +58,8 @@ function enhanceEmoji(character) {
 
     /*
      * If the emoji is known by other names,
-     * add those too to the map.
+     * add those to the map too.
      */
-
-    index = 0;
-    length = names.length;
 
     while (++index < length) {
         named[names[index]] = information;
@@ -75,21 +72,12 @@ function enhanceEmoji(character) {
 
 var emoji;
 
-for (emoji in gemoji) {
-    /* istanbul ignore else */
-    if (has.call(gemoji, emoji)) {
-        enhanceEmoji(emoji);
-    }
+for (emoji in data) {
+    enhanceEmoji(emoji);
 }
 
 /*
- * Expose the extended data (`gemoji`) as `unicode`.
+ * Expose.
  */
 
-exports.unicode = gemoji;
-
-/*
- * Expose the name-to-unicode dictionary (`named`) as `name`.
- */
-
-exports.name = named;
+module.exports = gemoji;

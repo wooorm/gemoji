@@ -1,6 +1,6 @@
 {
   "name": "gemoji",
-  "main": "index.js",
+  "main": "gemoji.js",
   "description": "GitHub emoji: gemoji",
   "license": "MIT",
   "keywords": [
@@ -27,11 +27,14 @@
     "build/",
     "components/",
     "coverage/",
+    "data/",
     "node_modules/",
     "script/",
+    "build.js",
+    "example.js",
+    "index.js",
     "test.js",
     "component.json",
-    "package.json",
-    "data/emoji.json"
+    "package.json"
   ]
 }

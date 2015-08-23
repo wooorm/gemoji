@@ -1,5 +1,4 @@
-Supported Gemoji:
-=================
+# Supported Gemoji
 
 Note that this file does not contain the gemoji's as rendered by GitHub;
 845 small images would make viewing this document very slow.
@@ -99,7 +98,7 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   👽  |                alien                |                     ufo                    |       \ud83d\udc7d       |
 |   💩  |          hankey; poop; shit         |                    crap                    |       \ud83d\udca9       |
 |   🔥  |                 fire                |                    burn                    |       \ud83d\udd25       |
-|   ✨  |               sparkles              |                    shiny                   |          \u2728          |
+|   ✨   |               sparkles              |                    shiny                   |          \u2728          |
 |   🌟  |                star2                |                                            |       \ud83c\udf1f       |
 |   💫  |                dizzy                |                    star                    |       \ud83d\udcab       |
 |   💥  |           boom; collision           |                   explode                  |       \ud83d\udca5       |
@@ -117,10 +116,10 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   👎  |            -1; thumbsdown           |              disapprove; bury              |       \ud83d\udc4e       |
 |   👌  |               ok_hand               |                                            |       \ud83d\udc4c       |
 |   👊  |           facepunch; punch          |                   attack                   |       \ud83d\udc4a       |
-|   ✊  |                 fist                |                    power                   |          \u270a          |
+|   ✊   |                 fist                |                    power                   |          \u270a          |
 |   ✌️  |                  v                  |               victory; peace               |       \u270c\ufe0f       |
 |   👋  |                 wave                |                   goodbye                  |       \ud83d\udc4b       |
-|   ✋  |          hand; raised_hand          |               highfive; stop               |          \u270b          |
+|   ✋   |          hand; raised_hand          |               highfive; stop               |          \u270b          |
 |   👐  |              open_hands             |                                            |       \ud83d\udc50       |
 |   👆  |              point_up_2             |                                            |       \ud83d\udc46       |
 |   👇  |              point_down             |                                            |       \ud83d\udc47       |
@@ -301,14 +300,14 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🌋  |               volcano               |                                            |       \ud83c\udf0b       |
 |   🌌  |              milky_way              |                                            |       \ud83c\udf0c       |
 |   🌠  |                stars                |                                            |       \ud83c\udf20       |
-|   ⭐  |                 star                |                                            |          \u2b50          |
+|   ⭐   |                 star                |                                            |          \u2b50          |
 |   ☀️  |                sunny                |                   weather                  |       \u2600\ufe0f       |
-|   ⛅  |             partly_sunny            |               weather; cloud               |          \u26c5          |
+|   ⛅   |             partly_sunny            |               weather; cloud               |          \u26c5          |
 |   ☁️  |                cloud                |                                            |       \u2601\ufe0f       |
-|   ⚡  |                 zap                 |             lightning; thunder             |          \u26a1          |
-|   ☔  |               umbrella              |                rain; weather               |          \u2614          |
+|   ⚡   |                 zap                 |             lightning; thunder             |          \u26a1          |
+|   ☔   |               umbrella              |                rain; weather               |          \u2614          |
 |   ❄️  |              snowflake              |            winter; cold; weather           |       \u2744\ufe0f       |
-|   ⛄  |               snowman               |              winter; christmas             |          \u26c4          |
+|   ⛄   |               snowman               |              winter; christmas             |          \u26c4          |
 |   🌀  |               cyclone               |                    swirl                   |       \ud83c\udf00       |
 |   🌁  |                foggy                |                    karl                    |       \ud83c\udf01       |
 |   🌈  |               rainbow               |                    pride                   |       \ud83c\udf08       |
@@ -359,10 +358,10 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🔕  |               no_bell               |                 volume; off                |       \ud83d\udd15       |
 |   📢  |             loudspeaker             |                announcement                |       \ud83d\udce2       |
 |   📣  |                 mega                |                                            |       \ud83d\udce3       |
-|   ⏳  |        hourglass_flowing_sand       |                    time                    |          \u23f3          |
-|   ⌛  |              hourglass              |                    time                    |          \u231b          |
-|   ⏰  |             alarm_clock             |                   morning                  |          \u23f0          |
-|   ⌚  |                watch                |                    time                    |          \u231a          |
+|   ⏳   |        hourglass_flowing_sand       |                    time                    |          \u23f3          |
+|   ⌛   |              hourglass              |                    time                    |          \u231b          |
+|   ⏰   |             alarm_clock             |                   morning                  |          \u23f0          |
+|   ⌚   |                watch                |                    time                    |          \u231a          |
 |   🔓  |                unlock               |                  security                  |       \ud83d\udd13       |
 |   🔒  |                 lock                |              security; private             |       \ud83d\udd12       |
 |   🔏  |          lock_with_ink_pen          |                                            |       \ud83d\udd0f       |
@@ -467,13 +466,13 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🎯  |                 dart                |                   target                   |       \ud83c\udfaf       |
 |   🏈  |               football              |                   sports                   |       \ud83c\udfc8       |
 |   🏀  |              basketball             |                   sports                   |       \ud83c\udfc0       |
-|   ⚽  |                soccer               |                   sports                   |          \u26bd          |
+|   ⚽   |                soccer               |                   sports                   |          \u26bd          |
 |   ⚾️  |               baseball              |                   sports                   |       \u26be\ufe0f       |
 |   🎾  |                tennis               |                   sports                   |       \ud83c\udfbe       |
 |   🎱  |                8ball                |               pool; billiards              |       \ud83c\udfb1       |
 |   🏉  |            rugby_football           |                                            |       \ud83c\udfc9       |
 |   🎳  |               bowling               |                                            |       \ud83c\udfb3       |
-|   ⛳  |                 golf                |                                            |          \u26f3          |
+|   ⛳   |                 golf                |                                            |          \u26f3          |
 |   🚵  |          mountain_bicyclist         |                                            |       \ud83d\udeb5       |
 |   🚴  |              bicyclist              |                                            |       \ud83d\udeb4       |
 |   🏁  |            checkered_flag           |              milestone; finish             |       \ud83c\udfc1       |
@@ -484,7 +483,7 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🏊  |               swimmer               |                                            |       \ud83c\udfca       |
 |   🏄  |                surfer               |                                            |       \ud83c\udfc4       |
 |   🎣  |        fishing_pole_and_fish        |                                            |       \ud83c\udfa3       |
-|   ☕  |                coffee               |               cafe; espresso               |          \u2615          |
+|   ☕   |                coffee               |               cafe; espresso               |          \u2615          |
 |   🍵  |                 tea                 |              green; breakfast              |       \ud83c\udf75       |
 |   🍶  |                 sake                |                                            |       \ud83c\udf76       |
 |   🍼  |             baby_bottle             |                    milk                    |       \ud83c\udf7c       |
@@ -554,14 +553,14 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🏩  |              love_hotel             |                                            |       \ud83c\udfe9       |
 |   🏨  |                hotel                |                                            |       \ud83c\udfe8       |
 |   💒  |               wedding               |                  marriage                  |       \ud83d\udc92       |
-|   ⛪  |                church               |                                            |          \u26ea          |
+|   ⛪   |                church               |                                            |          \u26ea          |
 |   🏬  |           department_store          |                                            |       \ud83c\udfec       |
 |   🏤  |         european_post_office        |                                            |       \ud83c\udfe4       |
 |   🌇  |             city_sunrise            |                                            |       \ud83c\udf07       |
 |   🌆  |             city_sunset             |                                            |       \ud83c\udf06       |
 |   🏯  |           japanese_castle           |                                            |       \ud83c\udfef       |
 |   🏰  |           european_castle           |                                            |       \ud83c\udff0       |
-|   ⛺  |                 tent                |                   camping                  |          \u26fa          |
+|   ⛺   |                 tent                |                   camping                  |          \u26fa          |
 |   🏭  |               factory               |                                            |       \ud83c\udfed       |
 |   🗼  |             tokyo_tower             |                                            |       \ud83d\uddfc       |
 |   🗾  |                japan                |                                            |       \ud83d\uddfe       |
@@ -573,13 +572,13 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🌉  |           bridge_at_night           |                                            |       \ud83c\udf09       |
 |   🎠  |            carousel_horse           |                                            |       \ud83c\udfa0       |
 |   🎡  |             ferris_wheel            |                                            |       \ud83c\udfa1       |
-|   ⛲  |               fountain              |                                            |          \u26f2          |
+|   ⛲   |               fountain              |                                            |          \u26f2          |
 |   🎢  |            roller_coaster           |                                            |       \ud83c\udfa2       |
 |   🚢  |                 ship                |                                            |       \ud83d\udea2       |
-|   ⛵  |            boat; sailboat           |                                            |          \u26f5          |
+|   ⛵   |            boat; sailboat           |                                            |          \u26f5          |
 |   🚤  |              speedboat              |                    ship                    |       \ud83d\udea4       |
 |   🚣  |               rowboat               |                                            |       \ud83d\udea3       |
-|   ⚓  |                anchor               |                    ship                    |          \u2693          |
+|   ⚓   |                anchor               |                    ship                    |          \u2693          |
 |   🚀  |                rocket               |                ship; launch                |       \ud83d\ude80       |
 |   ✈️  |               airplane              |                   flight                   |       \u2708\ufe0f       |
 |   💺  |                 seat                |                                            |       \ud83d\udcba       |
@@ -625,7 +624,7 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   ⚠️  |               warning               |                     wip                    |       \u26a0\ufe0f       |
 |   🚧  |             construction            |                     wip                    |       \ud83d\udea7       |
 |   🔰  |               beginner              |                                            |       \ud83d\udd30       |
-|   ⛽  |               fuelpump              |                                            |          \u26fd          |
+|   ⛽   |               fuelpump              |                                            |          \u26fd          |
 |   🏮  |       izakaya_lantern; lantern      |                                            |       \ud83c\udfee       |
 |   🎰  |             slot_machine            |                                            |       \ud83c\udfb0       |
 |   ♨️  |              hotsprings             |                                            |       \u2668\ufe0f       |
@@ -634,29 +633,29 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🎭  |           performing_arts           |               theater; drama               |       \ud83c\udfad       |
 |   📍  |            round_pushpin            |                  location                  |       \ud83d\udccd       |
 |   🚩  |       triangular_flag_on_post       |                                            |       \ud83d\udea9       |
-|   🇯🇵  |                  jp                 |                    japan                   | \ud83c\uddef\ud83c\uddf5 |
-|   🇰🇷  |                  kr                 |                    korea                   | \ud83c\uddf0\ud83c\uddf7 |
-|   🇩🇪  |                  de                 |                flag; germany               | \ud83c\udde9\ud83c\uddea |
-|   🇨🇳  |                  cn                 |                    china                   | \ud83c\udde8\ud83c\uddf3 |
-|   🇺🇸  |                  us                 |            flag; united; america           | \ud83c\uddfa\ud83c\uddf8 |
-|   🇫🇷  |                  fr                 |               france; french               | \ud83c\uddeb\ud83c\uddf7 |
-|   🇪🇸  |                  es                 |                    spain                   | \ud83c\uddea\ud83c\uddf8 |
-|   🇮🇹  |                  it                 |                    italy                   | \ud83c\uddee\ud83c\uddf9 |
-|   🇷🇺  |                  ru                 |                   russia                   | \ud83c\uddf7\ud83c\uddfa |
-|   🇬🇧  |                gb; uk               |                flag; british               | \ud83c\uddec\ud83c\udde7 |
-|   1️⃣  |                 one                 |                                            |     \u31\ufe0f\u20e3     |
-|   2️⃣  |                 two                 |                                            |     \u32\ufe0f\u20e3     |
-|   3️⃣  |                three                |                                            |     \u33\ufe0f\u20e3     |
-|   4️⃣  |                 four                |                                            |     \u34\ufe0f\u20e3     |
-|   5️⃣  |                 five                |                                            |     \u35\ufe0f\u20e3     |
-|   6️⃣  |                 six                 |                                            |     \u36\ufe0f\u20e3     |
-|   7️⃣  |                seven                |                                            |     \u37\ufe0f\u20e3     |
-|   8️⃣  |                eight                |                                            |     \u38\ufe0f\u20e3     |
-|   9️⃣  |                 nine                |                                            |     \u39\ufe0f\u20e3     |
-|   0️⃣  |                 zero                |                                            |     \u30\ufe0f\u20e3     |
+|  🇯🇵 |                  jp                 |                    japan                   | \ud83c\uddef\ud83c\uddf5 |
+|  🇰🇷 |                  kr                 |                    korea                   | \ud83c\uddf0\ud83c\uddf7 |
+|  🇩🇪 |                  de                 |                flag; germany               | \ud83c\udde9\ud83c\uddea |
+|  🇨🇳 |                  cn                 |                    china                   | \ud83c\udde8\ud83c\uddf3 |
+|  🇺🇸 |                  us                 |            flag; united; america           | \ud83c\uddfa\ud83c\uddf8 |
+|  🇫🇷 |                  fr                 |               france; french               | \ud83c\uddeb\ud83c\uddf7 |
+|  🇪🇸 |                  es                 |                    spain                   | \ud83c\uddea\ud83c\uddf8 |
+|  🇮🇹 |                  it                 |                    italy                   | \ud83c\uddee\ud83c\uddf9 |
+|  🇷🇺 |                  ru                 |                   russia                   | \ud83c\uddf7\ud83c\uddfa |
+|  🇬🇧 |                gb; uk               |                flag; british               | \ud83c\uddec\ud83c\udde7 |
+|  1️⃣  |                 one                 |                                            |     \u31\ufe0f\u20e3     |
+|  2️⃣  |                 two                 |                                            |     \u32\ufe0f\u20e3     |
+|  3️⃣  |                three                |                                            |     \u33\ufe0f\u20e3     |
+|  4️⃣  |                 four                |                                            |     \u34\ufe0f\u20e3     |
+|  5️⃣  |                 five                |                                            |     \u35\ufe0f\u20e3     |
+|  6️⃣  |                 six                 |                                            |     \u36\ufe0f\u20e3     |
+|  7️⃣  |                seven                |                                            |     \u37\ufe0f\u20e3     |
+|  8️⃣  |                eight                |                                            |     \u38\ufe0f\u20e3     |
+|  9️⃣  |                 nine                |                                            |     \u39\ufe0f\u20e3     |
+|  0️⃣  |                 zero                |                                            |     \u30\ufe0f\u20e3     |
 |   🔟  |              keycap_ten             |                                            |       \ud83d\udd1f       |
 |   🔢  |                 1234                |                   numbers                  |       \ud83d\udd22       |
-|   #️⃣  |                 hash                |                   number                   |     \u23\ufe0f\u20e3     |
+|  #️⃣  |                 hash                |                   number                   |     \u23\ufe0f\u20e3     |
 |   🔣  |               symbols               |                                            |       \ud83d\udd23       |
 |   ⬆️  |               arrow_up              |                                            |       \u2b06\ufe0f       |
 |   ⬇️  |              arrow_down             |                                            |       \u2b07\ufe0f       |
@@ -679,10 +678,10 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   ↩️  |      leftwards_arrow_with_hook      |                   return                   |       \u21a9\ufe0f       |
 |   ↪️  |           arrow_right_hook          |                                            |       \u21aa\ufe0f       |
 |   ℹ️  |          information_source         |                                            |       \u2139\ufe0f       |
-|   ⏪  |                rewind               |                                            |          \u23ea          |
-|   ⏩  |             fast_forward            |                                            |          \u23e9          |
-|   ⏫  |           arrow_double_up           |                                            |          \u23eb          |
-|   ⏬  |          arrow_double_down          |                                            |          \u23ec          |
+|   ⏪   |                rewind               |                                            |          \u23ea          |
+|   ⏩   |             fast_forward            |                                            |          \u23e9          |
+|   ⏫   |           arrow_double_up           |                                            |          \u23eb          |
+|   ⏬   |          arrow_double_down          |                                            |          \u23ec          |
 |   ⤵️  |          arrow_heading_down         |                                            |       \u2935\ufe0f       |
 |   ⤴️  |           arrow_heading_up          |                                            |       \u2934\ufe0f       |
 |   🆗  |                  ok                 |                     yes                    |       \ud83c\udd97       |
@@ -714,12 +713,12 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🚾  |                  wc                 |              toilet; restroom              |       \ud83d\udebe       |
 |   🚰  |            potable_water            |                                            |       \ud83d\udeb0       |
 |   🚮  |       put_litter_in_its_place       |                                            |       \ud83d\udeae       |
-|   🅿️  |               parking               |                                            |    \ud83c\udd7f\ufe0f    |
-|   ♿  |              wheelchair             |                accessibility               |          \u267f          |
+|  🅿️  |               parking               |                                            |    \ud83c\udd7f\ufe0f    |
+|   ♿   |              wheelchair             |                accessibility               |          \u267f          |
 |   🚭  |              no_smoking             |                                            |       \ud83d\udead       |
-|   🈷️  |                u6708                |                                            |    \ud83c\ude37\ufe0f    |
+|  🈷️  |                u6708                |                                            |    \ud83c\ude37\ufe0f    |
 |   🈸  |                u7533                |                                            |       \ud83c\ude38       |
-|   🈂️  |                  sa                 |                                            |    \ud83c\ude02\ufe0f    |
+|  🈂️  |                  sa                 |                                            |    \ud83c\ude02\ufe0f    |
 |   Ⓜ️  |                  m                  |                                            |       \u24c2\ufe0f       |
 |   🛂  |           passport_control          |                                            |       \ud83d\udec2       |
 |   🛄  |            baggage_claim            |                   airport                  |       \ud83d\udec4       |
@@ -739,36 +738,36 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🚳  |             no_bicycles             |                                            |       \ud83d\udeb3       |
 |   🚷  |            no_pedestrians           |                                            |       \ud83d\udeb7       |
 |   🚸  |          children_crossing          |                                            |       \ud83d\udeb8       |
-|   ⛔  |               no_entry              |                    limit                   |          \u26d4          |
+|   ⛔   |               no_entry              |                    limit                   |          \u26d4          |
 |   ✳️  |        eight_spoked_asterisk        |                                            |       \u2733\ufe0f       |
 |   ❇️  |               sparkle               |                                            |       \u2747\ufe0f       |
-|   ❎  |     negative_squared_cross_mark     |                                            |          \u274e          |
-|   ✅  |           white_check_mark          |                                            |          \u2705          |
+|   ❎   |     negative_squared_cross_mark     |                                            |          \u274e          |
+|   ✅   |           white_check_mark          |                                            |          \u2705          |
 |   ✴️  |       eight_pointed_black_star      |                                            |       \u2734\ufe0f       |
 |   💟  |           heart_decoration          |                                            |       \ud83d\udc9f       |
 |   🆚  |                  vs                 |                                            |       \ud83c\udd9a       |
 |   📳  |            vibration_mode           |                                            |       \ud83d\udcf3       |
 |   📴  |           mobile_phone_off          |                  mute; off                 |       \ud83d\udcf4       |
-|   🅰️  |                  a                  |                                            |    \ud83c\udd70\ufe0f    |
-|   🅱️  |                  b                  |                                            |    \ud83c\udd71\ufe0f    |
+|  🅰️  |                  a                  |                                            |    \ud83c\udd70\ufe0f    |
+|  🅱️  |                  b                  |                                            |    \ud83c\udd71\ufe0f    |
 |   🆎  |                  ab                 |                                            |       \ud83c\udd8e       |
-|   🅾️  |                  o2                 |                                            |    \ud83c\udd7e\ufe0f    |
+|  🅾️  |                  o2                 |                                            |    \ud83c\udd7e\ufe0f    |
 |   💠  |   diamond_shape_with_a_dot_inside   |                                            |       \ud83d\udca0       |
-|   ➿  |                 loop                |                                            |          \u27bf          |
+|   ➿   |                 loop                |                                            |          \u27bf          |
 |   ♻️  |               recycle               |             environment; green             |       \u267b\ufe0f       |
-|   ♈  |                aries                |                                            |          \u2648          |
-|   ♉  |                taurus               |                                            |          \u2649          |
-|   ♊  |                gemini               |                                            |          \u264a          |
-|   ♋  |                cancer               |                                            |          \u264b          |
-|   ♌  |                 leo                 |                                            |          \u264c          |
-|   ♍  |                virgo                |                                            |          \u264d          |
-|   ♎  |                libra                |                                            |          \u264e          |
-|   ♏  |               scorpius              |                                            |          \u264f          |
-|   ♐  |             sagittarius             |                                            |          \u2650          |
-|   ♑  |              capricorn              |                                            |          \u2651          |
-|   ♒  |               aquarius              |                                            |          \u2652          |
-|   ♓  |                pisces               |                                            |          \u2653          |
-|   ⛎  |              ophiuchus              |                                            |          \u26ce          |
+|   ♈   |                aries                |                                            |          \u2648          |
+|   ♉   |                taurus               |                                            |          \u2649          |
+|   ♊   |                gemini               |                                            |          \u264a          |
+|   ♋   |                cancer               |                                            |          \u264b          |
+|   ♌   |                 leo                 |                                            |          \u264c          |
+|   ♍   |                virgo                |                                            |          \u264d          |
+|   ♎   |                libra                |                                            |          \u264e          |
+|   ♏   |               scorpius              |                                            |          \u264f          |
+|   ♐   |             sagittarius             |                                            |          \u2650          |
+|   ♑   |              capricorn              |                                            |          \u2651          |
+|   ♒   |               aquarius              |                                            |          \u2652          |
+|   ♓   |                pisces               |                                            |          \u2653          |
+|   ⛎   |              ophiuchus              |                                            |          \u26ce          |
 |   🔯  |           six_pointed_star          |                                            |       \ud83d\udd2f       |
 |   🏧  |                 atm                 |                                            |       \ud83c\udfe7       |
 |   💹  |                chart                |                                            |       \ud83d\udcb9       |
@@ -777,14 +776,14 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   ©️  |              copyright              |                                            |        \ua9\ufe0f        |
 |   ®️  |              registered             |                                            |        \uae\ufe0f        |
 |   ™️  |                  tm                 |                  trademark                 |       \u2122\ufe0f       |
-|   ❌  |                  x                  |                                            |          \u274c          |
+|   ❌   |                  x                  |                                            |          \u274c          |
 |   ‼️  |               bangbang              |                                            |       \u203c\ufe0f       |
 |   ⁉️  |             interrobang             |                                            |       \u2049\ufe0f       |
-|   ❗  | exclamation; heavy_exclamation_mark |                    bang                    |          \u2757          |
-|   ❓  |               question              |                  confused                  |          \u2753          |
-|   ❕  |           grey_exclamation          |                                            |          \u2755          |
-|   ❔  |            grey_question            |                                            |          \u2754          |
-|   ⭕  |                  o                  |                                            |          \u2b55          |
+|   ❗   | exclamation; heavy_exclamation_mark |                    bang                    |          \u2757          |
+|   ❓   |               question              |                  confused                  |          \u2753          |
+|   ❕   |           grey_exclamation          |                                            |          \u2755          |
+|   ❔   |            grey_question            |                                            |          \u2754          |
+|   ⭕   |                  o                  |                                            |          \u2b55          |
 |   🔝  |                 top                 |                                            |       \ud83d\udd1d       |
 |   🔚  |                 end                 |                                            |       \ud83d\udd1a       |
 |   🔙  |                 back                |                                            |       \ud83d\udd19       |
@@ -816,9 +815,9 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   🕥  |              clock1030              |                                            |       \ud83d\udd65       |
 |   🕦  |              clock1130              |                                            |       \ud83d\udd66       |
 |   ✖️  |        heavy_multiplication_x       |                                            |       \u2716\ufe0f       |
-|   ➕  |           heavy_plus_sign           |                                            |          \u2795          |
-|   ➖  |           heavy_minus_sign          |                                            |          \u2796          |
-|   ➗  |         heavy_division_sign         |                                            |          \u2797          |
+|   ➕   |           heavy_plus_sign           |                                            |          \u2795          |
+|   ➖   |           heavy_minus_sign          |                                            |          \u2796          |
+|   ➗   |         heavy_division_sign         |                                            |          \u2797          |
 |   ♠️  |                spades               |                                            |       \u2660\ufe0f       |
 |   ♥️  |                hearts               |                                            |       \u2665\ufe0f       |
 |   ♣️  |                clubs                |                                            |       \u2663\ufe0f       |
@@ -829,26 +828,26 @@ Also: You need a browser capable of viewing unicode-emoji to make sense of the f
 |   ☑️  |        ballot_box_with_check        |                                            |       \u2611\ufe0f       |
 |   🔘  |             radio_button            |                                            |       \ud83d\udd18       |
 |   🔗  |                 link                |                                            |       \ud83d\udd17       |
-|   ➰  |              curly_loop             |                                            |          \u27b0          |
+|   ➰   |              curly_loop             |                                            |          \u27b0          |
 |   〰️  |              wavy_dash              |                                            |       \u3030\ufe0f       |
 |   〽️  |        part_alternation_mark        |                                            |       \u303d\ufe0f       |
 |   🔱  |               trident               |                                            |       \ud83d\udd31       |
 |   ◼️  |         black_medium_square         |                                            |       \u25fc\ufe0f       |
 |   ◻️  |         white_medium_square         |                                            |       \u25fb\ufe0f       |
-|   ◾  |      black_medium_small_square      |                                            |          \u25fe          |
-|   ◽  |      white_medium_small_square      |                                            |          \u25fd          |
+|   ◾   |      black_medium_small_square      |                                            |          \u25fe          |
+|   ◽   |      white_medium_small_square      |                                            |          \u25fd          |
 |   ▪️  |          black_small_square         |                                            |       \u25aa\ufe0f       |
 |   ▫️  |          white_small_square         |                                            |       \u25ab\ufe0f       |
 |   🔺  |          small_red_triangle         |                                            |       \ud83d\udd3a       |
 |   🔲  |         black_square_button         |                                            |       \ud83d\udd32       |
 |   🔳  |         white_square_button         |                                            |       \ud83d\udd33       |
-|   ⚫  |             black_circle            |                                            |          \u26ab          |
-|   ⚪  |             white_circle            |                                            |          \u26aa          |
+|   ⚫   |             black_circle            |                                            |          \u26ab          |
+|   ⚪   |             white_circle            |                                            |          \u26aa          |
 |   🔴  |              red_circle             |                                            |       \ud83d\udd34       |
 |   🔵  |          large_blue_circle          |                                            |       \ud83d\udd35       |
 |   🔻  |       small_red_triangle_down       |                                            |       \ud83d\udd3b       |
-|   ⬜  |          white_large_square         |                                            |          \u2b1c          |
-|   ⬛  |          black_large_square         |                                            |          \u2b1b          |
+|   ⬜   |          white_large_square         |                                            |          \u2b1c          |
+|   ⬛   |          black_large_square         |                                            |          \u2b1b          |
 |   🔶  |         large_orange_diamond        |                                            |       \ud83d\udd36       |
 |   🔷  |          large_blue_diamond         |                                            |       \ud83d\udd37       |
 |   🔸  |         small_orange_diamond        |                                            |       \ud83d\udd38       |

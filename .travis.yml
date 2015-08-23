@@ -3,11 +3,7 @@ script: npm run-script test-travis
 node_js:
 - '0.10'
 - '0.11'
-after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
-deploy:
-  provider: npm
-  email: tituswormer@gmail.com
-  api_key:
-    secure: EughycNLloVnDQwE+ypHcnSj0PRxvIzDrUS3wQ6bQf7seFhhD2JAvGXoDl4c7ttTJ0Ijsloi0asbMeG5/4JC5IcKWXNYkHpE2Cs1iK4AZWenHoLIIll4RhXVB2bKrmTn8XjgmwS1whzJquBs89QFD8y/V/HytMgVPsctCv5+0H8=
-  on:
-    repo: wooorm/gemoji
+- '0.12'
+- iojs
+sudo: false
+after_script: npm install codecov.io && cat ./coverage/lcov.info | codecov

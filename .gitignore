@@ -1,7 +1,8 @@
-.DS_STORE
+.DS_Store
 *.log
-bower_components/
 build/
 components/
 coverage/
 node_modules/
+build.js
+data/emoji.json

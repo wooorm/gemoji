@@ -1,0 +1,7 @@
+build/
+components/
+coverage/
+build.js
+example.js
+gemoji.js
+gemoji.min.js

@@ -1,21 +1,28 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2015 Titus Wormer
+ * @license MIT
+ * @module gemoji:script:data
+ * @fileoverview Transform data.
+ */
+
 'use strict';
+
+/* eslint-env node */
 
 /*
  * Dependencies.
  */
 
-var fs,
-    data;
-
-fs = require('fs');
-data = require('../data/emoji.json');
+var fs = require('fs');
+var data = require('../data/emoji.json');
 
 /*
  * Remove all gemoji without a unicode representation.
  */
 
-data = data.filter(function (emojiObject) {
-    return 'emoji' in emojiObject;
+data = data.filter(function (gemoji) {
+    return 'emoji' in gemoji;
 });
 
 /*
@@ -23,19 +30,18 @@ data = data.filter(function (emojiObject) {
  * and unicode emoji is values.
  */
 
-var map;
+var map = {};
 
-map = {};
-
-data.forEach(function (emojiObject) {
-    if (emojiObject.emoji in map) {
-        console.log('duplicate!', emojiObject, map[emojiObject.emoji]);
+data.forEach(function (gemoji) {
+    /* eslint-disable no-console */
+    if (gemoji.emoji in map) {
+        console.log('duplicate!', gemoji, map[gemoji.emoji]);
     }
 
-    map[emojiObject.emoji] = {
-        'description': emojiObject.description,
-        'names': emojiObject.aliases,
-        'tags': emojiObject.tags
+    map[gemoji.emoji] = {
+        'description': gemoji.description,
+        'names': gemoji.aliases,
+        'tags': gemoji.tags
     };
 });
 
@@ -43,4 +49,4 @@ data.forEach(function (emojiObject) {
  * Write the dictionary.
  */
 
-fs.writeFileSync('data/gemoji.json', JSON.stringify(map, null, 2));
+fs.writeFileSync('data/gemoji.json', JSON.stringify(map, null, 2) + '\n');

@@ -14,10 +14,8 @@
     "name"
   ],
   "repository": "wooorm/gemoji",
-  "scripts" : [
-    "index.js"
-  ],
-  "json": [
+  "scripts": [
+    "index.js",
     "data/gemoji.json"
   ]
 }

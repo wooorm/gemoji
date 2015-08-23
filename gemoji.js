@@ -1,4 +1,5 @@
-{
+(function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.gemoji = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+module.exports={
   "😄": {
     "description": "smiling face with open mouth and smiling eyes",
     "names": [
@@ -6757,3 +6758,91 @@
     "tags": []
   }
 }
+
+},{}],2:[function(require,module,exports){
+/**
+ * @author Titus Wormer
+ * @copyright 2015 Titus Wormer
+ * @license MIT
+ * @module gemoji
+ * @fileoverview GitHub emoji: gemoji.
+ */
+
+'use strict';
+
+/* eslint-env commonjs */
+
+/*
+ * Data.
+ */
+
+var data = require('./data/gemoji.json');
+
+/*
+ * Dictionaries.
+ */
+
+var named = {};
+
+var gemoji = {
+    'unicode': data,
+    'name': named
+};
+
+/**
+ * Transform an emoji.
+ *
+ * @param {string} character - Unicode emoji to extend.
+ */
+function enhanceEmoji(character) {
+    var information = data[character];
+    var names = information.names;
+    var index = 0; // first must be skipped.
+    var length = names.length;
+
+    /*
+     * Add the main `name`.
+     */
+
+    information.name = names[0];
+
+    /*
+     * Add the emoji to the object too.
+     */
+
+    information.emoji = character;
+
+    /*
+     * Add the main `name` to `named`.
+     */
+
+    named[names[0]] = information;
+
+    /*
+     * If the emoji is known by other names,
+     * add those to the map too.
+     */
+
+    while (++index < length) {
+        named[names[index]] = information;
+    }
+}
+
+/*
+ * Transform all emoji.
+ */
+
+var emoji;
+
+for (emoji in data) {
+    enhanceEmoji(emoji);
+}
+
+/*
+ * Expose.
+ */
+
+module.exports = gemoji;
+
+},{"./data/gemoji.json":1}]},{},[2])(2)
+});
