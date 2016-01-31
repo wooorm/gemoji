@@ -526,6 +526,15 @@ module.exports={
     ],
     "tags": []
   },
+  "🤔": {
+    "description": "thinking face",
+    "names": [
+      "thinking"
+    ],
+    "tags": [
+      "think"
+    ]
+  },
   "👲": {
     "description": "man with gua pi mao",
     "names": [

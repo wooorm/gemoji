@@ -598,6 +598,16 @@
     ]
   }
 , {
+    "emoji":"🤔"
+  ,  "description": "thinking face"
+  ,  "aliases": [
+      "thinking"
+    ]
+  ,  "tags": [
+      "think"
+    ]
+  }
+, {
     "emoji": "👲"
   , "description": "man with gua pi mao"
   , "aliases": [
