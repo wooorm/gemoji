@@ -17,8 +17,8 @@ deploy:
     api_key:
       secure: FxpovIE7QobbxBS0Rm6AsoHzVC5uYtuwKly/2SMZD19ff78A+XLoH971jLSAvx0PTul5nNy26drDVTRlgXZznM1DISdJXOEFQhR2O2CpEEFhHxKt/kixndFWfOBxrbH3534CLuTzV1AwXQvC5WE7y7in0zu/E9/ZdC3CA7ux1h8=
     file:
-      - "lowlight.js"
-      - "lowlight.min.js"
+      - "gemoji.js"
+      - "gemoji.min.js"
     on:
       tags: true
       node: '6.0'
