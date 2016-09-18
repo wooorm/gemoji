@@ -13,44 +13,58 @@
     "alias",
     "name"
   ],
-  "repository": "wooorm/gemoji",
-  "author": "Titus Wormer <tituswormer@gmail.com>",
+  "repository": "https://github.com/wooorm/gemoji",
+  "bugs": "https://github.com/wooorm/gemoji/issues",
+  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
   "files": [
     "index.js",
     "data/gemoji.json"
   ],
   "devDependencies": {
-    "browserify": "^11.0.0",
-    "eslint": "^1.0.0",
+    "browserify": "^13.0.0",
     "esmangle": "^1.0.0",
-    "istanbul": "^0.3.0",
-    "jscs": "^2.0.0",
-    "jscs-jsdoc": "^1.0.0",
-    "markdown-table": "^0.4.0",
-    "mdast": "^1.0.0",
-    "mdast-comment-config": "^1.0.0",
-    "mdast-github": "^1.0.0",
-    "mdast-lint": "^1.0.0",
-    "mdast-slug": "^1.0.0",
-    "mdast-validate-links": "^1.0.0",
-    "mocha": "^2.0.0",
-    "string-width": "^1.0.1"
+    "markdown-table": "^1.0.0",
+    "nyc": "^8.3.0",
+    "remark-cli": "^2.0.0",
+    "remark-preset-wooorm": "^1.0.0",
+    "request": "^2.75.0",
+    "string-width": "^1.0.1",
+    "tape": "^4.6.0",
+    "xo": "^0.16.0"
   },
   "scripts": {
-    "test-api": "mocha --check-leaks test.js",
-    "test-coverage": "istanbul cover _mocha -- test.js",
-    "test-travis": "npm run test-coverage",
-    "test": "npm run test-api",
-    "lint-api": "eslint .",
-    "lint-style": "jscs --reporter inline .",
-    "lint": "npm run lint-api && npm run lint-style",
-    "make": "npm run lint && npm run test-coverage",
-    "prebuild-data": "curl --connect-timeout 5 --max-time 10 -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/github/gemoji/contents/db/emoji.json -o data/emoji.json || exit 0",
-    "build-data": "node script/build-data.js",
-    "postbuild-data": "node script/build-support.js",
-    "bundle": "browserify index.js --no-builtins -s gemoji > gemoji.js",
-    "postbundle": "esmangle gemoji.js > gemoji.min.js",
-    "build-md": "mdast . --quiet",
-    "build": "npm run build-data && npm run bundle && npm run build-md"
+    "build-md": "remark readme.md --quiet --frail",
+    "build-crawl": "node script/crawl-data",
+    "build-data": "node script/build-data",
+    "build-support": "node script/build-support",
+    "build-bundle": "browserify index.js --bare -s gemoji > gemoji.js",
+    "build-mangle": "esmangle gemoji.js > gemoji.min.js",
+    "build": "npm run build-crawl && npm run build-data && npm run build-support && npm run build-md && npm run build-bundle && npm run build-mangle",
+    "lint": "xo",
+    "test-api": "node test",
+    "test-coverage": "nyc --reporter lcov tape test.js",
+    "test": "npm run build && npm run lint && npm run test-coverage"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "functions": 100,
+    "branches": 100
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "guard-for-in": "off"
+    },
+    "ignores": [
+      "gemoji.js"
+    ]
+  },
+  "remarkConfig": {
+    "output": true,
+    "presets": "wooorm"
   }
 }

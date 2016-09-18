@@ -8,76 +8,39 @@
 
 'use strict';
 
-/* eslint-env commonjs */
-
-/*
- * Data.
- */
-
+/* Dependencies. */
 var data = require('./data/gemoji.json');
 
-/*
- * Dictionaries.
- */
+/* Expose. */
+exports.unicode = data;
+exports.name = {};
 
-var named = {};
+/* Transform all emoji. */
+var emoji;
 
-var gemoji = {
-    'unicode': data,
-    'name': named
-};
+for (emoji in data) {
+  enhance(emoji);
+}
 
 /**
  * Transform an emoji.
  *
  * @param {string} character - Unicode emoji to extend.
  */
-function enhanceEmoji(character) {
-    var information = data[character];
-    var names = information.names;
-    var index = 0; // first must be skipped.
-    var length = names.length;
+function enhance(character) {
+  var information = data[character];
+  var names = information.names;
+  var length = names.length;
+  var index = 0; /* first must be skipped. */
 
-    /*
-     * Add the main `name`.
-     */
+  /* Add the main `name` and the emoji. */
+  information.name = names[0];
+  information.emoji = character;
 
-    information.name = names[0];
+  /* Add names. */
+  exports.name[names[0]] = information;
 
-    /*
-     * Add the emoji to the object too.
-     */
-
-    information.emoji = character;
-
-    /*
-     * Add the main `name` to `named`.
-     */
-
-    named[names[0]] = information;
-
-    /*
-     * If the emoji is known by other names,
-     * add those to the map too.
-     */
-
-    while (++index < length) {
-        named[names[index]] = information;
-    }
+  while (++index < length) {
+    exports.name[names[index]] = information;
+  }
 }
-
-/*
- * Transform all emoji.
- */
-
-var emoji;
-
-for (emoji in data) {
-    enhanceEmoji(emoji);
-}
-
-/*
- * Expose.
- */
-
-module.exports = gemoji;

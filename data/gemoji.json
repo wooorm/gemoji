@@ -310,7 +310,8 @@
   "😡": {
     "description": "pouting face",
     "names": [
-      "rage"
+      "rage",
+      "pout"
     ],
     "tags": [
       "angry"
@@ -1205,7 +1206,8 @@
   "🙅": {
     "description": "face with no good gesture",
     "names": [
-      "no_good"
+      "no_good",
+      "ng_woman"
     ],
     "tags": [
       "stop",
@@ -4352,7 +4354,9 @@
   "🍊": {
     "description": "tangerine",
     "names": [
-      "tangerine"
+      "tangerine",
+      "orange",
+      "mandarin"
     ],
     "tags": []
   },

@@ -1,20 +1,15 @@
-# gemoji [![Build Status](https://img.shields.io/travis/wooorm/gemoji.svg)](https://travis-ci.org/wooorm/gemoji) [![Coverage Status](https://img.shields.io/codecov/c/github/wooorm/gemoji.svg)](https://codecov.io/github/wooorm/gemoji)
+# gemoji [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
 
-GitHub emoji: gemoji. Information on emoji such as description, names, and
-tags.
+GitHub emoji: gemoji.  Information on emoji such as description, names,
+and tags.
 
 ## Installation
 
-[npm](https://docs.npmjs.com/cli/install):
+[npm][]:
 
 ```bash
 npm install gemoji
 ```
-
-**gemoji** is also available for [bower](http://bower.io/#install-packages),
-[component](https://github.com/componentjs/component), and
-[duo](http://duojs.org/#getting-started), and as an AMD, CommonJS, and globals
-module, [uncompressed](gemoji.js) and [compressed](gemoji.min.js).
 
 ## Usage
 
@@ -74,17 +69,39 @@ Yields:
 
 ## Supported Gemoji
 
-See [support.md](support.md).
+See [support.md][support].
 
 ## Data
 
-The emoji list is crawled from [github/gemoji](https://github.com/github/gemoji)
-and later processed for relevant information. See its [license](https://github.com/github/gemoji/blob/2d799338d94a223cd341d92de3a9848d5368f9ef/LICENSE)
-for more information.
+The emoji list is crawled from [github/gemoji][gh] and later processed
+for relevant information.  See its [license][gh-license] for more
+information.
 
 No images are included in this repository—the copyrighted material may or may
 not be available on the users computer.
 
 ## License
 
-[MIT](LICENSE) © [Titus Wormer](http://wooorm.com)
+[MIT][license] © [Titus Wormer][author]
+
+<!-- Definitions -->
+
+[travis-badge]: https://img.shields.io/travis/wooorm/gemoji.svg
+
+[travis]: https://travis-ci.org/wooorm/gemoji
+
+[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/gemoji.svg
+
+[codecov]: https://codecov.io/github/wooorm/gemoji
+
+[npm]: https://docs.npmjs.com/cli/install
+
+[license]: LICENSE
+
+[author]: http://wooorm.com
+
+[support]: support.md
+
+[gh]: https://github.com/github/gemoji
+
+[gh-license]: https://github.com/github/gemoji/blob/2d799338d94a223cd341d92de3a9848d5368f9ef/LICENSE

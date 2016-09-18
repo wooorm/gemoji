@@ -1,8 +1,8 @@
 .DS_Store
 *.log
-build/
-components/
+.nyc_output/
 coverage/
 node_modules/
-build.js
+gemoji.js
+gemoji.min.js
 data/emoji.json
