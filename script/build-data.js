@@ -1,14 +1,5 @@
-/**
- * @author Titus Wormer
- * @copyright 2015 Titus Wormer
- * @license MIT
- * @module gemoji:script:data
- * @fileoverview Transform data.
- */
-
 'use strict';
 
-/* Dependencies. */
 var fs = require('fs');
 var path = require('path');
 var data = require('../emoji.json');
@@ -36,5 +27,4 @@ data.forEach(function (gemoji) {
 
 var doc = JSON.stringify(map, null, 2) + '\n';
 
-/* Write the dictionary. */
 fs.writeFileSync(path.join('index.json'), doc);

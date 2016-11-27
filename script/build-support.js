@@ -1,14 +1,5 @@
-/**
- * @author Titus Wormer
- * @copyright 2015 Titus Wormer
- * @license MIT
- * @module gemoji:script:data
- * @fileoverview Transform data.
- */
-
 'use strict';
 
-/* Dependencies. */
 var fs = require('fs');
 var table = require('markdown-table');
 var width = require('string-width');
@@ -44,12 +35,7 @@ var doc = [
 /* Write. */
 fs.writeFileSync('support.md', doc);
 
-/**
- * Escape a string into its unicode points.
- *
- * @param {string} value - Value to encode.
- * @return {string}
- */
+/* Escape a string into its unicode points. */
 function escape(value) {
   return value.split('').map(function (character) {
     return '\\u' + character.charCodeAt(0).toString(16);

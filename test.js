@@ -1,32 +1,19 @@
-/**
- * @author Titus Wormer
- * @copyright 2014-2015 Titus Wormer
- * @license MIT
- * @module gemoji
- * @fileoverview Test suite for `gemoji`.
- */
-
 'use strict';
 
-/* Dependencies. */
 var test = require('tape');
 var emoji = require('./emoji.json');
 var gemoji = require('./');
 
-/* Tests. */
 test('gemoji', function (t) {
   t.ok('name' in gemoji, 'should have a `name` property');
   t.ok('unicode' in gemoji, 'should have an `unicode` property');
   t.end();
 });
 
-/* Validate all crawled gemoji-objects. */
 emoji.forEach(describeEntry);
 
-/**
- * Validate if a crawled gemoji is indeed (correctly)
- * present in this module.
- */
+/* Validate if a crawled gemoji is indeed (correctly)
+ * present in this module. */
 function describeEntry(entry) {
   var unicode = entry.emoji;
   var description;
