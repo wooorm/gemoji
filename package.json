@@ -27,13 +27,13 @@
     "browserify": "^13.0.0",
     "esmangle": "^1.0.0",
     "markdown-table": "^1.0.0",
-    "nyc": "^8.3.0",
+    "nyc": "^10.0.0",
     "remark-cli": "^2.0.0",
     "remark-preset-wooorm": "^1.0.0",
     "request": "^2.75.0",
-    "string-width": "^1.0.1",
+    "string-width": "^2.0.0",
     "tape": "^4.6.0",
-    "xo": "^0.16.0"
+    "xo": "^0.17.1"
   },
   "scripts": {
     "build-md": "remark readme.md --quiet --frail",

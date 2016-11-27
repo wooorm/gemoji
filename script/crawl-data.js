@@ -18,6 +18,6 @@ request({
   url: 'https://api.github.com/repos/github/gemoji/contents/db/emoji.json',
   headers: {
     'User-Agent': 'request',
-    'Accept': 'application/vnd.github.v3.raw'
+    Accept: 'application/vnd.github.v3.raw'
   }
 }).pipe(fs.createWriteStream(path.join('data', 'emoji.json')));
