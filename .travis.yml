@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-- '0.11'
-- '5.0'
-- '6.0'
+- '4.0'
+- '7.0'
 sudo: false
 after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
@@ -12,7 +11,7 @@ deploy:
       secure: J5zX77DY6AwolRljMy+GdwzqfRvM0VLqTP3J8SHap0yM9NKwuY0F1vy7F9Ryzu048q2q8QT0/3yU56rKfDiXjGVlf3sOvbLRkWZRBntl+mJMCmlRjsAyzo5teF6u/vcHB7V4F1/FAFCWfgEDCN6ZO7/DSbt9IdJjcElsHFbUKIw=
     on:
       tags: true
-      node: '5.0'
+      node: '4.0'
   - provider: releases
     api_key:
       secure: FxpovIE7QobbxBS0Rm6AsoHzVC5uYtuwKly/2SMZD19ff78A+XLoH971jLSAvx0PTul5nNy26drDVTRlgXZznM1DISdJXOEFQhR2O2CpEEFhHxKt/kixndFWfOBxrbH3534CLuTzV1AwXQvC5WE7y7in0zu/E9/ZdC3CA7ux1h8=
@@ -21,4 +20,4 @@ deploy:
       - "gemoji.min.js"
     on:
       tags: true
-      node: '6.0'
+      node: '7.0'
