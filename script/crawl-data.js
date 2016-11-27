@@ -20,4 +20,4 @@ request({
     'User-Agent': 'request',
     Accept: 'application/vnd.github.v3.raw'
   }
-}).pipe(fs.createWriteStream(path.join('data', 'emoji.json')));
+}).pipe(fs.createWriteStream(path.join('emoji.json')));

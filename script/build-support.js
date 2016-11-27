@@ -12,7 +12,7 @@
 var fs = require('fs');
 var table = require('markdown-table');
 var width = require('string-width');
-var gemoji = require('../data/gemoji');
+var gemoji = require('../index.json');
 
 /* Set up data. */
 var data = [[

@@ -21,7 +21,7 @@
   ],
   "files": [
     "index.js",
-    "data/gemoji.json"
+    "index.json"
   ],
   "devDependencies": {
     "browserify": "^13.0.0",

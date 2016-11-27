@@ -11,7 +11,7 @@
 /* Dependencies. */
 var fs = require('fs');
 var path = require('path');
-var data = require('../data/emoji.json');
+var data = require('../emoji.json');
 
 /* Create a dictionary with GitHub names as keys,
  * and unicode emoji is values. */
@@ -37,4 +37,4 @@ data.forEach(function (gemoji) {
 var doc = JSON.stringify(map, null, 2) + '\n';
 
 /* Write the dictionary. */
-fs.writeFileSync(path.join('data', 'gemoji.json'), doc);
+fs.writeFileSync(path.join('index.json'), doc);

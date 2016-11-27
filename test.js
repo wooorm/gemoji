@@ -10,7 +10,7 @@
 
 /* Dependencies. */
 var test = require('tape');
-var emoji = require('./data/emoji.json');
+var emoji = require('./emoji.json');
 var gemoji = require('./');
 
 /* Tests. */

@@ -9,7 +9,7 @@
 'use strict';
 
 /* Dependencies. */
-var data = require('./data/gemoji.json');
+var data = require('./index.json');
 
 /* Expose. */
 exports.unicode = data;

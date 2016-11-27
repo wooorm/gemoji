@@ -5,4 +5,4 @@ coverage/
 node_modules/
 gemoji.js
 gemoji.min.js
-data/emoji.json
+emoji.json
