@@ -1,5 +1,5 @@
 Note that this file does not contain the gemoji’s as rendered by
-GitHub; 1321 small images would
+GitHub; 1432 small images would
 make viewing this document very slow.
 
 Also: You need a browser capable of viewing unicode-emoji to make
@@ -8,46 +8,40 @@ sense of the first column!
 |   Emoji  |                     Name(s)                    |                    Tags                    |                           Escaped Unicode                          |
 | :------: | :--------------------------------------------: | :----------------------------------------: | :----------------------------------------------------------------: |
 |     😀    |                    grinning                    |                smile; happy                |                            \ud83d\ude00                            |
-|     😬    |                    grimacing                   |                                            |                            \ud83d\ude2c                            |
-|     😁    |                      grin                      |                                            |                            \ud83d\ude01                            |
-|     😂    |                       joy                      |                    tears                   |                            \ud83d\ude02                            |
 |     😃    |                     smiley                     |              happy; joy; haha              |                            \ud83d\ude03                            |
 |     😄    |                      smile                     |             happy; joy; pleased            |                            \ud83d\ude04                            |
-|     😅    |                   sweat_smile                  |                     hot                    |                            \ud83d\ude05                            |
+|     😁    |                      grin                      |                                            |                            \ud83d\ude01                            |
 |     😆    |               laughing; satisfied              |                 happy; haha                |                            \ud83d\ude06                            |
-|     😇    |                    innocent                    |                    angel                   |                            \ud83d\ude07                            |
-|     😉    |                      wink                      |                    flirt                   |                            \ud83d\ude09                            |
+|     😅    |                   sweat_smile                  |                     hot                    |                            \ud83d\ude05                            |
+|     😂    |                       joy                      |                    tears                   |                            \ud83d\ude02                            |
+|     🤣    |                      rofl                      |                lol; laughing               |                            \ud83e\udd23                            |
+|    ☺️    |                     relaxed                    |               blush; pleased               |                            \u263a\ufe0f                            |
 |     😊    |                      blush                     |                    proud                   |                            \ud83d\ude0a                            |
+|     😇    |                    innocent                    |                    angel                   |                            \ud83d\ude07                            |
 |     🙂    |              slightly_smiling_face             |                                            |                            \ud83d\ude42                            |
 |     🙃    |                upside_down_face                |                                            |                            \ud83d\ude43                            |
-|    ☺️    |                     relaxed                    |               blush; pleased               |                            \u263a\ufe0f                            |
-|     😋    |                       yum                      |                tongue; lick                |                            \ud83d\ude0b                            |
+|     😉    |                      wink                      |                    flirt                   |                            \ud83d\ude09                            |
 |     😌    |                    relieved                    |                    whew                    |                            \ud83d\ude0c                            |
 |     😍    |                   heart_eyes                   |                 love; crush                |                            \ud83d\ude0d                            |
 |     😘    |                  kissing_heart                 |                    flirt                   |                            \ud83d\ude18                            |
 |     😗    |                     kissing                    |                                            |                            \ud83d\ude17                            |
 |     😙    |              kissing_smiling_eyes              |                                            |                            \ud83d\ude19                            |
 |     😚    |               kissing_closed_eyes              |                                            |                            \ud83d\ude1a                            |
+|     😋    |                       yum                      |                tongue; lick                |                            \ud83d\ude0b                            |
 |     😜    |          stuck_out_tongue_winking_eye          |                prank; silly                |                            \ud83d\ude1c                            |
 |     😝    |          stuck_out_tongue_closed_eyes          |                    prank                   |                            \ud83d\ude1d                            |
 |     😛    |                stuck_out_tongue                |                                            |                            \ud83d\ude1b                            |
 |     🤑    |                money_mouth_face                |                    rich                    |                            \ud83e\udd11                            |
+|     🤗    |                      hugs                      |                                            |                            \ud83e\udd17                            |
 |     🤓    |                    nerd_face                   |                geek; glasses               |                            \ud83e\udd13                            |
 |     😎    |                   sunglasses                   |                    cool                    |                            \ud83d\ude0e                            |
-|     🤗    |                      hugs                      |                                            |                            \ud83e\udd17                            |
+|     🤡    |                   clown_face                   |                                            |                            \ud83e\udd21                            |
+|     🤠    |                 cowboy_hat_face                |                                            |                            \ud83e\udd20                            |
 |     😏    |                      smirk                     |                    smug                    |                            \ud83d\ude0f                            |
-|     😶    |                    no_mouth                    |                mute; silence               |                            \ud83d\ude36                            |
-|     😐    |                  neutral_face                  |                     meh                    |                            \ud83d\ude10                            |
-|     😑    |                 expressionless                 |                                            |                            \ud83d\ude11                            |
 |     😒    |                    unamused                    |                     meh                    |                            \ud83d\ude12                            |
-|     🙄    |                    roll_eyes                   |                                            |                            \ud83d\ude44                            |
-|     🤔    |                    thinking                    |                                            |                            \ud83e\udd14                            |
-|     😳    |                     flushed                    |                                            |                            \ud83d\ude33                            |
 |     😞    |                  disappointed                  |                     sad                    |                            \ud83d\ude1e                            |
-|     😟    |                     worried                    |                   nervous                  |                            \ud83d\ude1f                            |
-|     😠    |                      angry                     |                mad; annoyed                |                            \ud83d\ude20                            |
-|     😡    |                   rage; pout                   |                    angry                   |                            \ud83d\ude21                            |
 |     😔    |                     pensive                    |                                            |                            \ud83d\ude14                            |
+|     😟    |                     worried                    |                   nervous                  |                            \ud83d\ude1f                            |
 |     😕    |                    confused                    |                                            |                            \ud83d\ude15                            |
 |     🙁    |             slightly_frowning_face             |                                            |                            \ud83d\ude41                            |
 |    ☹️    |                  frowning_face                 |                                            |                            \u2639\ufe0f                            |
@@ -56,37 +50,50 @@ sense of the first column!
 |     😫    |                   tired_face                   |                upset; whine                |                            \ud83d\ude2b                            |
 |     😩    |                      weary                     |                    tired                   |                            \ud83d\ude29                            |
 |     😤    |                     triumph                    |                    smug                    |                            \ud83d\ude24                            |
-|     😮    |                   open_mouth                   |          surprise; impressed; wow          |                            \ud83d\ude2e                            |
-|     😱    |                     scream                     |               horror; shocked              |                            \ud83d\ude31                            |
-|     😨    |                     fearful                    |            scared; shocked; oops           |                            \ud83d\ude28                            |
-|     😰    |                   cold_sweat                   |                   nervous                  |                            \ud83d\ude30                            |
+|     😠    |                      angry                     |                mad; annoyed                |                            \ud83d\ude20                            |
+|     😡    |                   rage; pout                   |                    angry                   |                            \ud83d\ude21                            |
+|     😶    |                    no_mouth                    |                mute; silence               |                            \ud83d\ude36                            |
+|     😐    |                  neutral_face                  |                     meh                    |                            \ud83d\ude10                            |
+|     😑    |                 expressionless                 |                                            |                            \ud83d\ude11                            |
 |     😯    |                     hushed                     |             silence; speechless            |                            \ud83d\ude2f                            |
 |     😦    |                    frowning                    |                                            |                            \ud83d\ude26                            |
 |     😧    |                    anguished                   |                   stunned                  |                            \ud83d\ude27                            |
+|     😮    |                   open_mouth                   |          surprise; impressed; wow          |                            \ud83d\ude2e                            |
+|     😲    |                   astonished                   |                amazed; gasp                |                            \ud83d\ude32                            |
+|     😵    |                   dizzy_face                   |                                            |                            \ud83d\ude35                            |
+|     😳    |                     flushed                    |                                            |                            \ud83d\ude33                            |
+|     😱    |                     scream                     |               horror; shocked              |                            \ud83d\ude31                            |
+|     😨    |                     fearful                    |            scared; shocked; oops           |                            \ud83d\ude28                            |
+|     😰    |                   cold_sweat                   |                   nervous                  |                            \ud83d\ude30                            |
 |     😢    |                       cry                      |                  sad; tear                 |                            \ud83d\ude22                            |
 |     😥    |              disappointed_relieved             |            phew; sweat; nervous            |                            \ud83d\ude25                            |
-|     😪    |                     sleepy                     |                    tired                   |                            \ud83d\ude2a                            |
-|     😓    |                      sweat                     |                                            |                            \ud83d\ude13                            |
+|     🤤    |                  drooling_face                 |                                            |                            \ud83e\udd24                            |
 |     😭    |                       sob                      |              sad; cry; bawling             |                            \ud83d\ude2d                            |
-|     😵    |                   dizzy_face                   |                                            |                            \ud83d\ude35                            |
-|     😲    |                   astonished                   |                amazed; gasp                |                            \ud83d\ude32                            |
+|     😓    |                      sweat                     |                                            |                            \ud83d\ude13                            |
+|     😪    |                     sleepy                     |                    tired                   |                            \ud83d\ude2a                            |
+|     😴    |                    sleeping                    |                     zzz                    |                            \ud83d\ude34                            |
+|     🙄    |                    roll_eyes                   |                                            |                            \ud83d\ude44                            |
+|     🤔    |                    thinking                    |                                            |                            \ud83e\udd14                            |
+|     🤥    |                   lying_face                   |                    liar                    |                            \ud83e\udd25                            |
+|     😬    |                    grimacing                   |                                            |                            \ud83d\ude2c                            |
 |     🤐    |                zipper_mouth_face               |                silence; hush               |                            \ud83e\udd10                            |
+|     🤢    |                 nauseated_face                 |            sick; barf; disgusted           |                            \ud83e\udd22                            |
+|     🤧    |                  sneezing_face                 |                 achoo; sick                |                            \ud83e\udd27                            |
 |     😷    |                      mask                      |                  sick; ill                 |                            \ud83d\ude37                            |
 |     🤒    |              face_with_thermometer             |                    sick                    |                            \ud83e\udd12                            |
 |     🤕    |             face_with_head_bandage             |                    hurt                    |                            \ud83e\udd15                            |
-|     😴    |                    sleeping                    |                     zzz                    |                            \ud83d\ude34                            |
-|     💤    |                       zzz                      |                  sleeping                  |                            \ud83d\udca4                            |
-|     💩    |               hankey; poop; shit               |                    crap                    |                            \ud83d\udca9                            |
 |     😈    |                   smiling_imp                  |             devil; evil; horns             |                            \ud83d\ude08                            |
 |     👿    |                       imp                      |          angry; devil; evil; horns         |                            \ud83d\udc7f                            |
 |     👹    |                  japanese_ogre                 |                   monster                  |                            \ud83d\udc79                            |
 |     👺    |                 japanese_goblin                |                                            |                            \ud83d\udc7a                            |
+|     💩    |               hankey; poop; shit               |                    crap                    |                            \ud83d\udca9                            |
 |     👻    |                      ghost                     |                  halloween                 |                            \ud83d\udc7b                            |
 |     💀    |                      skull                     |            dead; danger; poison            |                            \ud83d\udc80                            |
 |    ☠️    |              skull_and_crossbones              |               danger; pirate               |                            \u2620\ufe0f                            |
 |     👽    |                      alien                     |                     ufo                    |                            \ud83d\udc7d                            |
 |     👾    |                  space_invader                 |                 game; retro                |                            \ud83d\udc7e                            |
 |     🤖    |                      robot                     |                                            |                            \ud83e\udd16                            |
+|     🎃    |                 jack_o_lantern                 |                  halloween                 |                            \ud83c\udf83                            |
 |     😺    |                   smiley_cat                   |                                            |                            \ud83d\ude3a                            |
 |     😸    |                    smile_cat                   |                                            |                            \ud83d\ude38                            |
 |     😹    |                     joy_cat                    |                                            |                            \ud83d\ude39                            |
@@ -96,34 +103,45 @@ sense of the first column!
 |     🙀    |                   scream_cat                   |                   horror                   |                            \ud83d\ude40                            |
 |     😿    |                 crying_cat_face                |                  sad; tear                 |                            \ud83d\ude3f                            |
 |     😾    |                   pouting_cat                  |                                            |                            \ud83d\ude3e                            |
+|     👐    |                   open_hands                   |                                            |                            \ud83d\udc50                            |
 |     🙌    |                  raised_hands                  |                   hooray                   |                            \ud83d\ude4c                            |
 |     👏    |                      clap                      |              praise; applause              |                            \ud83d\udc4f                            |
+|     🙏    |                      pray                      |             please; hope; wish             |                            \ud83d\ude4f                            |
+|     🤝    |                    handshake                   |                    deal                    |                            \ud83e\udd1d                            |
 |     👍    |                  +1; thumbsup                  |                 approve; ok                |                            \ud83d\udc4d                            |
 |     👎    |                 -1; thumbsdown                 |              disapprove; bury              |                            \ud83d\udc4e                            |
-|     👊    |                facepunch; punch                |                   attack                   |                            \ud83d\udc4a                            |
-|     ✊    |                      fist                      |                    power                   |                               \u270a                               |
-|     👋    |                      wave                      |                   goodbye                  |                            \ud83d\udc4b                            |
+|     👊    |         fist_oncoming; facepunch; punch        |                   attack                   |                            \ud83d\udc4a                            |
+|     ✊    |                fist_raised; fist               |                    power                   |                               \u270a                               |
+|     🤛    |                    fist_left                   |                                            |                            \ud83e\udd1b                            |
+|     🤜    |                   fist_right                   |                                            |                            \ud83e\udd1c                            |
+|     🤞    |                 crossed_fingers                |                luck; hopeful               |                            \ud83e\udd1e                            |
+|    ✌️    |                        v                       |               victory; peace               |                            \u270c\ufe0f                            |
+|     🤘    |                      metal                     |                                            |                            \ud83e\udd18                            |
+|     👌    |                     ok_hand                    |                                            |                            \ud83d\udc4c                            |
 |     👈    |                   point_left                   |                                            |                            \ud83d\udc48                            |
 |     👉    |                   point_right                  |                                            |                            \ud83d\udc49                            |
 |     👆    |                   point_up_2                   |                                            |                            \ud83d\udc46                            |
 |     👇    |                   point_down                   |                                            |                            \ud83d\udc47                            |
-|     👌    |                     ok_hand                    |                                            |                            \ud83d\udc4c                            |
 |    ☝️    |                    point_up                    |                                            |                            \u261d\ufe0f                            |
-|    ✌️    |                        v                       |               victory; peace               |                            \u270c\ufe0f                            |
 |     ✋    |                hand; raised_hand               |               highfive; stop               |                               \u270b                               |
+|     🤚    |               raised_back_of_hand              |                                            |                            \ud83e\udd1a                            |
 |     🖐    |        raised_hand_with_fingers_splayed        |                                            |                            \ud83d\udd90                            |
-|     👐    |                   open_hands                   |                                            |                            \ud83d\udc50                            |
-|     💪    |                     muscle                     |        flex; bicep; strong; workout        |                            \ud83d\udcaa                            |
-|     🙏    |                      pray                      |             please; hope; wish             |                            \ud83d\ude4f                            |
 |     🖖    |                  vulcan_salute                 |               prosper; spock               |                            \ud83d\udd96                            |
-|     🤘    |                      metal                     |                                            |                            \ud83e\udd18                            |
+|     👋    |                      wave                      |                   goodbye                  |                            \ud83d\udc4b                            |
+|     🤙    |                  call_me_hand                  |                                            |                            \ud83e\udd19                            |
+|     💪    |                     muscle                     |        flex; bicep; strong; workout        |                            \ud83d\udcaa                            |
 |     🖕    |                middle_finger; fu               |                                            |                            \ud83d\udd95                            |
 |    ✍️    |                  writing_hand                  |                                            |                            \u270d\ufe0f                            |
+|     🤳    |                     selfie                     |                                            |                            \ud83e\udd33                            |
 |     💅    |                    nail_care                   |              beauty; manicure              |                            \ud83d\udc85                            |
+|     💍    |                      ring                      |         wedding; marriage; engaged         |                            \ud83d\udc8d                            |
+|     💄    |                    lipstick                    |                   makeup                   |                            \ud83d\udc84                            |
+|     💋    |                      kiss                      |                  lipstick                  |                            \ud83d\udc8b                            |
 |     👄    |                      lips                      |                    kiss                    |                            \ud83d\udc44                            |
 |     👅    |                     tongue                     |                    taste                   |                            \ud83d\udc45                            |
 |     👂    |                       ear                      |             hear; sound; listen            |                            \ud83d\udc42                            |
 |     👃    |                      nose                      |                    smell                   |                            \ud83d\udc43                            |
+|     👣    |                   footprints                   |                feet; tracks                |                            \ud83d\udc63                            |
 |     👁    |                       eye                      |                                            |                            \ud83d\udc41                            |
 |     👀    |                      eyes                      |              look; see; watch              |                            \ud83d\udc40                            |
 |     🗣    |                  speaking_head                 |                                            |                            \ud83d\udde3                            |
@@ -149,10 +167,46 @@ sense of the first column!
 |     💂    |                    guardsman                   |                                            |                            \ud83d\udc82                            |
 |   🕵️‍♀️  |                female_detective                |                   sleuth                   |                \ud83d\udd75\ufe0f\u200d\u2640\ufe0f                |
 |    🕵️    |            male_detective; detective           |                   sleuth                   |                         \ud83d\udd75\ufe0f                         |
+|   👩‍⚕️   |               woman_health_worker              |                doctor; nurse               |                   \ud83d\udc69\u200d\u2695\ufe0f                   |
+|   👨‍⚕️   |                man_health_worker               |                doctor; nurse               |                   \ud83d\udc68\u200d\u2695\ufe0f                   |
+|    👩‍🌾   |                  woman_farmer                  |                                            |                   \ud83d\udc69\u200d\ud83c\udf3e                   |
+|    👨‍🌾   |                   man_farmer                   |                                            |                   \ud83d\udc68\u200d\ud83c\udf3e                   |
+|    👩‍🍳   |                   woman_cook                   |                    chef                    |                   \ud83d\udc69\u200d\ud83c\udf73                   |
+|    👨‍🍳   |                    man_cook                    |                    chef                    |                   \ud83d\udc68\u200d\ud83c\udf73                   |
+|    👩‍🎓   |                  woman_student                 |                 graduation                 |                   \ud83d\udc69\u200d\ud83c\udf93                   |
+|    👨‍🎓   |                   man_student                  |                 graduation                 |                   \ud83d\udc68\u200d\ud83c\udf93                   |
+|    👩‍🎤   |                  woman_singer                  |                  rockstar                  |                   \ud83d\udc69\u200d\ud83c\udfa4                   |
+|    👨‍🎤   |                   man_singer                   |                  rockstar                  |                   \ud83d\udc68\u200d\ud83c\udfa4                   |
+|    👩‍🏫   |                  woman_teacher                 |              school; professor             |                   \ud83d\udc69\u200d\ud83c\udfeb                   |
+|    👨‍🏫   |                   man_teacher                  |              school; professor             |                   \ud83d\udc68\u200d\ud83c\udfeb                   |
+|    👩‍🏭   |              woman_factory_worker              |                                            |                   \ud83d\udc69\u200d\ud83c\udfed                   |
+|    👨‍🏭   |               man_factory_worker               |                                            |                   \ud83d\udc68\u200d\ud83c\udfed                   |
+|    👩‍💻   |               woman_technologist               |                    coder                   |                   \ud83d\udc69\u200d\ud83d\udcbb                   |
+|    👨‍💻   |                man_technologist                |                    coder                   |                   \ud83d\udc68\u200d\ud83d\udcbb                   |
+|    👩‍💼   |               woman_office_worker              |                  business                  |                   \ud83d\udc69\u200d\ud83d\udcbc                   |
+|    👨‍💼   |                man_office_worker               |                  business                  |                   \ud83d\udc68\u200d\ud83d\udcbc                   |
+|    👩‍🔧   |                 woman_mechanic                 |                                            |                   \ud83d\udc69\u200d\ud83d\udd27                   |
+|    👨‍🔧   |                  man_mechanic                  |                                            |                   \ud83d\udc68\u200d\ud83d\udd27                   |
+|    👩‍🔬   |                 woman_scientist                |                  research                  |                   \ud83d\udc69\u200d\ud83d\udd2c                   |
+|    👨‍🔬   |                  man_scientist                 |                  research                  |                   \ud83d\udc68\u200d\ud83d\udd2c                   |
+|    👩‍🎨   |                  woman_artist                  |                   painter                  |                   \ud83d\udc69\u200d\ud83c\udfa8                   |
+|    👨‍🎨   |                   man_artist                   |                   painter                  |                   \ud83d\udc68\u200d\ud83c\udfa8                   |
+|    👩‍🚒   |                woman_firefighter               |                                            |                   \ud83d\udc69\u200d\ud83d\ude92                   |
+|    👨‍🚒   |                 man_firefighter                |                                            |                   \ud83d\udc68\u200d\ud83d\ude92                   |
+|   👩‍✈️   |                   woman_pilot                  |                                            |                   \ud83d\udc69\u200d\u2708\ufe0f                   |
+|   👨‍✈️   |                    man_pilot                   |                                            |                   \ud83d\udc68\u200d\u2708\ufe0f                   |
+|    👩‍🚀   |                 woman_astronaut                |                    space                   |                   \ud83d\udc69\u200d\ud83d\ude80                   |
+|    👨‍🚀   |                  man_astronaut                 |                    space                   |                   \ud83d\udc68\u200d\ud83d\ude80                   |
+|   👩‍⚖️   |                   woman_judge                  |                   justice                  |                   \ud83d\udc69\u200d\u2696\ufe0f                   |
+|   👨‍⚖️   |                    man_judge                   |                   justice                  |                   \ud83d\udc68\u200d\u2696\ufe0f                   |
+|     🤶    |                    mrs_claus                   |                    santa                   |                            \ud83e\udd36                            |
 |     🎅    |                      santa                     |                  christmas                 |                            \ud83c\udf85                            |
 |     👸    |                    princess                    |            blonde; crown; royal            |                            \ud83d\udc78                            |
+|     🤴    |                     prince                     |                crown; royal                |                            \ud83e\udd34                            |
 |     👰    |                 bride_with_veil                |              marriage; wedding             |                            \ud83d\udc70                            |
+|     🤵    |                  man_in_tuxedo                 |          groom; marriage; wedding          |                            \ud83e\udd35                            |
 |     👼    |                      angel                     |                                            |                            \ud83d\udc7c                            |
+|     🤰    |                 pregnant_woman                 |                                            |                            \ud83e\udd30                            |
 |   🙇‍♀️   |                  bowing_woman                  |               respect; thanks              |                   \ud83d\ude47\u200d\u2640\ufe0f                   |
 |     🙇    |                 bowing_man; bow                |               respect; thanks              |                            \ud83d\ude47                            |
 |     💁    |   tipping_hand_woman; information_desk_person  |                                            |                            \ud83d\udc81                            |
@@ -163,6 +217,10 @@ sense of the first column!
 |   🙆‍♂️   |                     ok_man                     |                                            |                   \ud83d\ude46\u200d\u2642\ufe0f                   |
 |     🙋    |        raising_hand_woman; raising_hand        |                                            |                            \ud83d\ude4b                            |
 |   🙋‍♂️   |                raising_hand_man                |                                            |                   \ud83d\ude4b\u200d\u2642\ufe0f                   |
+|   🤦‍♀️   |                woman_facepalming               |                                            |                   \ud83e\udd26\u200d\u2640\ufe0f                   |
+|   🤦‍♂️   |                 man_facepalming                |                                            |                   \ud83e\udd26\u200d\u2642\ufe0f                   |
+|   🤷‍♀️   |                 woman_shrugging                |                                            |                   \ud83e\udd37\u200d\u2640\ufe0f                   |
+|   🤷‍♂️   |                  man_shrugging                 |                                            |                   \ud83e\udd37\u200d\u2642\ufe0f                   |
 |     🙎    |     pouting_woman; person_with_pouting_face    |                                            |                            \ud83d\ude4e                            |
 |   🙎‍♂️   |                   pouting_man                  |                                            |                   \ud83d\ude4e\u200d\u2642\ufe0f                   |
 |     🙍    |         frowning_woman; person_frowning        |                     sad                    |                            \ud83d\ude4d                            |
@@ -171,7 +229,9 @@ sense of the first column!
 |   💇‍♂️   |                   haircut_man                  |                                            |                   \ud83d\udc87\u200d\u2642\ufe0f                   |
 |     💆    |             massage_woman; massage             |                     spa                    |                            \ud83d\udc86                            |
 |   💆‍♂️   |                   massage_man                  |                     spa                    |                   \ud83d\udc86\u200d\u2642\ufe0f                   |
+|     🕴    |            business_suit_levitating            |                                            |                            \ud83d\udd74                            |
 |     💃    |                     dancer                     |                    dress                   |                            \ud83d\udc83                            |
+|     🕺    |                   man_dancing                  |                   dancer                   |                            \ud83d\udd7a                            |
 |     👯    |             dancing_women; dancers             |                    bunny                   |                            \ud83d\udc6f                            |
 |   👯‍♂️   |                   dancing_men                  |                    bunny                   |                   \ud83d\udc6f\u200d\u2642\ufe0f                   |
 |   🚶‍♀️   |                  walking_woman                 |                                            |                   \ud83d\udeb6\u200d\u2640\ufe0f                   |
@@ -219,9 +279,6 @@ sense of the first column!
 |     👗    |                      dress                     |                                            |                            \ud83d\udc57                            |
 |     👙    |                     bikini                     |                    beach                   |                            \ud83d\udc59                            |
 |     👘    |                     kimono                     |                                            |                            \ud83d\udc58                            |
-|     💄    |                    lipstick                    |                   makeup                   |                            \ud83d\udc84                            |
-|     💋    |                      kiss                      |                  lipstick                  |                            \ud83d\udc8b                            |
-|     👣    |                   footprints                   |                feet; tracks                |                            \ud83d\udc63                            |
 |     👠    |                    high_heel                   |                    shoe                    |                            \ud83d\udc60                            |
 |     👡    |                     sandal                     |                    shoe                    |                            \ud83d\udc61                            |
 |     👢    |                      boot                      |                                            |                            \ud83d\udc62                            |
@@ -239,13 +296,14 @@ sense of the first column!
 |     💼    |                    briefcase                   |                  business                  |                            \ud83d\udcbc                            |
 |     👓    |                   eyeglasses                   |                   glasses                  |                            \ud83d\udc53                            |
 |     🕶    |                 dark_sunglasses                |                                            |                            \ud83d\udd76                            |
-|     💍    |                      ring                      |         wedding; marriage; engaged         |                            \ud83d\udc8d                            |
 |     🌂    |                 closed_umbrella                |                weather; rain               |                            \ud83c\udf02                            |
+|    ☂️    |                  open_umbrella                 |                                            |                            \u2602\ufe0f                            |
 |     🐶    |                       dog                      |                     pet                    |                            \ud83d\udc36                            |
 |     🐱    |                       cat                      |                     pet                    |                            \ud83d\udc31                            |
 |     🐭    |                      mouse                     |                                            |                            \ud83d\udc2d                            |
 |     🐹    |                     hamster                    |                     pet                    |                            \ud83d\udc39                            |
 |     🐰    |                     rabbit                     |                    bunny                   |                            \ud83d\udc30                            |
+|     🦊    |                    fox_face                    |                                            |                            \ud83e\udd8a                            |
 |     🐻    |                      bear                      |                                            |                            \ud83d\udc3b                            |
 |     🐼    |                   panda_face                   |                                            |                            \ud83d\udc3c                            |
 |     🐨    |                      koala                     |                                            |                            \ud83d\udc28                            |
@@ -255,7 +313,6 @@ sense of the first column!
 |     🐷    |                       pig                      |                                            |                            \ud83d\udc37                            |
 |     🐽    |                    pig_nose                    |                                            |                            \ud83d\udc3d                            |
 |     🐸    |                      frog                      |                                            |                            \ud83d\udc38                            |
-|     🐙    |                     octopus                    |                                            |                            \ud83d\udc19                            |
 |     🐵    |                   monkey_face                  |                                            |                            \ud83d\udc35                            |
 |     🙈    |                   see_no_evil                  |            monkey; blind; ignore           |                            \ud83d\ude48                            |
 |     🙉    |                  hear_no_evil                  |                monkey; deaf                |                            \ud83d\ude49                            |
@@ -267,24 +324,36 @@ sense of the first column!
 |     🐤    |                   baby_chick                   |                                            |                            \ud83d\udc24                            |
 |     🐣    |                 hatching_chick                 |                                            |                            \ud83d\udc23                            |
 |     🐥    |                  hatched_chick                 |                                            |                            \ud83d\udc25                            |
+|     🦆    |                      duck                      |                                            |                            \ud83e\udd86                            |
+|     🦅    |                      eagle                     |                                            |                            \ud83e\udd85                            |
+|     🦉    |                       owl                      |                                            |                            \ud83e\udd89                            |
+|     🦇    |                       bat                      |                                            |                            \ud83e\udd87                            |
 |     🐺    |                      wolf                      |                                            |                            \ud83d\udc3a                            |
 |     🐗    |                      boar                      |                                            |                            \ud83d\udc17                            |
 |     🐴    |                      horse                     |                                            |                            \ud83d\udc34                            |
 |     🦄    |                     unicorn                    |                                            |                            \ud83e\udd84                            |
 |     🐝    |                  bee; honeybee                 |                                            |                            \ud83d\udc1d                            |
 |     🐛    |                       bug                      |                                            |                            \ud83d\udc1b                            |
+|     🦋    |                    butterfly                   |                                            |                            \ud83e\udd8b                            |
 |     🐌    |                      snail                     |                    slow                    |                            \ud83d\udc0c                            |
+|     🐚    |                      shell                     |                 sea; beach                 |                            \ud83d\udc1a                            |
 |     🐞    |                     beetle                     |                     bug                    |                            \ud83d\udc1e                            |
 |     🐜    |                       ant                      |                                            |                            \ud83d\udc1c                            |
 |     🕷    |                     spider                     |                                            |                            \ud83d\udd77                            |
+|     🕸    |                   spider_web                   |                                            |                            \ud83d\udd78                            |
+|     🐢    |                     turtle                     |                    slow                    |                            \ud83d\udc22                            |
+|     🐍    |                      snake                     |                                            |                            \ud83d\udc0d                            |
+|     🦎    |                     lizard                     |                                            |                            \ud83e\udd8e                            |
 |     🦂    |                    scorpion                    |                                            |                            \ud83e\udd82                            |
 |     🦀    |                      crab                      |                                            |                            \ud83e\udd80                            |
-|     🐍    |                      snake                     |                                            |                            \ud83d\udc0d                            |
-|     🐢    |                     turtle                     |                    slow                    |                            \ud83d\udc22                            |
+|     🦑    |                      squid                     |                                            |                            \ud83e\udd91                            |
+|     🐙    |                     octopus                    |                                            |                            \ud83d\udc19                            |
+|     🦐    |                     shrimp                     |                                            |                            \ud83e\udd90                            |
 |     🐠    |                  tropical_fish                 |                                            |                            \ud83d\udc20                            |
 |     🐟    |                      fish                      |                                            |                            \ud83d\udc1f                            |
 |     🐡    |                    blowfish                    |                                            |                            \ud83d\udc21                            |
 |     🐬    |                dolphin; flipper                |                                            |                            \ud83d\udc2c                            |
+|     🦈    |                      shark                     |                                            |                            \ud83e\udd88                            |
 |     🐳    |                      whale                     |                     sea                    |                            \ud83d\udc33                            |
 |     🐋    |                     whale2                     |                                            |                            \ud83d\udc0b                            |
 |     🐊    |                    crocodile                   |                                            |                            \ud83d\udc0a                            |
@@ -293,23 +362,26 @@ sense of the first column!
 |     🐃    |                  water_buffalo                 |                                            |                            \ud83d\udc03                            |
 |     🐂    |                       ox                       |                                            |                            \ud83d\udc02                            |
 |     🐄    |                      cow2                      |                                            |                            \ud83d\udc04                            |
+|     🦌    |                      deer                      |                                            |                            \ud83e\udd8c                            |
 |     🐪    |                 dromedary_camel                |                   desert                   |                            \ud83d\udc2a                            |
 |     🐫    |                      camel                     |                                            |                            \ud83d\udc2b                            |
 |     🐘    |                    elephant                    |                                            |                            \ud83d\udc18                            |
+|     🦏    |                   rhinoceros                   |                                            |                            \ud83e\udd8f                            |
+|     🦍    |                     gorilla                    |                                            |                            \ud83e\udd8d                            |
+|     🐎    |                    racehorse                   |                    speed                   |                            \ud83d\udc0e                            |
+|     🐖    |                      pig2                      |                                            |                            \ud83d\udc16                            |
 |     🐐    |                      goat                      |                                            |                            \ud83d\udc10                            |
 |     🐏    |                       ram                      |                                            |                            \ud83d\udc0f                            |
 |     🐑    |                      sheep                     |                                            |                            \ud83d\udc11                            |
-|     🐎    |                    racehorse                   |                    speed                   |                            \ud83d\udc0e                            |
-|     🐖    |                      pig2                      |                                            |                            \ud83d\udc16                            |
-|     🐀    |                       rat                      |                                            |                            \ud83d\udc00                            |
-|     🐁    |                     mouse2                     |                                            |                            \ud83d\udc01                            |
-|     🐓    |                     rooster                    |                                            |                            \ud83d\udc13                            |
-|     🦃    |                     turkey                     |                thanksgiving                |                            \ud83e\udd83                            |
-|     🕊    |                      dove                      |                    peace                   |                            \ud83d\udd4a                            |
 |     🐕    |                      dog2                      |                                            |                            \ud83d\udc15                            |
 |     🐩    |                     poodle                     |                     dog                    |                            \ud83d\udc29                            |
 |     🐈    |                      cat2                      |                                            |                            \ud83d\udc08                            |
+|     🐓    |                     rooster                    |                                            |                            \ud83d\udc13                            |
+|     🦃    |                     turkey                     |                thanksgiving                |                            \ud83e\udd83                            |
+|     🕊    |                      dove                      |                    peace                   |                            \ud83d\udd4a                            |
 |     🐇    |                     rabbit2                    |                                            |                            \ud83d\udc07                            |
+|     🐁    |                     mouse2                     |                                            |                            \ud83d\udc01                            |
+|     🐀    |                       rat                      |                                            |                            \ud83d\udc00                            |
 |     🐿    |                    chipmunk                    |                                            |                            \ud83d\udc3f                            |
 |     🐾    |                feet; paw_prints                |                                            |                            \ud83d\udc3e                            |
 |     🐉    |                     dragon                     |                                            |                            \ud83d\udc09                            |
@@ -321,26 +393,23 @@ sense of the first column!
 |     🌴    |                    palm_tree                   |                                            |                            \ud83c\udf34                            |
 |     🌱    |                    seedling                    |                    plant                   |                            \ud83c\udf31                            |
 |     🌿    |                      herb                      |                                            |                            \ud83c\udf3f                            |
-|     ☘    |                    shamrock                    |                                            |                               \u2618                               |
+|    ☘️    |                    shamrock                    |                                            |                            \u2618\ufe0f                            |
 |     🍀    |                four_leaf_clover                |                    luck                    |                            \ud83c\udf40                            |
 |     🎍    |                     bamboo                     |                                            |                            \ud83c\udf8d                            |
 |     🎋    |                  tanabata_tree                 |                                            |                            \ud83c\udf8b                            |
 |     🍃    |                     leaves                     |                    leaf                    |                            \ud83c\udf43                            |
 |     🍂    |                   fallen_leaf                  |                   autumn                   |                            \ud83c\udf42                            |
 |     🍁    |                   maple_leaf                   |                   canada                   |                            \ud83c\udf41                            |
+|     🍄    |                    mushroom                    |                                            |                            \ud83c\udf44                            |
 |     🌾    |                   ear_of_rice                  |                                            |                            \ud83c\udf3e                            |
-|     🌺    |                    hibiscus                    |                                            |                            \ud83c\udf3a                            |
-|     🌻    |                    sunflower                   |                                            |                            \ud83c\udf3b                            |
-|     🌹    |                      rose                      |                   flower                   |                            \ud83c\udf39                            |
+|     💐    |                     bouquet                    |                   flowers                  |                            \ud83d\udc90                            |
 |     🌷    |                      tulip                     |                   flower                   |                            \ud83c\udf37                            |
+|     🌹    |                      rose                      |                   flower                   |                            \ud83c\udf39                            |
+|     🥀    |                  wilted_flower                 |                                            |                            \ud83e\udd40                            |
+|     🌻    |                    sunflower                   |                                            |                            \ud83c\udf3b                            |
 |     🌼    |                     blossom                    |                                            |                            \ud83c\udf3c                            |
 |     🌸    |                 cherry_blossom                 |               flower; spring               |                            \ud83c\udf38                            |
-|     💐    |                     bouquet                    |                   flowers                  |                            \ud83d\udc90                            |
-|     🍄    |                    mushroom                    |                                            |                            \ud83c\udf44                            |
-|     🌰    |                    chestnut                    |                                            |                            \ud83c\udf30                            |
-|     🎃    |                 jack_o_lantern                 |                  halloween                 |                            \ud83c\udf83                            |
-|     🐚    |                      shell                     |                 sea; beach                 |                            \ud83d\udc1a                            |
-|     🕸    |                   spider_web                   |                                            |                            \ud83d\udd78                            |
+|     🌺    |                    hibiscus                    |                                            |                            \ud83c\udf3a                            |
 |     🌎    |                 earth_americas                 |         globe; world; international        |                            \ud83c\udf0e                            |
 |     🌍    |                  earth_africa                  |         globe; world; international        |                            \ud83c\udf0d                            |
 |     🌏    |                   earth_asia                   |         globe; world; international        |                            \ud83c\udf0f                            |
@@ -354,40 +423,40 @@ sense of the first column!
 |     🌔    |            moon; waxing_gibbous_moon           |                                            |                            \ud83c\udf14                            |
 |     🌚    |               new_moon_with_face               |                                            |                            \ud83c\udf1a                            |
 |     🌝    |               full_moon_with_face              |                                            |                            \ud83c\udf1d                            |
+|     🌞    |                  sun_with_face                 |                   summer                   |                            \ud83c\udf1e                            |
 |     🌛    |          first_quarter_moon_with_face          |                                            |                            \ud83c\udf1b                            |
 |     🌜    |           last_quarter_moon_with_face          |                                            |                            \ud83c\udf1c                            |
-|     🌞    |                  sun_with_face                 |                   summer                   |                            \ud83c\udf1e                            |
 |     🌙    |                  crescent_moon                 |                    night                   |                            \ud83c\udf19                            |
+|     💫    |                      dizzy                     |                    star                    |                            \ud83d\udcab                            |
 |    ⭐️    |                      star                      |                                            |                            \u2b50\ufe0f                            |
 |     🌟    |                      star2                     |                                            |                            \ud83c\udf1f                            |
-|     💫    |                      dizzy                     |                    star                    |                            \ud83d\udcab                            |
 |     ✨    |                    sparkles                    |                    shiny                   |                               \u2728                               |
+|    ⚡️    |                       zap                      |             lightning; thunder             |                            \u26a1\ufe0f                            |
+|     🔥    |                      fire                      |                    burn                    |                            \ud83d\udd25                            |
+|     💥    |                 boom; collision                |                   explode                  |                            \ud83d\udca5                            |
 |    ☄️    |                      comet                     |                                            |                            \u2604\ufe0f                            |
 |    ☀️    |                      sunny                     |                   weather                  |                            \u2600\ufe0f                            |
 |     🌤    |             sun_behind_small_cloud             |                                            |                            \ud83c\udf24                            |
 |    ⛅️    |                  partly_sunny                  |               weather; cloud               |                            \u26c5\ufe0f                            |
 |     🌥    |             sun_behind_large_cloud             |                                            |                            \ud83c\udf25                            |
 |     🌦    |              sun_behind_rain_cloud             |                                            |                            \ud83c\udf26                            |
+|     🌈    |                     rainbow                    |                                            |                            \ud83c\udf08                            |
 |    ☁️    |                      cloud                     |                                            |                            \u2601\ufe0f                            |
 |     🌧    |                 cloud_with_rain                |                                            |                            \ud83c\udf27                            |
 |     ⛈    |          cloud_with_lightning_and_rain         |                                            |                               \u26c8                               |
 |     🌩    |              cloud_with_lightning              |                                            |                            \ud83c\udf29                            |
-|    ⚡️    |                       zap                      |             lightning; thunder             |                            \u26a1\ufe0f                            |
-|     🔥    |                      fire                      |                    burn                    |                            \ud83d\udd25                            |
-|     💥    |                 boom; collision                |                   explode                  |                            \ud83d\udca5                            |
-|    ❄️    |                    snowflake                   |            winter; cold; weather           |                            \u2744\ufe0f                            |
 |     🌨    |                 cloud_with_snow                |                                            |                            \ud83c\udf28                            |
 |    ☃️    |                snowman_with_snow               |              winter; christmas             |                            \u2603\ufe0f                            |
 |    ⛄️    |                     snowman                    |                   winter                   |                            \u26c4\ufe0f                            |
+|    ❄️    |                    snowflake                   |            winter; cold; weather           |                            \u2744\ufe0f                            |
 |     🌬    |                    wind_face                   |                                            |                            \ud83c\udf2c                            |
 |     💨    |                      dash                      |              wind; blow; fast              |                            \ud83d\udca8                            |
 |     🌪    |                     tornado                    |                                            |                            \ud83c\udf2a                            |
 |     🌫    |                       fog                      |                                            |                            \ud83c\udf2b                            |
-|    ☂️    |                  open_umbrella                 |                                            |                            \u2602\ufe0f                            |
-|    ☔️    |                    umbrella                    |                rain; weather               |                            \u2614\ufe0f                            |
+|     🌊    |                      ocean                     |                     sea                    |                            \ud83c\udf0a                            |
 |     💧    |                     droplet                    |                    water                   |                            \ud83d\udca7                            |
 |     💦    |                   sweat_drops                  |               water; workout               |                            \ud83d\udca6                            |
-|     🌊    |                      ocean                     |                     sea                    |                            \ud83c\udf0a                            |
+|    ☔️    |                    umbrella                    |                rain; weather               |                            \u2614\ufe0f                            |
 |     🍏    |                   green_apple                  |                    fruit                   |                            \ud83c\udf4f                            |
 |     🍎    |                      apple                     |                                            |                            \ud83c\udf4e                            |
 |     🍐    |                      pear                      |                                            |                            \ud83c\udf50                            |
@@ -401,33 +470,48 @@ sense of the first column!
 |     🍒    |                    cherries                    |                    fruit                   |                            \ud83c\udf52                            |
 |     🍑    |                      peach                     |                                            |                            \ud83c\udf51                            |
 |     🍍    |                    pineapple                   |                                            |                            \ud83c\udf4d                            |
+|     🥝    |                   kiwi_fruit                   |                                            |                            \ud83e\udd5d                            |
+|     🥑    |                     avocado                    |                                            |                            \ud83e\udd51                            |
 |     🍅    |                     tomato                     |                                            |                            \ud83c\udf45                            |
 |     🍆    |                    eggplant                    |                  aubergine                 |                            \ud83c\udf46                            |
-|     🌶    |                   hot_pepper                   |                    spicy                   |                            \ud83c\udf36                            |
+|     🥒    |                    cucumber                    |                                            |                            \ud83e\udd52                            |
+|     🥕    |                     carrot                     |                                            |                            \ud83e\udd55                            |
 |     🌽    |                      corn                      |                                            |                            \ud83c\udf3d                            |
+|     🌶    |                   hot_pepper                   |                    spicy                   |                            \ud83c\udf36                            |
+|     🥔    |                     potato                     |                                            |                            \ud83e\udd54                            |
 |     🍠    |                  sweet_potato                  |                                            |                            \ud83c\udf60                            |
+|     🌰    |                    chestnut                    |                                            |                            \ud83c\udf30                            |
+|     🥜    |                     peanuts                    |                                            |                            \ud83e\udd5c                            |
 |     🍯    |                    honey_pot                   |                                            |                            \ud83c\udf6f                            |
+|     🥐    |                    croissant                   |                                            |                            \ud83e\udd50                            |
 |     🍞    |                      bread                     |                    toast                   |                            \ud83c\udf5e                            |
+|     🥖    |                 baguette_bread                 |                                            |                            \ud83e\udd56                            |
 |     🧀    |                     cheese                     |                                            |                            \ud83e\uddc0                            |
+|     🥚    |                       egg                      |                                            |                            \ud83e\udd5a                            |
+|     🍳    |                    fried_egg                   |                  breakfast                 |                            \ud83c\udf73                            |
+|     🥓    |                      bacon                     |                                            |                            \ud83e\udd53                            |
+|     🥞    |                    pancakes                    |                                            |                            \ud83e\udd5e                            |
+|     🍤    |                  fried_shrimp                  |                   tempura                  |                            \ud83c\udf64                            |
 |     🍗    |                   poultry_leg                  |                meat; chicken               |                            \ud83c\udf57                            |
 |     🍖    |                  meat_on_bone                  |                                            |                            \ud83c\udf56                            |
-|     🍤    |                  fried_shrimp                  |                   tempura                  |                            \ud83c\udf64                            |
-|     🍳    |                       egg                      |                  breakfast                 |                            \ud83c\udf73                            |
+|     🍕    |                      pizza                     |                                            |                            \ud83c\udf55                            |
+|     🌭    |                     hotdog                     |                                            |                            \ud83c\udf2d                            |
 |     🍔    |                    hamburger                   |                   burger                   |                            \ud83c\udf54                            |
 |     🍟    |                      fries                     |                                            |                            \ud83c\udf5f                            |
-|     🌭    |                     hotdog                     |                                            |                            \ud83c\udf2d                            |
-|     🍕    |                      pizza                     |                                            |                            \ud83c\udf55                            |
-|     🍝    |                    spaghetti                   |                    pasta                   |                            \ud83c\udf5d                            |
+|     🥙    |                stuffed_flatbread               |                                            |                            \ud83e\udd59                            |
 |     🌮    |                      taco                      |                                            |                            \ud83c\udf2e                            |
 |     🌯    |                     burrito                    |                                            |                            \ud83c\udf2f                            |
+|     🥗    |                   green_salad                  |                                            |                            \ud83e\udd57                            |
+|     🥘    |               shallow_pan_of_food              |                paella; curry               |                            \ud83e\udd58                            |
+|     🍝    |                    spaghetti                   |                    pasta                   |                            \ud83c\udf5d                            |
 |     🍜    |                      ramen                     |                   noodle                   |                            \ud83c\udf5c                            |
 |     🍲    |                      stew                      |                                            |                            \ud83c\udf72                            |
 |     🍥    |                    fish_cake                   |                                            |                            \ud83c\udf65                            |
 |     🍣    |                      sushi                     |                                            |                            \ud83c\udf63                            |
 |     🍱    |                      bento                     |                                            |                            \ud83c\udf71                            |
 |     🍛    |                      curry                     |                                            |                            \ud83c\udf5b                            |
-|     🍙    |                    rice_ball                   |                                            |                            \ud83c\udf59                            |
 |     🍚    |                      rice                      |                                            |                            \ud83c\udf5a                            |
+|     🍙    |                    rice_ball                   |                                            |                            \ud83c\udf59                            |
 |     🍘    |                  rice_cracker                  |                                            |                            \ud83c\udf58                            |
 |     🍢    |                      oden                      |                                            |                            \ud83c\udf62                            |
 |     🍡    |                      dango                     |                                            |                            \ud83c\udf61                            |
@@ -437,22 +521,26 @@ sense of the first column!
 |     🍰    |                      cake                      |                   dessert                  |                            \ud83c\udf70                            |
 |     🎂    |                    birthday                    |                    party                   |                            \ud83c\udf82                            |
 |     🍮    |                     custard                    |                                            |                            \ud83c\udf6e                            |
-|     🍬    |                      candy                     |                    sweet                   |                            \ud83c\udf6c                            |
 |     🍭    |                    lollipop                    |                                            |                            \ud83c\udf6d                            |
+|     🍬    |                      candy                     |                    sweet                   |                            \ud83c\udf6c                            |
 |     🍫    |                  chocolate_bar                 |                                            |                            \ud83c\udf6b                            |
 |     🍿    |                     popcorn                    |                                            |                            \ud83c\udf7f                            |
 |     🍩    |                    doughnut                    |                                            |                            \ud83c\udf69                            |
 |     🍪    |                     cookie                     |                                            |                            \ud83c\udf6a                            |
+|     🥛    |                   milk_glass                   |                                            |                            \ud83e\udd5b                            |
+|     🍼    |                   baby_bottle                  |                    milk                    |                            \ud83c\udf7c                            |
+|    ☕️    |                     coffee                     |               cafe; espresso               |                            \u2615\ufe0f                            |
+|     🍵    |                       tea                      |              green; breakfast              |                            \ud83c\udf75                            |
+|     🍶    |                      sake                      |                                            |                            \ud83c\udf76                            |
 |     🍺    |                      beer                      |                    drink                   |                            \ud83c\udf7a                            |
 |     🍻    |                      beers                     |                   drinks                   |                            \ud83c\udf7b                            |
+|     🥂    |                clinking_glasses                |                cheers; toast               |                            \ud83e\udd42                            |
 |     🍷    |                   wine_glass                   |                                            |                            \ud83c\udf77                            |
+|     🥃    |                  tumbler_glass                 |                   whisky                   |                            \ud83e\udd43                            |
 |     🍸    |                    cocktail                    |                    drink                   |                            \ud83c\udf78                            |
 |     🍹    |                 tropical_drink                 |              summer; vacation              |                            \ud83c\udf79                            |
 |     🍾    |                    champagne                   |         bottle; bubbly; celebration        |                            \ud83c\udf7e                            |
-|     🍶    |                      sake                      |                                            |                            \ud83c\udf76                            |
-|     🍵    |                       tea                      |              green; breakfast              |                            \ud83c\udf75                            |
-|    ☕️    |                     coffee                     |               cafe; espresso               |                            \u2615\ufe0f                            |
-|     🍼    |                   baby_bottle                  |                    milk                    |                            \ud83c\udf7c                            |
+|     🥄    |                      spoon                     |                                            |                            \ud83e\udd44                            |
 |     🍴    |                 fork_and_knife                 |                   cutlery                  |                            \ud83c\udf74                            |
 |     🍽    |               plate_with_cutlery               |               dining; dinner               |                            \ud83c\udf7d                            |
 |    ⚽️    |                     soccer                     |                   sports                   |                            \u26bd\ufe0f                            |
@@ -465,26 +553,38 @@ sense of the first column!
 |     🎱    |                      8ball                     |               pool; billiards              |                            \ud83c\udfb1                            |
 |     🏓    |                    ping_pong                   |                                            |                            \ud83c\udfd3                            |
 |     🏸    |                    badminton                   |                                            |                            \ud83c\udff8                            |
+|     🥅    |                    goal_net                    |                                            |                            \ud83e\udd45                            |
 |     🏒    |                   ice_hockey                   |                                            |                            \ud83c\udfd2                            |
 |     🏑    |                  field_hockey                  |                                            |                            \ud83c\udfd1                            |
 |     🏏    |                     cricket                    |                                            |                            \ud83c\udfcf                            |
-|     🏹    |                  bow_and_arrow                 |                   archery                  |                            \ud83c\udff9                            |
 |    ⛳️    |                      golf                      |                                            |                            \u26f3\ufe0f                            |
+|     🏹    |                  bow_and_arrow                 |                   archery                  |                            \ud83c\udff9                            |
 |     🎣    |              fishing_pole_and_fish             |                                            |                            \ud83c\udfa3                            |
+|     🥊    |                  boxing_glove                  |                                            |                            \ud83e\udd4a                            |
+|     🥋    |              martial_arts_uniform              |                                            |                            \ud83e\udd4b                            |
 |     ⛸    |                    ice_skate                   |                   skating                  |                               \u26f8                               |
 |     🎿    |                       ski                      |                                            |                            \ud83c\udfbf                            |
 |     ⛷    |                      skier                     |                                            |                               \u26f7                               |
 |     🏂    |                   snowboarder                  |                                            |                            \ud83c\udfc2                            |
 |   🏋️‍♀️  |              weight_lifting_woman              |                gym; workout                |                \ud83c\udfcb\ufe0f\u200d\u2640\ufe0f                |
 |    🏋️    |               weight_lifting_man               |                gym; workout                |                         \ud83c\udfcb\ufe0f                         |
+|     🤺    |                 person_fencing                 |                                            |                            \ud83e\udd3a                            |
+|   🤼‍♀️   |                 women_wrestling                |                                            |                   \ud83e\udd3c\u200d\u2640\ufe0f                   |
+|   🤼‍♂️   |                  men_wrestling                 |                                            |                   \ud83e\udd3c\u200d\u2642\ufe0f                   |
+|   🤸‍♀️   |               woman_cartwheeling               |                                            |                   \ud83e\udd38\u200d\u2640\ufe0f                   |
+|   🤸‍♂️   |                man_cartwheeling                |                                            |                   \ud83e\udd38\u200d\u2642\ufe0f                   |
 |   ⛹️‍♀️  |                basketball_woman                |                                            |                   \u26f9\ufe0f\u200d\u2640\ufe0f                   |
 |    ⛹️    |                 basketball_man                 |                                            |                            \u26f9\ufe0f                            |
+|   🤾‍♀️   |             woman_playing_handball             |                                            |                   \ud83e\udd3e\u200d\u2640\ufe0f                   |
+|   🤾‍♂️   |              man_playing_handball              |                                            |                   \ud83e\udd3e\u200d\u2642\ufe0f                   |
 |   🏌️‍♀️  |                  golfing_woman                 |                                            |                \ud83c\udfcc\ufe0f\u200d\u2640\ufe0f                |
 |    🏌️    |                   golfing_man                  |                                            |                         \ud83c\udfcc\ufe0f                         |
 |   🏄‍♀️   |                  surfing_woman                 |                                            |                   \ud83c\udfc4\u200d\u2640\ufe0f                   |
 |     🏄    |               surfing_man; surfer              |                                            |                            \ud83c\udfc4                            |
 |   🏊‍♀️   |                 swimming_woman                 |                                            |                   \ud83c\udfca\u200d\u2640\ufe0f                   |
 |     🏊    |              swimming_man; swimmer             |                                            |                            \ud83c\udfca                            |
+|   🤽‍♀️   |            woman_playing_water_polo            |                                            |                   \ud83e\udd3d\u200d\u2640\ufe0f                   |
+|   🤽‍♂️   |             man_playing_water_polo             |                                            |                   \ud83e\udd3d\u200d\u2642\ufe0f                   |
 |   🚣‍♀️   |                  rowing_woman                  |                                            |                   \ud83d\udea3\u200d\u2640\ufe0f                   |
 |     🚣    |               rowing_man; rowboat              |                                            |                            \ud83d\udea3                            |
 |     🏇    |                  horse_racing                  |                                            |                            \ud83c\udfc7                            |
@@ -492,33 +592,37 @@ sense of the first column!
 |     🚴    |              biking_man; bicyclist             |                                            |                            \ud83d\udeb4                            |
 |   🚵‍♀️   |              mountain_biking_woman             |                                            |                   \ud83d\udeb5\u200d\u2640\ufe0f                   |
 |     🚵    |     mountain_biking_man; mountain_bicyclist    |                                            |                            \ud83d\udeb5                            |
-|     🛀    |                      bath                      |                   shower                   |                            \ud83d\udec0                            |
-|     🕴    |            business_suit_levitating            |                                            |                            \ud83d\udd74                            |
-|     🎗    |                 reminder_ribbon                |                                            |                            \ud83c\udf97                            |
 |     🎽    |             running_shirt_with_sash            |                  marathon                  |                            \ud83c\udfbd                            |
 |     🏅    |                  medal_sports                  |                gold; winner                |                            \ud83c\udfc5                            |
 |     🎖    |                 medal_military                 |                                            |                            \ud83c\udf96                            |
+|     🥇    |                 1st_place_medal                |                    gold                    |                            \ud83e\udd47                            |
+|     🥈    |                 2nd_place_medal                |                   silver                   |                            \ud83e\udd48                            |
+|     🥉    |                 3rd_place_medal                |                   bronze                   |                            \ud83e\udd49                            |
 |     🏆    |                     trophy                     |           award; contest; winner           |                            \ud83c\udfc6                            |
 |     🏵    |                     rosette                    |                                            |                            \ud83c\udff5                            |
-|     🎯    |                      dart                      |                   target                   |                            \ud83c\udfaf                            |
+|     🎗    |                 reminder_ribbon                |                                            |                            \ud83c\udf97                            |
 |     🎫    |                     ticket                     |                                            |                            \ud83c\udfab                            |
 |     🎟    |                     tickets                    |                                            |                            \ud83c\udf9f                            |
+|     🎪    |                   circus_tent                  |                                            |                            \ud83c\udfaa                            |
+|   🤹‍♀️   |                 woman_juggling                 |                                            |                   \ud83e\udd39\u200d\u2640\ufe0f                   |
+|   🤹‍♂️   |                  man_juggling                  |                                            |                   \ud83e\udd39\u200d\u2642\ufe0f                   |
 |     🎭    |                 performing_arts                |               theater; drama               |                            \ud83c\udfad                            |
 |     🎨    |                       art                      |                design; paint               |                            \ud83c\udfa8                            |
-|     🎪    |                   circus_tent                  |                                            |                            \ud83c\udfaa                            |
 |     🎬    |                     clapper                    |                    film                    |                            \ud83c\udfac                            |
 |     🎤    |                   microphone                   |                    sing                    |                            \ud83c\udfa4                            |
 |     🎧    |                   headphones                   |              music; earphones              |                            \ud83c\udfa7                            |
 |     🎼    |                  musical_score                 |                                            |                            \ud83c\udfbc                            |
 |     🎹    |                musical_keyboard                |                    piano                   |                            \ud83c\udfb9                            |
+|     🥁    |                      drum                      |                                            |                            \ud83e\udd41                            |
 |     🎷    |                    saxophone                   |                                            |                            \ud83c\udfb7                            |
 |     🎺    |                     trumpet                    |                                            |                            \ud83c\udfba                            |
 |     🎸    |                     guitar                     |                    rock                    |                            \ud83c\udfb8                            |
 |     🎻    |                     violin                     |                                            |                            \ud83c\udfbb                            |
+|     🎲    |                    game_die                    |               dice; gambling               |                            \ud83c\udfb2                            |
+|     🎯    |                      dart                      |                   target                   |                            \ud83c\udfaf                            |
+|     🎳    |                     bowling                    |                                            |                            \ud83c\udfb3                            |
 |     🎮    |                   video_game                   |          play; controller; console         |                            \ud83c\udfae                            |
 |     🎰    |                  slot_machine                  |                                            |                            \ud83c\udfb0                            |
-|     🎲    |                    game_die                    |               dice; gambling               |                            \ud83c\udfb2                            |
-|     🎳    |                     bowling                    |                                            |                            \ud83c\udfb3                            |
 |     🚗    |                  car; red_car                  |                                            |                            \ud83d\ude97                            |
 |     🚕    |                      taxi                      |                                            |                            \ud83d\ude95                            |
 |     🚙    |                    blue_car                    |                                            |                            \ud83d\ude99                            |
@@ -532,8 +636,10 @@ sense of the first column!
 |     🚚    |                      truck                     |                                            |                            \ud83d\ude9a                            |
 |     🚛    |                articulated_lorry               |                                            |                            \ud83d\ude9b                            |
 |     🚜    |                     tractor                    |                                            |                            \ud83d\ude9c                            |
-|     🏍    |                   motorcycle                   |                                            |                            \ud83c\udfcd                            |
+|     🛴    |                  kick_scooter                  |                                            |                            \ud83d\udef4                            |
 |     🚲    |                      bike                      |                   bicycle                  |                            \ud83d\udeb2                            |
+|     🛵    |                  motor_scooter                 |                                            |                            \ud83d\udef5                            |
+|     🏍    |                   motorcycle                   |                                            |                            \ud83c\udfcd                            |
 |     🚨    |                 rotating_light                 |               911; emergency               |                            \ud83d\udea8                            |
 |     🚔    |               oncoming_police_car              |                                            |                            \ud83d\ude94                            |
 |     🚍    |                  oncoming_bus                  |                                            |                            \ud83d\ude8d                            |
@@ -544,11 +650,11 @@ sense of the first column!
 |     🚟    |               suspension_railway               |                                            |                            \ud83d\ude9f                            |
 |     🚃    |                   railway_car                  |                                            |                            \ud83d\ude83                            |
 |     🚋    |                      train                     |                                            |                            \ud83d\ude8b                            |
+|     🚞    |                mountain_railway                |                                            |                            \ud83d\ude9e                            |
 |     🚝    |                    monorail                    |                                            |                            \ud83d\ude9d                            |
 |     🚄    |                bullettrain_side                |                    train                   |                            \ud83d\ude84                            |
 |     🚅    |                bullettrain_front               |                    train                   |                            \ud83d\ude85                            |
 |     🚈    |                   light_rail                   |                                            |                            \ud83d\ude88                            |
-|     🚞    |                mountain_railway                |                                            |                            \ud83d\ude9e                            |
 |     🚂    |                steam_locomotive                |                    train                   |                            \ud83d\ude82                            |
 |     🚆    |                     train2                     |                                            |                            \ud83d\ude86                            |
 |     🚇    |                      metro                     |                                            |                            \ud83d\ude87                            |
@@ -559,14 +665,16 @@ sense of the first column!
 |    ✈️    |                    airplane                    |                   flight                   |                            \u2708\ufe0f                            |
 |     🛫    |                flight_departure                |                                            |                            \ud83d\udeeb                            |
 |     🛬    |                 flight_arrival                 |                                            |                            \ud83d\udeec                            |
-|    ⛵️    |                 boat; sailboat                 |                                            |                            \u26f5\ufe0f                            |
-|     🛥    |                   motor_boat                   |                                            |                            \ud83d\udee5                            |
-|     🚤    |                    speedboat                   |                    ship                    |                            \ud83d\udea4                            |
-|     ⛴    |                      ferry                     |                                            |                               \u26f4                               |
-|     🛳    |                 passenger_ship                 |                   cruise                   |                            \ud83d\udef3                            |
 |     🚀    |                     rocket                     |                ship; launch                |                            \ud83d\ude80                            |
 |     🛰    |              artificial_satellite              |                orbit; space                |                            \ud83d\udef0                            |
 |     💺    |                      seat                      |                                            |                            \ud83d\udcba                            |
+|     🛶    |                      canoe                     |                                            |                            \ud83d\udef6                            |
+|    ⛵️    |                 boat; sailboat                 |                                            |                            \u26f5\ufe0f                            |
+|     🛥    |                   motor_boat                   |                                            |                            \ud83d\udee5                            |
+|     🚤    |                    speedboat                   |                    ship                    |                            \ud83d\udea4                            |
+|     🛳    |                 passenger_ship                 |                   cruise                   |                            \ud83d\udef3                            |
+|     ⛴    |                      ferry                     |                                            |                               \u26f4                               |
+|     🚢    |                      ship                      |                                            |                            \ud83d\udea2                            |
 |    ⚓️    |                     anchor                     |                    ship                    |                            \u2693\ufe0f                            |
 |     🚧    |                  construction                  |                     wip                    |                            \ud83d\udea7                            |
 |    ⛽️    |                    fuelpump                    |                                            |                            \u26fd\ufe0f                            |
@@ -574,48 +682,33 @@ sense of the first column!
 |     🚦    |             vertical_traffic_light             |                  semaphore                 |                            \ud83d\udea6                            |
 |     🚥    |                  traffic_light                 |                                            |                            \ud83d\udea5                            |
 |     🗺    |                    world_map                   |                   travel                   |                            \ud83d\uddfa                            |
-|     🚢    |                      ship                      |                                            |                            \ud83d\udea2                            |
+|     🗿    |                      moyai                     |                    stone                   |                            \ud83d\uddff                            |
+|     🗽    |                statue_of_liberty               |                                            |                            \ud83d\uddfd                            |
+|    ⛲️    |                    fountain                    |                                            |                            \u26f2\ufe0f                            |
+|     🗼    |                   tokyo_tower                  |                                            |                            \ud83d\uddfc                            |
+|     🏰    |                 european_castle                |                                            |                            \ud83c\udff0                            |
+|     🏯    |                 japanese_castle                |                                            |                            \ud83c\udfef                            |
+|     🏟    |                     stadium                    |                                            |                            \ud83c\udfdf                            |
 |     🎡    |                  ferris_wheel                  |                                            |                            \ud83c\udfa1                            |
 |     🎢    |                 roller_coaster                 |                                            |                            \ud83c\udfa2                            |
 |     🎠    |                 carousel_horse                 |                                            |                            \ud83c\udfa0                            |
-|     🏗    |              building_construction             |                                            |                            \ud83c\udfd7                            |
-|     🌁    |                      foggy                     |                    karl                    |                            \ud83c\udf01                            |
-|     🗼    |                   tokyo_tower                  |                                            |                            \ud83d\uddfc                            |
-|     🏭    |                     factory                    |                                            |                            \ud83c\udfed                            |
-|    ⛲️    |                    fountain                    |                                            |                            \u26f2\ufe0f                            |
-|     🎑    |                   rice_scene                   |                                            |                            \ud83c\udf91                            |
+|     ⛱    |                parasol_on_ground               |               beach_umbrella               |                               \u26f1                               |
+|     🏖    |                 beach_umbrella                 |                                            |                            \ud83c\udfd6                            |
+|     🏝    |                  desert_island                 |                                            |                            \ud83c\udfdd                            |
 |     ⛰    |                    mountain                    |                                            |                               \u26f0                               |
 |     🏔    |                  mountain_snow                 |                                            |                            \ud83c\udfd4                            |
 |     🗻    |                   mount_fuji                   |                                            |                            \ud83d\uddfb                            |
 |     🌋    |                     volcano                    |                                            |                            \ud83c\udf0b                            |
-|     🗾    |                      japan                     |                                            |                            \ud83d\uddfe                            |
+|     🏜    |                     desert                     |                                            |                            \ud83c\udfdc                            |
 |     🏕    |                     camping                    |                                            |                            \ud83c\udfd5                            |
 |    ⛺️    |                      tent                      |                   camping                  |                            \u26fa\ufe0f                            |
-|     🏞    |                  national_park                 |                                            |                            \ud83c\udfde                            |
-|     🛣    |                    motorway                    |                                            |                            \ud83d\udee3                            |
 |     🛤    |                  railway_track                 |                                            |                            \ud83d\udee4                            |
-|     🌅    |                     sunrise                    |                                            |                            \ud83c\udf05                            |
-|     🌄    |             sunrise_over_mountains             |                                            |                            \ud83c\udf04                            |
-|     🏜    |                     desert                     |                                            |                            \ud83c\udfdc                            |
-|     🏖    |                 beach_umbrella                 |                                            |                            \ud83c\udfd6                            |
-|     🏝    |                  desert_island                 |                                            |                            \ud83c\udfdd                            |
-|     🌇    |                  city_sunrise                  |                                            |                            \ud83c\udf07                            |
-|     🌆    |                   city_sunset                  |                                            |                            \ud83c\udf06                            |
-|     🏙    |                    cityscape                   |                   skyline                  |                            \ud83c\udfd9                            |
-|     🌃    |                night_with_stars                |                                            |                            \ud83c\udf03                            |
-|     🌉    |                 bridge_at_night                |                                            |                            \ud83c\udf09                            |
-|     🌌    |                    milky_way                   |                                            |                            \ud83c\udf0c                            |
-|     🌠    |                      stars                     |                                            |                            \ud83c\udf20                            |
-|     🎇    |                    sparkler                    |                                            |                            \ud83c\udf87                            |
-|     🎆    |                    fireworks                   |            festival; celebration           |                            \ud83c\udf86                            |
-|     🌈    |                     rainbow                    |                                            |                            \ud83c\udf08                            |
-|     🏘    |                     houses                     |                                            |                            \ud83c\udfd8                            |
-|     🏰    |                 european_castle                |                                            |                            \ud83c\udff0                            |
-|     🏯    |                 japanese_castle                |                                            |                            \ud83c\udfef                            |
-|     🏟    |                     stadium                    |                                            |                            \ud83c\udfdf                            |
-|     🗽    |                statue_of_liberty               |                                            |                            \ud83d\uddfd                            |
+|     🛣    |                    motorway                    |                                            |                            \ud83d\udee3                            |
+|     🏗    |              building_construction             |                                            |                            \ud83c\udfd7                            |
+|     🏭    |                     factory                    |                                            |                            \ud83c\udfed                            |
 |     🏠    |                      house                     |                                            |                            \ud83c\udfe0                            |
 |     🏡    |                house_with_garden               |                                            |                            \ud83c\udfe1                            |
+|     🏘    |                     houses                     |                                            |                            \ud83c\udfd8                            |
 |     🏚    |                 derelict_house                 |                                            |                            \ud83c\udfda                            |
 |     🏢    |                     office                     |                                            |                            \ud83c\udfe2                            |
 |     🏬    |                department_store                |                                            |                            \ud83c\udfec                            |
@@ -634,6 +727,21 @@ sense of the first column!
 |     🕍    |                    synagogue                   |                                            |                            \ud83d\udd4d                            |
 |     🕋    |                      kaaba                     |                                            |                            \ud83d\udd4b                            |
 |     ⛩    |                  shinto_shrine                 |                                            |                               \u26e9                               |
+|     🗾    |                      japan                     |                                            |                            \ud83d\uddfe                            |
+|     🎑    |                   rice_scene                   |                                            |                            \ud83c\udf91                            |
+|     🏞    |                  national_park                 |                                            |                            \ud83c\udfde                            |
+|     🌅    |                     sunrise                    |                                            |                            \ud83c\udf05                            |
+|     🌄    |             sunrise_over_mountains             |                                            |                            \ud83c\udf04                            |
+|     🌠    |                      stars                     |                                            |                            \ud83c\udf20                            |
+|     🎇    |                    sparkler                    |                                            |                            \ud83c\udf87                            |
+|     🎆    |                    fireworks                   |            festival; celebration           |                            \ud83c\udf86                            |
+|     🌇    |                  city_sunrise                  |                                            |                            \ud83c\udf07                            |
+|     🌆    |                   city_sunset                  |                                            |                            \ud83c\udf06                            |
+|     🏙    |                    cityscape                   |                   skyline                  |                            \ud83c\udfd9                            |
+|     🌃    |                night_with_stars                |                                            |                            \ud83c\udf03                            |
+|     🌌    |                    milky_way                   |                                            |                            \ud83c\udf0c                            |
+|     🌉    |                 bridge_at_night                |                                            |                            \ud83c\udf09                            |
+|     🌁    |                      foggy                     |                    karl                    |                            \ud83c\udf01                            |
 |    ⌚️    |                      watch                     |                    time                    |                            \u231a\ufe0f                            |
 |     📱    |                     iphone                     |             smartphone; mobile             |                            \ud83d\udcf1                            |
 |     📲    |                     calling                    |               call; incoming               |                            \ud83d\udcf2                            |
@@ -669,8 +777,8 @@ sense of the first column!
 |     ⏲    |                   timer_clock                  |                                            |                               \u23f2                               |
 |     ⏰    |                   alarm_clock                  |                   morning                  |                               \u23f0                               |
 |     🕰    |                mantelpiece_clock               |                                            |                            \ud83d\udd70                            |
-|     ⏳    |             hourglass_flowing_sand             |                    time                    |                               \u23f3                               |
 |    ⌛️    |                    hourglass                   |                    time                    |                            \u231b\ufe0f                            |
+|     ⏳    |             hourglass_flowing_sand             |                    time                    |                               \u23f3                               |
 |     📡    |                    satellite                   |                   signal                   |                            \ud83d\udce1                            |
 |     🔋    |                     battery                    |                    power                   |                            \ud83d\udd0b                            |
 |     🔌    |                  electric_plug                 |                                            |                            \ud83d\udd0c                            |
@@ -687,29 +795,29 @@ sense of the first column!
 |     💰    |                    moneybag                    |                dollar; cream               |                            \ud83d\udcb0                            |
 |     💳    |                   credit_card                  |                subscription                |                            \ud83d\udcb3                            |
 |     💎    |                       gem                      |                   diamond                  |                            \ud83d\udc8e                            |
-|     ⚖    |                  balance_scale                 |                                            |                               \u2696                               |
+|    ⚖️    |                  balance_scale                 |                                            |                            \u2696\ufe0f                            |
 |     🔧    |                     wrench                     |                    tool                    |                            \ud83d\udd27                            |
 |     🔨    |                     hammer                     |                    tool                    |                            \ud83d\udd28                            |
 |     ⚒    |                 hammer_and_pick                |                                            |                               \u2692                               |
 |     🛠    |                hammer_and_wrench               |                                            |                            \ud83d\udee0                            |
 |     ⛏    |                      pick                      |                                            |                               \u26cf                               |
 |     🔩    |                  nut_and_bolt                  |                                            |                            \ud83d\udd29                            |
-|     ⚙    |                      gear                      |                                            |                               \u2699                               |
+|    ⚙️    |                      gear                      |                                            |                            \u2699\ufe0f                            |
 |     ⛓    |                     chains                     |                                            |                               \u26d3                               |
 |     🔫    |                       gun                      |                shoot; weapon               |                            \ud83d\udd2b                            |
 |     💣    |                      bomb                      |                    boom                    |                            \ud83d\udca3                            |
 |     🔪    |                  hocho; knife                  |                  cut; chop                 |                            \ud83d\udd2a                            |
 |     🗡    |                     dagger                     |                                            |                            \ud83d\udde1                            |
-|     ⚔    |                 crossed_swords                 |                                            |                               \u2694                               |
+|    ⚔️    |                 crossed_swords                 |                                            |                            \u2694\ufe0f                            |
 |     🛡    |                     shield                     |                                            |                            \ud83d\udee1                            |
 |     🚬    |                     smoking                    |                  cigarette                 |                            \ud83d\udeac                            |
-|     ⚰    |                     coffin                     |                   funeral                  |                               \u26b0                               |
-|     ⚱    |                   funeral_urn                  |                                            |                               \u26b1                               |
+|    ⚰️    |                     coffin                     |                   funeral                  |                            \u26b0\ufe0f                            |
+|    ⚱️    |                   funeral_urn                  |                                            |                            \u26b1\ufe0f                            |
 |     🏺    |                     amphora                    |                                            |                            \ud83c\udffa                            |
 |     🔮    |                  crystal_ball                  |                   fortune                  |                            \ud83d\udd2e                            |
 |     📿    |                  prayer_beads                  |                                            |                            \ud83d\udcff                            |
 |     💈    |                     barber                     |                                            |                            \ud83d\udc88                            |
-|     ⚗    |                     alembic                    |                                            |                               \u2697                               |
+|    ⚗️    |                     alembic                    |                                            |                            \u2697\ufe0f                            |
 |     🔭    |                    telescope                   |                                            |                            \ud83d\udd2d                            |
 |     🔬    |                   microscope                   |      science; laboratory; investigate      |                            \ud83d\udd2c                            |
 |     🕳    |                      hole                      |                                            |                            \ud83d\udd73                            |
@@ -717,28 +825,29 @@ sense of the first column!
 |     💉    |                     syringe                    |          health; hospital; needle          |                            \ud83d\udc89                            |
 |     🌡    |                   thermometer                  |                                            |                            \ud83c\udf21                            |
 |     🚽    |                     toilet                     |                     wc                     |                            \ud83d\udebd                            |
+|     🚰    |                  potable_water                 |                                            |                            \ud83d\udeb0                            |
 |     🚿    |                     shower                     |                    bath                    |                            \ud83d\udebf                            |
 |     🛁    |                     bathtub                    |                                            |                            \ud83d\udec1                            |
+|     🛀    |                      bath                      |                   shower                   |                            \ud83d\udec0                            |
 |     🛎    |                  bellhop_bell                  |                                            |                            \ud83d\udece                            |
 |     🔑    |                       key                      |               lock; password               |                            \ud83d\udd11                            |
 |     🗝    |                     old_key                    |                                            |                            \ud83d\udddd                            |
 |     🚪    |                      door                      |                                            |                            \ud83d\udeaa                            |
 |     🛋    |                 couch_and_lamp                 |                                            |                            \ud83d\udecb                            |
-|     🛌    |                  sleeping_bed                  |                                            |                            \ud83d\udecc                            |
 |     🛏    |                       bed                      |                                            |                            \ud83d\udecf                            |
+|     🛌    |                  sleeping_bed                  |                                            |                            \ud83d\udecc                            |
 |     🖼    |                 framed_picture                 |                                            |                            \ud83d\uddbc                            |
-|     ⛱    |                parasol_on_ground               |               beach_umbrella               |                               \u26f1                               |
-|     🗿    |                      moyai                     |                    stone                   |                            \ud83d\uddff                            |
 |     🛍    |                    shopping                    |                    bags                    |                            \ud83d\udecd                            |
+|     🛒    |                  shopping_cart                 |                                            |                            \ud83d\uded2                            |
 |     🎁    |                      gift                      |        present; birthday; christmas        |                            \ud83c\udf81                            |
 |     🎈    |                     balloon                    |               party; birthday              |                            \ud83c\udf88                            |
 |     🎏    |                      flags                     |                                            |                            \ud83c\udf8f                            |
 |     🎀    |                     ribbon                     |                                            |                            \ud83c\udf80                            |
 |     🎊    |                  confetti_ball                 |                                            |                            \ud83c\udf8a                            |
 |     🎉    |                      tada                      |                    party                   |                            \ud83c\udf89                            |
-|     🎐    |                   wind_chime                   |                                            |                            \ud83c\udf90                            |
-|     🏮    |            izakaya_lantern; lantern            |                                            |                            \ud83c\udfee                            |
 |     🎎    |                      dolls                     |                                            |                            \ud83c\udf8e                            |
+|     🏮    |            izakaya_lantern; lantern            |                                            |                            \ud83c\udfee                            |
+|     🎐    |                   wind_chime                   |                                            |                            \ud83c\udf90                            |
 |    ✉️    |                 email; envelope                |                   letter                   |                            \u2709\ufe0f                            |
 |     📩    |               envelope_with_arrow              |                                            |                            \ud83d\udce9                            |
 |     📨    |                incoming_envelope               |                                            |                            \ud83d\udce8                            |
@@ -748,7 +857,6 @@ sense of the first column!
 |     📤    |                   outbox_tray                  |                                            |                            \ud83d\udce4                            |
 |     📦    |                     package                    |                  shipping                  |                            \ud83d\udce6                            |
 |     🏷    |                      label                     |                     tag                    |                            \ud83c\udff7                            |
-|     🔖    |                    bookmark                    |                                            |                            \ud83d\udd16                            |
 |     📪    |                 mailbox_closed                 |                                            |                            \ud83d\udcea                            |
 |     📫    |                     mailbox                    |                                            |                            \ud83d\udceb                            |
 |     📬    |                mailbox_with_mail               |                                            |                            \ud83d\udcec                            |
@@ -785,38 +893,34 @@ sense of the first column!
 |     📙    |                   orange_book                  |                                            |                            \ud83d\udcd9                            |
 |     📚    |                      books                     |                   library                  |                            \ud83d\udcda                            |
 |     📖    |                 book; open_book                |                                            |                            \ud83d\udcd6                            |
+|     🔖    |                    bookmark                    |                                            |                            \ud83d\udd16                            |
 |     🔗    |                      link                      |                                            |                            \ud83d\udd17                            |
 |     📎    |                    paperclip                   |                                            |                            \ud83d\udcce                            |
 |     🖇    |                   paperclips                   |                                            |                            \ud83d\udd87                            |
 |     📐    |                triangular_ruler                |                                            |                            \ud83d\udcd0                            |
 |     📏    |                 straight_ruler                 |                                            |                            \ud83d\udccf                            |
-|    ✂️    |                    scissors                    |                     cut                    |                            \u2702\ufe0f                            |
 |     📌    |                     pushpin                    |                  location                  |                            \ud83d\udccc                            |
 |     📍    |                  round_pushpin                 |                  location                  |                            \ud83d\udccd                            |
-|     🚩    |             triangular_flag_on_post            |                                            |                            \ud83d\udea9                            |
-|     🎌    |                  crossed_flags                 |                                            |                            \ud83c\udf8c                            |
-|    🏳️    |                   white_flag                   |                                            |                         \ud83c\udff3\ufe0f                         |
-|     🏴    |                   black_flag                   |                                            |                            \ud83c\udff4                            |
-|     🏁    |                 checkered_flag                 |              milestone; finish             |                            \ud83c\udfc1                            |
-|   🏳️‍🌈   |                  rainbow_flag                  |                    pride                   |                \ud83c\udff3\ufe0f\u200d\ud83c\udf08                |
-|     🖌    |                   paintbrush                   |                                            |                            \ud83d\udd8c                            |
-|     🖍    |                     crayon                     |                                            |                            \ud83d\udd8d                            |
+|    ✂️    |                    scissors                    |                     cut                    |                            \u2702\ufe0f                            |
 |     🖊    |                       pen                      |                                            |                            \ud83d\udd8a                            |
 |     🖋    |                  fountain_pen                  |                                            |                            \ud83d\udd8b                            |
 |    ✒️    |                    black_nib                   |                                            |                            \u2712\ufe0f                            |
+|     🖌    |                   paintbrush                   |                                            |                            \ud83d\udd8c                            |
+|     🖍    |                     crayon                     |                                            |                            \ud83d\udd8d                            |
 |     📝    |                  memo; pencil                  |               document; note               |                            \ud83d\udcdd                            |
 |    ✏️    |                     pencil2                    |                                            |                            \u270f\ufe0f                            |
+|     🔍    |                       mag                      |                search; zoom                |                            \ud83d\udd0d                            |
+|     🔎    |                    mag_right                   |                                            |                            \ud83d\udd0e                            |
 |     🔏    |                lock_with_ink_pen               |                                            |                            \ud83d\udd0f                            |
 |     🔐    |              closed_lock_with_key              |                  security                  |                            \ud83d\udd10                            |
 |     🔒    |                      lock                      |              security; private             |                            \ud83d\udd12                            |
 |     🔓    |                     unlock                     |                  security                  |                            \ud83d\udd13                            |
-|     🔍    |                       mag                      |                search; zoom                |                            \ud83d\udd0d                            |
-|     🔎    |                    mag_right                   |                                            |                            \ud83d\udd0e                            |
 |    ❤️    |                      heart                     |                    love                    |                            \u2764\ufe0f                            |
 |     💛    |                  yellow_heart                  |                                            |                            \ud83d\udc9b                            |
 |     💚    |                   green_heart                  |                                            |                            \ud83d\udc9a                            |
 |     💙    |                   blue_heart                   |                                            |                            \ud83d\udc99                            |
 |     💜    |                  purple_heart                  |                                            |                            \ud83d\udc9c                            |
+|     🖤    |                   black_heart                  |                                            |                            \ud83d\udda4                            |
 |     💔    |                  broken_heart                  |                                            |                            \ud83d\udc94                            |
 |    ❣️    |             heavy_heart_exclamation            |                                            |                            \u2763\ufe0f                            |
 |     💕    |                   two_hearts                   |                                            |                            \ud83d\udc95                            |
@@ -852,9 +956,8 @@ sense of the first column!
 |    ♒️    |                    aquarius                    |                                            |                            \u2652\ufe0f                            |
 |    ♓️    |                     pisces                     |                                            |                            \u2653\ufe0f                            |
 |     🆔    |                       id                       |                                            |                            \ud83c\udd94                            |
-|     ⚛    |                   atom_symbol                  |                                            |                               \u269b                               |
-|    🈳    |                      u7a7a                     |                                            |                            \ud83c\ude33                            |
-|    🈹    |                      u5272                     |                                            |                            \ud83c\ude39                            |
+|    ⚛️    |                   atom_symbol                  |                                            |                            \u269b\ufe0f                            |
+|    🉑    |                     accept                     |                                            |                            \ud83c\ude51                            |
 |    ☢️    |                   radioactive                  |                                            |                            \u2622\ufe0f                            |
 |    ☣️    |                    biohazard                   |                                            |                            \u2623\ufe0f                            |
 |     📴    |                mobile_phone_off                |                  mute; off                 |                            \ud83d\udcf4                            |
@@ -866,13 +969,13 @@ sense of the first column!
 |    🈷️   |                      u6708                     |                                            |                         \ud83c\ude37\ufe0f                         |
 |    ✴️    |            eight_pointed_black_star            |                                            |                            \u2734\ufe0f                            |
 |     🆚    |                       vs                       |                                            |                            \ud83c\udd9a                            |
-|    🉑    |                     accept                     |                                            |                            \ud83c\ude51                            |
 |     💮    |                  white_flower                  |                                            |                            \ud83d\udcae                            |
 |    🉐    |               ideograph_advantage              |                                            |                            \ud83c\ude50                            |
 |    ㊙️   |                     secret                     |                                            |                            \u3299\ufe0f                            |
 |    ㊗️   |                 congratulations                |                                            |                            \u3297\ufe0f                            |
 |    🈴    |                      u5408                     |                                            |                            \ud83c\ude34                            |
 |    🈵    |                      u6e80                     |                                            |                            \ud83c\ude35                            |
+|    🈹    |                      u5272                     |                                            |                            \ud83c\ude39                            |
 |    🈲    |                      u7981                     |                                            |                            \ud83c\ude32                            |
 |    🅰️    |                        a                       |                                            |                         \ud83c\udd70\ufe0f                         |
 |    🅱️    |                        b                       |                                            |                         \ud83c\udd71\ufe0f                         |
@@ -880,11 +983,13 @@ sense of the first column!
 |     🆑    |                       cl                       |                                            |                            \ud83c\udd91                            |
 |    🅾️    |                       o2                       |                                            |                         \ud83c\udd7e\ufe0f                         |
 |     🆘    |                       sos                      |               help; emergency              |                            \ud83c\udd98                            |
+|     ❌    |                        x                       |                                            |                               \u274c                               |
+|    ⭕️    |                        o                       |                                            |                            \u2b55\ufe0f                            |
+|     🛑    |                    stop_sign                   |                                            |                            \ud83d\uded1                            |
 |    ⛔️    |                    no_entry                    |                    limit                   |                            \u26d4\ufe0f                            |
 |     📛    |                   name_badge                   |                                            |                            \ud83d\udcdb                            |
 |     🚫    |                  no_entry_sign                 |              block; forbidden              |                            \ud83d\udeab                            |
-|     ❌    |                        x                       |                                            |                               \u274c                               |
-|    ⭕️    |                        o                       |                                            |                            \u2b55\ufe0f                            |
+|     💯    |                       100                      |               score; perfect               |                            \ud83d\udcaf                            |
 |     💢    |                      anger                     |                    angry                   |                            \ud83d\udca2                            |
 |    ♨️    |                   hotsprings                   |                                            |                            \u2668\ufe0f                            |
 |     🚷    |                 no_pedestrians                 |                                            |                            \ud83d\udeb7                            |
@@ -893,44 +998,43 @@ sense of the first column!
 |     🚱    |                non-potable_water               |                                            |                            \ud83d\udeb1                            |
 |     🔞    |                    underage                    |                                            |                            \ud83d\udd1e                            |
 |     📵    |                no_mobile_phones                |                                            |                            \ud83d\udcf5                            |
+|     🚭    |                   no_smoking                   |                                            |                            \ud83d\udead                            |
 |    ❗️    |       exclamation; heavy_exclamation_mark      |                    bang                    |                            \u2757\ufe0f                            |
 |     ❕    |                grey_exclamation                |                                            |                               \u2755                               |
 |     ❓    |                    question                    |                  confused                  |                               \u2753                               |
 |     ❔    |                  grey_question                 |                                            |                               \u2754                               |
 |    ‼️    |                    bangbang                    |                                            |                            \u203c\ufe0f                            |
 |    ⁉️    |                   interrobang                  |                                            |                            \u2049\ufe0f                            |
-|     💯    |                       100                      |               score; perfect               |                            \ud83d\udcaf                            |
 |     🔅    |                 low_brightness                 |                                            |                            \ud83d\udd05                            |
 |     🔆    |                 high_brightness                |                                            |                            \ud83d\udd06                            |
-|     🔱    |                     trident                    |                                            |                            \ud83d\udd31                            |
-|     ⚜    |                  fleur_de_lis                  |                                            |                               \u269c                               |
 |    〽️   |              part_alternation_mark             |                                            |                            \u303d\ufe0f                            |
 |    ⚠️    |                     warning                    |                     wip                    |                            \u26a0\ufe0f                            |
 |     🚸    |                children_crossing               |                                            |                            \ud83d\udeb8                            |
+|     🔱    |                     trident                    |                                            |                            \ud83d\udd31                            |
+|    ⚜️    |                  fleur_de_lis                  |                                            |                            \u269c\ufe0f                            |
 |     🔰    |                    beginner                    |                                            |                            \ud83d\udd30                            |
 |    ♻️    |                     recycle                    |             environment; green             |                            \u267b\ufe0f                            |
+|     ✅    |                white_check_mark                |                                            |                               \u2705                               |
 |    🈯️   |                      u6307                     |                                            |                         \ud83c\ude2f\ufe0f                         |
 |     💹    |                      chart                     |                                            |                            \ud83d\udcb9                            |
 |    ❇️    |                     sparkle                    |                                            |                            \u2747\ufe0f                            |
 |    ✳️    |              eight_spoked_asterisk             |                                            |                            \u2733\ufe0f                            |
 |     ❎    |           negative_squared_cross_mark          |                                            |                               \u274e                               |
-|     ✅    |                white_check_mark                |                                            |                               \u2705                               |
 |     🌐    |              globe_with_meridians              |        world; global; international        |                            \ud83c\udf10                            |
-|    Ⓜ️    |                        m                       |                                            |                            \u24c2\ufe0f                            |
 |     💠    |         diamond_shape_with_a_dot_inside        |                                            |                            \ud83d\udca0                            |
+|    Ⓜ️    |                        m                       |                                            |                            \u24c2\ufe0f                            |
 |     🌀    |                     cyclone                    |                    swirl                   |                            \ud83c\udf00                            |
-|     ➿    |                      loop                      |                                            |                               \u27bf                               |
+|     💤    |                       zzz                      |                  sleeping                  |                            \ud83d\udca4                            |
 |     🏧    |                       atm                      |                                            |                            \ud83c\udfe7                            |
+|     🚾    |                       wc                       |              toilet; restroom              |                            \ud83d\udebe                            |
+|    ♿️    |                   wheelchair                   |                accessibility               |                            \u267f\ufe0f                            |
+|    🅿️    |                     parking                    |                                            |                         \ud83c\udd7f\ufe0f                         |
+|    🈳    |                      u7a7a                     |                                            |                            \ud83c\ude33                            |
 |    🈂️   |                       sa                       |                                            |                         \ud83c\ude02\ufe0f                         |
 |     🛂    |                passport_control                |                                            |                            \ud83d\udec2                            |
 |     🛃    |                     customs                    |                                            |                            \ud83d\udec3                            |
 |     🛄    |                  baggage_claim                 |                   airport                  |                            \ud83d\udec4                            |
 |     🛅    |                  left_luggage                  |                                            |                            \ud83d\udec5                            |
-|    ♿️    |                   wheelchair                   |                accessibility               |                            \u267f\ufe0f                            |
-|     🚭    |                   no_smoking                   |                                            |                            \ud83d\udead                            |
-|     🚾    |                       wc                       |              toilet; restroom              |                            \ud83d\udebe                            |
-|    🅿️    |                     parking                    |                                            |                         \ud83c\udd7f\ufe0f                         |
-|     🚰    |                  potable_water                 |                                            |                            \ud83d\udeb0                            |
 |     🚹    |                      mens                      |                                            |                            \ud83d\udeb9                            |
 |     🚺    |                     womens                     |                                            |                            \ud83d\udeba                            |
 |     🚼    |                   baby_symbol                  |                                            |                            \ud83d\udebc                            |
@@ -939,11 +1043,11 @@ sense of the first column!
 |     🎦    |                     cinema                     |                 film; movie                |                            \ud83c\udfa6                            |
 |     📶    |                 signal_strength                |                    wifi                    |                            \ud83d\udcf6                            |
 |    🈁    |                      koko                      |                                            |                            \ud83c\ude01                            |
+|     🔣    |                     symbols                    |                                            |                            \ud83d\udd23                            |
+|    ℹ️    |               information_source               |                                            |                            \u2139\ufe0f                            |
 |     🔤    |                       abc                      |                  alphabet                  |                            \ud83d\udd24                            |
 |     🔡    |                      abcd                      |                                            |                            \ud83d\udd21                            |
 |     🔠    |                  capital_abcd                  |                   letters                  |                            \ud83d\udd20                            |
-|     🔣    |                     symbols                    |                                            |                            \ud83d\udd23                            |
-|    ℹ️    |               information_source               |                                            |                            \u2139\ufe0f                            |
 |     🆖    |                       ng                       |                                            |                            \ud83c\udd96                            |
 |     🆗    |                       ok                       |                     yes                    |                            \ud83c\udd97                            |
 |     🆙    |                       up                       |                                            |                            \ud83c\udd99                            |
@@ -999,9 +1103,6 @@ sense of the first column!
 |     🔃    |                arrows_clockwise                |                                            |                            \ud83d\udd03                            |
 |     🎵    |                  musical_note                  |                                            |                            \ud83c\udfb5                            |
 |     🎶    |                      notes                     |                    music                   |                            \ud83c\udfb6                            |
-|    〰️   |                    wavy_dash                   |                                            |                            \u3030\ufe0f                            |
-|     ➰    |                   curly_loop                   |                                            |                               \u27b0                               |
-|    ✔️    |                heavy_check_mark                |                                            |                            \u2714\ufe0f                            |
 |     ➕    |                 heavy_plus_sign                |                                            |                               \u2795                               |
 |     ➖    |                heavy_minus_sign                |                                            |                               \u2796                               |
 |     ➗    |               heavy_division_sign              |                                            |                               \u2797                               |
@@ -1011,11 +1112,15 @@ sense of the first column!
 |    ™️    |                       tm                       |                  trademark                 |                            \u2122\ufe0f                            |
 |    ©️    |                    copyright                   |                                            |                             \ua9\ufe0f                             |
 |    ®️    |                   registered                   |                                            |                             \uae\ufe0f                             |
+|    〰️   |                    wavy_dash                   |                                            |                            \u3030\ufe0f                            |
+|     ➰    |                   curly_loop                   |                                            |                               \u27b0                               |
+|     ➿    |                      loop                      |                                            |                               \u27bf                               |
 |     🔚    |                       end                      |                                            |                            \ud83d\udd1a                            |
 |     🔙    |                      back                      |                                            |                            \ud83d\udd19                            |
 |     🔛    |                       on                       |                                            |                            \ud83d\udd1b                            |
 |     🔝    |                       top                      |                                            |                            \ud83d\udd1d                            |
 |     🔜    |                      soon                      |                                            |                            \ud83d\udd1c                            |
+|    ✔️    |                heavy_check_mark                |                                            |                            \u2714\ufe0f                            |
 |    ☑️    |              ballot_box_with_check             |                                            |                            \u2611\ufe0f                            |
 |     🔘    |                  radio_button                  |                                            |                            \ud83d\udd18                            |
 |    ⚪️    |                  white_circle                  |                                            |                            \u26aa\ufe0f                            |
@@ -1038,25 +1143,25 @@ sense of the first column!
 |    ◻️    |               white_medium_square              |                                            |                            \u25fb\ufe0f                            |
 |    ⬛️    |               black_large_square               |                                            |                            \u2b1b\ufe0f                            |
 |    ⬜️    |               white_large_square               |                                            |                            \u2b1c\ufe0f                            |
-|     🔇    |                      mute                      |                sound; volume               |                            \ud83d\udd07                            |
 |     🔈    |                     speaker                    |                                            |                            \ud83d\udd08                            |
+|     🔇    |                      mute                      |                sound; volume               |                            \ud83d\udd07                            |
 |     🔉    |                      sound                     |                   volume                   |                            \ud83d\udd09                            |
 |     🔊    |                   loud_sound                   |                   volume                   |                            \ud83d\udd0a                            |
-|     🔕    |                     no_bell                    |                 volume; off                |                            \ud83d\udd15                            |
 |     🔔    |                      bell                      |             sound; notification            |                            \ud83d\udd14                            |
+|     🔕    |                     no_bell                    |                 volume; off                |                            \ud83d\udd15                            |
 |     📣    |                      mega                      |                                            |                            \ud83d\udce3                            |
 |     📢    |                   loudspeaker                  |                announcement                |                            \ud83d\udce2                            |
 |    👁‍🗨   |                eye_speech_bubble               |                                            |                   \ud83d\udc41\u200d\ud83d\udde8                   |
 |     💬    |                 speech_balloon                 |                   comment                  |                            \ud83d\udcac                            |
 |     💭    |                 thought_balloon                |                  thinking                  |                            \ud83d\udcad                            |
 |     🗯    |               right_anger_bubble               |                                            |                            \ud83d\uddef                            |
-|     🃏    |                   black_joker                  |                                            |                            \ud83c\udccf                            |
-|    🀄️    |                     mahjong                    |                                            |                         \ud83c\udc04\ufe0f                         |
-|     🎴    |              flower_playing_cards              |                                            |                            \ud83c\udfb4                            |
 |    ♠️    |                     spades                     |                                            |                            \u2660\ufe0f                            |
 |    ♣️    |                      clubs                     |                                            |                            \u2663\ufe0f                            |
 |    ♥️    |                     hearts                     |                                            |                            \u2665\ufe0f                            |
 |    ♦️    |                    diamonds                    |                                            |                            \u2666\ufe0f                            |
+|     🃏    |                   black_joker                  |                                            |                            \ud83c\udccf                            |
+|     🎴    |              flower_playing_cards              |                                            |                            \ud83c\udfb4                            |
+|    🀄️    |                     mahjong                    |                                            |                         \ud83c\udc04\ufe0f                         |
 |     🕐    |                     clock1                     |                                            |                            \ud83d\udd50                            |
 |     🕑    |                     clock2                     |                                            |                            \ud83d\udd51                            |
 |     🕒    |                     clock3                     |                                            |                            \ud83d\udd52                            |
@@ -1081,6 +1186,11 @@ sense of the first column!
 |     🕥    |                    clock1030                   |                                            |                            \ud83d\udd65                            |
 |     🕦    |                    clock1130                   |                                            |                            \ud83d\udd66                            |
 |     🕧    |                    clock1230                   |                                            |                            \ud83d\udd67                            |
+|    🏳️    |                   white_flag                   |                                            |                         \ud83c\udff3\ufe0f                         |
+|     🏴    |                   black_flag                   |                                            |                            \ud83c\udff4                            |
+|     🏁    |                 checkered_flag                 |              milestone; finish             |                            \ud83c\udfc1                            |
+|     🚩    |             triangular_flag_on_post            |                                            |                            \ud83d\udea9                            |
+|   🏳️‍🌈   |                  rainbow_flag                  |                    pride                   |                \ud83c\udff3\ufe0f\u200d\ud83c\udf08                |
 |    🇦🇫    |                   afghanistan                  |                                            |                      \ud83c\udde6\ud83c\uddeb                      |
 |    🇦🇽    |                  aland_islands                 |                                            |                      \ud83c\udde6\ud83c\uddfd                      |
 |    🇦🇱    |                     albania                    |                                            |                      \ud83c\udde6\ud83c\uddf1                      |
@@ -1136,6 +1246,7 @@ sense of the first column!
 |    🇨🇩    |                 congo_kinshasa                 |                                            |                      \ud83c\udde8\ud83c\udde9                      |
 |    🇨🇰    |                  cook_islands                  |                                            |                      \ud83c\udde8\ud83c\uddf0                      |
 |    🇨🇷    |                   costa_rica                   |                                            |                      \ud83c\udde8\ud83c\uddf7                      |
+|    🇨🇮    |                  cote_divoire                  |                    ivory                   |                      \ud83c\udde8\ud83c\uddee                      |
 |    🇭🇷    |                     croatia                    |                                            |                      \ud83c\udded\ud83c\uddf7                      |
 |    🇨🇺    |                      cuba                      |                                            |                      \ud83c\udde8\ud83c\uddfa                      |
 |    🇨🇼    |                     curacao                    |                                            |                      \ud83c\udde8\ud83c\uddfc                      |
@@ -1190,9 +1301,9 @@ sense of the first column!
 |    🇮🇲    |                   isle_of_man                  |                                            |                      \ud83c\uddee\ud83c\uddf2                      |
 |    🇮🇱    |                     israel                     |                                            |                      \ud83c\uddee\ud83c\uddf1                      |
 |    🇮🇹    |                       it                       |                    italy                   |                      \ud83c\uddee\ud83c\uddf9                      |
-|    🇨🇮    |                  cote_divoire                  |                    ivory                   |                      \ud83c\udde8\ud83c\uddee                      |
 |    🇯🇲    |                     jamaica                    |                                            |                      \ud83c\uddef\ud83c\uddf2                      |
 |    🇯🇵    |                       jp                       |                    japan                   |                      \ud83c\uddef\ud83c\uddf5                      |
+|     🎌    |                  crossed_flags                 |                                            |                            \ud83c\udf8c                            |
 |    🇯🇪    |                     jersey                     |                                            |                      \ud83c\uddef\ud83c\uddea                      |
 |    🇯🇴    |                     jordan                     |                                            |                      \ud83c\uddef\ud83c\uddf4                      |
 |    🇰🇿    |                   kazakhstan                   |                                            |                      \ud83c\uddf0\ud83c\uddff                      |

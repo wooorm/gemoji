@@ -9,29 +9,6 @@
       "happy"
     ]
   },
-  "😬": {
-    "description": "grimacing face",
-    "names": [
-      "grimacing"
-    ],
-    "tags": []
-  },
-  "😁": {
-    "description": "grinning face with smiling eyes",
-    "names": [
-      "grin"
-    ],
-    "tags": []
-  },
-  "😂": {
-    "description": "face with tears of joy",
-    "names": [
-      "joy"
-    ],
-    "tags": [
-      "tears"
-    ]
-  },
   "😃": {
     "description": "smiling face with open mouth",
     "names": [
@@ -54,14 +31,12 @@
       "pleased"
     ]
   },
-  "😅": {
-    "description": "smiling face with open mouth & cold sweat",
+  "😁": {
+    "description": "grinning face with smiling eyes",
     "names": [
-      "sweat_smile"
+      "grin"
     ],
-    "tags": [
-      "hot"
-    ]
+    "tags": []
   },
   "😆": {
     "description": "smiling face with open mouth & closed eyes",
@@ -74,22 +49,42 @@
       "haha"
     ]
   },
-  "😇": {
-    "description": "smiling face with halo",
+  "😅": {
+    "description": "smiling face with open mouth & cold sweat",
     "names": [
-      "innocent"
+      "sweat_smile"
     ],
     "tags": [
-      "angel"
+      "hot"
     ]
   },
-  "😉": {
-    "description": "winking face",
+  "😂": {
+    "description": "face with tears of joy",
     "names": [
-      "wink"
+      "joy"
     ],
     "tags": [
-      "flirt"
+      "tears"
+    ]
+  },
+  "🤣": {
+    "description": "rolling on the floor laughing",
+    "names": [
+      "rofl"
+    ],
+    "tags": [
+      "lol",
+      "laughing"
+    ]
+  },
+  "☺️": {
+    "description": "smiling face",
+    "names": [
+      "relaxed"
+    ],
+    "tags": [
+      "blush",
+      "pleased"
     ]
   },
   "😊": {
@@ -99,6 +94,15 @@
     ],
     "tags": [
       "proud"
+    ]
+  },
+  "😇": {
+    "description": "smiling face with halo",
+    "names": [
+      "innocent"
+    ],
+    "tags": [
+      "angel"
     ]
   },
   "🙂": {
@@ -115,24 +119,13 @@
     ],
     "tags": []
   },
-  "☺️": {
-    "description": "smiling face",
+  "😉": {
+    "description": "winking face",
     "names": [
-      "relaxed"
+      "wink"
     ],
     "tags": [
-      "blush",
-      "pleased"
-    ]
-  },
-  "😋": {
-    "description": "face savouring delicious food",
-    "names": [
-      "yum"
-    ],
-    "tags": [
-      "tongue",
-      "lick"
+      "flirt"
     ]
   },
   "😌": {
@@ -184,6 +177,16 @@
     ],
     "tags": []
   },
+  "😋": {
+    "description": "face savouring delicious food",
+    "names": [
+      "yum"
+    ],
+    "tags": [
+      "tongue",
+      "lick"
+    ]
+  },
   "😜": {
     "description": "face with stuck-out tongue & winking eye",
     "names": [
@@ -219,6 +222,13 @@
       "rich"
     ]
   },
+  "🤗": {
+    "description": "hugging face",
+    "names": [
+      "hugs"
+    ],
+    "tags": []
+  },
   "🤓": {
     "description": "nerd face",
     "names": [
@@ -238,10 +248,17 @@
       "cool"
     ]
   },
-  "🤗": {
-    "description": "hugging face",
+  "🤡": {
+    "description": "clown face",
     "names": [
-      "hugs"
+      "clown_face"
+    ],
+    "tags": []
+  },
+  "🤠": {
+    "description": "cowboy hat face",
+    "names": [
+      "cowboy_hat_face"
     ],
     "tags": []
   },
@@ -254,32 +271,6 @@
       "smug"
     ]
   },
-  "😶": {
-    "description": "face without mouth",
-    "names": [
-      "no_mouth"
-    ],
-    "tags": [
-      "mute",
-      "silence"
-    ]
-  },
-  "😐": {
-    "description": "neutral face",
-    "names": [
-      "neutral_face"
-    ],
-    "tags": [
-      "meh"
-    ]
-  },
-  "😑": {
-    "description": "expressionless face",
-    "names": [
-      "expressionless"
-    ],
-    "tags": []
-  },
   "😒": {
     "description": "unamused face",
     "names": [
@@ -288,27 +279,6 @@
     "tags": [
       "meh"
     ]
-  },
-  "🙄": {
-    "description": "face with rolling eyes",
-    "names": [
-      "roll_eyes"
-    ],
-    "tags": []
-  },
-  "🤔": {
-    "description": "thinking face",
-    "names": [
-      "thinking"
-    ],
-    "tags": []
-  },
-  "😳": {
-    "description": "flushed face",
-    "names": [
-      "flushed"
-    ],
-    "tags": []
   },
   "😞": {
     "description": "disappointed face",
@@ -319,6 +289,13 @@
       "sad"
     ]
   },
+  "😔": {
+    "description": "pensive face",
+    "names": [
+      "pensive"
+    ],
+    "tags": []
+  },
   "😟": {
     "description": "worried face",
     "names": [
@@ -327,33 +304,6 @@
     "tags": [
       "nervous"
     ]
-  },
-  "😠": {
-    "description": "angry face",
-    "names": [
-      "angry"
-    ],
-    "tags": [
-      "mad",
-      "annoyed"
-    ]
-  },
-  "😡": {
-    "description": "pouting face",
-    "names": [
-      "rage",
-      "pout"
-    ],
-    "tags": [
-      "angry"
-    ]
-  },
-  "😔": {
-    "description": "pensive face",
-    "names": [
-      "pensive"
-    ],
-    "tags": []
   },
   "😕": {
     "description": "confused face",
@@ -420,6 +370,78 @@
       "smug"
     ]
   },
+  "😠": {
+    "description": "angry face",
+    "names": [
+      "angry"
+    ],
+    "tags": [
+      "mad",
+      "annoyed"
+    ]
+  },
+  "😡": {
+    "description": "pouting face",
+    "names": [
+      "rage",
+      "pout"
+    ],
+    "tags": [
+      "angry"
+    ]
+  },
+  "😶": {
+    "description": "face without mouth",
+    "names": [
+      "no_mouth"
+    ],
+    "tags": [
+      "mute",
+      "silence"
+    ]
+  },
+  "😐": {
+    "description": "neutral face",
+    "names": [
+      "neutral_face"
+    ],
+    "tags": [
+      "meh"
+    ]
+  },
+  "😑": {
+    "description": "expressionless face",
+    "names": [
+      "expressionless"
+    ],
+    "tags": []
+  },
+  "😯": {
+    "description": "hushed face",
+    "names": [
+      "hushed"
+    ],
+    "tags": [
+      "silence",
+      "speechless"
+    ]
+  },
+  "😦": {
+    "description": "frowning face with open mouth",
+    "names": [
+      "frowning"
+    ],
+    "tags": []
+  },
+  "😧": {
+    "description": "anguished face",
+    "names": [
+      "anguished"
+    ],
+    "tags": [
+      "stunned"
+    ]
+  },
   "😮": {
     "description": "face with open mouth",
     "names": [
@@ -430,6 +452,30 @@
       "impressed",
       "wow"
     ]
+  },
+  "😲": {
+    "description": "astonished face",
+    "names": [
+      "astonished"
+    ],
+    "tags": [
+      "amazed",
+      "gasp"
+    ]
+  },
+  "😵": {
+    "description": "dizzy face",
+    "names": [
+      "dizzy_face"
+    ],
+    "tags": []
+  },
+  "😳": {
+    "description": "flushed face",
+    "names": [
+      "flushed"
+    ],
+    "tags": []
   },
   "😱": {
     "description": "face screaming in fear",
@@ -461,32 +507,6 @@
       "nervous"
     ]
   },
-  "😯": {
-    "description": "hushed face",
-    "names": [
-      "hushed"
-    ],
-    "tags": [
-      "silence",
-      "speechless"
-    ]
-  },
-  "😦": {
-    "description": "frowning face with open mouth",
-    "names": [
-      "frowning"
-    ],
-    "tags": []
-  },
-  "😧": {
-    "description": "anguished face",
-    "names": [
-      "anguished"
-    ],
-    "tags": [
-      "stunned"
-    ]
-  },
   "😢": {
     "description": "crying face",
     "names": [
@@ -508,19 +528,10 @@
       "nervous"
     ]
   },
-  "😪": {
-    "description": "sleepy face",
+  "🤤": {
+    "description": "drooling face",
     "names": [
-      "sleepy"
-    ],
-    "tags": [
-      "tired"
-    ]
-  },
-  "😓": {
-    "description": "face with cold sweat",
-    "names": [
-      "sweat"
+      "drooling_face"
     ],
     "tags": []
   },
@@ -535,22 +546,60 @@
       "bawling"
     ]
   },
-  "😵": {
-    "description": "dizzy face",
+  "😓": {
+    "description": "face with cold sweat",
     "names": [
-      "dizzy_face"
+      "sweat"
     ],
     "tags": []
   },
-  "😲": {
-    "description": "astonished face",
+  "😪": {
+    "description": "sleepy face",
     "names": [
-      "astonished"
+      "sleepy"
     ],
     "tags": [
-      "amazed",
-      "gasp"
+      "tired"
     ]
+  },
+  "😴": {
+    "description": "sleeping face",
+    "names": [
+      "sleeping"
+    ],
+    "tags": [
+      "zzz"
+    ]
+  },
+  "🙄": {
+    "description": "face with rolling eyes",
+    "names": [
+      "roll_eyes"
+    ],
+    "tags": []
+  },
+  "🤔": {
+    "description": "thinking face",
+    "names": [
+      "thinking"
+    ],
+    "tags": []
+  },
+  "🤥": {
+    "description": "lying face",
+    "names": [
+      "lying_face"
+    ],
+    "tags": [
+      "liar"
+    ]
+  },
+  "😬": {
+    "description": "grimacing face",
+    "names": [
+      "grimacing"
+    ],
+    "tags": []
   },
   "🤐": {
     "description": "zipper-mouth face",
@@ -560,6 +609,27 @@
     "tags": [
       "silence",
       "hush"
+    ]
+  },
+  "🤢": {
+    "description": "nauseated face",
+    "names": [
+      "nauseated_face"
+    ],
+    "tags": [
+      "sick",
+      "barf",
+      "disgusted"
+    ]
+  },
+  "🤧": {
+    "description": "sneezing face",
+    "names": [
+      "sneezing_face"
+    ],
+    "tags": [
+      "achoo",
+      "sick"
     ]
   },
   "😷": {
@@ -588,35 +658,6 @@
     ],
     "tags": [
       "hurt"
-    ]
-  },
-  "😴": {
-    "description": "sleeping face",
-    "names": [
-      "sleeping"
-    ],
-    "tags": [
-      "zzz"
-    ]
-  },
-  "💤": {
-    "description": "zzz",
-    "names": [
-      "zzz"
-    ],
-    "tags": [
-      "sleeping"
-    ]
-  },
-  "💩": {
-    "description": "pile of poo",
-    "names": [
-      "hankey",
-      "poop",
-      "shit"
-    ],
-    "tags": [
-      "crap"
     ]
   },
   "😈": {
@@ -657,6 +698,17 @@
       "japanese_goblin"
     ],
     "tags": []
+  },
+  "💩": {
+    "description": "pile of poo",
+    "names": [
+      "hankey",
+      "poop",
+      "shit"
+    ],
+    "tags": [
+      "crap"
+    ]
   },
   "👻": {
     "description": "ghost",
@@ -713,6 +765,15 @@
       "robot"
     ],
     "tags": []
+  },
+  "🎃": {
+    "description": "jack-o-lantern",
+    "names": [
+      "jack_o_lantern"
+    ],
+    "tags": [
+      "halloween"
+    ]
   },
   "😺": {
     "description": "smiling cat face with open mouth",
@@ -782,6 +843,13 @@
     ],
     "tags": []
   },
+  "👐": {
+    "description": "open hands",
+    "names": [
+      "open_hands"
+    ],
+    "tags": []
+  },
   "🙌": {
     "description": "raising hands",
     "names": [
@@ -799,6 +867,26 @@
     "tags": [
       "praise",
       "applause"
+    ]
+  },
+  "🙏": {
+    "description": "folded hands",
+    "names": [
+      "pray"
+    ],
+    "tags": [
+      "please",
+      "hope",
+      "wish"
+    ]
+  },
+  "🤝": {
+    "description": "handshake",
+    "names": [
+      "handshake"
+    ],
+    "tags": [
+      "deal"
     ]
   },
   "👍": {
@@ -826,6 +914,7 @@
   "👊": {
     "description": "oncoming fist",
     "names": [
+      "fist_oncoming",
       "facepunch",
       "punch"
     ],
@@ -836,20 +925,60 @@
   "✊": {
     "description": "raised fist",
     "names": [
+      "fist_raised",
       "fist"
     ],
     "tags": [
       "power"
     ]
   },
-  "👋": {
-    "description": "waving hand",
+  "🤛": {
+    "description": "left-facing fist",
     "names": [
-      "wave"
+      "fist_left"
+    ],
+    "tags": []
+  },
+  "🤜": {
+    "description": "right-facing fist",
+    "names": [
+      "fist_right"
+    ],
+    "tags": []
+  },
+  "🤞": {
+    "description": "crossed fingers",
+    "names": [
+      "crossed_fingers"
     ],
     "tags": [
-      "goodbye"
+      "luck",
+      "hopeful"
     ]
+  },
+  "✌️": {
+    "description": "victory hand",
+    "names": [
+      "v"
+    ],
+    "tags": [
+      "victory",
+      "peace"
+    ]
+  },
+  "🤘": {
+    "description": "sign of the horns",
+    "names": [
+      "metal"
+    ],
+    "tags": []
+  },
+  "👌": {
+    "description": "OK hand",
+    "names": [
+      "ok_hand"
+    ],
+    "tags": []
   },
   "👈": {
     "description": "backhand index pointing left",
@@ -879,29 +1008,12 @@
     ],
     "tags": []
   },
-  "👌": {
-    "description": "OK hand",
-    "names": [
-      "ok_hand"
-    ],
-    "tags": []
-  },
   "☝️": {
     "description": "index pointing up",
     "names": [
       "point_up"
     ],
     "tags": []
-  },
-  "✌️": {
-    "description": "victory hand",
-    "names": [
-      "v"
-    ],
-    "tags": [
-      "victory",
-      "peace"
-    ]
   },
   "✋": {
     "description": "raised hand",
@@ -914,6 +1026,13 @@
       "stop"
     ]
   },
+  "🤚": {
+    "description": "raised back of hand",
+    "names": [
+      "raised_back_of_hand"
+    ],
+    "tags": []
+  },
   "🖐": {
     "description": "raised hand with fingers splayed",
     "names": [
@@ -921,10 +1040,29 @@
     ],
     "tags": []
   },
-  "👐": {
-    "description": "open hands",
+  "🖖": {
+    "description": "vulcan salute",
     "names": [
-      "open_hands"
+      "vulcan_salute"
+    ],
+    "tags": [
+      "prosper",
+      "spock"
+    ]
+  },
+  "👋": {
+    "description": "waving hand",
+    "names": [
+      "wave"
+    ],
+    "tags": [
+      "goodbye"
+    ]
+  },
+  "🤙": {
+    "description": "call me hand",
+    "names": [
+      "call_me_hand"
     ],
     "tags": []
   },
@@ -939,34 +1077,6 @@
       "strong",
       "workout"
     ]
-  },
-  "🙏": {
-    "description": "folded hands",
-    "names": [
-      "pray"
-    ],
-    "tags": [
-      "please",
-      "hope",
-      "wish"
-    ]
-  },
-  "🖖": {
-    "description": "vulcan salute",
-    "names": [
-      "vulcan_salute"
-    ],
-    "tags": [
-      "prosper",
-      "spock"
-    ]
-  },
-  "🤘": {
-    "description": "sign of the horns",
-    "names": [
-      "metal"
-    ],
-    "tags": []
   },
   "🖕": {
     "description": "middle finger",
@@ -983,6 +1093,13 @@
     ],
     "tags": []
   },
+  "🤳": {
+    "description": "selfie",
+    "names": [
+      "selfie"
+    ],
+    "tags": []
+  },
   "💅": {
     "description": "nail polish",
     "names": [
@@ -991,6 +1108,35 @@
     "tags": [
       "beauty",
       "manicure"
+    ]
+  },
+  "💍": {
+    "description": "ring",
+    "names": [
+      "ring"
+    ],
+    "tags": [
+      "wedding",
+      "marriage",
+      "engaged"
+    ]
+  },
+  "💄": {
+    "description": "lipstick",
+    "names": [
+      "lipstick"
+    ],
+    "tags": [
+      "makeup"
+    ]
+  },
+  "💋": {
+    "description": "kiss mark",
+    "names": [
+      "kiss"
+    ],
+    "tags": [
+      "lipstick"
     ]
   },
   "👄": {
@@ -1029,6 +1175,16 @@
     ],
     "tags": [
       "smell"
+    ]
+  },
+  "👣": {
+    "description": "footprints",
+    "names": [
+      "footprints"
+    ],
+    "tags": [
+      "feet",
+      "tracks"
     ]
   },
   "👁": {
@@ -1244,6 +1400,287 @@
       "sleuth"
     ]
   },
+  "👩‍⚕️": {
+    "description": "woman health worker",
+    "names": [
+      "woman_health_worker"
+    ],
+    "tags": [
+      "doctor",
+      "nurse"
+    ]
+  },
+  "👨‍⚕️": {
+    "description": "man health worker",
+    "names": [
+      "man_health_worker"
+    ],
+    "tags": [
+      "doctor",
+      "nurse"
+    ]
+  },
+  "👩‍🌾": {
+    "description": "woman farmer",
+    "names": [
+      "woman_farmer"
+    ],
+    "tags": []
+  },
+  "👨‍🌾": {
+    "description": "man farmer",
+    "names": [
+      "man_farmer"
+    ],
+    "tags": []
+  },
+  "👩‍🍳": {
+    "description": "woman cook",
+    "names": [
+      "woman_cook"
+    ],
+    "tags": [
+      "chef"
+    ]
+  },
+  "👨‍🍳": {
+    "description": "man cook",
+    "names": [
+      "man_cook"
+    ],
+    "tags": [
+      "chef"
+    ]
+  },
+  "👩‍🎓": {
+    "description": "woman student",
+    "names": [
+      "woman_student"
+    ],
+    "tags": [
+      "graduation"
+    ]
+  },
+  "👨‍🎓": {
+    "description": "man student",
+    "names": [
+      "man_student"
+    ],
+    "tags": [
+      "graduation"
+    ]
+  },
+  "👩‍🎤": {
+    "description": "woman singer",
+    "names": [
+      "woman_singer"
+    ],
+    "tags": [
+      "rockstar"
+    ]
+  },
+  "👨‍🎤": {
+    "description": "man singer",
+    "names": [
+      "man_singer"
+    ],
+    "tags": [
+      "rockstar"
+    ]
+  },
+  "👩‍🏫": {
+    "description": "woman teacher",
+    "names": [
+      "woman_teacher"
+    ],
+    "tags": [
+      "school",
+      "professor"
+    ]
+  },
+  "👨‍🏫": {
+    "description": "man teacher",
+    "names": [
+      "man_teacher"
+    ],
+    "tags": [
+      "school",
+      "professor"
+    ]
+  },
+  "👩‍🏭": {
+    "description": "woman factory worker",
+    "names": [
+      "woman_factory_worker"
+    ],
+    "tags": []
+  },
+  "👨‍🏭": {
+    "description": "man factory worker",
+    "names": [
+      "man_factory_worker"
+    ],
+    "tags": []
+  },
+  "👩‍💻": {
+    "description": "woman technologist",
+    "names": [
+      "woman_technologist"
+    ],
+    "tags": [
+      "coder"
+    ]
+  },
+  "👨‍💻": {
+    "description": "man technologist",
+    "names": [
+      "man_technologist"
+    ],
+    "tags": [
+      "coder"
+    ]
+  },
+  "👩‍💼": {
+    "description": "woman office worker",
+    "names": [
+      "woman_office_worker"
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  "👨‍💼": {
+    "description": "man office worker",
+    "names": [
+      "man_office_worker"
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  "👩‍🔧": {
+    "description": "woman mechanic",
+    "names": [
+      "woman_mechanic"
+    ],
+    "tags": []
+  },
+  "👨‍🔧": {
+    "description": "man mechanic",
+    "names": [
+      "man_mechanic"
+    ],
+    "tags": []
+  },
+  "👩‍🔬": {
+    "description": "woman scientist",
+    "names": [
+      "woman_scientist"
+    ],
+    "tags": [
+      "research"
+    ]
+  },
+  "👨‍🔬": {
+    "description": "man scientist",
+    "names": [
+      "man_scientist"
+    ],
+    "tags": [
+      "research"
+    ]
+  },
+  "👩‍🎨": {
+    "description": "woman artist",
+    "names": [
+      "woman_artist"
+    ],
+    "tags": [
+      "painter"
+    ]
+  },
+  "👨‍🎨": {
+    "description": "man artist",
+    "names": [
+      "man_artist"
+    ],
+    "tags": [
+      "painter"
+    ]
+  },
+  "👩‍🚒": {
+    "description": "woman firefighter",
+    "names": [
+      "woman_firefighter"
+    ],
+    "tags": []
+  },
+  "👨‍🚒": {
+    "description": "man firefighter",
+    "names": [
+      "man_firefighter"
+    ],
+    "tags": []
+  },
+  "👩‍✈️": {
+    "description": "woman pilot",
+    "names": [
+      "woman_pilot"
+    ],
+    "tags": []
+  },
+  "👨‍✈️": {
+    "description": "man pilot",
+    "names": [
+      "man_pilot"
+    ],
+    "tags": []
+  },
+  "👩‍🚀": {
+    "description": "woman astronaut",
+    "names": [
+      "woman_astronaut"
+    ],
+    "tags": [
+      "space"
+    ]
+  },
+  "👨‍🚀": {
+    "description": "man astronaut",
+    "names": [
+      "man_astronaut"
+    ],
+    "tags": [
+      "space"
+    ]
+  },
+  "👩‍⚖️": {
+    "description": "woman judge",
+    "names": [
+      "woman_judge"
+    ],
+    "tags": [
+      "justice"
+    ]
+  },
+  "👨‍⚖️": {
+    "description": "man judge",
+    "names": [
+      "man_judge"
+    ],
+    "tags": [
+      "justice"
+    ]
+  },
+  "🤶": {
+    "description": "Mrs. Claus",
+    "names": [
+      "mrs_claus"
+    ],
+    "tags": [
+      "santa"
+    ]
+  },
   "🎅": {
     "description": "Santa Claus",
     "names": [
@@ -1264,6 +1701,16 @@
       "royal"
     ]
   },
+  "🤴": {
+    "description": "prince",
+    "names": [
+      "prince"
+    ],
+    "tags": [
+      "crown",
+      "royal"
+    ]
+  },
   "👰": {
     "description": "bride with veil",
     "names": [
@@ -1274,10 +1721,28 @@
       "wedding"
     ]
   },
+  "🤵": {
+    "description": "man in tuxedo",
+    "names": [
+      "man_in_tuxedo"
+    ],
+    "tags": [
+      "groom",
+      "marriage",
+      "wedding"
+    ]
+  },
   "👼": {
     "description": "baby angel",
     "names": [
       "angel"
+    ],
+    "tags": []
+  },
+  "🤰": {
+    "description": "pregnant woman",
+    "names": [
+      "pregnant_woman"
     ],
     "tags": []
   },
@@ -1371,6 +1836,34 @@
     ],
     "tags": []
   },
+  "🤦‍♀️": {
+    "description": "woman facepalming",
+    "names": [
+      "woman_facepalming"
+    ],
+    "tags": []
+  },
+  "🤦‍♂️": {
+    "description": "man facepalming",
+    "names": [
+      "man_facepalming"
+    ],
+    "tags": []
+  },
+  "🤷‍♀️": {
+    "description": "woman shrugging",
+    "names": [
+      "woman_shrugging"
+    ],
+    "tags": []
+  },
+  "🤷‍♂️": {
+    "description": "man shrugging",
+    "names": [
+      "man_shrugging"
+    ],
+    "tags": []
+  },
   "🙎": {
     "description": "person pouting",
     "names": [
@@ -1439,6 +1932,13 @@
       "spa"
     ]
   },
+  "🕴": {
+    "description": "man in business suit levitating",
+    "names": [
+      "business_suit_levitating"
+    ],
+    "tags": []
+  },
   "💃": {
     "description": "woman dancing",
     "names": [
@@ -1446,6 +1946,15 @@
     ],
     "tags": [
       "dress"
+    ]
+  },
+  "🕺": {
+    "description": "man dancing",
+    "names": [
+      "man_dancing"
+    ],
+    "tags": [
+      "dancer"
     ]
   },
   "👯": {
@@ -1815,34 +2324,6 @@
     ],
     "tags": []
   },
-  "💄": {
-    "description": "lipstick",
-    "names": [
-      "lipstick"
-    ],
-    "tags": [
-      "makeup"
-    ]
-  },
-  "💋": {
-    "description": "kiss mark",
-    "names": [
-      "kiss"
-    ],
-    "tags": [
-      "lipstick"
-    ]
-  },
-  "👣": {
-    "description": "footprints",
-    "names": [
-      "footprints"
-    ],
-    "tags": [
-      "feet",
-      "tracks"
-    ]
-  },
   "👠": {
     "description": "high-heeled shoe",
     "names": [
@@ -1991,17 +2472,6 @@
     ],
     "tags": []
   },
-  "💍": {
-    "description": "ring",
-    "names": [
-      "ring"
-    ],
-    "tags": [
-      "wedding",
-      "marriage",
-      "engaged"
-    ]
-  },
   "🌂": {
     "description": "closed umbrella",
     "names": [
@@ -2011,6 +2481,13 @@
       "weather",
       "rain"
     ]
+  },
+  "☂️": {
+    "description": "umbrella",
+    "names": [
+      "open_umbrella"
+    ],
+    "tags": []
   },
   "🐶": {
     "description": "dog face",
@@ -2054,6 +2531,13 @@
     "tags": [
       "bunny"
     ]
+  },
+  "🦊": {
+    "description": "fox face",
+    "names": [
+      "fox_face"
+    ],
+    "tags": []
   },
   "🐻": {
     "description": "bear face",
@@ -2115,13 +2599,6 @@
     "description": "frog face",
     "names": [
       "frog"
-    ],
-    "tags": []
-  },
-  "🐙": {
-    "description": "octopus",
-    "names": [
-      "octopus"
     ],
     "tags": []
   },
@@ -2213,6 +2690,34 @@
     ],
     "tags": []
   },
+  "🦆": {
+    "description": "duck",
+    "names": [
+      "duck"
+    ],
+    "tags": []
+  },
+  "🦅": {
+    "description": "eagle",
+    "names": [
+      "eagle"
+    ],
+    "tags": []
+  },
+  "🦉": {
+    "description": "owl",
+    "names": [
+      "owl"
+    ],
+    "tags": []
+  },
+  "🦇": {
+    "description": "bat",
+    "names": [
+      "bat"
+    ],
+    "tags": []
+  },
   "🐺": {
     "description": "wolf face",
     "names": [
@@ -2256,6 +2761,13 @@
     ],
     "tags": []
   },
+  "🦋": {
+    "description": "butterfly",
+    "names": [
+      "butterfly"
+    ],
+    "tags": []
+  },
   "🐌": {
     "description": "snail",
     "names": [
@@ -2263,6 +2775,16 @@
     ],
     "tags": [
       "slow"
+    ]
+  },
+  "🐚": {
+    "description": "spiral shell",
+    "names": [
+      "shell"
+    ],
+    "tags": [
+      "sea",
+      "beach"
     ]
   },
   "🐞": {
@@ -2288,6 +2810,36 @@
     ],
     "tags": []
   },
+  "🕸": {
+    "description": "spider web",
+    "names": [
+      "spider_web"
+    ],
+    "tags": []
+  },
+  "🐢": {
+    "description": "turtle",
+    "names": [
+      "turtle"
+    ],
+    "tags": [
+      "slow"
+    ]
+  },
+  "🐍": {
+    "description": "snake",
+    "names": [
+      "snake"
+    ],
+    "tags": []
+  },
+  "🦎": {
+    "description": "lizard",
+    "names": [
+      "lizard"
+    ],
+    "tags": []
+  },
   "🦂": {
     "description": "scorpion",
     "names": [
@@ -2302,21 +2854,26 @@
     ],
     "tags": []
   },
-  "🐍": {
-    "description": "snake",
+  "🦑": {
+    "description": "squid",
     "names": [
-      "snake"
+      "squid"
     ],
     "tags": []
   },
-  "🐢": {
-    "description": "turtle",
+  "🐙": {
+    "description": "octopus",
     "names": [
-      "turtle"
+      "octopus"
     ],
-    "tags": [
-      "slow"
-    ]
+    "tags": []
+  },
+  "🦐": {
+    "description": "shrimp",
+    "names": [
+      "shrimp"
+    ],
+    "tags": []
   },
   "🐠": {
     "description": "tropical fish",
@@ -2344,6 +2901,13 @@
     "names": [
       "dolphin",
       "flipper"
+    ],
+    "tags": []
+  },
+  "🦈": {
+    "description": "shark",
+    "names": [
+      "shark"
     ],
     "tags": []
   },
@@ -2405,6 +2969,13 @@
     ],
     "tags": []
   },
+  "🦌": {
+    "description": "deer",
+    "names": [
+      "deer"
+    ],
+    "tags": []
+  },
   "🐪": {
     "description": "camel",
     "names": [
@@ -2425,6 +2996,36 @@
     "description": "elephant",
     "names": [
       "elephant"
+    ],
+    "tags": []
+  },
+  "🦏": {
+    "description": "rhinoceros",
+    "names": [
+      "rhinoceros"
+    ],
+    "tags": []
+  },
+  "🦍": {
+    "description": "gorilla",
+    "names": [
+      "gorilla"
+    ],
+    "tags": []
+  },
+  "🐎": {
+    "description": "horse",
+    "names": [
+      "racehorse"
+    ],
+    "tags": [
+      "speed"
+    ]
+  },
+  "🐖": {
+    "description": "pig",
+    "names": [
+      "pig2"
     ],
     "tags": []
   },
@@ -2449,33 +3050,26 @@
     ],
     "tags": []
   },
-  "🐎": {
-    "description": "horse",
+  "🐕": {
+    "description": "dog",
     "names": [
-      "racehorse"
+      "dog2"
+    ],
+    "tags": []
+  },
+  "🐩": {
+    "description": "poodle",
+    "names": [
+      "poodle"
     ],
     "tags": [
-      "speed"
+      "dog"
     ]
   },
-  "🐖": {
-    "description": "pig",
+  "🐈": {
+    "description": "cat",
     "names": [
-      "pig2"
-    ],
-    "tags": []
-  },
-  "🐀": {
-    "description": "rat",
-    "names": [
-      "rat"
-    ],
-    "tags": []
-  },
-  "🐁": {
-    "description": "mouse",
-    "names": [
-      "mouse2"
+      "cat2"
     ],
     "tags": []
   },
@@ -2504,33 +3098,24 @@
       "peace"
     ]
   },
-  "🐕": {
-    "description": "dog",
-    "names": [
-      "dog2"
-    ],
-    "tags": []
-  },
-  "🐩": {
-    "description": "poodle",
-    "names": [
-      "poodle"
-    ],
-    "tags": [
-      "dog"
-    ]
-  },
-  "🐈": {
-    "description": "cat",
-    "names": [
-      "cat2"
-    ],
-    "tags": []
-  },
   "🐇": {
     "description": "rabbit",
     "names": [
       "rabbit2"
+    ],
+    "tags": []
+  },
+  "🐁": {
+    "description": "mouse",
+    "names": [
+      "mouse2"
+    ],
+    "tags": []
+  },
+  "🐀": {
+    "description": "rat",
+    "names": [
+      "rat"
     ],
     "tags": []
   },
@@ -2618,7 +3203,7 @@
     ],
     "tags": []
   },
-  "☘": {
+  "☘️": {
     "description": "shamrock",
     "names": [
       "shamrock"
@@ -2675,6 +3260,13 @@
       "canada"
     ]
   },
+  "🍄": {
+    "description": "mushroom",
+    "names": [
+      "mushroom"
+    ],
+    "tags": []
+  },
   "🌾": {
     "description": "sheaf of rice",
     "names": [
@@ -2682,27 +3274,13 @@
     ],
     "tags": []
   },
-  "🌺": {
-    "description": "hibiscus",
+  "💐": {
+    "description": "bouquet",
     "names": [
-      "hibiscus"
-    ],
-    "tags": []
-  },
-  "🌻": {
-    "description": "sunflower",
-    "names": [
-      "sunflower"
-    ],
-    "tags": []
-  },
-  "🌹": {
-    "description": "rose",
-    "names": [
-      "rose"
+      "bouquet"
     ],
     "tags": [
-      "flower"
+      "flowers"
     ]
   },
   "🌷": {
@@ -2713,6 +3291,29 @@
     "tags": [
       "flower"
     ]
+  },
+  "🌹": {
+    "description": "rose",
+    "names": [
+      "rose"
+    ],
+    "tags": [
+      "flower"
+    ]
+  },
+  "🥀": {
+    "description": "wilted flower",
+    "names": [
+      "wilted_flower"
+    ],
+    "tags": []
+  },
+  "🌻": {
+    "description": "sunflower",
+    "names": [
+      "sunflower"
+    ],
+    "tags": []
   },
   "🌼": {
     "description": "blossom",
@@ -2731,52 +3332,10 @@
       "spring"
     ]
   },
-  "💐": {
-    "description": "bouquet",
+  "🌺": {
+    "description": "hibiscus",
     "names": [
-      "bouquet"
-    ],
-    "tags": [
-      "flowers"
-    ]
-  },
-  "🍄": {
-    "description": "mushroom",
-    "names": [
-      "mushroom"
-    ],
-    "tags": []
-  },
-  "🌰": {
-    "description": "chestnut",
-    "names": [
-      "chestnut"
-    ],
-    "tags": []
-  },
-  "🎃": {
-    "description": "jack-o-lantern",
-    "names": [
-      "jack_o_lantern"
-    ],
-    "tags": [
-      "halloween"
-    ]
-  },
-  "🐚": {
-    "description": "spiral shell",
-    "names": [
-      "shell"
-    ],
-    "tags": [
-      "sea",
-      "beach"
-    ]
-  },
-  "🕸": {
-    "description": "spider web",
-    "names": [
-      "spider_web"
+      "hibiscus"
     ],
     "tags": []
   },
@@ -2884,6 +3443,15 @@
     ],
     "tags": []
   },
+  "🌞": {
+    "description": "sun with face",
+    "names": [
+      "sun_with_face"
+    ],
+    "tags": [
+      "summer"
+    ]
+  },
   "🌛": {
     "description": "first quarter moon with face",
     "names": [
@@ -2898,15 +3466,6 @@
     ],
     "tags": []
   },
-  "🌞": {
-    "description": "sun with face",
-    "names": [
-      "sun_with_face"
-    ],
-    "tags": [
-      "summer"
-    ]
-  },
   "🌙": {
     "description": "crescent moon",
     "names": [
@@ -2914,6 +3473,15 @@
     ],
     "tags": [
       "night"
+    ]
+  },
+  "💫": {
+    "description": "dizzy",
+    "names": [
+      "dizzy"
+    ],
+    "tags": [
+      "star"
     ]
   },
   "⭐️": {
@@ -2930,15 +3498,6 @@
     ],
     "tags": []
   },
-  "💫": {
-    "description": "dizzy",
-    "names": [
-      "dizzy"
-    ],
-    "tags": [
-      "star"
-    ]
-  },
   "✨": {
     "description": "sparkles",
     "names": [
@@ -2946,6 +3505,35 @@
     ],
     "tags": [
       "shiny"
+    ]
+  },
+  "⚡️": {
+    "description": "high voltage",
+    "names": [
+      "zap"
+    ],
+    "tags": [
+      "lightning",
+      "thunder"
+    ]
+  },
+  "🔥": {
+    "description": "fire",
+    "names": [
+      "fire"
+    ],
+    "tags": [
+      "burn"
+    ]
+  },
+  "💥": {
+    "description": "collision",
+    "names": [
+      "boom",
+      "collision"
+    ],
+    "tags": [
+      "explode"
     ]
   },
   "☄️": {
@@ -2995,6 +3583,13 @@
     ],
     "tags": []
   },
+  "🌈": {
+    "description": "rainbow",
+    "names": [
+      "rainbow"
+    ],
+    "tags": []
+  },
   "☁️": {
     "description": "cloud",
     "names": [
@@ -3023,46 +3618,6 @@
     ],
     "tags": []
   },
-  "⚡️": {
-    "description": "high voltage",
-    "names": [
-      "zap"
-    ],
-    "tags": [
-      "lightning",
-      "thunder"
-    ]
-  },
-  "🔥": {
-    "description": "fire",
-    "names": [
-      "fire"
-    ],
-    "tags": [
-      "burn"
-    ]
-  },
-  "💥": {
-    "description": "collision",
-    "names": [
-      "boom",
-      "collision"
-    ],
-    "tags": [
-      "explode"
-    ]
-  },
-  "❄️": {
-    "description": "snowflake",
-    "names": [
-      "snowflake"
-    ],
-    "tags": [
-      "winter",
-      "cold",
-      "weather"
-    ]
-  },
   "🌨": {
     "description": "cloud with snow",
     "names": [
@@ -3087,6 +3642,17 @@
     ],
     "tags": [
       "winter"
+    ]
+  },
+  "❄️": {
+    "description": "snowflake",
+    "names": [
+      "snowflake"
+    ],
+    "tags": [
+      "winter",
+      "cold",
+      "weather"
     ]
   },
   "🌬": {
@@ -3121,21 +3687,13 @@
     ],
     "tags": []
   },
-  "☂️": {
-    "description": "umbrella",
+  "🌊": {
+    "description": "water wave",
     "names": [
-      "open_umbrella"
-    ],
-    "tags": []
-  },
-  "☔️": {
-    "description": "umbrella with rain drops",
-    "names": [
-      "umbrella"
+      "ocean"
     ],
     "tags": [
-      "rain",
-      "weather"
+      "sea"
     ]
   },
   "💧": {
@@ -3157,13 +3715,14 @@
       "workout"
     ]
   },
-  "🌊": {
-    "description": "water wave",
+  "☔️": {
+    "description": "umbrella with rain drops",
     "names": [
-      "ocean"
+      "umbrella"
     ],
     "tags": [
-      "sea"
+      "rain",
+      "weather"
     ]
   },
   "🍏": {
@@ -3267,6 +3826,20 @@
     ],
     "tags": []
   },
+  "🥝": {
+    "description": "kiwi fruit",
+    "names": [
+      "kiwi_fruit"
+    ],
+    "tags": []
+  },
+  "🥑": {
+    "description": "avocado",
+    "names": [
+      "avocado"
+    ],
+    "tags": []
+  },
   "🍅": {
     "description": "tomato",
     "names": [
@@ -3283,6 +3856,27 @@
       "aubergine"
     ]
   },
+  "🥒": {
+    "description": "cucumber",
+    "names": [
+      "cucumber"
+    ],
+    "tags": []
+  },
+  "🥕": {
+    "description": "carrot",
+    "names": [
+      "carrot"
+    ],
+    "tags": []
+  },
+  "🌽": {
+    "description": "ear of corn",
+    "names": [
+      "corn"
+    ],
+    "tags": []
+  },
   "🌶": {
     "description": "hot pepper",
     "names": [
@@ -3292,10 +3886,10 @@
       "spicy"
     ]
   },
-  "🌽": {
-    "description": "ear of corn",
+  "🥔": {
+    "description": "potato",
     "names": [
-      "corn"
+      "potato"
     ],
     "tags": []
   },
@@ -3306,10 +3900,31 @@
     ],
     "tags": []
   },
+  "🌰": {
+    "description": "chestnut",
+    "names": [
+      "chestnut"
+    ],
+    "tags": []
+  },
+  "🥜": {
+    "description": "peanuts",
+    "names": [
+      "peanuts"
+    ],
+    "tags": []
+  },
   "🍯": {
     "description": "honey pot",
     "names": [
       "honey_pot"
+    ],
+    "tags": []
+  },
+  "🥐": {
+    "description": "croissant",
+    "names": [
+      "croissant"
     ],
     "tags": []
   },
@@ -3322,12 +3937,58 @@
       "toast"
     ]
   },
+  "🥖": {
+    "description": "baguette bread",
+    "names": [
+      "baguette_bread"
+    ],
+    "tags": []
+  },
   "🧀": {
     "description": "cheese wedge",
     "names": [
       "cheese"
     ],
     "tags": []
+  },
+  "🥚": {
+    "description": "egg",
+    "names": [
+      "egg"
+    ],
+    "tags": []
+  },
+  "🍳": {
+    "description": "cooking",
+    "names": [
+      "fried_egg"
+    ],
+    "tags": [
+      "breakfast"
+    ]
+  },
+  "🥓": {
+    "description": "bacon",
+    "names": [
+      "bacon"
+    ],
+    "tags": []
+  },
+  "🥞": {
+    "description": "pancakes",
+    "names": [
+      "pancakes"
+    ],
+    "tags": []
+  },
+  "🍤": {
+    "description": "fried shrimp",
+    "names": [
+      "fried_shrimp"
+    ],
+    "tags": [
+      "tempura"
+    ]
   },
   "🍗": {
     "description": "poultry leg",
@@ -3346,23 +4007,19 @@
     ],
     "tags": []
   },
-  "🍤": {
-    "description": "fried shrimp",
+  "🍕": {
+    "description": "pizza",
     "names": [
-      "fried_shrimp"
+      "pizza"
     ],
-    "tags": [
-      "tempura"
-    ]
+    "tags": []
   },
-  "🍳": {
-    "description": "cooking",
+  "🌭": {
+    "description": "hot dog",
     "names": [
-      "egg"
+      "hotdog"
     ],
-    "tags": [
-      "breakfast"
-    ]
+    "tags": []
   },
   "🍔": {
     "description": "hamburger",
@@ -3380,28 +4037,12 @@
     ],
     "tags": []
   },
-  "🌭": {
-    "description": "hot dog",
+  "🥙": {
+    "description": "stuffed flatbread",
     "names": [
-      "hotdog"
+      "stuffed_flatbread"
     ],
     "tags": []
-  },
-  "🍕": {
-    "description": "pizza",
-    "names": [
-      "pizza"
-    ],
-    "tags": []
-  },
-  "🍝": {
-    "description": "spaghetti",
-    "names": [
-      "spaghetti"
-    ],
-    "tags": [
-      "pasta"
-    ]
   },
   "🌮": {
     "description": "taco",
@@ -3416,6 +4057,32 @@
       "burrito"
     ],
     "tags": []
+  },
+  "🥗": {
+    "description": "green salad",
+    "names": [
+      "green_salad"
+    ],
+    "tags": []
+  },
+  "🥘": {
+    "description": "shallow pan of food",
+    "names": [
+      "shallow_pan_of_food"
+    ],
+    "tags": [
+      "paella",
+      "curry"
+    ]
+  },
+  "🍝": {
+    "description": "spaghetti",
+    "names": [
+      "spaghetti"
+    ],
+    "tags": [
+      "pasta"
+    ]
   },
   "🍜": {
     "description": "steaming bowl",
@@ -3461,17 +4128,17 @@
     ],
     "tags": []
   },
-  "🍙": {
-    "description": "rice ball",
-    "names": [
-      "rice_ball"
-    ],
-    "tags": []
-  },
   "🍚": {
     "description": "cooked rice",
     "names": [
       "rice"
+    ],
+    "tags": []
+  },
+  "🍙": {
+    "description": "rice ball",
+    "names": [
+      "rice_ball"
     ],
     "tags": []
   },
@@ -3542,6 +4209,13 @@
     ],
     "tags": []
   },
+  "🍭": {
+    "description": "lollipop",
+    "names": [
+      "lollipop"
+    ],
+    "tags": []
+  },
   "🍬": {
     "description": "candy",
     "names": [
@@ -3550,13 +4224,6 @@
     "tags": [
       "sweet"
     ]
-  },
-  "🍭": {
-    "description": "lollipop",
-    "names": [
-      "lollipop"
-    ],
-    "tags": []
   },
   "🍫": {
     "description": "chocolate bar",
@@ -3586,6 +4253,49 @@
     ],
     "tags": []
   },
+  "🥛": {
+    "description": "glass of milk",
+    "names": [
+      "milk_glass"
+    ],
+    "tags": []
+  },
+  "🍼": {
+    "description": "baby bottle",
+    "names": [
+      "baby_bottle"
+    ],
+    "tags": [
+      "milk"
+    ]
+  },
+  "☕️": {
+    "description": "hot beverage",
+    "names": [
+      "coffee"
+    ],
+    "tags": [
+      "cafe",
+      "espresso"
+    ]
+  },
+  "🍵": {
+    "description": "teacup without handle",
+    "names": [
+      "tea"
+    ],
+    "tags": [
+      "green",
+      "breakfast"
+    ]
+  },
+  "🍶": {
+    "description": "sake",
+    "names": [
+      "sake"
+    ],
+    "tags": []
+  },
   "🍺": {
     "description": "beer mug",
     "names": [
@@ -3604,12 +4314,31 @@
       "drinks"
     ]
   },
+  "🥂": {
+    "description": "clinking glasses",
+    "names": [
+      "clinking_glasses"
+    ],
+    "tags": [
+      "cheers",
+      "toast"
+    ]
+  },
   "🍷": {
     "description": "wine glass",
     "names": [
       "wine_glass"
     ],
     "tags": []
+  },
+  "🥃": {
+    "description": "tumbler glass",
+    "names": [
+      "tumbler_glass"
+    ],
+    "tags": [
+      "whisky"
+    ]
   },
   "🍸": {
     "description": "cocktail glass",
@@ -3641,41 +4370,12 @@
       "celebration"
     ]
   },
-  "🍶": {
-    "description": "sake",
+  "🥄": {
+    "description": "spoon",
     "names": [
-      "sake"
+      "spoon"
     ],
     "tags": []
-  },
-  "🍵": {
-    "description": "teacup without handle",
-    "names": [
-      "tea"
-    ],
-    "tags": [
-      "green",
-      "breakfast"
-    ]
-  },
-  "☕️": {
-    "description": "hot beverage",
-    "names": [
-      "coffee"
-    ],
-    "tags": [
-      "cafe",
-      "espresso"
-    ]
-  },
-  "🍼": {
-    "description": "baby bottle",
-    "names": [
-      "baby_bottle"
-    ],
-    "tags": [
-      "milk"
-    ]
   },
   "🍴": {
     "description": "fork and knife",
@@ -3779,6 +4479,13 @@
     ],
     "tags": []
   },
+  "🥅": {
+    "description": "goal net",
+    "names": [
+      "goal_net"
+    ],
+    "tags": []
+  },
   "🏒": {
     "description": "ice hockey",
     "names": [
@@ -3800,6 +4507,13 @@
     ],
     "tags": []
   },
+  "⛳️": {
+    "description": "flag in hole",
+    "names": [
+      "golf"
+    ],
+    "tags": []
+  },
   "🏹": {
     "description": "bow and arrow",
     "names": [
@@ -3809,17 +4523,24 @@
       "archery"
     ]
   },
-  "⛳️": {
-    "description": "flag in hole",
-    "names": [
-      "golf"
-    ],
-    "tags": []
-  },
   "🎣": {
     "description": "fishing pole",
     "names": [
       "fishing_pole_and_fish"
+    ],
+    "tags": []
+  },
+  "🥊": {
+    "description": "boxing glove",
+    "names": [
+      "boxing_glove"
+    ],
+    "tags": []
+  },
+  "🥋": {
+    "description": "martial arts uniform",
+    "names": [
+      "martial_arts_uniform"
     ],
     "tags": []
   },
@@ -3873,6 +4594,41 @@
       "workout"
     ]
   },
+  "🤺": {
+    "description": "person fencing",
+    "names": [
+      "person_fencing"
+    ],
+    "tags": []
+  },
+  "🤼‍♀️": {
+    "description": "women wrestling",
+    "names": [
+      "women_wrestling"
+    ],
+    "tags": []
+  },
+  "🤼‍♂️": {
+    "description": "men wrestling",
+    "names": [
+      "men_wrestling"
+    ],
+    "tags": []
+  },
+  "🤸‍♀️": {
+    "description": "woman cartwheeling",
+    "names": [
+      "woman_cartwheeling"
+    ],
+    "tags": []
+  },
+  "🤸‍♂️": {
+    "description": "man cartwheeling",
+    "names": [
+      "man_cartwheeling"
+    ],
+    "tags": []
+  },
   "⛹️‍♀️": {
     "description": "woman bouncing ball",
     "names": [
@@ -3884,6 +4640,20 @@
     "description": "person bouncing ball",
     "names": [
       "basketball_man"
+    ],
+    "tags": []
+  },
+  "🤾‍♀️": {
+    "description": "woman playing handball",
+    "names": [
+      "woman_playing_handball"
+    ],
+    "tags": []
+  },
+  "🤾‍♂️": {
+    "description": "man playing handball",
+    "names": [
+      "man_playing_handball"
     ],
     "tags": []
   },
@@ -3928,6 +4698,20 @@
     "names": [
       "swimming_man",
       "swimmer"
+    ],
+    "tags": []
+  },
+  "🤽‍♀️": {
+    "description": "woman playing water polo",
+    "names": [
+      "woman_playing_water_polo"
+    ],
+    "tags": []
+  },
+  "🤽‍♂️": {
+    "description": "man playing water polo",
+    "names": [
+      "man_playing_water_polo"
     ],
     "tags": []
   },
@@ -3983,29 +4767,6 @@
     ],
     "tags": []
   },
-  "🛀": {
-    "description": "person taking bath",
-    "names": [
-      "bath"
-    ],
-    "tags": [
-      "shower"
-    ]
-  },
-  "🕴": {
-    "description": "man in business suit levitating",
-    "names": [
-      "business_suit_levitating"
-    ],
-    "tags": []
-  },
-  "🎗": {
-    "description": "reminder ribbon",
-    "names": [
-      "reminder_ribbon"
-    ],
-    "tags": []
-  },
   "🎽": {
     "description": "running shirt",
     "names": [
@@ -4032,6 +4793,33 @@
     ],
     "tags": []
   },
+  "🥇": {
+    "description": "1st place medal",
+    "names": [
+      "1st_place_medal"
+    ],
+    "tags": [
+      "gold"
+    ]
+  },
+  "🥈": {
+    "description": "2nd place medal",
+    "names": [
+      "2nd_place_medal"
+    ],
+    "tags": [
+      "silver"
+    ]
+  },
+  "🥉": {
+    "description": "3rd place medal",
+    "names": [
+      "3rd_place_medal"
+    ],
+    "tags": [
+      "bronze"
+    ]
+  },
   "🏆": {
     "description": "trophy",
     "names": [
@@ -4050,14 +4838,12 @@
     ],
     "tags": []
   },
-  "🎯": {
-    "description": "direct hit",
+  "🎗": {
+    "description": "reminder ribbon",
     "names": [
-      "dart"
+      "reminder_ribbon"
     ],
-    "tags": [
-      "target"
-    ]
+    "tags": []
   },
   "🎫": {
     "description": "ticket",
@@ -4070,6 +4856,27 @@
     "description": "admission tickets",
     "names": [
       "tickets"
+    ],
+    "tags": []
+  },
+  "🎪": {
+    "description": "circus tent",
+    "names": [
+      "circus_tent"
+    ],
+    "tags": []
+  },
+  "🤹‍♀️": {
+    "description": "woman juggling",
+    "names": [
+      "woman_juggling"
+    ],
+    "tags": []
+  },
+  "🤹‍♂️": {
+    "description": "man juggling",
+    "names": [
+      "man_juggling"
     ],
     "tags": []
   },
@@ -4092,13 +4899,6 @@
       "design",
       "paint"
     ]
-  },
-  "🎪": {
-    "description": "circus tent",
-    "names": [
-      "circus_tent"
-    ],
-    "tags": []
   },
   "🎬": {
     "description": "clapper board",
@@ -4144,6 +4944,13 @@
       "piano"
     ]
   },
+  "🥁": {
+    "description": "drum",
+    "names": [
+      "drum"
+    ],
+    "tags": []
+  },
   "🎷": {
     "description": "saxophone",
     "names": [
@@ -4174,6 +4981,32 @@
     ],
     "tags": []
   },
+  "🎲": {
+    "description": "game die",
+    "names": [
+      "game_die"
+    ],
+    "tags": [
+      "dice",
+      "gambling"
+    ]
+  },
+  "🎯": {
+    "description": "direct hit",
+    "names": [
+      "dart"
+    ],
+    "tags": [
+      "target"
+    ]
+  },
+  "🎳": {
+    "description": "bowling",
+    "names": [
+      "bowling"
+    ],
+    "tags": []
+  },
   "🎮": {
     "description": "video game",
     "names": [
@@ -4189,23 +5022,6 @@
     "description": "slot machine",
     "names": [
       "slot_machine"
-    ],
-    "tags": []
-  },
-  "🎲": {
-    "description": "game die",
-    "names": [
-      "game_die"
-    ],
-    "tags": [
-      "dice",
-      "gambling"
-    ]
-  },
-  "🎳": {
-    "description": "bowling",
-    "names": [
-      "bowling"
     ],
     "tags": []
   },
@@ -4301,10 +5117,10 @@
     ],
     "tags": []
   },
-  "🏍": {
-    "description": "motorcycle",
+  "🛴": {
+    "description": "kick scooter",
     "names": [
-      "motorcycle"
+      "kick_scooter"
     ],
     "tags": []
   },
@@ -4316,6 +5132,20 @@
     "tags": [
       "bicycle"
     ]
+  },
+  "🛵": {
+    "description": "motor scooter",
+    "names": [
+      "motor_scooter"
+    ],
+    "tags": []
+  },
+  "🏍": {
+    "description": "motorcycle",
+    "names": [
+      "motorcycle"
+    ],
+    "tags": []
   },
   "🚨": {
     "description": "police car light",
@@ -4390,6 +5220,13 @@
     ],
     "tags": []
   },
+  "🚞": {
+    "description": "mountain railway",
+    "names": [
+      "mountain_railway"
+    ],
+    "tags": []
+  },
   "🚝": {
     "description": "monorail",
     "names": [
@@ -4419,13 +5256,6 @@
     "description": "light rail",
     "names": [
       "light_rail"
-    ],
-    "tags": []
-  },
-  "🚞": {
-    "description": "mountain railway",
-    "names": [
-      "mountain_railway"
     ],
     "tags": []
   },
@@ -4505,46 +5335,6 @@
     ],
     "tags": []
   },
-  "⛵️": {
-    "description": "sailboat",
-    "names": [
-      "boat",
-      "sailboat"
-    ],
-    "tags": []
-  },
-  "🛥": {
-    "description": "motor boat",
-    "names": [
-      "motor_boat"
-    ],
-    "tags": []
-  },
-  "🚤": {
-    "description": "speedboat",
-    "names": [
-      "speedboat"
-    ],
-    "tags": [
-      "ship"
-    ]
-  },
-  "⛴": {
-    "description": "ferry",
-    "names": [
-      "ferry"
-    ],
-    "tags": []
-  },
-  "🛳": {
-    "description": "passenger ship",
-    "names": [
-      "passenger_ship"
-    ],
-    "tags": [
-      "cruise"
-    ]
-  },
   "🚀": {
     "description": "rocket",
     "names": [
@@ -4569,6 +5359,60 @@
     "description": "seat",
     "names": [
       "seat"
+    ],
+    "tags": []
+  },
+  "🛶": {
+    "description": "canoe",
+    "names": [
+      "canoe"
+    ],
+    "tags": []
+  },
+  "⛵️": {
+    "description": "sailboat",
+    "names": [
+      "boat",
+      "sailboat"
+    ],
+    "tags": []
+  },
+  "🛥": {
+    "description": "motor boat",
+    "names": [
+      "motor_boat"
+    ],
+    "tags": []
+  },
+  "🚤": {
+    "description": "speedboat",
+    "names": [
+      "speedboat"
+    ],
+    "tags": [
+      "ship"
+    ]
+  },
+  "🛳": {
+    "description": "passenger ship",
+    "names": [
+      "passenger_ship"
+    ],
+    "tags": [
+      "cruise"
+    ]
+  },
+  "⛴": {
+    "description": "ferry",
+    "names": [
+      "ferry"
+    ],
+    "tags": []
+  },
+  "🚢": {
+    "description": "ship",
+    "names": [
+      "ship"
     ],
     "tags": []
   },
@@ -4629,10 +5473,54 @@
       "travel"
     ]
   },
-  "🚢": {
-    "description": "ship",
+  "🗿": {
+    "description": "moai",
     "names": [
-      "ship"
+      "moyai"
+    ],
+    "tags": [
+      "stone"
+    ]
+  },
+  "🗽": {
+    "description": "Statue of Liberty",
+    "names": [
+      "statue_of_liberty"
+    ],
+    "tags": []
+  },
+  "⛲️": {
+    "description": "fountain",
+    "names": [
+      "fountain"
+    ],
+    "tags": []
+  },
+  "🗼": {
+    "description": "Tokyo tower",
+    "names": [
+      "tokyo_tower"
+    ],
+    "tags": []
+  },
+  "🏰": {
+    "description": "castle",
+    "names": [
+      "european_castle"
+    ],
+    "tags": []
+  },
+  "🏯": {
+    "description": "Japanese castle",
+    "names": [
+      "japanese_castle"
+    ],
+    "tags": []
+  },
+  "🏟": {
+    "description": "stadium",
+    "names": [
+      "stadium"
     ],
     "tags": []
   },
@@ -4657,47 +5545,26 @@
     ],
     "tags": []
   },
-  "🏗": {
-    "description": "building construction",
+  "⛱": {
+    "description": "umbrella on ground",
     "names": [
-      "building_construction"
-    ],
-    "tags": []
-  },
-  "🌁": {
-    "description": "foggy",
-    "names": [
-      "foggy"
+      "parasol_on_ground"
     ],
     "tags": [
-      "karl"
+      "beach_umbrella"
     ]
   },
-  "🗼": {
-    "description": "Tokyo tower",
+  "🏖": {
+    "description": "beach with umbrella",
     "names": [
-      "tokyo_tower"
+      "beach_umbrella"
     ],
     "tags": []
   },
-  "🏭": {
-    "description": "factory",
+  "🏝": {
+    "description": "desert island",
     "names": [
-      "factory"
-    ],
-    "tags": []
-  },
-  "⛲️": {
-    "description": "fountain",
-    "names": [
-      "fountain"
-    ],
-    "tags": []
-  },
-  "🎑": {
-    "description": "moon viewing ceremony",
-    "names": [
-      "rice_scene"
+      "desert_island"
     ],
     "tags": []
   },
@@ -4729,10 +5596,10 @@
     ],
     "tags": []
   },
-  "🗾": {
-    "description": "map of Japan",
+  "🏜": {
+    "description": "desert",
     "names": [
-      "japan"
+      "desert"
     ],
     "tags": []
   },
@@ -4752,10 +5619,10 @@
       "camping"
     ]
   },
-  "🏞": {
-    "description": "national park",
+  "🛤": {
+    "description": "railway track",
     "names": [
-      "national_park"
+      "railway_track"
     ],
     "tags": []
   },
@@ -4766,155 +5633,17 @@
     ],
     "tags": []
   },
-  "🛤": {
-    "description": "railway track",
+  "🏗": {
+    "description": "building construction",
     "names": [
-      "railway_track"
+      "building_construction"
     ],
     "tags": []
   },
-  "🌅": {
-    "description": "sunrise",
+  "🏭": {
+    "description": "factory",
     "names": [
-      "sunrise"
-    ],
-    "tags": []
-  },
-  "🌄": {
-    "description": "sunrise over mountains",
-    "names": [
-      "sunrise_over_mountains"
-    ],
-    "tags": []
-  },
-  "🏜": {
-    "description": "desert",
-    "names": [
-      "desert"
-    ],
-    "tags": []
-  },
-  "🏖": {
-    "description": "beach with umbrella",
-    "names": [
-      "beach_umbrella"
-    ],
-    "tags": []
-  },
-  "🏝": {
-    "description": "desert island",
-    "names": [
-      "desert_island"
-    ],
-    "tags": []
-  },
-  "🌇": {
-    "description": "sunset",
-    "names": [
-      "city_sunrise"
-    ],
-    "tags": []
-  },
-  "🌆": {
-    "description": "cityscape at dusk",
-    "names": [
-      "city_sunset"
-    ],
-    "tags": []
-  },
-  "🏙": {
-    "description": "cityscape",
-    "names": [
-      "cityscape"
-    ],
-    "tags": [
-      "skyline"
-    ]
-  },
-  "🌃": {
-    "description": "night with stars",
-    "names": [
-      "night_with_stars"
-    ],
-    "tags": []
-  },
-  "🌉": {
-    "description": "bridge at night",
-    "names": [
-      "bridge_at_night"
-    ],
-    "tags": []
-  },
-  "🌌": {
-    "description": "milky way",
-    "names": [
-      "milky_way"
-    ],
-    "tags": []
-  },
-  "🌠": {
-    "description": "shooting star",
-    "names": [
-      "stars"
-    ],
-    "tags": []
-  },
-  "🎇": {
-    "description": "sparkler",
-    "names": [
-      "sparkler"
-    ],
-    "tags": []
-  },
-  "🎆": {
-    "description": "fireworks",
-    "names": [
-      "fireworks"
-    ],
-    "tags": [
-      "festival",
-      "celebration"
-    ]
-  },
-  "🌈": {
-    "description": "rainbow",
-    "names": [
-      "rainbow"
-    ],
-    "tags": []
-  },
-  "🏘": {
-    "description": "house",
-    "names": [
-      "houses"
-    ],
-    "tags": []
-  },
-  "🏰": {
-    "description": "castle",
-    "names": [
-      "european_castle"
-    ],
-    "tags": []
-  },
-  "🏯": {
-    "description": "Japanese castle",
-    "names": [
-      "japanese_castle"
-    ],
-    "tags": []
-  },
-  "🏟": {
-    "description": "stadium",
-    "names": [
-      "stadium"
-    ],
-    "tags": []
-  },
-  "🗽": {
-    "description": "Statue of Liberty",
-    "names": [
-      "statue_of_liberty"
+      "factory"
     ],
     "tags": []
   },
@@ -4929,6 +5658,13 @@
     "description": "house with garden",
     "names": [
       "house_with_garden"
+    ],
+    "tags": []
+  },
+  "🏘": {
+    "description": "house",
+    "names": [
+      "houses"
     ],
     "tags": []
   },
@@ -5059,6 +5795,118 @@
       "shinto_shrine"
     ],
     "tags": []
+  },
+  "🗾": {
+    "description": "map of Japan",
+    "names": [
+      "japan"
+    ],
+    "tags": []
+  },
+  "🎑": {
+    "description": "moon viewing ceremony",
+    "names": [
+      "rice_scene"
+    ],
+    "tags": []
+  },
+  "🏞": {
+    "description": "national park",
+    "names": [
+      "national_park"
+    ],
+    "tags": []
+  },
+  "🌅": {
+    "description": "sunrise",
+    "names": [
+      "sunrise"
+    ],
+    "tags": []
+  },
+  "🌄": {
+    "description": "sunrise over mountains",
+    "names": [
+      "sunrise_over_mountains"
+    ],
+    "tags": []
+  },
+  "🌠": {
+    "description": "shooting star",
+    "names": [
+      "stars"
+    ],
+    "tags": []
+  },
+  "🎇": {
+    "description": "sparkler",
+    "names": [
+      "sparkler"
+    ],
+    "tags": []
+  },
+  "🎆": {
+    "description": "fireworks",
+    "names": [
+      "fireworks"
+    ],
+    "tags": [
+      "festival",
+      "celebration"
+    ]
+  },
+  "🌇": {
+    "description": "sunset",
+    "names": [
+      "city_sunrise"
+    ],
+    "tags": []
+  },
+  "🌆": {
+    "description": "cityscape at dusk",
+    "names": [
+      "city_sunset"
+    ],
+    "tags": []
+  },
+  "🏙": {
+    "description": "cityscape",
+    "names": [
+      "cityscape"
+    ],
+    "tags": [
+      "skyline"
+    ]
+  },
+  "🌃": {
+    "description": "night with stars",
+    "names": [
+      "night_with_stars"
+    ],
+    "tags": []
+  },
+  "🌌": {
+    "description": "milky way",
+    "names": [
+      "milky_way"
+    ],
+    "tags": []
+  },
+  "🌉": {
+    "description": "bridge at night",
+    "names": [
+      "bridge_at_night"
+    ],
+    "tags": []
+  },
+  "🌁": {
+    "description": "foggy",
+    "names": [
+      "foggy"
+    ],
+    "tags": [
+      "karl"
+    ]
   },
   "⌚️": {
     "description": "watch",
@@ -5335,19 +6183,19 @@
     ],
     "tags": []
   },
-  "⏳": {
-    "description": "hourglass with flowing sand",
+  "⌛️": {
+    "description": "hourglass",
     "names": [
-      "hourglass_flowing_sand"
+      "hourglass"
     ],
     "tags": [
       "time"
     ]
   },
-  "⌛️": {
-    "description": "hourglass",
+  "⏳": {
+    "description": "hourglass with flowing sand",
     "names": [
-      "hourglass"
+      "hourglass_flowing_sand"
     ],
     "tags": [
       "time"
@@ -5485,7 +6333,7 @@
       "diamond"
     ]
   },
-  "⚖": {
+  "⚖️": {
     "description": "balance scale",
     "names": [
       "balance_scale"
@@ -5538,7 +6386,7 @@
     ],
     "tags": []
   },
-  "⚙": {
+  "⚙️": {
     "description": "gear",
     "names": [
       "gear"
@@ -5589,7 +6437,7 @@
     ],
     "tags": []
   },
-  "⚔": {
+  "⚔️": {
     "description": "crossed swords",
     "names": [
       "crossed_swords"
@@ -5612,7 +6460,7 @@
       "cigarette"
     ]
   },
-  "⚰": {
+  "⚰️": {
     "description": "coffin",
     "names": [
       "coffin"
@@ -5621,7 +6469,7 @@
       "funeral"
     ]
   },
-  "⚱": {
+  "⚱️": {
     "description": "funeral urn",
     "names": [
       "funeral_urn"
@@ -5658,7 +6506,7 @@
     ],
     "tags": []
   },
-  "⚗": {
+  "⚗️": {
     "description": "alembic",
     "names": [
       "alembic"
@@ -5727,6 +6575,13 @@
       "wc"
     ]
   },
+  "🚰": {
+    "description": "potable water",
+    "names": [
+      "potable_water"
+    ],
+    "tags": []
+  },
   "🚿": {
     "description": "shower",
     "names": [
@@ -5742,6 +6597,15 @@
       "bathtub"
     ],
     "tags": []
+  },
+  "🛀": {
+    "description": "person taking bath",
+    "names": [
+      "bath"
+    ],
+    "tags": [
+      "shower"
+    ]
   },
   "🛎": {
     "description": "bellhop bell",
@@ -5781,17 +6645,17 @@
     ],
     "tags": []
   },
-  "🛌": {
-    "description": "person in bed",
-    "names": [
-      "sleeping_bed"
-    ],
-    "tags": []
-  },
   "🛏": {
     "description": "bed",
     "names": [
       "bed"
+    ],
+    "tags": []
+  },
+  "🛌": {
+    "description": "person in bed",
+    "names": [
+      "sleeping_bed"
     ],
     "tags": []
   },
@@ -5802,24 +6666,6 @@
     ],
     "tags": []
   },
-  "⛱": {
-    "description": "umbrella on ground",
-    "names": [
-      "parasol_on_ground"
-    ],
-    "tags": [
-      "beach_umbrella"
-    ]
-  },
-  "🗿": {
-    "description": "moai",
-    "names": [
-      "moyai"
-    ],
-    "tags": [
-      "stone"
-    ]
-  },
   "🛍": {
     "description": "shopping bags",
     "names": [
@@ -5828,6 +6674,13 @@
     "tags": [
       "bags"
     ]
+  },
+  "🛒": {
+    "description": "shopping cart",
+    "names": [
+      "shopping_cart"
+    ],
+    "tags": []
   },
   "🎁": {
     "description": "wrapped gift",
@@ -5880,10 +6733,10 @@
       "party"
     ]
   },
-  "🎐": {
-    "description": "wind chime",
+  "🎎": {
+    "description": "Japanese dolls",
     "names": [
-      "wind_chime"
+      "dolls"
     ],
     "tags": []
   },
@@ -5895,10 +6748,10 @@
     ],
     "tags": []
   },
-  "🎎": {
-    "description": "Japanese dolls",
+  "🎐": {
+    "description": "wind chime",
     "names": [
-      "dolls"
+      "wind_chime"
     ],
     "tags": []
   },
@@ -5974,13 +6827,6 @@
     "tags": [
       "tag"
     ]
-  },
-  "🔖": {
-    "description": "bookmark",
-    "names": [
-      "bookmark"
-    ],
-    "tags": []
   },
   "📪": {
     "description": "closed mailbox with lowered flag",
@@ -6261,6 +7107,13 @@
     ],
     "tags": []
   },
+  "🔖": {
+    "description": "bookmark",
+    "names": [
+      "bookmark"
+    ],
+    "tags": []
+  },
   "🔗": {
     "description": "link",
     "names": [
@@ -6296,15 +7149,6 @@
     ],
     "tags": []
   },
-  "✂️": {
-    "description": "scissors",
-    "names": [
-      "scissors"
-    ],
-    "tags": [
-      "cut"
-    ]
-  },
   "📌": {
     "description": "pushpin",
     "names": [
@@ -6323,66 +7167,14 @@
       "location"
     ]
   },
-  "🚩": {
-    "description": "triangular flag",
+  "✂️": {
+    "description": "scissors",
     "names": [
-      "triangular_flag_on_post"
-    ],
-    "tags": []
-  },
-  "🎌": {
-    "description": "crossed flags",
-    "names": [
-      "crossed_flags"
-    ],
-    "tags": []
-  },
-  "🏳️": {
-    "description": "white flag",
-    "names": [
-      "white_flag"
-    ],
-    "tags": []
-  },
-  "🏴": {
-    "description": "black flag",
-    "names": [
-      "black_flag"
-    ],
-    "tags": []
-  },
-  "🏁": {
-    "description": "chequered flag",
-    "names": [
-      "checkered_flag"
+      "scissors"
     ],
     "tags": [
-      "milestone",
-      "finish"
+      "cut"
     ]
-  },
-  "🏳️‍🌈": {
-    "description": "rainbow flag",
-    "names": [
-      "rainbow_flag"
-    ],
-    "tags": [
-      "pride"
-    ]
-  },
-  "🖌": {
-    "description": "paintbrush",
-    "names": [
-      "paintbrush"
-    ],
-    "tags": []
-  },
-  "🖍": {
-    "description": "crayon",
-    "names": [
-      "crayon"
-    ],
-    "tags": []
   },
   "🖊": {
     "description": "pen",
@@ -6405,6 +7197,20 @@
     ],
     "tags": []
   },
+  "🖌": {
+    "description": "paintbrush",
+    "names": [
+      "paintbrush"
+    ],
+    "tags": []
+  },
+  "🖍": {
+    "description": "crayon",
+    "names": [
+      "crayon"
+    ],
+    "tags": []
+  },
   "📝": {
     "description": "memo",
     "names": [
@@ -6420,6 +7226,23 @@
     "description": "pencil",
     "names": [
       "pencil2"
+    ],
+    "tags": []
+  },
+  "🔍": {
+    "description": "left-pointing magnifying glass",
+    "names": [
+      "mag"
+    ],
+    "tags": [
+      "search",
+      "zoom"
+    ]
+  },
+  "🔎": {
+    "description": "right-pointing magnifying glass",
+    "names": [
+      "mag_right"
     ],
     "tags": []
   },
@@ -6458,23 +7281,6 @@
       "security"
     ]
   },
-  "🔍": {
-    "description": "left-pointing magnifying glass",
-    "names": [
-      "mag"
-    ],
-    "tags": [
-      "search",
-      "zoom"
-    ]
-  },
-  "🔎": {
-    "description": "right-pointing magnifying glass",
-    "names": [
-      "mag_right"
-    ],
-    "tags": []
-  },
   "❤️": {
     "description": "red heart",
     "names": [
@@ -6509,6 +7315,13 @@
     "description": "purple heart",
     "names": [
       "purple_heart"
+    ],
+    "tags": []
+  },
+  "🖤": {
+    "description": "black heart",
+    "names": [
+      "black_heart"
     ],
     "tags": []
   },
@@ -6762,24 +7575,17 @@
     ],
     "tags": []
   },
-  "⚛": {
+  "⚛️": {
     "description": "atom symbol",
     "names": [
       "atom_symbol"
     ],
     "tags": []
   },
-  "🈳": {
-    "description": "Japanese “vacancy” button",
+  "🉑": {
+    "description": "Japanese “acceptable” button",
     "names": [
-      "u7a7a"
-    ],
-    "tags": []
-  },
-  "🈹": {
-    "description": "Japanese “discount” button",
-    "names": [
-      "u5272"
+      "accept"
     ],
     "tags": []
   },
@@ -6863,13 +7669,6 @@
     ],
     "tags": []
   },
-  "🉑": {
-    "description": "Japanese “acceptable” button",
-    "names": [
-      "accept"
-    ],
-    "tags": []
-  },
   "💮": {
     "description": "white flower",
     "names": [
@@ -6909,6 +7708,13 @@
     "description": "Japanese “no vacancy” button",
     "names": [
       "u6e80"
+    ],
+    "tags": []
+  },
+  "🈹": {
+    "description": "Japanese “discount” button",
+    "names": [
+      "u5272"
     ],
     "tags": []
   },
@@ -6964,6 +7770,27 @@
       "emergency"
     ]
   },
+  "❌": {
+    "description": "cross mark",
+    "names": [
+      "x"
+    ],
+    "tags": []
+  },
+  "⭕️": {
+    "description": "heavy large circle",
+    "names": [
+      "o"
+    ],
+    "tags": []
+  },
+  "🛑": {
+    "description": "stop sign",
+    "names": [
+      "stop_sign"
+    ],
+    "tags": []
+  },
   "⛔️": {
     "description": "no entry",
     "names": [
@@ -6990,19 +7817,15 @@
       "forbidden"
     ]
   },
-  "❌": {
-    "description": "cross mark",
+  "💯": {
+    "description": "hundred points",
     "names": [
-      "x"
+      "100"
     ],
-    "tags": []
-  },
-  "⭕️": {
-    "description": "heavy large circle",
-    "names": [
-      "o"
-    ],
-    "tags": []
+    "tags": [
+      "score",
+      "perfect"
+    ]
   },
   "💢": {
     "description": "anger symbol",
@@ -7062,6 +7885,13 @@
     ],
     "tags": []
   },
+  "🚭": {
+    "description": "no smoking",
+    "names": [
+      "no_smoking"
+    ],
+    "tags": []
+  },
   "❗️": {
     "description": "exclamation mark",
     "names": [
@@ -7109,16 +7939,6 @@
     ],
     "tags": []
   },
-  "💯": {
-    "description": "hundred points",
-    "names": [
-      "100"
-    ],
-    "tags": [
-      "score",
-      "perfect"
-    ]
-  },
   "🔅": {
     "description": "dim button",
     "names": [
@@ -7130,20 +7950,6 @@
     "description": "bright button",
     "names": [
       "high_brightness"
-    ],
-    "tags": []
-  },
-  "🔱": {
-    "description": "trident emblem",
-    "names": [
-      "trident"
-    ],
-    "tags": []
-  },
-  "⚜": {
-    "description": "fleur-de-lis",
-    "names": [
-      "fleur_de_lis"
     ],
     "tags": []
   },
@@ -7170,6 +7976,20 @@
     ],
     "tags": []
   },
+  "🔱": {
+    "description": "trident emblem",
+    "names": [
+      "trident"
+    ],
+    "tags": []
+  },
+  "⚜️": {
+    "description": "fleur-de-lis",
+    "names": [
+      "fleur_de_lis"
+    ],
+    "tags": []
+  },
   "🔰": {
     "description": "Japanese symbol for beginner",
     "names": [
@@ -7186,6 +8006,13 @@
       "environment",
       "green"
     ]
+  },
+  "✅": {
+    "description": "white heavy check mark",
+    "names": [
+      "white_check_mark"
+    ],
+    "tags": []
   },
   "🈯️": {
     "description": "Japanese “reserved” button",
@@ -7222,13 +8049,6 @@
     ],
     "tags": []
   },
-  "✅": {
-    "description": "white heavy check mark",
-    "names": [
-      "white_check_mark"
-    ],
-    "tags": []
-  },
   "🌐": {
     "description": "globe with meridians",
     "names": [
@@ -7240,17 +8060,17 @@
       "international"
     ]
   },
-  "Ⓜ️": {
-    "description": "circled M",
-    "names": [
-      "m"
-    ],
-    "tags": []
-  },
   "💠": {
     "description": "diamond with a dot",
     "names": [
       "diamond_shape_with_a_dot_inside"
+    ],
+    "tags": []
+  },
+  "Ⓜ️": {
+    "description": "circled M",
+    "names": [
+      "m"
     ],
     "tags": []
   },
@@ -7263,17 +8083,52 @@
       "swirl"
     ]
   },
-  "➿": {
-    "description": "double curly loop",
+  "💤": {
+    "description": "zzz",
     "names": [
-      "loop"
+      "zzz"
     ],
-    "tags": []
+    "tags": [
+      "sleeping"
+    ]
   },
   "🏧": {
     "description": "ATM sign",
     "names": [
       "atm"
+    ],
+    "tags": []
+  },
+  "🚾": {
+    "description": "water closet",
+    "names": [
+      "wc"
+    ],
+    "tags": [
+      "toilet",
+      "restroom"
+    ]
+  },
+  "♿️": {
+    "description": "wheelchair symbol",
+    "names": [
+      "wheelchair"
+    ],
+    "tags": [
+      "accessibility"
+    ]
+  },
+  "🅿️": {
+    "description": "P button",
+    "names": [
+      "parking"
+    ],
+    "tags": []
+  },
+  "🈳": {
+    "description": "Japanese “vacancy” button",
+    "names": [
+      "u7a7a"
     ],
     "tags": []
   },
@@ -7311,46 +8166,6 @@
     "description": "left luggage",
     "names": [
       "left_luggage"
-    ],
-    "tags": []
-  },
-  "♿️": {
-    "description": "wheelchair symbol",
-    "names": [
-      "wheelchair"
-    ],
-    "tags": [
-      "accessibility"
-    ]
-  },
-  "🚭": {
-    "description": "no smoking",
-    "names": [
-      "no_smoking"
-    ],
-    "tags": []
-  },
-  "🚾": {
-    "description": "water closet",
-    "names": [
-      "wc"
-    ],
-    "tags": [
-      "toilet",
-      "restroom"
-    ]
-  },
-  "🅿️": {
-    "description": "P button",
-    "names": [
-      "parking"
-    ],
-    "tags": []
-  },
-  "🚰": {
-    "description": "potable water",
-    "names": [
-      "potable_water"
     ],
     "tags": []
   },
@@ -7417,6 +8232,20 @@
     ],
     "tags": []
   },
+  "🔣": {
+    "description": "input symbols",
+    "names": [
+      "symbols"
+    ],
+    "tags": []
+  },
+  "ℹ️": {
+    "description": "information",
+    "names": [
+      "information_source"
+    ],
+    "tags": []
+  },
   "🔤": {
     "description": "input latin letters",
     "names": [
@@ -7441,20 +8270,6 @@
     "tags": [
       "letters"
     ]
-  },
-  "🔣": {
-    "description": "input symbols",
-    "names": [
-      "symbols"
-    ],
-    "tags": []
-  },
-  "ℹ️": {
-    "description": "information",
-    "names": [
-      "information_source"
-    ],
-    "tags": []
   },
   "🆖": {
     "description": "NG button",
@@ -7859,27 +8674,6 @@
       "music"
     ]
   },
-  "〰️": {
-    "description": "wavy dash",
-    "names": [
-      "wavy_dash"
-    ],
-    "tags": []
-  },
-  "➰": {
-    "description": "curly loop",
-    "names": [
-      "curly_loop"
-    ],
-    "tags": []
-  },
-  "✔️": {
-    "description": "heavy check mark",
-    "names": [
-      "heavy_check_mark"
-    ],
-    "tags": []
-  },
   "➕": {
     "description": "heavy plus sign",
     "names": [
@@ -7945,6 +8739,27 @@
     ],
     "tags": []
   },
+  "〰️": {
+    "description": "wavy dash",
+    "names": [
+      "wavy_dash"
+    ],
+    "tags": []
+  },
+  "➰": {
+    "description": "curly loop",
+    "names": [
+      "curly_loop"
+    ],
+    "tags": []
+  },
+  "➿": {
+    "description": "double curly loop",
+    "names": [
+      "loop"
+    ],
+    "tags": []
+  },
   "🔚": {
     "description": "END arrow",
     "names": [
@@ -7977,6 +8792,13 @@
     "description": "SOON arrow",
     "names": [
       "soon"
+    ],
+    "tags": []
+  },
+  "✔️": {
+    "description": "heavy check mark",
+    "names": [
+      "heavy_check_mark"
     ],
     "tags": []
   },
@@ -8134,6 +8956,13 @@
     ],
     "tags": []
   },
+  "🔈": {
+    "description": "speaker low volume",
+    "names": [
+      "speaker"
+    ],
+    "tags": []
+  },
   "🔇": {
     "description": "muted speaker",
     "names": [
@@ -8143,13 +8972,6 @@
       "sound",
       "volume"
     ]
-  },
-  "🔈": {
-    "description": "speaker low volume",
-    "names": [
-      "speaker"
-    ],
-    "tags": []
   },
   "🔉": {
     "description": "speaker medium volume",
@@ -8169,16 +8991,6 @@
       "volume"
     ]
   },
-  "🔕": {
-    "description": "bell with slash",
-    "names": [
-      "no_bell"
-    ],
-    "tags": [
-      "volume",
-      "off"
-    ]
-  },
   "🔔": {
     "description": "bell",
     "names": [
@@ -8187,6 +8999,16 @@
     "tags": [
       "sound",
       "notification"
+    ]
+  },
+  "🔕": {
+    "description": "bell with slash",
+    "names": [
+      "no_bell"
+    ],
+    "tags": [
+      "volume",
+      "off"
     ]
   },
   "📣": {
@@ -8237,27 +9059,6 @@
     ],
     "tags": []
   },
-  "🃏": {
-    "description": "joker",
-    "names": [
-      "black_joker"
-    ],
-    "tags": []
-  },
-  "🀄️": {
-    "description": "mahjong red dragon",
-    "names": [
-      "mahjong"
-    ],
-    "tags": []
-  },
-  "🎴": {
-    "description": "flower playing cards",
-    "names": [
-      "flower_playing_cards"
-    ],
-    "tags": []
-  },
   "♠️": {
     "description": "spade suit",
     "names": [
@@ -8283,6 +9084,27 @@
     "description": "diamond suit",
     "names": [
       "diamonds"
+    ],
+    "tags": []
+  },
+  "🃏": {
+    "description": "joker",
+    "names": [
+      "black_joker"
+    ],
+    "tags": []
+  },
+  "🎴": {
+    "description": "flower playing cards",
+    "names": [
+      "flower_playing_cards"
+    ],
+    "tags": []
+  },
+  "🀄️": {
+    "description": "mahjong red dragon",
+    "names": [
+      "mahjong"
     ],
     "tags": []
   },
@@ -8453,6 +9275,46 @@
       "clock1230"
     ],
     "tags": []
+  },
+  "🏳️": {
+    "description": "white flag",
+    "names": [
+      "white_flag"
+    ],
+    "tags": []
+  },
+  "🏴": {
+    "description": "black flag",
+    "names": [
+      "black_flag"
+    ],
+    "tags": []
+  },
+  "🏁": {
+    "description": "chequered flag",
+    "names": [
+      "checkered_flag"
+    ],
+    "tags": [
+      "milestone",
+      "finish"
+    ]
+  },
+  "🚩": {
+    "description": "triangular flag",
+    "names": [
+      "triangular_flag_on_post"
+    ],
+    "tags": []
+  },
+  "🏳️‍🌈": {
+    "description": "rainbow flag",
+    "names": [
+      "rainbow_flag"
+    ],
+    "tags": [
+      "pride"
+    ]
   },
   "🇦🇫": {
     "description": "Afghanistan",
@@ -8843,6 +9705,15 @@
     ],
     "tags": []
   },
+  "🇨🇮": {
+    "description": "Côte d’Ivoire",
+    "names": [
+      "cote_divoire"
+    ],
+    "tags": [
+      "ivory"
+    ]
+  },
   "🇭🇷": {
     "description": "Croatia",
     "names": [
@@ -9230,15 +10101,6 @@
       "italy"
     ]
   },
-  "🇨🇮": {
-    "description": "Côte d’Ivoire",
-    "names": [
-      "cote_divoire"
-    ],
-    "tags": [
-      "ivory"
-    ]
-  },
   "🇯🇲": {
     "description": "Jamaica",
     "names": [
@@ -9254,6 +10116,13 @@
     "tags": [
       "japan"
     ]
+  },
+  "🎌": {
+    "description": "crossed flags",
+    "names": [
+      "crossed_flags"
+    ],
+    "tags": []
   },
   "🇯🇪": {
     "description": "Jersey",
