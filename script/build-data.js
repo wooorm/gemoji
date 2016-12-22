@@ -19,6 +19,7 @@ data.forEach(function (gemoji) {
   }
 
   map[gemoji.emoji] = {
+    category: gemoji.category.toLowerCase(),
     description: gemoji.description,
     names: gemoji.aliases,
     tags: gemoji.tags

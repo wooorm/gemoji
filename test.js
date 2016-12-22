@@ -21,6 +21,7 @@ function describeEntry(entry) {
   var tags;
   var alias;
   var information;
+  var category;
 
   /* Some gemoji, such as `octocat`, do not have a
    * unicode representation. Those are not present in
@@ -34,6 +35,7 @@ function describeEntry(entry) {
   tags = entry.tags;
   alias = aliases[0];
   information = gemoji.unicode[unicode];
+  category = entry.category.toLowerCase();
 
   test(unicode + '   ' + description, function (t) {
     aliases.forEach(function (name) {
@@ -52,6 +54,7 @@ function describeEntry(entry) {
 
     t.equal(information.name, alias, 'should have a `name` field');
     t.equal(information.emoji, unicode, 'should have an `emoji` field');
+    t.equal(information.category, category, 'should have a `category` field');
     t.equal(information.description, description, 'should have a `description` field');
     t.deepEqual(information.names, aliases, 'should have a `names` field');
     t.deepEqual(information.tags, tags, 'should have a `tags` field');

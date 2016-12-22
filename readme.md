@@ -16,19 +16,18 @@ npm install gemoji
 ```javascript
 var gemoji = require('gemoji');
 
-gemoji.name['cat'];
+gemoji.name.cat;
 ```
 
 Yields:
 
-```json
-{
-  "description": "cat face",
-  "names": ["cat"],
-  "tags": ["pet"],
-  "name": "cat",
-  "emoji": "🐱"
-}
+```js
+{ category: 'nature',
+  description: 'cat face',
+  names: [ 'cat' ],
+  tags: [ 'pet' ],
+  name: 'cat',
+  emoji: '🐱' }
 ```
 
 ### By unicode emoji
@@ -39,14 +38,13 @@ gemoji.unicode['🐶'];
 
 Yields:
 
-```json
-{
-  "description": "dog face",
-  "names": ["dog"],
-  "tags": ["pet"],
-  "name": "dog",
-  "emoji": "🐶"
-}
+```js
+{ category: 'nature',
+  description: 'dog face',
+  names: [ 'dog' ],
+  tags: [ 'pet' ],
+  name: 'dog',
+  emoji: '🐶' }
 ```
 
 ...and...
@@ -57,14 +55,13 @@ gemoji.unicode['\uD83D\uDCA9'];
 
 Yields:
 
-```json
-{
-  "description": "pile of poo",
-  "names": ["hankey", "poop", "shit"],
-  "tags": ["crap"],
-  "name": "hankey",
-  "emoji": "💩"
-}
+```js
+{ category: 'people',
+  description: 'pile of poo',
+  names: [ 'hankey', 'poop', 'shit' ],
+  tags: [ 'crap' ],
+  name: 'hankey',
+  emoji: '💩' }
 ```
 
 ## Supported Gemoji
