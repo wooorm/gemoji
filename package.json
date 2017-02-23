@@ -29,7 +29,7 @@
     "markdown-table": "^1.0.0",
     "nyc": "^10.0.0",
     "remark-cli": "^2.0.0",
-    "remark-preset-wooorm": "^1.0.0",
+    "remark-preset-wooorm": "^2.0.0",
     "request": "^2.75.0",
     "string-width": "^2.0.0",
     "tape": "^4.6.0",
