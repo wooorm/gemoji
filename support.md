@@ -9,7 +9,7 @@ sense of the first column!
 | :------: | :--------------------------------------------: | :----------------------------------------: | :----------------------------------------------------------------: |
 |     😀    |                    grinning                    |                smile; happy                |                            \ud83d\ude00                            |
 |     😃    |                     smiley                     |              happy; joy; haha              |                            \ud83d\ude03                            |
-|     😄    |                      smile                     |             happy; joy; pleased            |                            \ud83d\ude04                            |
+|     😄    |                      smile                     |         happy; joy; laugh; pleased         |                            \ud83d\ude04                            |
 |     😁    |                      grin                      |                                            |                            \ud83d\ude01                            |
 |     😆    |               laughing; satisfied              |                 happy; haha                |                            \ud83d\ude06                            |
 |     😅    |                   sweat_smile                  |                     hot                    |                            \ud83d\ude05                            |
@@ -844,7 +844,7 @@ sense of the first column!
 |     🎏    |                      flags                     |                                            |                            \ud83c\udf8f                            |
 |     🎀    |                     ribbon                     |                                            |                            \ud83c\udf80                            |
 |     🎊    |                  confetti_ball                 |                                            |                            \ud83c\udf8a                            |
-|     🎉    |                      tada                      |                    party                   |                            \ud83c\udf89                            |
+|     🎉    |                      tada                      |                hooray; party               |                            \ud83c\udf89                            |
 |     🎎    |                      dolls                     |                                            |                            \ud83c\udf8e                            |
 |     🏮    |            izakaya_lantern; lantern            |                                            |                            \ud83c\udfee                            |
 |     🎐    |                   wind_chime                   |                                            |                            \ud83c\udf90                            |
