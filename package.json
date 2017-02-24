@@ -28,15 +28,15 @@
     "esmangle": "^1.0.0",
     "markdown-table": "^1.0.0",
     "nyc": "^10.0.0",
-    "remark-cli": "^2.0.0",
-    "remark-preset-wooorm": "^1.0.0",
+    "remark-cli": "^3.0.0",
+    "remark-preset-wooorm": "^2.0.0",
     "request": "^2.75.0",
     "string-width": "^2.0.0",
     "tape": "^4.6.0",
     "xo": "^0.17.1"
   },
   "scripts": {
-    "build-md": "remark readme.md --quiet --frail",
+    "build-md": "remark readme.md -qfo",
     "build-crawl": "node script/crawl-data",
     "build-data": "node script/build-data",
     "build-support": "node script/build-support",
@@ -64,7 +64,6 @@
     ]
   },
   "remarkConfig": {
-    "output": true,
-    "presets": "wooorm"
+    "plugins": ["preset-wooorm"]
   }
 }
