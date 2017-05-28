@@ -16,7 +16,7 @@ function enhance(character) {
   var information = data[character];
   var names = information.names;
   var length = names.length;
-  var index = 0; /* first must be skipped. */
+  var index = 0; /* First must be skipped. */
 
   /* Add the main `name` and the emoji. */
   information.name = names[0];
