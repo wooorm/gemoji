@@ -1,6 +1,7 @@
 # gemoji [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
 
-GitHub emoji: gemoji.  Information on emoji such as description, names,
+Gemoji (**G**itHub **Emoji**) maps Gemoji short-codes and unicode emoji to
+objects containing info on their respective category, description, names,
 and tags.
 
 ## Installation
