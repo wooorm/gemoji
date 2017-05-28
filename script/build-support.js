@@ -1,38 +1,61 @@
 'use strict';
 
-var fs = require('fs');
-var table = require('markdown-table');
-var gemoji = require('../index.json');
+var zone = require('mdast-zone');
+var u = require('unist-builder');
+var gemoji = require('..').unicode;
 
-/* Set up data. */
-var data = [[
-  'Emoji',
-  'Name(s)',
-  'Tags',
-  'Escaped Unicode'
-]].concat(Object.keys(gemoji).map(function (emoji) {
+module.exports = support;
+
+function support() {
+  return transformer;
+}
+
+function transformer(tree) {
+  zone(tree, 'support', replace);
+}
+
+function replace(start, nodes, end) {
+  return [start].concat(data()).concat([end]);
+}
+
+function data() {
   return [
-    emoji,
-    gemoji[emoji].names.join('; '),
-    gemoji[emoji].tags.join('; '),
-    escape(emoji)
+    u('paragraph', [
+      u('text', 'Gemoji supports ' + Object.keys(gemoji).length + ' emoji.')
+    ]),
+    table()
   ];
-}));
+}
 
-var doc = [
-  'Note that this file does not contain the gemoji’s as rendered by',
-  'GitHub; ' + Object.keys(gemoji).length + ' small images would',
-  'make viewing this document very slow.',
-  '',
-  'Also: You need a browser capable of viewing unicode-emoji to make',
-  'sense of the first column!',
-  '',
-  table(data, {align: 'c', pad: false}),
-  ''
-].join('\n');
+function table() {
+  var header = [
+    'Emoji',
+    'Name(s)',
+    'Tags',
+    'Escaped Unicode'
+  ];
 
-/* Write. */
-fs.writeFileSync('support.md', doc);
+  return u('table', {align: []}, [
+    u('tableRow', header.map(cell))
+  ].concat(
+    Object
+      .keys(gemoji)
+      .map(function (emoji) {
+        var info = gemoji[emoji];
+
+        return u('tableRow', [
+          cell(emoji),
+          cell(info.names.join('; ')),
+          cell(info.tags.join('; ')),
+          cell(escape(emoji))
+        ]);
+      })
+  ));
+}
+
+function cell(value) {
+  return u('tableCell', [u('text', value)]);
+}
 
 /* Escape a string into its unicode points. */
 function escape(value) {

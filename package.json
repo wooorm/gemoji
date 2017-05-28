@@ -26,23 +26,23 @@
   "devDependencies": {
     "browserify": "^14.0.0",
     "esmangle": "^1.0.0",
-    "markdown-table": "^1.0.0",
+    "mdast-zone": "^3.0.0",
     "nyc": "^10.0.0",
     "remark-cli": "^3.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
     "remark-preset-wooorm": "^3.0.0",
     "request": "^2.75.0",
     "tape": "^4.6.0",
+    "unist-builder": "^1.0.2",
     "xo": "^0.18.2"
   },
   "scripts": {
-    "build-md": "remark readme.md -qfo",
+    "build-md": "remark . -qfo",
     "build-crawl": "node script/crawl-data",
     "build-data": "node script/build-data",
-    "build-support": "node script/build-support",
     "build-bundle": "browserify index.js --bare -s gemoji > gemoji.js",
     "build-mangle": "esmangle gemoji.js > gemoji.min.js",
-    "build": "npm run build-crawl && npm run build-data && npm run build-support && npm run build-md && npm run build-bundle && npm run build-mangle",
+    "build": "npm run build-crawl && npm run build-data && npm run build-md && npm run build-bundle && npm run build-mangle",
     "lint": "xo",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
@@ -73,7 +73,8 @@
       [
         "remark-lint-table-pipe-alignment",
         false
-      ]
+      ],
+      "./script/build-support"
     ]
   }
 }
