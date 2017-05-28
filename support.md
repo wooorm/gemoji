@@ -152,23 +152,23 @@ sense of the first column!
 | 👧 | girl | child | \ud83d\udc67 |
 | 👨 | man | mustache; father; dad | \ud83d\udc68 |
 | 👩 | woman | girls | \ud83d\udc69 |
-| 👱‍♀️ | blonde_woman |  | \ud83d\udc71\u200d\u2640\ufe0f |
+| 👱‍♀ | blonde_woman |  | \ud83d\udc71\u200d\u2640 |
 | 👱 | blonde_man; person_with_blond_hair | boy | \ud83d\udc71 |
 | 👴 | older_man |  | \ud83d\udc74 |
 | 👵 | older_woman |  | \ud83d\udc75 |
 | 👲 | man_with_gua_pi_mao |  | \ud83d\udc72 |
-| 👳‍♀️ | woman_with_turban |  | \ud83d\udc73\u200d\u2640\ufe0f |
+| 👳‍♀ | woman_with_turban |  | \ud83d\udc73\u200d\u2640 |
 | 👳 | man_with_turban |  | \ud83d\udc73 |
-| 👮‍♀️ | policewoman |  | \ud83d\udc6e\u200d\u2640\ufe0f |
+| 👮‍♀ | policewoman |  | \ud83d\udc6e\u200d\u2640 |
 | 👮 | policeman; cop | police; law | \ud83d\udc6e |
-| 👷‍♀️ | construction_worker_woman |  | \ud83d\udc77\u200d\u2640\ufe0f |
+| 👷‍♀ | construction_worker_woman |  | \ud83d\udc77\u200d\u2640 |
 | 👷 | construction_worker_man; construction_worker | helmet | \ud83d\udc77 |
-| 💂‍♀️ | guardswoman |  | \ud83d\udc82\u200d\u2640\ufe0f |
+| 💂‍♀ | guardswoman |  | \ud83d\udc82\u200d\u2640 |
 | 💂 | guardsman |  | \ud83d\udc82 |
 | 🕵️‍♀️ | female_detective | sleuth | \ud83d\udd75\ufe0f\u200d\u2640\ufe0f |
-| 🕵️ | male_detective; detective | sleuth | \ud83d\udd75\ufe0f |
-| 👩‍⚕️ | woman_health_worker | doctor; nurse | \ud83d\udc69\u200d\u2695\ufe0f |
-| 👨‍⚕️ | man_health_worker | doctor; nurse | \ud83d\udc68\u200d\u2695\ufe0f |
+| 🕵 | male_detective; detective | sleuth | \ud83d\udd75 |
+| 👩‍⚕ | woman_health_worker | doctor; nurse | \ud83d\udc69\u200d\u2695 |
+| 👨‍⚕ | man_health_worker | doctor; nurse | \ud83d\udc68\u200d\u2695 |
 | 👩‍🌾 | woman_farmer |  | \ud83d\udc69\u200d\ud83c\udf3e |
 | 👨‍🌾 | man_farmer |  | \ud83d\udc68\u200d\ud83c\udf3e |
 | 👩‍🍳 | woman_cook | chef | \ud83d\udc69\u200d\ud83c\udf73 |
@@ -193,12 +193,12 @@ sense of the first column!
 | 👨‍🎨 | man_artist | painter | \ud83d\udc68\u200d\ud83c\udfa8 |
 | 👩‍🚒 | woman_firefighter |  | \ud83d\udc69\u200d\ud83d\ude92 |
 | 👨‍🚒 | man_firefighter |  | \ud83d\udc68\u200d\ud83d\ude92 |
-| 👩‍✈️ | woman_pilot |  | \ud83d\udc69\u200d\u2708\ufe0f |
-| 👨‍✈️ | man_pilot |  | \ud83d\udc68\u200d\u2708\ufe0f |
+| 👩‍✈ | woman_pilot |  | \ud83d\udc69\u200d\u2708 |
+| 👨‍✈ | man_pilot |  | \ud83d\udc68\u200d\u2708 |
 | 👩‍🚀 | woman_astronaut | space | \ud83d\udc69\u200d\ud83d\ude80 |
 | 👨‍🚀 | man_astronaut | space | \ud83d\udc68\u200d\ud83d\ude80 |
-| 👩‍⚖️ | woman_judge | justice | \ud83d\udc69\u200d\u2696\ufe0f |
-| 👨‍⚖️ | man_judge | justice | \ud83d\udc68\u200d\u2696\ufe0f |
+| 👩‍⚖ | woman_judge | justice | \ud83d\udc69\u200d\u2696 |
+| 👨‍⚖ | man_judge | justice | \ud83d\udc68\u200d\u2696 |
 | 🤶 | mrs_claus | santa | \ud83e\udd36 |
 | 🎅 | santa | christmas | \ud83c\udf85 |
 | 👸 | princess | blonde; crown; royal | \ud83d\udc78 |
@@ -207,36 +207,36 @@ sense of the first column!
 | 🤵 | man_in_tuxedo | groom; marriage; wedding | \ud83e\udd35 |
 | 👼 | angel |  | \ud83d\udc7c |
 | 🤰 | pregnant_woman |  | \ud83e\udd30 |
-| 🙇‍♀️ | bowing_woman | respect; thanks | \ud83d\ude47\u200d\u2640\ufe0f |
+| 🙇‍♀ | bowing_woman | respect; thanks | \ud83d\ude47\u200d\u2640 |
 | 🙇 | bowing_man; bow | respect; thanks | \ud83d\ude47 |
-| 💁 | tipping_hand_woman; information_desk_person |  | \ud83d\udc81 |
-| 💁‍♂️ | tipping_hand_man | information | \ud83d\udc81\u200d\u2642\ufe0f |
+| 💁 | tipping_hand_woman; information_desk_person; sassy_woman |  | \ud83d\udc81 |
+| 💁‍♂ | tipping_hand_man; sassy_man | information | \ud83d\udc81\u200d\u2642 |
 | 🙅 | no_good_woman; no_good; ng_woman | stop; halt | \ud83d\ude45 |
-| 🙅‍♂️ | no_good_man; ng_man | stop; halt | \ud83d\ude45\u200d\u2642\ufe0f |
+| 🙅‍♂ | no_good_man; ng_man | stop; halt | \ud83d\ude45\u200d\u2642 |
 | 🙆 | ok_woman |  | \ud83d\ude46 |
-| 🙆‍♂️ | ok_man |  | \ud83d\ude46\u200d\u2642\ufe0f |
+| 🙆‍♂ | ok_man |  | \ud83d\ude46\u200d\u2642 |
 | 🙋 | raising_hand_woman; raising_hand |  | \ud83d\ude4b |
-| 🙋‍♂️ | raising_hand_man |  | \ud83d\ude4b\u200d\u2642\ufe0f |
-| 🤦‍♀️ | woman_facepalming |  | \ud83e\udd26\u200d\u2640\ufe0f |
-| 🤦‍♂️ | man_facepalming |  | \ud83e\udd26\u200d\u2642\ufe0f |
-| 🤷‍♀️ | woman_shrugging |  | \ud83e\udd37\u200d\u2640\ufe0f |
-| 🤷‍♂️ | man_shrugging |  | \ud83e\udd37\u200d\u2642\ufe0f |
+| 🙋‍♂ | raising_hand_man |  | \ud83d\ude4b\u200d\u2642 |
+| 🤦‍♀ | woman_facepalming |  | \ud83e\udd26\u200d\u2640 |
+| 🤦‍♂ | man_facepalming |  | \ud83e\udd26\u200d\u2642 |
+| 🤷‍♀ | woman_shrugging |  | \ud83e\udd37\u200d\u2640 |
+| 🤷‍♂ | man_shrugging |  | \ud83e\udd37\u200d\u2642 |
 | 🙎 | pouting_woman; person_with_pouting_face |  | \ud83d\ude4e |
-| 🙎‍♂️ | pouting_man |  | \ud83d\ude4e\u200d\u2642\ufe0f |
+| 🙎‍♂ | pouting_man |  | \ud83d\ude4e\u200d\u2642 |
 | 🙍 | frowning_woman; person_frowning | sad | \ud83d\ude4d |
-| 🙍‍♂️ | frowning_man |  | \ud83d\ude4d\u200d\u2642\ufe0f |
+| 🙍‍♂ | frowning_man |  | \ud83d\ude4d\u200d\u2642 |
 | 💇 | haircut_woman; haircut | beauty | \ud83d\udc87 |
-| 💇‍♂️ | haircut_man |  | \ud83d\udc87\u200d\u2642\ufe0f |
+| 💇‍♂ | haircut_man |  | \ud83d\udc87\u200d\u2642 |
 | 💆 | massage_woman; massage | spa | \ud83d\udc86 |
-| 💆‍♂️ | massage_man | spa | \ud83d\udc86\u200d\u2642\ufe0f |
+| 💆‍♂ | massage_man | spa | \ud83d\udc86\u200d\u2642 |
 | 🕴 | business_suit_levitating |  | \ud83d\udd74 |
 | 💃 | dancer | dress | \ud83d\udc83 |
 | 🕺 | man_dancing | dancer | \ud83d\udd7a |
 | 👯 | dancing_women; dancers | bunny | \ud83d\udc6f |
-| 👯‍♂️ | dancing_men | bunny | \ud83d\udc6f\u200d\u2642\ufe0f |
-| 🚶‍♀️ | walking_woman |  | \ud83d\udeb6\u200d\u2640\ufe0f |
+| 👯‍♂ | dancing_men | bunny | \ud83d\udc6f\u200d\u2642 |
+| 🚶‍♀ | walking_woman |  | \ud83d\udeb6\u200d\u2640 |
 | 🚶 | walking_man; walking |  | \ud83d\udeb6 |
-| 🏃‍♀️ | running_woman | exercise; workout; marathon | \ud83c\udfc3\u200d\u2640\ufe0f |
+| 🏃‍♀ | running_woman | exercise; workout; marathon | \ud83c\udfc3\u200d\u2640 |
 | 🏃 | running_man; runner; running | exercise; workout; marathon | \ud83c\udfc3 |
 | 👫 | couple | date | \ud83d\udc6b |
 | 👭 | two_women_holding_hands | couple; date | \ud83d\udc6d |
@@ -434,7 +434,7 @@ sense of the first column!
 | ⚡️ | zap | lightning; thunder | \u26a1\ufe0f |
 | 🔥 | fire | burn | \ud83d\udd25 |
 | 💥 | boom; collision | explode | \ud83d\udca5 |
-| ☄️ | comet |  | \u2604\ufe0f |
+| ☄ | comet |  | \u2604 |
 | ☀️ | sunny | weather | \u2600\ufe0f |
 | 🌤 | sun_behind_small_cloud |  | \ud83c\udf24 |
 | ⛅️ | partly_sunny | weather; cloud | \u26c5\ufe0f |
@@ -567,30 +567,30 @@ sense of the first column!
 | ⛷ | skier |  | \u26f7 |
 | 🏂 | snowboarder |  | \ud83c\udfc2 |
 | 🏋️‍♀️ | weight_lifting_woman | gym; workout | \ud83c\udfcb\ufe0f\u200d\u2640\ufe0f |
-| 🏋️ | weight_lifting_man | gym; workout | \ud83c\udfcb\ufe0f |
+| 🏋 | weight_lifting_man | gym; workout | \ud83c\udfcb |
 | 🤺 | person_fencing |  | \ud83e\udd3a |
-| 🤼‍♀️ | women_wrestling |  | \ud83e\udd3c\u200d\u2640\ufe0f |
-| 🤼‍♂️ | men_wrestling |  | \ud83e\udd3c\u200d\u2642\ufe0f |
-| 🤸‍♀️ | woman_cartwheeling |  | \ud83e\udd38\u200d\u2640\ufe0f |
-| 🤸‍♂️ | man_cartwheeling |  | \ud83e\udd38\u200d\u2642\ufe0f |
+| 🤼‍♀ | women_wrestling |  | \ud83e\udd3c\u200d\u2640 |
+| 🤼‍♂ | men_wrestling |  | \ud83e\udd3c\u200d\u2642 |
+| 🤸‍♀ | woman_cartwheeling |  | \ud83e\udd38\u200d\u2640 |
+| 🤸‍♂ | man_cartwheeling |  | \ud83e\udd38\u200d\u2642 |
 | ⛹️‍♀️ | basketball_woman |  | \u26f9\ufe0f\u200d\u2640\ufe0f |
-| ⛹️ | basketball_man |  | \u26f9\ufe0f |
-| 🤾‍♀️ | woman_playing_handball |  | \ud83e\udd3e\u200d\u2640\ufe0f |
-| 🤾‍♂️ | man_playing_handball |  | \ud83e\udd3e\u200d\u2642\ufe0f |
+| ⛹ | basketball_man |  | \u26f9 |
+| 🤾‍♀ | woman_playing_handball |  | \ud83e\udd3e\u200d\u2640 |
+| 🤾‍♂ | man_playing_handball |  | \ud83e\udd3e\u200d\u2642 |
 | 🏌️‍♀️ | golfing_woman |  | \ud83c\udfcc\ufe0f\u200d\u2640\ufe0f |
-| 🏌️ | golfing_man |  | \ud83c\udfcc\ufe0f |
-| 🏄‍♀️ | surfing_woman |  | \ud83c\udfc4\u200d\u2640\ufe0f |
+| 🏌 | golfing_man |  | \ud83c\udfcc |
+| 🏄‍♀ | surfing_woman |  | \ud83c\udfc4\u200d\u2640 |
 | 🏄 | surfing_man; surfer |  | \ud83c\udfc4 |
-| 🏊‍♀️ | swimming_woman |  | \ud83c\udfca\u200d\u2640\ufe0f |
+| 🏊‍♀ | swimming_woman |  | \ud83c\udfca\u200d\u2640 |
 | 🏊 | swimming_man; swimmer |  | \ud83c\udfca |
-| 🤽‍♀️ | woman_playing_water_polo |  | \ud83e\udd3d\u200d\u2640\ufe0f |
-| 🤽‍♂️ | man_playing_water_polo |  | \ud83e\udd3d\u200d\u2642\ufe0f |
-| 🚣‍♀️ | rowing_woman |  | \ud83d\udea3\u200d\u2640\ufe0f |
+| 🤽‍♀ | woman_playing_water_polo |  | \ud83e\udd3d\u200d\u2640 |
+| 🤽‍♂ | man_playing_water_polo |  | \ud83e\udd3d\u200d\u2642 |
+| 🚣‍♀ | rowing_woman |  | \ud83d\udea3\u200d\u2640 |
 | 🚣 | rowing_man; rowboat |  | \ud83d\udea3 |
 | 🏇 | horse_racing |  | \ud83c\udfc7 |
-| 🚴‍♀️ | biking_woman |  | \ud83d\udeb4\u200d\u2640\ufe0f |
+| 🚴‍♀ | biking_woman |  | \ud83d\udeb4\u200d\u2640 |
 | 🚴 | biking_man; bicyclist |  | \ud83d\udeb4 |
-| 🚵‍♀️ | mountain_biking_woman |  | \ud83d\udeb5\u200d\u2640\ufe0f |
+| 🚵‍♀ | mountain_biking_woman |  | \ud83d\udeb5\u200d\u2640 |
 | 🚵 | mountain_biking_man; mountain_bicyclist |  | \ud83d\udeb5 |
 | 🎽 | running_shirt_with_sash | marathon | \ud83c\udfbd |
 | 🏅 | medal_sports | gold; winner | \ud83c\udfc5 |
@@ -604,8 +604,8 @@ sense of the first column!
 | 🎫 | ticket |  | \ud83c\udfab |
 | 🎟 | tickets |  | \ud83c\udf9f |
 | 🎪 | circus_tent |  | \ud83c\udfaa |
-| 🤹‍♀️ | woman_juggling |  | \ud83e\udd39\u200d\u2640\ufe0f |
-| 🤹‍♂️ | man_juggling |  | \ud83e\udd39\u200d\u2642\ufe0f |
+| 🤹‍♀ | woman_juggling |  | \ud83e\udd39\u200d\u2640 |
+| 🤹‍♂ | man_juggling |  | \ud83e\udd39\u200d\u2642 |
 | 🎭 | performing_arts | theater; drama | \ud83c\udfad |
 | 🎨 | art | design; paint | \ud83c\udfa8 |
 | 🎬 | clapper | film | \ud83c\udfac |

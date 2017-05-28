@@ -1426,7 +1426,7 @@
       "girls"
     ]
   },
-  "👱‍♀️": {
+  "👱‍♀": {
     "category": "people",
     "description": "blond-haired woman",
     "names": [
@@ -1469,7 +1469,7 @@
     ],
     "tags": []
   },
-  "👳‍♀️": {
+  "👳‍♀": {
     "category": "people",
     "description": "woman wearing turban",
     "names": [
@@ -1485,7 +1485,7 @@
     ],
     "tags": []
   },
-  "👮‍♀️": {
+  "👮‍♀": {
     "category": "people",
     "description": "woman police officer",
     "names": [
@@ -1505,7 +1505,7 @@
       "law"
     ]
   },
-  "👷‍♀️": {
+  "👷‍♀": {
     "category": "people",
     "description": "woman construction worker",
     "names": [
@@ -1524,7 +1524,7 @@
       "helmet"
     ]
   },
-  "💂‍♀️": {
+  "💂‍♀": {
     "category": "people",
     "description": "woman guard",
     "names": [
@@ -1550,7 +1550,7 @@
       "sleuth"
     ]
   },
-  "🕵️": {
+  "🕵": {
     "category": "people",
     "description": "detective",
     "names": [
@@ -1561,7 +1561,7 @@
       "sleuth"
     ]
   },
-  "👩‍⚕️": {
+  "👩‍⚕": {
     "category": "people",
     "description": "woman health worker",
     "names": [
@@ -1572,7 +1572,7 @@
       "nurse"
     ]
   },
-  "👨‍⚕️": {
+  "👨‍⚕": {
     "category": "people",
     "description": "man health worker",
     "names": [
@@ -1809,7 +1809,7 @@
     ],
     "tags": []
   },
-  "👩‍✈️": {
+  "👩‍✈": {
     "category": "people",
     "description": "woman pilot",
     "names": [
@@ -1817,7 +1817,7 @@
     ],
     "tags": []
   },
-  "👨‍✈️": {
+  "👨‍✈": {
     "category": "people",
     "description": "man pilot",
     "names": [
@@ -1845,7 +1845,7 @@
       "space"
     ]
   },
-  "👩‍⚖️": {
+  "👩‍⚖": {
     "category": "people",
     "description": "woman judge",
     "names": [
@@ -1855,7 +1855,7 @@
       "justice"
     ]
   },
-  "👨‍⚖️": {
+  "👨‍⚖": {
     "category": "people",
     "description": "man judge",
     "names": [
@@ -1947,7 +1947,7 @@
     ],
     "tags": []
   },
-  "🙇‍♀️": {
+  "🙇‍♀": {
     "category": "people",
     "description": "woman bowing",
     "names": [
@@ -1975,15 +1975,17 @@
     "description": "person tipping hand",
     "names": [
       "tipping_hand_woman",
-      "information_desk_person"
+      "information_desk_person",
+      "sassy_woman"
     ],
     "tags": []
   },
-  "💁‍♂️": {
+  "💁‍♂": {
     "category": "people",
     "description": "man tipping hand",
     "names": [
-      "tipping_hand_man"
+      "tipping_hand_man",
+      "sassy_man"
     ],
     "tags": [
       "information"
@@ -2002,7 +2004,7 @@
       "halt"
     ]
   },
-  "🙅‍♂️": {
+  "🙅‍♂": {
     "category": "people",
     "description": "man gesturing NO",
     "names": [
@@ -2022,7 +2024,7 @@
     ],
     "tags": []
   },
-  "🙆‍♂️": {
+  "🙆‍♂": {
     "category": "people",
     "description": "man gesturing OK",
     "names": [
@@ -2039,7 +2041,7 @@
     ],
     "tags": []
   },
-  "🙋‍♂️": {
+  "🙋‍♂": {
     "category": "people",
     "description": "man raising hand",
     "names": [
@@ -2047,7 +2049,7 @@
     ],
     "tags": []
   },
-  "🤦‍♀️": {
+  "🤦‍♀": {
     "category": "people",
     "description": "woman facepalming",
     "names": [
@@ -2055,7 +2057,7 @@
     ],
     "tags": []
   },
-  "🤦‍♂️": {
+  "🤦‍♂": {
     "category": "people",
     "description": "man facepalming",
     "names": [
@@ -2063,7 +2065,7 @@
     ],
     "tags": []
   },
-  "🤷‍♀️": {
+  "🤷‍♀": {
     "category": "people",
     "description": "woman shrugging",
     "names": [
@@ -2071,7 +2073,7 @@
     ],
     "tags": []
   },
-  "🤷‍♂️": {
+  "🤷‍♂": {
     "category": "people",
     "description": "man shrugging",
     "names": [
@@ -2088,7 +2090,7 @@
     ],
     "tags": []
   },
-  "🙎‍♂️": {
+  "🙎‍♂": {
     "category": "people",
     "description": "man pouting",
     "names": [
@@ -2107,7 +2109,7 @@
       "sad"
     ]
   },
-  "🙍‍♂️": {
+  "🙍‍♂": {
     "category": "people",
     "description": "man frowning",
     "names": [
@@ -2126,7 +2128,7 @@
       "beauty"
     ]
   },
-  "💇‍♂️": {
+  "💇‍♂": {
     "category": "people",
     "description": "man getting haircut",
     "names": [
@@ -2145,7 +2147,7 @@
       "spa"
     ]
   },
-  "💆‍♂️": {
+  "💆‍♂": {
     "category": "people",
     "description": "man getting massage",
     "names": [
@@ -2194,7 +2196,7 @@
       "bunny"
     ]
   },
-  "👯‍♂️": {
+  "👯‍♂": {
     "category": "people",
     "description": "men with bunny ears partying",
     "names": [
@@ -2204,7 +2206,7 @@
       "bunny"
     ]
   },
-  "🚶‍♀️": {
+  "🚶‍♀": {
     "category": "people",
     "description": "woman walking",
     "names": [
@@ -2221,7 +2223,7 @@
     ],
     "tags": []
   },
-  "🏃‍♀️": {
+  "🏃‍♀": {
     "category": "people",
     "description": "woman running",
     "names": [
@@ -3964,7 +3966,7 @@
       "explode"
     ]
   },
-  "☄️": {
+  "☄": {
     "category": "nature",
     "description": "comet",
     "names": [
@@ -5145,7 +5147,7 @@
       "workout"
     ]
   },
-  "🏋️": {
+  "🏋": {
     "category": "activity",
     "description": "person lifting weights",
     "names": [
@@ -5164,7 +5166,7 @@
     ],
     "tags": []
   },
-  "🤼‍♀️": {
+  "🤼‍♀": {
     "category": "activity",
     "description": "women wrestling",
     "names": [
@@ -5172,7 +5174,7 @@
     ],
     "tags": []
   },
-  "🤼‍♂️": {
+  "🤼‍♂": {
     "category": "activity",
     "description": "men wrestling",
     "names": [
@@ -5180,7 +5182,7 @@
     ],
     "tags": []
   },
-  "🤸‍♀️": {
+  "🤸‍♀": {
     "category": "activity",
     "description": "woman cartwheeling",
     "names": [
@@ -5188,7 +5190,7 @@
     ],
     "tags": []
   },
-  "🤸‍♂️": {
+  "🤸‍♂": {
     "category": "activity",
     "description": "man cartwheeling",
     "names": [
@@ -5204,7 +5206,7 @@
     ],
     "tags": []
   },
-  "⛹️": {
+  "⛹": {
     "category": "activity",
     "description": "person bouncing ball",
     "names": [
@@ -5212,7 +5214,7 @@
     ],
     "tags": []
   },
-  "🤾‍♀️": {
+  "🤾‍♀": {
     "category": "activity",
     "description": "woman playing handball",
     "names": [
@@ -5220,7 +5222,7 @@
     ],
     "tags": []
   },
-  "🤾‍♂️": {
+  "🤾‍♂": {
     "category": "activity",
     "description": "man playing handball",
     "names": [
@@ -5236,7 +5238,7 @@
     ],
     "tags": []
   },
-  "🏌️": {
+  "🏌": {
     "category": "activity",
     "description": "person golfing",
     "names": [
@@ -5244,7 +5246,7 @@
     ],
     "tags": []
   },
-  "🏄‍♀️": {
+  "🏄‍♀": {
     "category": "activity",
     "description": "woman surfing",
     "names": [
@@ -5261,7 +5263,7 @@
     ],
     "tags": []
   },
-  "🏊‍♀️": {
+  "🏊‍♀": {
     "category": "activity",
     "description": "woman swimming",
     "names": [
@@ -5278,7 +5280,7 @@
     ],
     "tags": []
   },
-  "🤽‍♀️": {
+  "🤽‍♀": {
     "category": "activity",
     "description": "woman playing water polo",
     "names": [
@@ -5286,7 +5288,7 @@
     ],
     "tags": []
   },
-  "🤽‍♂️": {
+  "🤽‍♂": {
     "category": "activity",
     "description": "man playing water polo",
     "names": [
@@ -5294,7 +5296,7 @@
     ],
     "tags": []
   },
-  "🚣‍♀️": {
+  "🚣‍♀": {
     "category": "activity",
     "description": "woman rowing boat",
     "names": [
@@ -5319,7 +5321,7 @@
     ],
     "tags": []
   },
-  "🚴‍♀️": {
+  "🚴‍♀": {
     "category": "activity",
     "description": "woman biking",
     "names": [
@@ -5336,7 +5338,7 @@
     ],
     "tags": []
   },
-  "🚵‍♀️": {
+  "🚵‍♀": {
     "category": "activity",
     "description": "woman mountain biking",
     "names": [
@@ -5464,7 +5466,7 @@
     ],
     "tags": []
   },
-  "🤹‍♀️": {
+  "🤹‍♀": {
     "category": "activity",
     "description": "woman juggling",
     "names": [
@@ -5472,7 +5474,7 @@
     ],
     "tags": []
   },
-  "🤹‍♂️": {
+  "🤹‍♂": {
     "category": "activity",
     "description": "man juggling",
     "names": [
