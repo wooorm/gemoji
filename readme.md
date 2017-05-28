@@ -87,6 +87,10 @@ not be available on the users computer.
 *   [`strip-skin-tone`](https://github.com/wooorm/strip-skin-tone)
     — Strip skin-tones from emoji
 
+## Disclaimer
+
+`wooorm/gemoji` is not affiliated with **GitHub**.
+
 ## License
 
 [MIT][license] © [Titus Wormer][author]
