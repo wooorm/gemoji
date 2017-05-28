@@ -2,7 +2,6 @@
 
 var fs = require('fs');
 var table = require('markdown-table');
-var width = require('string-width');
 var gemoji = require('../index.json');
 
 /* Set up data. */
@@ -28,7 +27,7 @@ var doc = [
   'Also: You need a browser capable of viewing unicode-emoji to make',
   'sense of the first column!',
   '',
-  table(data, {align: 'c', stringLength: width}),
+  table(data, {align: 'c', pad: false}),
   ''
 ].join('\n');
 

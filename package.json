@@ -29,6 +29,7 @@
     "markdown-table": "^1.0.0",
     "nyc": "^10.0.0",
     "remark-cli": "^3.0.0",
+    "remark-lint-table-pipe-alignment": "^1.0.0",
     "remark-preset-wooorm": "^2.0.0",
     "request": "^2.75.0",
     "string-width": "^2.0.0",
@@ -64,6 +65,15 @@
     ]
   },
   "remarkConfig": {
-    "plugins": ["preset-wooorm"]
+    "settings": {
+      "paddedTable": false
+    },
+    "plugins": [
+      "preset-wooorm",
+      [
+        "remark-lint-table-pipe-alignment",
+        false
+      ]
+    ]
   }
 }
