@@ -80,7 +80,7 @@ not be available on the users computer.
 
 ## Related
 
-*   [`emoji-emotion`](https://github.com/wooorm/emoji-emotion)
+*   [`emoji-emotion`](https://github.com/words/emoji-emotion)
     — List of emoji rated for valence
 *   [`emoticon`](https://github.com/wooorm/emoticon)
     — Info on ASCII emoticons
