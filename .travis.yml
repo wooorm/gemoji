@@ -5,13 +5,6 @@ node_js:
 sudo: false
 after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
-  - provider: npm
-    email: tituswormer@gmail.com
-    api_key:
-      secure: J5zX77DY6AwolRljMy+GdwzqfRvM0VLqTP3J8SHap0yM9NKwuY0F1vy7F9Ryzu048q2q8QT0/3yU56rKfDiXjGVlf3sOvbLRkWZRBntl+mJMCmlRjsAyzo5teF6u/vcHB7V4F1/FAFCWfgEDCN6ZO7/DSbt9IdJjcElsHFbUKIw=
-    on:
-      tags: true
-      node: '9.0'
   - provider: releases
     skip_cleanup: true
     api_key:
