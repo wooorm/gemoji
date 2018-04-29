@@ -13,7 +13,7 @@
     "alias",
     "name"
   ],
-  "repository": "https://github.com/wooorm/gemoji",
+  "repository": "wooorm/gemoji",
   "bugs": "https://github.com/wooorm/gemoji/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
