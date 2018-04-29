@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var emoji = require('./emoji.json');
-var gemoji = require('./');
+var gemoji = require('.');
 
 test('gemoji', function (t) {
   t.ok('name' in gemoji, 'should have a `name` property');

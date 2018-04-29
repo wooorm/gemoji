@@ -24,17 +24,17 @@
     "index.json"
   ],
   "devDependencies": {
-    "browserify": "^14.0.0",
+    "browserify": "^16.0.0",
     "esmangle": "^1.0.0",
     "mdast-zone": "^3.0.0",
     "nyc": "^11.0.0",
-    "remark-cli": "^4.0.0",
+    "remark-cli": "^5.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
-    "remark-preset-wooorm": "^3.0.0",
+    "remark-preset-wooorm": "^4.0.0",
     "request": "^2.75.0",
     "tape": "^4.6.0",
     "unist-builder": "^1.0.2",
-    "xo": "^0.18.2"
+    "xo": "^0.20.0"
   },
   "scripts": {
     "build-md": "remark . -qfo",
@@ -58,6 +58,8 @@
     "space": true,
     "esnext": false,
     "rules": {
+      "no-var": "off",
+      "prefer-arrow-callback": "off",
       "guard-for-in": "off"
     },
     "ignores": [
