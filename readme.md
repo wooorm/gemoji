@@ -15,9 +15,9 @@ npm install gemoji
 ## Usage
 
 ```javascript
-var gemoji = require('gemoji');
+var gemoji = require('gemoji')
 
-gemoji.name.cat;
+console.log(gemoji.name.cat)
 ```
 
 Yields:
@@ -34,7 +34,7 @@ Yields:
 ### By unicode emoji
 
 ```javascript
-gemoji.unicode['🐶'];
+console.log(gemoji.unicode['🐶'])
 ```
 
 Yields:
@@ -51,7 +51,7 @@ Yields:
 ...and...
 
 ```javascript
-gemoji.unicode['\uD83D\uDCA9'];
+console.log(gemoji.unicode['\uD83D\uDCA9'])
 ```
 
 Yields:
