@@ -115,4 +115,4 @@ not be available on the users computer.
 
 [gh]: https://github.com/github/gemoji
 
-[gh-license]: https://github.com/github/gemoji/blob/2d799338d94a223cd341d92de3a9848d5368f9ef/LICENSE
+[gh-license]: https://github.com/github/gemoji/blob/55a0080/LICENSE
