@@ -39,7 +39,7 @@
   },
   "scripts": {
     "generate": "node script/crawl-data && node script/build-data",
-    "format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
+    "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
     "build-bundle": "browserify . -s gemoji > gemoji.js",
     "build-mangle": "browserify . -s gemoji -p tinyify > gemoji.min.js",
     "build": "npm run build-bundle && npm run build-mangle",
