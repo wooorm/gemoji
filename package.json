@@ -25,7 +25,6 @@
   ],
   "devDependencies": {
     "browserify": "^16.0.0",
-    "esmangle": "^1.0.0",
     "mdast-zone": "^3.0.0",
     "nyc": "^14.0.0",
     "prettier": "^1.12.1",
@@ -34,14 +33,15 @@
     "remark-preset-wooorm": "^4.0.0",
     "request": "^2.75.0",
     "tape": "^4.6.0",
+    "tinyify": "^2.5.0",
     "unist-builder": "^1.0.2",
     "xo": "^0.24.0"
   },
   "scripts": {
     "generate": "node script/crawl-data && node script/build-data",
     "format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
-    "build-bundle": "browserify index.js --bare -s gemoji > gemoji.js",
-    "build-mangle": "esmangle gemoji.js > gemoji.min.js",
+    "build-bundle": "browserify . -s gemoji > gemoji.js",
+    "build-mangle": "browserify . -s gemoji -p tinyify > gemoji.min.js",
     "build": "npm run build-bundle && npm run build-mangle",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
