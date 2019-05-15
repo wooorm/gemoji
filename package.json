@@ -65,8 +65,6 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "no-var": "off",
-      "prefer-arrow-callback": "off",
       "guard-for-in": "off"
     },
     "ignores": [
