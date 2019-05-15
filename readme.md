@@ -109,7 +109,7 @@ not be available on the users computer.
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
 [support]: support.md
 
