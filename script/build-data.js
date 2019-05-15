@@ -4,12 +4,11 @@ var fs = require('fs')
 var path = require('path')
 var data = require('../emoji.json')
 
-/* Create a dictionary with GitHub names as keys,
- * and unicode emoji is values. */
+// Create a dictionary with GitHub names as keys, and unicode emoji is values.
 var map = {}
 
 data.forEach(function(gemoji) {
-  /* Ignore gemoji without a unicode representation. */
+  // Ignore gemoji without a unicode representation.
   if (!('emoji' in gemoji)) {
     return
   }

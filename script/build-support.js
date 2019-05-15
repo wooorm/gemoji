@@ -52,7 +52,7 @@ function cell(value) {
   return u('tableCell', [u('text', value)])
 }
 
-/* Escape a string into its unicode points. */
+// Escape a string into its unicode points.
 function escape(value) {
   return value
     .split('')

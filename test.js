@@ -12,8 +12,7 @@ test('gemoji', function(t) {
 
 emoji.forEach(describeEntry)
 
-/* Validate if a crawled gemoji is indeed (correctly)
- * present in this module. */
+// Validate if a crawled gemoji is indeed (correctly) present in this module.
 function describeEntry(entry) {
   var unicode = entry.emoji
   var description
@@ -23,9 +22,9 @@ function describeEntry(entry) {
   var information
   var category
 
-  /* Some gemoji, such as `octocat`, do not have a
-   * unicode representation. Those are not present in
-   * `gemoji`. Exit. */
+  // Some gemoji, such as `octocat`, do not have a unicode representation.
+  // Those are not present in `gemoji`.
+  // Exit.
   if (!unicode) {
     return
   }
