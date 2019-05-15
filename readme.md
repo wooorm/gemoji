@@ -1,4 +1,9 @@
-# gemoji [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# gemoji
+
+[![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 Gemoji (**G**itHub **Emoji**) maps Gemoji short-codes and unicode emoji to
 objects containing info on their respective category, description, names,
@@ -97,13 +102,21 @@ not be available on the users computer.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/gemoji.svg
+[build-badge]: https://img.shields.io/travis/wooorm/gemoji.svg
 
-[travis]: https://travis-ci.org/wooorm/gemoji
+[build]: https://travis-ci.org/wooorm/gemoji
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/gemoji.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/gemoji.svg
 
-[codecov]: https://codecov.io/github/wooorm/gemoji
+[coverage]: https://codecov.io/github/wooorm/gemoji
+
+[downloads-badge]: https://img.shields.io/npm/dm/gemoji.svg
+
+[downloads]: https://www.npmjs.com/package/gemoji
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/gemoji.svg
+
+[size]: https://bundlephobia.com/result?p=gemoji
 
 [npm]: https://docs.npmjs.com/cli/install
 
