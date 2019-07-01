@@ -7,6 +7,8 @@ var gemoji = require('.')
 test('gemoji', function(t) {
   t.ok('name' in gemoji, 'should have a `name` property')
   t.ok('unicode' in gemoji, 'should have an `unicode` property')
+  t.ok('category' in gemoji, 'should have a `name` property')
+  t.ok('tag' in gemoji, 'should have a `name` property')
   t.end()
 })
 
@@ -41,8 +43,20 @@ function describeEntry(entry) {
       t.equal(
         gemoji.name[name].emoji,
         unicode,
-        'should be accessible by name (' + name + ' > object)'
+        'should be indexed by name (' + name + ' > object)'
       )
+      t.equal(
+        gemoji.category[category][name].emoji,
+        unicode,
+        name + ' should be indexed by category "' + category + '"'
+      )
+      tags.forEach(function(tag) {
+        t.equal(
+          gemoji.tag[tag][name].emoji,
+          unicode,
+          name + ' should be indexed by tag "' + tag + '"'
+        )
+      })
     })
 
     t.equal(

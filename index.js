@@ -4,6 +4,8 @@ var data = require('./index.json')
 
 exports.unicode = data
 exports.name = {}
+exports.category = {}
+exports.tag = {}
 
 var emoji
 
@@ -22,10 +24,33 @@ function enhance(character) {
   information.name = names[0]
   information.emoji = character
 
-  // Add names.
+  // Index by name.
   exports.name[names[0]] = information
 
+  // Index by category
+  if (!exports.category[information.category]) {
+    exports.category[information.category] = {}
+  }
+
+  exports.category[information.category][names[0]] = information
+
+  // Index by tag
+  information.tags.forEach(function(tag) {
+    if (!exports.tag[tag]) {
+      exports.tag[tag] = {}
+    }
+
+    exports.tag[tag][names[0]] = information
+  })
+
   while (++index < length) {
+    // Index by name.
     exports.name[names[index]] = information
+    // Index by category
+    exports.category[information.category][names[index]] = information
+    // Index by tag
+    information.tags.forEach(function(tag) {
+      exports.tag[tag][names[index]] = information
+    })
   }
 }
