@@ -35,13 +35,15 @@ function enhance(character) {
   exports.category[information.category][names[0]] = information
 
   // Index by tag
-  information.tags.forEach(function(tag) {
+  var t
+  var tag
+  for (t = 0; t < information.tags.length; t++) {
+    tag = information.tags[t]
     if (!exports.tag[tag]) {
       exports.tag[tag] = {}
     }
-
     exports.tag[tag][names[0]] = information
-  })
+  }
 
   while (++index < length) {
     // Index by name.
@@ -49,8 +51,9 @@ function enhance(character) {
     // Index by category
     exports.category[information.category][names[index]] = information
     // Index by tag
-    information.tags.forEach(function(tag) {
+    for (t = 0; t < information.tags.length; t++) {
+      tag = information.tags[t]
       exports.tag[tag][names[index]] = information
-    })
+    }
   }
 }
