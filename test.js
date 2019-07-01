@@ -7,8 +7,8 @@ var gemoji = require('.')
 test('gemoji', function(t) {
   t.ok('name' in gemoji, 'should have a `name` property')
   t.ok('unicode' in gemoji, 'should have an `unicode` property')
-  t.ok('category' in gemoji, 'should have a `name` property')
-  t.ok('tag' in gemoji, 'should have a `name` property')
+  t.ok('category' in gemoji, 'should have a `category` property')
+  t.ok('tag' in gemoji, 'should have a `tag` property')
   t.end()
 })
 
