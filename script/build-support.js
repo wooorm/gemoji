@@ -15,7 +15,7 @@ function transformer(tree) {
 }
 
 function replace(start, nodes, end) {
-  return [start].concat(data()).concat([end])
+  return [start].concat(data()).concat(end || [])
 }
 
 function data() {
@@ -37,12 +37,15 @@ function table() {
       Object.keys(gemoji).map(function(emoji) {
         var info = gemoji[emoji]
 
-        return u('tableRow', [
-          cell(emoji),
-          cell(info.names.join('; ')),
-          cell(info.tags.join('; ')),
-          cell(escape(emoji))
-        ])
+        return u(
+          'tableRow',
+          [
+            emoji,
+            info.names.join('; '),
+            info.tags.join('; '),
+            escape(emoji)
+          ].map(cell)
+        )
       })
     )
   )
