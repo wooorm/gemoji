@@ -20,8 +20,9 @@
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
   "files": [
-    "index.js",
-    "index.json"
+    "index.json",
+    "emoji-to-name.json",
+    "name-to-emoji.json"
   ],
   "devDependencies": {
     "browserify": "^16.0.0",
@@ -40,8 +41,8 @@
   "scripts": {
     "generate": "node script/crawl-data && node script/build-data",
     "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
-    "build-bundle": "browserify . -s gemoji > gemoji.js",
-    "build-mangle": "browserify . -s gemoji -p tinyify > gemoji.min.js",
+    "build-bundle": "browserify index.json -s gemoji > gemoji.js",
+    "build-mangle": "browserify index.json -s gemoji -p tinyify > gemoji.min.js",
     "build": "npm run build-bundle && npm run build-mangle",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",

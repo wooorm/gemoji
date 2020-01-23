@@ -5,9 +5,15 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-Gemoji (**G**itHub **Emoji**) maps Gemoji short-codes and unicode emoji to
-objects containing info on their respective category, description, names,
-and tags.
+Gemoji (**G**itHub **Emoji**) contains info (category, description, names, and
+tags) on Emoji and GitHub “Gemoji” shortcodes.
+
+Also includes pre-built indexes to map to between names and emoji:
+
+*   [`gemoji/emoji-to-name`][emoji-to-name]
+    — Map emoji (🐱) to preferred name (cat)
+*   [`gemoji/name-to-emoji`][name-to-emoji]
+    — Map name (cat) to emoji (🐱)
 
 ## Install
 
@@ -22,58 +28,82 @@ npm install gemoji
 ```js
 var gemoji = require('gemoji')
 
-console.log(gemoji.name.cat)
+console.log(gemoji)
 ```
 
 Yields:
 
 ```js
-{
-  category: 'animals & nature',
-  description: 'cat face',
-  names: ['cat'],
-  tags: ['pet'],
-  name: 'cat',
-  emoji: '🐱'
-}
+[
+  {
+    emoji: '😀',
+    names: ['grinning'],
+    tags: ['smile', 'happy'],
+    description: 'grinning face',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '😃',
+    names: ['smiley'],
+    tags: ['happy', 'joy', 'haha'],
+    description: 'grinning face with big eyes',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '😄',
+    names: ['smile'],
+    tags: ['happy', 'joy', 'laugh', 'pleased'],
+    description: 'grinning face with smiling eyes',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '😁',
+    names: ['grin'],
+    tags: [],
+    description: 'beaming face with smiling eyes',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '😆',
+    names: ['laughing', 'satisfied'],
+    tags: ['happy', 'haha'],
+    description: 'grinning squinting face',
+    category: 'Smileys & Emotion'
+  },
+  // …
+]
 ```
 
-### By unicode emoji
+### Get emoji
 
 ```js
-console.log(gemoji.unicode['🐶'])
+var toEmoji = require('gemoji/name-to-emoji')
+
+console.log(toEmoji.cat)
+console.log(toEmoji.poop)
 ```
 
 Yields:
 
-```js
-{
-  category: 'animals & nature',
-  description: 'dog face',
-  names: ['dog'],
-  tags: ['pet'],
-  name: 'dog',
-  emoji: '🐶'
-}
+```txt
+🐱
+💩
 ```
 
-…and…
+### Get name
 
 ```js
-console.log(gemoji.unicode['\uD83D\uDCA9'])
+var toName = require('gemoji/emoji-to-name')
+
+console.log(toName['🐶'])
+console.log(toName['\uD83D\uDCA9'])
 ```
 
 Yields:
 
-```js
-{
-  category: 'smileys & emotion',
-  description: 'pile of poo',
-  names: ['hankey', 'poop', 'shit'],
-  tags: ['crap'],
-  name: 'hankey',
-  emoji: '💩'
-}
+```txt
+dog
+hankey
 ```
 
 ## Supported Gemoji
@@ -135,3 +165,7 @@ not be available on the users computer.
 [gh]: https://github.com/github/gemoji
 
 [gh-license]: https://github.com/github/gemoji/blob/55a0080/LICENSE
+
+[emoji-to-name]: emoji-to-name.json
+
+[name-to-emoji]: name-to-emoji.json

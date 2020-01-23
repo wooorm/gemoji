@@ -2,7 +2,7 @@
 
 var zone = require('mdast-zone')
 var u = require('unist-builder')
-var gemoji = require('..').unicode
+var gemoji = require('..')
 
 module.exports = support
 
@@ -20,9 +20,7 @@ function replace(start, nodes, end) {
 
 function data() {
   return [
-    u('paragraph', [
-      u('text', 'Gemoji supports ' + Object.keys(gemoji).length + ' emoji.')
-    ]),
+    u('paragraph', [u('text', 'Gemoji supports ' + gemoji.length + ' emoji.')]),
     table()
   ]
 }
@@ -34,16 +32,14 @@ function table() {
     'table',
     {align: []},
     [u('tableRow', header.map(cell))].concat(
-      Object.keys(gemoji).map(function(emoji) {
-        var info = gemoji[emoji]
-
+      gemoji.map(function(info) {
         return u(
           'tableRow',
           [
-            emoji,
+            info.emoji,
             info.names.join('; '),
             info.tags.join('; '),
-            escape(emoji)
+            escape(info.emoji)
           ].map(cell)
         )
       })

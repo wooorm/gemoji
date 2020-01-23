@@ -1,30 +1,41 @@
 'use strict'
 
 var fs = require('fs')
-var path = require('path')
-var data = require('../emoji.json')
+var input = require('../emoji.json')
 
-// Create a dictionary with GitHub names as keys, and unicode emoji is values.
-var map = {}
+var main = []
+var nToE = {}
+var eToN = {}
 
-data.forEach(function(gemoji) {
-  // Ignore gemoji without a unicode representation.
-  if (!('emoji' in gemoji)) {
+input.forEach(function(info) {
+  var emoji = info.emoji
+  var names = info.aliases
+  var name = names[0]
+
+  // Ignore gemoji without unicode representation.
+  if (!emoji) {
+    console.warn('Ignoring `%j`', name || info)
     return
   }
 
-  if (gemoji.emoji in map) {
-    console.log('duplicate!', gemoji, map[gemoji.emoji])
-  }
+  main.push({
+    emoji: emoji,
+    names: names,
+    tags: info.tags,
+    description: info.description,
+    category: info.category
+  })
 
-  map[gemoji.emoji] = {
-    category: gemoji.category.toLowerCase(),
-    description: gemoji.description,
-    names: gemoji.aliases,
-    tags: gemoji.tags
-  }
+  eToN[emoji] = name
+  names.forEach(n => {
+    nToE[n] = emoji
+  })
 })
 
-var doc = JSON.stringify(map, null, 2) + '\n'
+write('name-to-emoji', nToE)
+write('emoji-to-name', eToN)
+write('index', main)
 
-fs.writeFileSync(path.join('index.json'), doc)
+function write(name, data) {
+  fs.writeFileSync(name + '.json', JSON.stringify(data, null, 2) + '\n')
+}
