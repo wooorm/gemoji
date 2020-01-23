@@ -9,17 +9,17 @@ Gemoji (**G**itHub **Emoji**) maps Gemoji short-codes and unicode emoji to
 objects containing info on their respective category, description, names,
 and tags.
 
-## Installation
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install gemoji
 ```
 
-## Usage
+## Use
 
-```javascript
+```js
 var gemoji = require('gemoji')
 
 console.log(gemoji.name.cat)
@@ -40,7 +40,7 @@ Yields:
 
 ### By unicode emoji
 
-```javascript
+```js
 console.log(gemoji.unicode['🐶'])
 ```
 
@@ -57,9 +57,9 @@ Yields:
 }
 ```
 
-...and...
+…and…
 
-```javascript
+```js
 console.log(gemoji.unicode['\uD83D\uDCA9'])
 ```
 
@@ -82,11 +82,11 @@ See [support.md][support].
 
 ## Data
 
-The emoji list is crawled from [github/gemoji][gh] and later processed
-for relevant information.  See its [license][gh-license] for more
-information.
+The emoji list is crawled from [`github/gemoji`][gh] and later processed for
+relevant information.
+See its [license][gh-license] for more information.
 
-No images are included in this repository—the copyrighted material may or may
+No images are included in this repository: the copyrighted material may or may
 not be available on the users computer.
 
 ## Related
