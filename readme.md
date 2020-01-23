@@ -28,12 +28,14 @@ console.log(gemoji.name.cat)
 Yields:
 
 ```js
-{ category: 'nature',
+{
+  category: 'animals & nature',
   description: 'cat face',
-  names: [ 'cat' ],
-  tags: [ 'pet' ],
+  names: ['cat'],
+  tags: ['pet'],
   name: 'cat',
-  emoji: '🐱' }
+  emoji: '🐱'
+}
 ```
 
 ### By unicode emoji
@@ -45,12 +47,14 @@ console.log(gemoji.unicode['🐶'])
 Yields:
 
 ```js
-{ category: 'nature',
+{
+  category: 'animals & nature',
   description: 'dog face',
-  names: [ 'dog' ],
-  tags: [ 'pet' ],
+  names: ['dog'],
+  tags: ['pet'],
   name: 'dog',
-  emoji: '🐶' }
+  emoji: '🐶'
+}
 ```
 
 ...and...
@@ -62,12 +66,14 @@ console.log(gemoji.unicode['\uD83D\uDCA9'])
 Yields:
 
 ```js
-{ category: 'people',
+{
+  category: 'smileys & emotion',
   description: 'pile of poo',
-  names: [ 'hankey', 'poop', 'shit' ],
-  tags: [ 'crap' ],
+  names: ['hankey', 'poop', 'shit'],
+  tags: ['crap'],
   name: 'hankey',
-  emoji: '💩' }
+  emoji: '💩'
+}
 ```
 
 ## Supported Gemoji
