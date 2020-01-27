@@ -127,6 +127,8 @@ not be available on the users computer.
     — Info on ASCII emoticons
 *   [`strip-skin-tone`](https://github.com/wooorm/strip-skin-tone)
     — Strip skin-tones from emoji
+*   [`wooorm.com/checkmoji`](https://wooorm.com/checkmoji/)
+    — Check emoji across platforms
 
 ## Disclaimer
 
