@@ -28,6 +28,7 @@
     "emoji-to-name.json",
     "name-to-emoji.json"
   ],
+  "main": 'index.json',
   "devDependencies": {
     "browserify": "^16.0.0",
     "mdast-zone": "^3.0.0",
