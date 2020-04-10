@@ -28,16 +28,6 @@
     "emoji-to-name.json",
     "name-to-emoji.json"
   ],
-  "jsdelivr": [
-    "index.json",
-    "name-to-emoji.json",
-    "emoji-to-name.json"
-  ],
-  "browser" : [
-    "index.json",
-    "name-to-emoji.json",
-    "emoji-to-name.json"
-  ],
   "main": "index.json",
   "devDependencies": {
     "browserify": "^16.0.0",
