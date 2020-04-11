@@ -4,10 +4,10 @@ var fs = require('fs')
 var input = require('../emoji.json')
 
 var main = []
-var nToE = {}
-var eToN = {}
+var nameToEmoji = {}
+var emojiToName = {}
 
-input.forEach(function(info) {
+input.forEach(function (info) {
   var emoji = info.emoji
   var names = info.aliases
   var name = names[0]
@@ -26,14 +26,14 @@ input.forEach(function(info) {
     category: info.category
   })
 
-  eToN[emoji] = name
-  names.forEach(n => {
-    nToE[n] = emoji
+  emojiToName[emoji] = name
+  names.forEach((n) => {
+    nameToEmoji[n] = emoji
   })
 })
 
-write('name-to-emoji', nToE)
-write('emoji-to-name', eToN)
+write('name-to-emoji', nameToEmoji)
+write('emoji-to-name', emojiToName)
 write('index', main)
 
 function write(name, data) {

@@ -32,7 +32,7 @@ function table() {
     'table',
     {align: []},
     [u('tableRow', header.map(cell))].concat(
-      gemoji.map(function(info) {
+      gemoji.map(function (info) {
         return u(
           'tableRow',
           [
@@ -55,7 +55,7 @@ function cell(value) {
 function escape(value) {
   return value
     .split('')
-    .map(function(character) {
+    .map(function (character) {
       return '\\u' + character.charCodeAt(0).toString(16)
     })
     .join('')
