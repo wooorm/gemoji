@@ -38,10 +38,10 @@
     "remark-cli": "^8.0.0",
     "remark-lint-table-pipe-alignment": "^2.0.0",
     "remark-preset-wooorm": "^7.0.0",
-    "tape": "^4.0.0",
-    "tinyify": "^2.0.0",
+    "tape": "^5.0.0",
+    "tinyify": "^3.0.0",
     "unist-builder": "^2.0.0",
-    "xo": "^0.29.0"
+    "xo": "^0.33.0"
   },
   "scripts": {
     "generate": "node script/crawl-data && node script/build-data",
@@ -71,7 +71,8 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "guard-for-in": "off"
+      "guard-for-in": "off",
+      "unicorn/no-fn-reference-in-iterator": "off"
     },
     "ignores": [
       "gemoji.js"
