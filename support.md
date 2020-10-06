@@ -8,7 +8,7 @@ sense of the first column!
 
 <!--support start-->
 
-Gemoji supports 1738 emoji.
+Gemoji supports 1805 emoji.
 
 | Emoji | Name(s) | Tags | Escaped Unicode |
 | - | - | - | - |
@@ -33,6 +33,7 @@ Gemoji supports 1738 emoji.
 | ☺️ | relaxed | blush; pleased | \\u263a\\ufe0f |
 | 😚 | kissing_closed_eyes | | \\ud83d\\ude1a |
 | 😙 | kissing_smiling_eyes | | \\ud83d\\ude19 |
+| 🥲 | smiling_face_with_tear | | \\ud83e\\udd72 |
 | 😋 | yum | tongue; lick | \\ud83d\\ude0b |
 | 😛 | stuck_out_tongue | | \\ud83d\\ude1b |
 | 😜 | stuck_out_tongue_winking_eye | prank; silly | \\ud83d\\ude1c |
@@ -71,6 +72,7 @@ Gemoji supports 1738 emoji.
 | 🤯 | exploding_head | mind; blown | \\ud83e\\udd2f |
 | 🤠 | cowboy_hat_face | | \\ud83e\\udd20 |
 | 🥳 | partying_face | celebration; birthday | \\ud83e\\udd73 |
+| 🥸 | disguised_face | | \\ud83e\\udd78 |
 | 😎 | sunglasses | cool | \\ud83d\\ude0e |
 | 🤓 | nerd_face | geek; glasses | \\ud83e\\udd13 |
 | 🧐 | monocle_face | | \\ud83e\\uddd0 |
@@ -167,6 +169,7 @@ Gemoji supports 1738 emoji.
 | ✋ | hand; raised_hand | highfive; stop | \\u270b |
 | 🖖 | vulcan_salute | prosper; spock | \\ud83d\\udd96 |
 | 👌 | ok_hand | | \\ud83d\\udc4c |
+| 🤌 | pinched_fingers | | \\ud83e\\udd0c |
 | 🤏 | pinching_hand | | \\ud83e\\udd0f |
 | ✌️ | v | victory; peace | \\u270c\\ufe0f |
 | 🤞 | crossed_fingers | luck; hopeful | \\ud83e\\udd1e |
@@ -203,6 +206,8 @@ Gemoji supports 1738 emoji.
 | 🦻 | ear_with_hearing_aid | | \\ud83e\\uddbb |
 | 👃 | nose | smell | \\ud83d\\udc43 |
 | 🧠 | brain | | \\ud83e\\udde0 |
+| 🫀 | anatomical_heart | | \\ud83e\\udec0 |
+| 🫁 | lungs | | \\ud83e\\udec1 |
 | 🦷 | tooth | | \\ud83e\\uddb7 |
 | 🦴 | bone | | \\ud83e\\uddb4 |
 | 👀 | eyes | look; see; watch | \\ud83d\\udc40 |
@@ -322,6 +327,7 @@ Gemoji supports 1738 emoji.
 | 💂 | guard | | \\ud83d\\udc82 |
 | 💂‍♂️ | guardsman | | \\ud83d\\udc82\\u200d\\u2642\\ufe0f |
 | 💂‍♀️ | guardswoman | | \\ud83d\\udc82\\u200d\\u2640\\ufe0f |
+| 🥷 | ninja | | \\ud83e\\udd77 |
 | 👷 | construction_worker | helmet | \\ud83d\\udc77 |
 | 👷‍♂️ | construction_worker_man | helmet | \\ud83d\\udc77\\u200d\\u2642\\ufe0f |
 | 👷‍♀️ | construction_worker_woman | helmet | \\ud83d\\udc77\\u200d\\u2640\\ufe0f |
@@ -332,13 +338,21 @@ Gemoji supports 1738 emoji.
 | 👳‍♀️ | woman_with_turban | | \\ud83d\\udc73\\u200d\\u2640\\ufe0f |
 | 👲 | man_with_gua_pi_mao | | \\ud83d\\udc72 |
 | 🧕 | woman_with_headscarf | hijab | \\ud83e\\uddd5 |
-| 🤵 | man_in_tuxedo | groom; marriage; wedding | \\ud83e\\udd35 |
-| 👰 | bride_with_veil | marriage; wedding | \\ud83d\\udc70 |
+| 🤵 | person_in_tuxedo | groom; marriage; wedding | \\ud83e\\udd35 |
+| 🤵‍♂️ | man_in_tuxedo | | \\ud83e\\udd35\\u200d\\u2642\\ufe0f |
+| 🤵‍♀️ | woman_in_tuxedo | | \\ud83e\\udd35\\u200d\\u2640\\ufe0f |
+| 👰 | person_with_veil | marriage; wedding | \\ud83d\\udc70 |
+| 👰‍♂️ | man_with_veil | | \\ud83d\\udc70\\u200d\\u2642\\ufe0f |
+| 👰‍♀️ | woman_with_veil; bride_with_veil | | \\ud83d\\udc70\\u200d\\u2640\\ufe0f |
 | 🤰 | pregnant_woman | | \\ud83e\\udd30 |
 | 🤱 | breast_feeding | nursing | \\ud83e\\udd31 |
+| 👩‍🍼 | woman_feeding_baby | | \\ud83d\\udc69\\u200d\\ud83c\\udf7c |
+| 👨‍🍼 | man_feeding_baby | | \\ud83d\\udc68\\u200d\\ud83c\\udf7c |
+| 🧑‍🍼 | person_feeding_baby | | \\ud83e\\uddd1\\u200d\\ud83c\\udf7c |
 | 👼 | angel | | \\ud83d\\udc7c |
 | 🎅 | santa | christmas | \\ud83c\\udf85 |
 | 🤶 | mrs_claus | santa | \\ud83e\\udd36 |
+| 🧑‍🎄 | mx_claus | | \\ud83e\\uddd1\\u200d\\ud83c\\udf84 |
 | 🦸 | superhero | | \\ud83e\\uddb8 |
 | 🦸‍♂️ | superhero_man | | \\ud83e\\uddb8\\u200d\\u2642\\ufe0f |
 | 🦸‍♀️ | superhero_woman | | \\ud83e\\uddb8\\u200d\\u2640\\ufe0f |
@@ -494,6 +508,7 @@ Gemoji supports 1738 emoji.
 | 🗣️ | speaking_head | | \\ud83d\\udde3\\ufe0f |
 | 👤 | bust_in_silhouette | user | \\ud83d\\udc64 |
 | 👥 | busts_in_silhouette | users; group; team | \\ud83d\\udc65 |
+| 🫂 | people_hugging | | \\ud83e\\udec2 |
 | 👣 | footprints | feet; tracks | \\ud83d\\udc63 |
 | 🐵 | monkey_face | | \\ud83d\\udc35 |
 | 🐒 | monkey | | \\ud83d\\udc12 |
@@ -509,6 +524,7 @@ Gemoji supports 1738 emoji.
 | 🦝 | raccoon | | \\ud83e\\udd9d |
 | 🐱 | cat | pet | \\ud83d\\udc31 |
 | 🐈 | cat2 | | \\ud83d\\udc08 |
+| 🐈‍⬛ | black_cat | | \\ud83d\\udc08\\u200d\\u2b1b |
 | 🦁 | lion | | \\ud83e\\udd81 |
 | 🐯 | tiger | | \\ud83d\\udc2f |
 | 🐅 | tiger2 | | \\ud83d\\udc05 |
@@ -518,6 +534,7 @@ Gemoji supports 1738 emoji.
 | 🦄 | unicorn | | \\ud83e\\udd84 |
 | 🦓 | zebra | | \\ud83e\\udd93 |
 | 🦌 | deer | | \\ud83e\\udd8c |
+| 🦬 | bison | | \\ud83e\\uddac |
 | 🐮 | cow | | \\ud83d\\udc2e |
 | 🐂 | ox | | \\ud83d\\udc02 |
 | 🐃 | water_buffalo | | \\ud83d\\udc03 |
@@ -534,6 +551,7 @@ Gemoji supports 1738 emoji.
 | 🦙 | llama | | \\ud83e\\udd99 |
 | 🦒 | giraffe | | \\ud83e\\udd92 |
 | 🐘 | elephant | | \\ud83d\\udc18 |
+| 🦣 | mammoth | | \\ud83e\\udda3 |
 | 🦏 | rhinoceros | | \\ud83e\\udd8f |
 | 🦛 | hippopotamus | | \\ud83e\\udd9b |
 | 🐭 | mouse | | \\ud83d\\udc2d |
@@ -543,9 +561,11 @@ Gemoji supports 1738 emoji.
 | 🐰 | rabbit | bunny | \\ud83d\\udc30 |
 | 🐇 | rabbit2 | | \\ud83d\\udc07 |
 | 🐿️ | chipmunk | | \\ud83d\\udc3f\\ufe0f |
+| 🦫 | beaver | | \\ud83e\\uddab |
 | 🦔 | hedgehog | | \\ud83e\\udd94 |
 | 🦇 | bat | | \\ud83e\\udd87 |
 | 🐻 | bear | | \\ud83d\\udc3b |
+| 🐻‍❄️ | polar_bear | | \\ud83d\\udc3b\\u200d\\u2744\\ufe0f |
 | 🐨 | koala | | \\ud83d\\udc28 |
 | 🐼 | panda_face | | \\ud83d\\udc3c |
 | 🦥 | sloth | | \\ud83e\\udda5 |
@@ -567,6 +587,8 @@ Gemoji supports 1738 emoji.
 | 🦆 | duck | | \\ud83e\\udd86 |
 | 🦢 | swan | | \\ud83e\\udda2 |
 | 🦉 | owl | | \\ud83e\\udd89 |
+| 🦤 | dodo | | \\ud83e\\udda4 |
+| 🪶 | feather | | \\ud83e\\udeb6 |
 | 🦩 | flamingo | | \\ud83e\\udda9 |
 | 🦚 | peacock | | \\ud83e\\udd9a |
 | 🦜 | parrot | | \\ud83e\\udd9c |
@@ -582,6 +604,7 @@ Gemoji supports 1738 emoji.
 | 🐳 | whale | sea | \\ud83d\\udc33 |
 | 🐋 | whale2 | | \\ud83d\\udc0b |
 | 🐬 | dolphin; flipper | | \\ud83d\\udc2c |
+| 🦭 | seal | | \\ud83e\\uddad |
 | 🐟 | fish | | \\ud83d\\udc1f |
 | 🐠 | tropical_fish | | \\ud83d\\udc20 |
 | 🐡 | blowfish | | \\ud83d\\udc21 |
@@ -593,12 +616,16 @@ Gemoji supports 1738 emoji.
 | 🐛 | bug | | \\ud83d\\udc1b |
 | 🐜 | ant | | \\ud83d\\udc1c |
 | 🐝 | bee; honeybee | | \\ud83d\\udc1d |
-| 🐞 | beetle | bug | \\ud83d\\udc1e |
+| 🪲 | beetle | | \\ud83e\\udeb2 |
+| 🐞 | lady_beetle | bug | \\ud83d\\udc1e |
 | 🦗 | cricket | | \\ud83e\\udd97 |
+| 🪳 | cockroach | | \\ud83e\\udeb3 |
 | 🕷️ | spider | | \\ud83d\\udd77\\ufe0f |
 | 🕸️ | spider_web | | \\ud83d\\udd78\\ufe0f |
 | 🦂 | scorpion | | \\ud83e\\udd82 |
 | 🦟 | mosquito | | \\ud83e\\udd9f |
+| 🪰 | fly | | \\ud83e\\udeb0 |
+| 🪱 | worm | | \\ud83e\\udeb1 |
 | 🦠 | microbe | germ | \\ud83e\\udda0 |
 | 💐 | bouquet | flowers | \\ud83d\\udc90 |
 | 🌸 | cherry_blossom | flower; spring | \\ud83c\\udf38 |
@@ -611,6 +638,7 @@ Gemoji supports 1738 emoji.
 | 🌼 | blossom | | \\ud83c\\udf3c |
 | 🌷 | tulip | flower | \\ud83c\\udf37 |
 | 🌱 | seedling | plant | \\ud83c\\udf31 |
+| 🪴 | potted_plant | | \\ud83e\\udeb4 |
 | 🌲 | evergreen_tree | wood | \\ud83c\\udf32 |
 | 🌳 | deciduous_tree | wood | \\ud83c\\udf33 |
 | 🌴 | palm_tree | | \\ud83c\\udf34 |
@@ -636,8 +664,10 @@ Gemoji supports 1738 emoji.
 | 🍑 | peach | | \\ud83c\\udf51 |
 | 🍒 | cherries | fruit | \\ud83c\\udf52 |
 | 🍓 | strawberry | fruit | \\ud83c\\udf53 |
+| 🫐 | blueberries | | \\ud83e\\uded0 |
 | 🥝 | kiwi_fruit | | \\ud83e\\udd5d |
 | 🍅 | tomato | | \\ud83c\\udf45 |
+| 🫒 | olive | | \\ud83e\\uded2 |
 | 🥥 | coconut | | \\ud83e\\udd65 |
 | 🥑 | avocado | | \\ud83e\\udd51 |
 | 🍆 | eggplant | aubergine | \\ud83c\\udf46 |
@@ -645,6 +675,7 @@ Gemoji supports 1738 emoji.
 | 🥕 | carrot | | \\ud83e\\udd55 |
 | 🌽 | corn | | \\ud83c\\udf3d |
 | 🌶️ | hot_pepper | spicy | \\ud83c\\udf36\\ufe0f |
+| 🫑 | bell_pepper | | \\ud83e\\uded1 |
 | 🥒 | cucumber | | \\ud83e\\udd52 |
 | 🥬 | leafy_green | | \\ud83e\\udd6c |
 | 🥦 | broccoli | | \\ud83e\\udd66 |
@@ -656,6 +687,7 @@ Gemoji supports 1738 emoji.
 | 🍞 | bread | toast | \\ud83c\\udf5e |
 | 🥐 | croissant | | \\ud83e\\udd50 |
 | 🥖 | baguette_bread | | \\ud83e\\udd56 |
+| 🫓 | flatbread | | \\ud83e\\uded3 |
 | 🥨 | pretzel | | \\ud83e\\udd68 |
 | 🥯 | bagel | | \\ud83e\\udd6f |
 | 🥞 | pancakes | | \\ud83e\\udd5e |
@@ -672,12 +704,14 @@ Gemoji supports 1738 emoji.
 | 🥪 | sandwich | | \\ud83e\\udd6a |
 | 🌮 | taco | | \\ud83c\\udf2e |
 | 🌯 | burrito | | \\ud83c\\udf2f |
+| 🫔 | tamale | | \\ud83e\\uded4 |
 | 🥙 | stuffed_flatbread | | \\ud83e\\udd59 |
 | 🧆 | falafel | | \\ud83e\\uddc6 |
 | 🥚 | egg | | \\ud83e\\udd5a |
 | 🍳 | fried_egg | breakfast | \\ud83c\\udf73 |
 | 🥘 | shallow_pan_of_food | paella; curry | \\ud83e\\udd58 |
 | 🍲 | stew | | \\ud83c\\udf72 |
+| 🫕 | fondue | | \\ud83e\\uded5 |
 | 🥣 | bowl_with_spoon | | \\ud83e\\udd63 |
 | 🥗 | green_salad | | \\ud83e\\udd57 |
 | 🍿 | popcorn | | \\ud83c\\udf7f |
@@ -723,6 +757,7 @@ Gemoji supports 1738 emoji.
 | 🍼 | baby_bottle | milk | \\ud83c\\udf7c |
 | 🥛 | milk_glass | | \\ud83e\\udd5b |
 | ☕ | coffee | cafe; espresso | \\u2615 |
+| 🫖 | teapot | | \\ud83e\\uded6 |
 | 🍵 | tea | green; breakfast | \\ud83c\\udf75 |
 | 🍶 | sake | | \\ud83c\\udf76 |
 | 🍾 | champagne | bottle; bubbly; celebration | \\ud83c\\udf7e |
@@ -734,6 +769,7 @@ Gemoji supports 1738 emoji.
 | 🥂 | clinking_glasses | cheers; toast | \\ud83e\\udd42 |
 | 🥃 | tumbler_glass | whisky | \\ud83e\\udd43 |
 | 🥤 | cup_with_straw | | \\ud83e\\udd64 |
+| 🧋 | bubble_tea | | \\ud83e\\uddcb |
 | 🧃 | beverage_box | | \\ud83e\\uddc3 |
 | 🧉 | mate | | \\ud83e\\uddc9 |
 | 🧊 | ice_cube | | \\ud83e\\uddca |
@@ -763,6 +799,9 @@ Gemoji supports 1738 emoji.
 | 🏛️ | classical_building | | \\ud83c\\udfdb\\ufe0f |
 | 🏗️ | building_construction | | \\ud83c\\udfd7\\ufe0f |
 | 🧱 | bricks | | \\ud83e\\uddf1 |
+| 🪨 | rock | | \\ud83e\\udea8 |
+| 🪵 | wood | | \\ud83e\\udeb5 |
+| 🛖 | hut | | \\ud83d\\uded6 |
 | 🏘️ | houses | | \\ud83c\\udfd8\\ufe0f |
 | 🏚️ | derelict_house | | \\ud83c\\udfda\\ufe0f |
 | 🏠 | house | | \\ud83c\\udfe0 |
@@ -830,6 +869,7 @@ Gemoji supports 1738 emoji.
 | 🚗 | car; red_car | | \\ud83d\\ude97 |
 | 🚘 | oncoming_automobile | | \\ud83d\\ude98 |
 | 🚙 | blue_car | | \\ud83d\\ude99 |
+| 🛻 | pickup_truck | | \\ud83d\\udefb |
 | 🚚 | truck | | \\ud83d\\ude9a |
 | 🚛 | articulated_lorry | | \\ud83d\\ude9b |
 | 🚜 | tractor | | \\ud83d\\ude9c |
@@ -842,6 +882,7 @@ Gemoji supports 1738 emoji.
 | 🚲 | bike | bicycle | \\ud83d\\udeb2 |
 | 🛴 | kick_scooter | | \\ud83d\\udef4 |
 | 🛹 | skateboard | | \\ud83d\\udef9 |
+| 🛼 | roller_skate | | \\ud83d\\udefc |
 | 🚏 | busstop | | \\ud83d\\ude8f |
 | 🛣️ | motorway | | \\ud83d\\udee3\\ufe0f |
 | 🛤️ | railway_track | | \\ud83d\\udee4\\ufe0f |
@@ -1012,6 +1053,7 @@ Gemoji supports 1738 emoji.
 | 🪁 | kite | | \\ud83e\\ude81 |
 | 🎱 | 8ball | pool; billiards | \\ud83c\\udfb1 |
 | 🔮 | crystal_ball | fortune | \\ud83d\\udd2e |
+| 🪄 | magic_wand | | \\ud83e\\ude84 |
 | 🧿 | nazar_amulet | | \\ud83e\\uddff |
 | 🎮 | video_game | play; controller; console | \\ud83c\\udfae |
 | 🕹️ | joystick | | \\ud83d\\udd79\\ufe0f |
@@ -1019,6 +1061,8 @@ Gemoji supports 1738 emoji.
 | 🎲 | game_die | dice; gambling | \\ud83c\\udfb2 |
 | 🧩 | jigsaw | | \\ud83e\\udde9 |
 | 🧸 | teddy_bear | | \\ud83e\\uddf8 |
+| 🪅 | pinata | | \\ud83e\\ude85 |
+| 🪆 | nesting_dolls | | \\ud83e\\ude86 |
 | ♠️ | spades | | \\u2660\\ufe0f |
 | ♥️ | hearts | | \\u2665\\ufe0f |
 | ♦️ | diamonds | | \\u2666\\ufe0f |
@@ -1031,7 +1075,9 @@ Gemoji supports 1738 emoji.
 | 🖼️ | framed_picture | | \\ud83d\\uddbc\\ufe0f |
 | 🎨 | art | design; paint | \\ud83c\\udfa8 |
 | 🧵 | thread | | \\ud83e\\uddf5 |
+| 🪡 | sewing_needle | | \\ud83e\\udea1 |
 | 🧶 | yarn | | \\ud83e\\uddf6 |
+| 🪢 | knot | | \\ud83e\\udea2 |
 | 👓 | eyeglasses | glasses | \\ud83d\\udc53 |
 | 🕶️ | dark_sunglasses | | \\ud83d\\udd76\\ufe0f |
 | 🥽 | goggles | | \\ud83e\\udd7d |
@@ -1057,6 +1103,7 @@ Gemoji supports 1738 emoji.
 | 👝 | pouch | bag | \\ud83d\\udc5d |
 | 🛍️ | shopping | bags | \\ud83d\\udecd\\ufe0f |
 | 🎒 | school_satchel | | \\ud83c\\udf92 |
+| 🩴 | thong_sandal | | \\ud83e\\ude74 |
 | 👞 | mans_shoe; shoe | | \\ud83d\\udc5e |
 | 👟 | athletic_shoe | sneaker; sport; running | \\ud83d\\udc5f |
 | 🥾 | hiking_boot | | \\ud83e\\udd7e |
@@ -1070,6 +1117,7 @@ Gemoji supports 1738 emoji.
 | 🎩 | tophat | hat; classy | \\ud83c\\udfa9 |
 | 🎓 | mortar_board | education; college; university; graduation | \\ud83c\\udf93 |
 | 🧢 | billed_cap | | \\ud83e\\udde2 |
+| 🪖 | military_helmet | | \\ud83e\\ude96 |
 | ⛑️ | rescue_worker_helmet | | \\u26d1\\ufe0f |
 | 📿 | prayer_beads | | \\ud83d\\udcff |
 | 💄 | lipstick | makeup | \\ud83d\\udc84 |
@@ -1094,12 +1142,14 @@ Gemoji supports 1738 emoji.
 | 🎧 | headphones | music; earphones | \\ud83c\\udfa7 |
 | 📻 | radio | podcast | \\ud83d\\udcfb |
 | 🎷 | saxophone | | \\ud83c\\udfb7 |
+| 🪗 | accordion | | \\ud83e\\ude97 |
 | 🎸 | guitar | rock | \\ud83c\\udfb8 |
 | 🎹 | musical_keyboard | piano | \\ud83c\\udfb9 |
 | 🎺 | trumpet | | \\ud83c\\udfba |
 | 🎻 | violin | | \\ud83c\\udfbb |
 | 🪕 | banjo | | \\ud83e\\ude95 |
 | 🥁 | drum | | \\ud83e\\udd41 |
+| 🪘 | long_drum | | \\ud83e\\ude98 |
 | 📱 | iphone | smartphone; mobile | \\ud83d\\udcf1 |
 | 📲 | calling | call; incoming | \\ud83d\\udcf2 |
 | ☎️ | phone; telephone | | \\u260e\\ufe0f |
@@ -1153,6 +1203,7 @@ Gemoji supports 1738 emoji.
 | 🔖 | bookmark | | \\ud83d\\udd16 |
 | 🏷️ | label | tag | \\ud83c\\udff7\\ufe0f |
 | 💰 | moneybag | dollar; cream | \\ud83d\\udcb0 |
+| 🪙 | coin | | \\ud83e\\ude99 |
 | 💴 | yen | | \\ud83d\\udcb4 |
 | 💵 | dollar | money | \\ud83d\\udcb5 |
 | 💶 | euro | | \\ud83d\\udcb6 |
@@ -1161,8 +1212,6 @@ Gemoji supports 1738 emoji.
 | 💳 | credit_card | subscription | \\ud83d\\udcb3 |
 | 🧾 | receipt | | \\ud83e\\uddfe |
 | 💹 | chart | | \\ud83d\\udcb9 |
-| 💱 | currency_exchange | | \\ud83d\\udcb1 |
-| 💲 | heavy_dollar_sign | | \\ud83d\\udcb2 |
 | ✉️ | email; envelope | letter | \\u2709\\ufe0f |
 | 📧 | e-mail | | \\ud83d\\udce7 |
 | 📨 | incoming_envelope | | \\ud83d\\udce8 |
@@ -1220,9 +1269,12 @@ Gemoji supports 1738 emoji.
 | 🗡️ | dagger | | \\ud83d\\udde1\\ufe0f |
 | ⚔️ | crossed_swords | | \\u2694\\ufe0f |
 | 🔫 | gun | shoot; weapon | \\ud83d\\udd2b |
+| 🪃 | boomerang | | \\ud83e\\ude83 |
 | 🏹 | bow_and_arrow | archery | \\ud83c\\udff9 |
 | 🛡️ | shield | | \\ud83d\\udee1\\ufe0f |
+| 🪚 | carpentry_saw | | \\ud83e\\ude9a |
 | 🔧 | wrench | tool | \\ud83d\\udd27 |
+| 🪛 | screwdriver | | \\ud83e\\ude9b |
 | 🔩 | nut_and_bolt | | \\ud83d\\udd29 |
 | ⚙️ | gear | | \\u2699\\ufe0f |
 | 🗜️ | clamp | | \\ud83d\\udddc\\ufe0f |
@@ -1230,8 +1282,10 @@ Gemoji supports 1738 emoji.
 | 🦯 | probing_cane | | \\ud83e\\uddaf |
 | 🔗 | link | | \\ud83d\\udd17 |
 | ⛓️ | chains | | \\u26d3\\ufe0f |
+| 🪝 | hook | | \\ud83e\\ude9d |
 | 🧰 | toolbox | | \\ud83e\\uddf0 |
 | 🧲 | magnet | | \\ud83e\\uddf2 |
+| 🪜 | ladder | | \\ud83e\\ude9c |
 | ⚗️ | alembic | | \\u2697\\ufe0f |
 | 🧪 | test_tube | | \\ud83e\\uddea |
 | 🧫 | petri_dish | | \\ud83e\\uddeb |
@@ -1245,26 +1299,35 @@ Gemoji supports 1738 emoji.
 | 🩹 | adhesive_bandage | | \\ud83e\\ude79 |
 | 🩺 | stethoscope | | \\ud83e\\ude7a |
 | 🚪 | door | | \\ud83d\\udeaa |
+| 🛗 | elevator | | \\ud83d\\uded7 |
+| 🪞 | mirror | | \\ud83e\\ude9e |
+| 🪟 | window | | \\ud83e\\ude9f |
 | 🛏️ | bed | | \\ud83d\\udecf\\ufe0f |
 | 🛋️ | couch_and_lamp | | \\ud83d\\udecb\\ufe0f |
 | 🪑 | chair | | \\ud83e\\ude91 |
 | 🚽 | toilet | wc | \\ud83d\\udebd |
+| 🪠 | plunger | | \\ud83e\\udea0 |
 | 🚿 | shower | bath | \\ud83d\\udebf |
 | 🛁 | bathtub | | \\ud83d\\udec1 |
+| 🪤 | mouse_trap | | \\ud83e\\udea4 |
 | 🪒 | razor | | \\ud83e\\ude92 |
 | 🧴 | lotion_bottle | | \\ud83e\\uddf4 |
 | 🧷 | safety_pin | | \\ud83e\\uddf7 |
 | 🧹 | broom | | \\ud83e\\uddf9 |
 | 🧺 | basket | | \\ud83e\\uddfa |
 | 🧻 | roll_of_paper | toilet | \\ud83e\\uddfb |
+| 🪣 | bucket | | \\ud83e\\udea3 |
 | 🧼 | soap | | \\ud83e\\uddfc |
+| 🪥 | toothbrush | | \\ud83e\\udea5 |
 | 🧽 | sponge | | \\ud83e\\uddfd |
 | 🧯 | fire_extinguisher | | \\ud83e\\uddef |
 | 🛒 | shopping_cart | | \\ud83d\\uded2 |
 | 🚬 | smoking | cigarette | \\ud83d\\udeac |
 | ⚰️ | coffin | funeral | \\u26b0\\ufe0f |
+| 🪦 | headstone | | \\ud83e\\udea6 |
 | ⚱️ | funeral_urn | | \\u26b1\\ufe0f |
 | 🗿 | moyai | stone | \\ud83d\\uddff |
+| 🪧 | placard | | \\ud83e\\udea7 |
 | 🏧 | atm | | \\ud83c\\udfe7 |
 | 🚮 | put_litter_in_its_place | | \\ud83d\\udeae |
 | 🚰 | potable_water | | \\ud83d\\udeb0 |
@@ -1363,8 +1426,22 @@ Gemoji supports 1738 emoji.
 | 📴 | mobile_phone_off | mute; off | \\ud83d\\udcf4 |
 | ♀️ | female_sign | | \\u2640\\ufe0f |
 | ♂️ | male_sign | | \\u2642\\ufe0f |
-| ⚕️ | medical_symbol | | \\u2695\\ufe0f |
+| ⚧️ | transgender_symbol | | \\u26a7\\ufe0f |
+| ✖️ | heavy_multiplication_x | | \\u2716\\ufe0f |
+| ➕ | heavy_plus_sign | | \\u2795 |
+| ➖ | heavy_minus_sign | | \\u2796 |
+| ➗ | heavy_division_sign | | \\u2797 |
 | ♾️ | infinity | | \\u267e\\ufe0f |
+| ‼️ | bangbang | | \\u203c\\ufe0f |
+| ⁉️ | interrobang | | \\u2049\\ufe0f |
+| ❓ | question | confused | \\u2753 |
+| ❔ | grey_question | | \\u2754 |
+| ❕ | grey_exclamation | | \\u2755 |
+| ❗ | exclamation; heavy_exclamation_mark | bang | \\u2757 |
+| 〰️ | wavy_dash | | \\u3030\\ufe0f |
+| 💱 | currency_exchange | | \\ud83d\\udcb1 |
+| 💲 | heavy_dollar_sign | | \\ud83d\\udcb2 |
+| ⚕️ | medical_symbol | | \\u2695\\ufe0f |
 | ♻️ | recycle | environment; green | \\u267b\\ufe0f |
 | ⚜️ | fleur_de_lis | | \\u269c\\ufe0f |
 | 🔱 | trident | | \\ud83d\\udd31 |
@@ -1374,25 +1451,14 @@ Gemoji supports 1738 emoji.
 | ✅ | white_check_mark | | \\u2705 |
 | ☑️ | ballot_box_with_check | | \\u2611\\ufe0f |
 | ✔️ | heavy_check_mark | | \\u2714\\ufe0f |
-| ✖️ | heavy_multiplication_x | | \\u2716\\ufe0f |
 | ❌ | x | | \\u274c |
 | ❎ | negative_squared_cross_mark | | \\u274e |
-| ➕ | heavy_plus_sign | | \\u2795 |
-| ➖ | heavy_minus_sign | | \\u2796 |
-| ➗ | heavy_division_sign | | \\u2797 |
 | ➰ | curly_loop | | \\u27b0 |
 | ➿ | loop | | \\u27bf |
 | 〽️ | part_alternation_mark | | \\u303d\\ufe0f |
 | ✳️ | eight_spoked_asterisk | | \\u2733\\ufe0f |
 | ✴️ | eight_pointed_black_star | | \\u2734\\ufe0f |
 | ❇️ | sparkle | | \\u2747\\ufe0f |
-| ‼️ | bangbang | | \\u203c\\ufe0f |
-| ⁉️ | interrobang | | \\u2049\\ufe0f |
-| ❓ | question | confused | \\u2753 |
-| ❔ | grey_question | | \\u2754 |
-| ❕ | grey_exclamation | | \\u2755 |
-| ❗ | exclamation; heavy_exclamation_mark | bang | \\u2757 |
-| 〰️ | wavy_dash | | \\u3030\\ufe0f |
 | ©️ | copyright | | \\ua9\\ufe0f |
 | ®️ | registered | | \\uae\\ufe0f |
 | ™️ | tm | trademark | \\u2122\\ufe0f |
@@ -1488,6 +1554,7 @@ Gemoji supports 1738 emoji.
 | 🏴 | black_flag | | \\ud83c\\udff4 |
 | 🏳️ | white_flag | | \\ud83c\\udff3\\ufe0f |
 | 🏳️‍🌈 | rainbow_flag | pride | \\ud83c\\udff3\\ufe0f\\u200d\\ud83c\\udf08 |
+| 🏳️‍⚧️ | transgender_flag | | \\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f |
 | 🏴‍☠️ | pirate_flag | | \\ud83c\\udff4\\u200d\\u2620\\ufe0f |
 | 🇦🇨 | ascension_island | | \\ud83c\\udde6\\ud83c\\udde8 |
 | 🇦🇩 | andorra | | \\ud83c\\udde6\\ud83c\\udde9 |
