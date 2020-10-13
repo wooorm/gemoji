@@ -11787,11 +11787,11 @@
   {
     "emoji": "✉️",
     "names": [
-      "email",
       "envelope"
     ],
     "tags": [
-      "letter"
+      "letter",
+      "email"
     ],
     "description": "envelope",
     "category": "Objects"
@@ -11799,6 +11799,7 @@
   {
     "emoji": "📧",
     "names": [
+      "email",
       "e-mail"
     ],
     "tags": [],
