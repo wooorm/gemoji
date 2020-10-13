@@ -1,3 +1,5 @@
 coverage/
 gemoji.js
 gemoji.min.js
+*.json
+*.md

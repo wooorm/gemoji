@@ -30,14 +30,13 @@
   ],
   "main": "index.json",
   "devDependencies": {
-    "browserify": "^16.0.0",
+    "browserify": "^17.0.0",
     "mdast-zone": "^4.0.0",
     "node-fetch": "^2.0.0",
     "nyc": "^15.0.0",
     "prettier": "^2.0.0",
-    "remark-cli": "^8.0.0",
-    "remark-lint-table-pipe-alignment": "^2.0.0",
-    "remark-preset-wooorm": "^7.0.0",
+    "remark-cli": "^9.0.0-alpha.1",
+    "remark-preset-wooorm": "^8.0.0",
     "tape": "^5.0.0",
     "tinyify": "^3.0.0",
     "unist-builder": "^2.0.0",
@@ -45,7 +44,7 @@
   },
   "scripts": {
     "generate": "node script/crawl-data && node script/build-data",
-    "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+    "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
     "build-bundle": "browserify index.json -s gemoji > gemoji.js",
     "build-mangle": "browserify index.json -s gemoji -p tinyify > gemoji.min.js",
     "build": "npm run build-bundle && npm run build-mangle",
@@ -79,11 +78,14 @@
     ]
   },
   "remarkConfig": {
-    "settings": {
-      "tablePipeAlign": false
-    },
     "plugins": [
       "preset-wooorm",
+      [
+        "gfm",
+        {
+          "tablePipeAlign": false
+        }
+      ],
       [
         "remark-lint-table-pipe-alignment",
         false
