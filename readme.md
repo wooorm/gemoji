@@ -140,9 +140,9 @@ not be available on the users computer.
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/wooorm/gemoji.svg
+[build-badge]: https://github.com/wooorm/gemoji/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/wooorm/gemoji
+[build]: https://github.com/wooorm/gemoji/actions
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/gemoji.svg
 
