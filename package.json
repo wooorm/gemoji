@@ -35,18 +35,18 @@
     "node-fetch": "^2.0.0",
     "nyc": "^15.0.0",
     "prettier": "^2.0.0",
-    "remark-cli": "^9.0.0-alpha.1",
+    "remark-cli": "^9.0.0",
     "remark-preset-wooorm": "^8.0.0",
     "tape": "^5.0.0",
     "tinyify": "^3.0.0",
     "unist-builder": "^2.0.0",
-    "xo": "^0.33.0"
+    "xo": "^0.37.0"
   },
   "scripts": {
     "generate": "node script/crawl-data && node script/build-data",
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
-    "build-bundle": "browserify index.json -s gemoji > gemoji.js",
-    "build-mangle": "browserify index.json -s gemoji -p tinyify > gemoji.min.js",
+    "build-bundle": "browserify index.json -s gemoji -o gemoji.js",
+    "build-mangle": "browserify index.json -s gemoji -o gemoji.min.js -p tinyify",
     "build": "npm run build-bundle && npm run build-mangle",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
@@ -71,7 +71,7 @@
     "esnext": false,
     "rules": {
       "guard-for-in": "off",
-      "unicorn/no-fn-reference-in-iterator": "off"
+      "unicorn/no-array-callback-reference": "off"
     },
     "ignores": [
       "gemoji.js"
