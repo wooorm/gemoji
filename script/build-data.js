@@ -6,16 +6,23 @@ var input = require('../emoji.json')
 var main = []
 var nameToEmoji = {}
 var emojiToName = {}
+var index = -1
+var info
+var emoji
+var names
+var name
+var offset
 
-input.forEach(function (info) {
-  var emoji = info.emoji
-  var names = info.aliases
-  var name = names[0]
+while (++index < input.length) {
+  info = input[index]
+  emoji = info.emoji
+  names = info.aliases
+  name = names[0]
 
   // Ignore gemoji without unicode representation.
   if (!emoji) {
     console.warn('Ignoring `%j`', name || info)
-    return
+    continue
   }
 
   main.push({
@@ -27,10 +34,11 @@ input.forEach(function (info) {
   })
 
   emojiToName[emoji] = name
-  names.forEach((n) => {
-    nameToEmoji[n] = emoji
-  })
-})
+  offset = -1
+  while (++offset < names.length) {
+    nameToEmoji[names[offset]] = emoji
+  }
+}
 
 write('name-to-emoji', nameToEmoji)
 write('emoji-to-name', emojiToName)
