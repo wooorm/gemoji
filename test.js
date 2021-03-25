@@ -3,10 +3,30 @@ import assert from 'assert'
 import test from 'tape'
 import {gemoji} from './index.js'
 
-var emoji = JSON.parse(fs.readFileSync('emoji.json'))
+/**
+ * @typedef {Object} Gemoji
+ * @property {string} emoji
+ * @property {string} description
+ * @property {string} category
+ * @property {string[]} names
+ * @property {string[]} tags
+ */
+
+/**
+ * @typedef {Object} Emoji
+ * @property {string} emoji
+ * @property {string} description
+ * @property {string} category
+ * @property {string[]} aliases
+ * @property {string[]} tags
+ */
+
+/** @type {Emoji[]} */
+var emoji = JSON.parse(String(fs.readFileSync('emoji.json')))
 
 test('gemoji', function (t) {
   var index = -1
+  /** @type {Gemoji} */
   var info
 
   t.plan(emoji.length)
