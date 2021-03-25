@@ -1,7 +1,6 @@
-'use strict'
+import fs from 'fs'
 
-var fs = require('fs')
-var input = require('../emoji.json')
+var input = JSON.parse(fs.readFileSync('emoji.json'))
 
 var main = []
 var nameToEmoji = {}
@@ -26,8 +25,8 @@ while (++index < input.length) {
   }
 
   main.push({
-    emoji: emoji,
-    names: names,
+    emoji,
+    names,
     tags: info.tags,
     description: info.description,
     category: info.category
@@ -40,10 +39,10 @@ while (++index < input.length) {
   }
 }
 
-write('name-to-emoji', nameToEmoji)
-write('emoji-to-name', emojiToName)
-write('index', main)
-
-function write(name, data) {
-  fs.writeFileSync(name + '.json', JSON.stringify(data, null, 2) + '\n')
-}
+fs.writeFileSync(
+  'index.js',
+  `export var gemoji = ${JSON.stringify(main, null, 2)}
+  export var nameToEmoji = ${JSON.stringify(nameToEmoji, null, 2)}
+  export var emojiToName = ${JSON.stringify(emojiToName, null, 2)}
+  `
+)

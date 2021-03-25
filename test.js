@@ -1,9 +1,9 @@
-'use strict'
+import fs from 'fs'
+import assert from 'assert'
+import test from 'tape'
+import {gemoji} from './index.js'
 
-var assert = require('assert')
-var test = require('tape')
-var emoji = require('./emoji.json')
-var gemoji = require('.')
+var emoji = JSON.parse(fs.readFileSync('emoji.json'))
 
 test('gemoji', function (t) {
   var index = -1

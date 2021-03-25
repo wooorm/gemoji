@@ -23,34 +23,29 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
   "files": [
-    "index.json",
-    "emoji-to-name.json",
-    "name-to-emoji.json"
+    "index.js"
   ],
-  "main": "index.json",
   "devDependencies": {
-    "browserify": "^17.0.0",
+    "c8": "^7.0.0",
     "mdast-zone": "^4.0.0",
     "node-fetch": "^2.0.0",
-    "nyc": "^15.0.0",
     "prettier": "^2.0.0",
     "remark-cli": "^9.0.0",
     "remark-preset-wooorm": "^8.0.0",
     "tape": "^5.0.0",
-    "tinyify": "^3.0.0",
     "unist-builder": "^2.0.0",
     "xo": "^0.38.0"
   },
   "scripts": {
     "generate": "node script/crawl-data && node script/build-data",
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
-    "build-bundle": "browserify index.json -s gemoji -o gemoji.js",
-    "build-mangle": "browserify index.json -s gemoji -o gemoji.min.js -p tinyify",
-    "build": "npm run build-bundle && npm run build-mangle",
-    "test-api": "node test",
-    "test-coverage": "nyc --reporter lcov tape test.js",
-    "test": "npm run generate && npm run format && npm run build && npm run test-coverage"
+    "test-api": "node test.js",
+    "test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node test.js",
+    "test": "npm run generate && npm run format && npm run test-coverage"
   },
   "nyc": {
     "check-coverage": true,
@@ -68,14 +63,12 @@
   },
   "xo": {
     "prettier": true,
-    "esnext": false,
     "rules": {
-      "guard-for-in": "off",
-      "unicorn/no-array-callback-reference": "off"
-    },
-    "ignores": [
-      "gemoji.js"
-    ]
+      "import/no-mutable-exports": "off",
+      "camelcase": "off",
+      "no-var": "off",
+      "prefer-arrow-callback": "off"
+    }
   },
   "remarkConfig": {
     "plugins": [
@@ -90,7 +83,7 @@
         "remark-lint-table-pipe-alignment",
         false
       ],
-      "./script/build-support"
+      "./script/build-support.cjs"
     ]
   }
 }

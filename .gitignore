@@ -1,9 +1,6 @@
 .DS_Store
 *.log
-.nyc_output/
 coverage/
 node_modules/
-gemoji.js
-gemoji.min.js
 emoji.json
 yarn.lock

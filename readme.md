@@ -8,14 +8,10 @@
 Gemoji (**G**itHub **Emoji**) contains info (category, description, names, and
 tags) on Emoji and GitHub “Gemoji” shortcodes.
 
-Also includes pre-built indexes to map to between names and emoji:
-
-*   [`gemoji/emoji-to-name`][emoji-to-name]
-    — Map emoji (🐱) to preferred name (cat)
-*   [`gemoji/name-to-emoji`][name-to-emoji]
-    — Map name (cat) to emoji (🐱)
-
 ## Install
+
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
 
 [npm][]:
 
@@ -26,7 +22,7 @@ npm install gemoji
 ## Use
 
 ```js
-var gemoji = require('gemoji')
+import {gemoji} from 'gemoji'
 
 console.log(gemoji)
 ```
@@ -77,10 +73,10 @@ Yields:
 ### Get emoji
 
 ```js
-var toEmoji = require('gemoji/name-to-emoji')
+import {nameToEmoji} from 'gemoji'
 
-console.log(toEmoji.cat)
-console.log(toEmoji.poop)
+console.log(nameToEmoji.cat)
+console.log(nameToEmoji.poop)
 ```
 
 Yields:
@@ -93,10 +89,10 @@ Yields:
 ### Get name
 
 ```js
-var toName = require('gemoji/emoji-to-name')
+import {emojiToName} from 'gemoji'
 
-console.log(toName['🐶'])
-console.log(toName['\uD83D\uDCA9'])
+console.log(emojiToName['🐶'])
+console.log(emojiToName['\uD83D\uDCA9'])
 ```
 
 Yields:
@@ -105,6 +101,30 @@ Yields:
 dog
 hankey
 ```
+
+## API
+
+This package exports the following identifiers: `gemoji`, `nameToEmoji`,
+`emojiToName`.
+There is no default export.
+
+### `gemoji`
+
+`Info[]`, where each `Info` is `Object` with:
+
+*   `emoji`: `string`, example: `😀`
+*   `names`: `string[]`, example: `['grinning']`
+*   `tags`: `string[]`, example: `['smile', 'happy']`
+*   `description`: `string`, example: `grinning face`
+*   `category`: `string`, example: `Smileys & Emotion`
+
+### `nameToEmoji`
+
+`Object.<string, string>` — map names (`100`) to emoji (`💯`).
+
+### `emojiToName`
+
+`Object.<string, string>` — map names (`😀`) to emoji (`grinning`).
 
 ## Supported Gemoji
 
@@ -167,7 +187,3 @@ not be available on the users computer.
 [gh]: https://github.com/github/gemoji
 
 [gh-license]: https://github.com/github/gemoji/blob/55a0080/LICENSE
-
-[emoji-to-name]: emoji-to-name.json
-
-[name-to-emoji]: name-to-emoji.json
