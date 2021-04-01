@@ -1,17 +1,12 @@
-'use strict'
+import zone from 'mdast-zone'
+import u from 'unist-builder'
+import {gemoji} from '../index.js'
 
-var zone = require('mdast-zone')
-var u = require('unist-builder')
-
-module.exports = support
-
-function support() {
+export default function support() {
   return transformer
 }
 
-async function transformer(tree) {
-  var {gemoji} = await import('../index.js')
-
+function transformer(tree) {
   zone(tree, 'support', replace)
 
   function replace(start, nodes, end) {

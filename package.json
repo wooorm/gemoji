@@ -85,7 +85,7 @@
         "remark-lint-table-pipe-alignment",
         false
       ],
-      "./script/build-support.cjs"
+      "./script/build-support.js"
     ]
   },
   "typeCoverage": {
