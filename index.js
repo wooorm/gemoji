@@ -259,6 +259,13 @@ export var gemoji = [
     category: 'Smileys & Emotion'
   },
   {
+    emoji: '😶‍🌫️',
+    names: ['face_in_clouds'],
+    tags: [],
+    description: 'face in clouds',
+    category: 'Smileys & Emotion'
+  },
+  {
     emoji: '😏',
     names: ['smirk'],
     tags: ['smug'],
@@ -284,6 +291,13 @@ export var gemoji = [
     names: ['grimacing'],
     tags: [],
     description: 'grimacing face',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '😮‍💨',
+    names: ['face_exhaling'],
+    tags: [],
+    description: 'face exhaling',
     category: 'Smileys & Emotion'
   },
   {
@@ -395,7 +409,14 @@ export var gemoji = [
     emoji: '😵',
     names: ['dizzy_face'],
     tags: [],
-    description: 'dizzy face',
+    description: 'knocked-out face',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '😵‍💫',
+    names: ['face_with_spiral_eyes'],
+    tags: [],
+    description: 'face with spiral eyes',
     category: 'Smileys & Emotion'
   },
   {
@@ -893,6 +914,20 @@ export var gemoji = [
     names: ['broken_heart'],
     tags: [],
     description: 'broken heart',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '❤️‍🔥',
+    names: ['heart_on_fire'],
+    tags: [],
+    description: 'heart on fire',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '❤️‍🩹',
+    names: ['mending_heart'],
+    tags: [],
+    description: 'mending heart',
     category: 'Smileys & Emotion'
   },
   {
@@ -1466,7 +1501,21 @@ export var gemoji = [
     emoji: '🧔',
     names: ['bearded_person'],
     tags: [],
+    description: 'person: beard',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🧔‍♂️',
+    names: ['man_beard'],
+    tags: [],
     description: 'man: beard',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🧔‍♀️',
+    names: ['woman_beard'],
+    tags: [],
+    description: 'woman: beard',
     category: 'People & Body'
   },
   {
@@ -7255,7 +7304,7 @@ export var gemoji = [
     emoji: '🎯',
     names: ['dart'],
     tags: ['target'],
-    description: 'direct hit',
+    description: 'bullseye',
     category: 'Activities'
   },
   {
@@ -8795,7 +8844,7 @@ export var gemoji = [
     emoji: '🔫',
     names: ['gun'],
     tags: ['shoot', 'weapon'],
-    description: 'pistol',
+    description: 'water pistol',
     category: 'Objects'
   },
   {
@@ -9957,7 +10006,7 @@ export var gemoji = [
     emoji: '❓',
     names: ['question'],
     tags: ['confused'],
-    description: 'question mark',
+    description: 'red question mark',
     category: 'Symbols'
   },
   {
@@ -9978,7 +10027,7 @@ export var gemoji = [
     emoji: '❗',
     names: ['exclamation', 'heavy_exclamation_mark'],
     tags: ['bang'],
-    description: 'exclamation mark',
+    description: 'red exclamation mark',
     category: 'Symbols'
   },
   {
@@ -12676,10 +12725,12 @@ export var nameToEmoji = {
   neutral_face: '😐',
   expressionless: '😑',
   no_mouth: '😶',
+  face_in_clouds: '😶‍🌫️',
   smirk: '😏',
   unamused: '😒',
   roll_eyes: '🙄',
   grimacing: '😬',
+  face_exhaling: '😮‍💨',
   lying_face: '🤥',
   relieved: '😌',
   pensive: '😔',
@@ -12696,6 +12747,7 @@ export var nameToEmoji = {
   cold_face: '🥶',
   woozy_face: '🥴',
   dizzy_face: '😵',
+  face_with_spiral_eyes: '😵‍💫',
   exploding_head: '🤯',
   cowboy_hat_face: '🤠',
   partying_face: '🥳',
@@ -12770,6 +12822,8 @@ export var nameToEmoji = {
   heart_decoration: '💟',
   heavy_heart_exclamation: '❣️',
   broken_heart: '💔',
+  heart_on_fire: '❤️‍🔥',
+  mending_heart: '❤️‍🩹',
   heart: '❤️',
   orange_heart: '🧡',
   yellow_heart: '💛',
@@ -12859,6 +12913,8 @@ export var nameToEmoji = {
   blond_haired_person: '👱',
   man: '👨',
   bearded_person: '🧔',
+  man_beard: '🧔‍♂️',
+  woman_beard: '🧔‍♀️',
   red_haired_man: '👨‍🦰',
   curly_haired_man: '👨‍🦱',
   white_haired_man: '👨‍🦳',
@@ -14523,10 +14579,12 @@ export var emojiToName = {
   '😐': 'neutral_face',
   '😑': 'expressionless',
   '😶': 'no_mouth',
+  '😶‍🌫️': 'face_in_clouds',
   '😏': 'smirk',
   '😒': 'unamused',
   '🙄': 'roll_eyes',
   '😬': 'grimacing',
+  '😮‍💨': 'face_exhaling',
   '🤥': 'lying_face',
   '😌': 'relieved',
   '😔': 'pensive',
@@ -14543,6 +14601,7 @@ export var emojiToName = {
   '🥶': 'cold_face',
   '🥴': 'woozy_face',
   '😵': 'dizzy_face',
+  '😵‍💫': 'face_with_spiral_eyes',
   '🤯': 'exploding_head',
   '🤠': 'cowboy_hat_face',
   '🥳': 'partying_face',
@@ -14614,6 +14673,8 @@ export var emojiToName = {
   '💟': 'heart_decoration',
   '❣️': 'heavy_heart_exclamation',
   '💔': 'broken_heart',
+  '❤️‍🔥': 'heart_on_fire',
+  '❤️‍🩹': 'mending_heart',
   '❤️': 'heart',
   '🧡': 'orange_heart',
   '💛': 'yellow_heart',
@@ -14696,6 +14757,8 @@ export var emojiToName = {
   '👱': 'blond_haired_person',
   '👨': 'man',
   '🧔': 'bearded_person',
+  '🧔‍♂️': 'man_beard',
+  '🧔‍♀️': 'woman_beard',
   '👨‍🦰': 'red_haired_man',
   '👨‍🦱': 'curly_haired_man',
   '👨‍🦳': 'white_haired_man',

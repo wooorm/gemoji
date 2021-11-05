@@ -8,7 +8,7 @@ sense of the first column!
 
 <!--support start-->
 
-Gemoji supports 1805 emoji.
+Gemoji supports 1812 emoji.
 
 | Emoji | Name(s) | Tags | Escaped Unicode |
 | - | - | - | - |
@@ -49,10 +49,12 @@ Gemoji supports 1805 emoji.
 | 😐 | neutral_face | meh | \ud83d\ude10 |
 | 😑 | expressionless | | \ud83d\ude11 |
 | 😶 | no_mouth | mute; silence | \ud83d\ude36 |
+| 😶‍🌫️ | face_in_clouds | | \ud83d\ude36\u200d\ud83c\udf2b\ufe0f |
 | 😏 | smirk | smug | \ud83d\ude0f |
 | 😒 | unamused | meh | \ud83d\ude12 |
 | 🙄 | roll_eyes | | \ud83d\ude44 |
 | 😬 | grimacing | | \ud83d\ude2c |
+| 😮‍💨 | face_exhaling | | \ud83d\ude2e\u200d\ud83d\udca8 |
 | 🤥 | lying_face | liar | \ud83e\udd25 |
 | 😌 | relieved | whew | \ud83d\ude0c |
 | 😔 | pensive | | \ud83d\ude14 |
@@ -69,6 +71,7 @@ Gemoji supports 1805 emoji.
 | 🥶 | cold_face | freezing; ice | \ud83e\udd76 |
 | 🥴 | woozy_face | groggy | \ud83e\udd74 |
 | 😵 | dizzy_face | | \ud83d\ude35 |
+| 😵‍💫 | face_with_spiral_eyes | | \ud83d\ude35\u200d\ud83d\udcab |
 | 🤯 | exploding_head | mind; blown | \ud83e\udd2f |
 | 🤠 | cowboy_hat_face | | \ud83e\udd20 |
 | 🥳 | partying_face | celebration; birthday | \ud83e\udd73 |
@@ -140,6 +143,8 @@ Gemoji supports 1805 emoji.
 | 💟 | heart_decoration | | \ud83d\udc9f |
 | ❣️ | heavy_heart_exclamation | | \u2763\ufe0f |
 | 💔 | broken_heart | | \ud83d\udc94 |
+| ❤️‍🔥 | heart_on_fire | | \u2764\ufe0f\u200d\ud83d\udd25 |
+| ❤️‍🩹 | mending_heart | | \u2764\ufe0f\u200d\ud83e\ude79 |
 | ❤️ | heart | love | \u2764\ufe0f |
 | 🧡 | orange_heart | | \ud83e\udde1 |
 | 💛 | yellow_heart | | \ud83d\udc9b |
@@ -222,6 +227,8 @@ Gemoji supports 1805 emoji.
 | 👱 | blond_haired_person | | \ud83d\udc71 |
 | 👨 | man | mustache; father; dad | \ud83d\udc68 |
 | 🧔 | bearded_person | | \ud83e\uddd4 |
+| 🧔‍♂️ | man_beard | | \ud83e\uddd4\u200d\u2642\ufe0f |
+| 🧔‍♀️ | woman_beard | | \ud83e\uddd4\u200d\u2640\ufe0f |
 | 👨‍🦰 | red_haired_man | | \ud83d\udc68\u200d\ud83e\uddb0 |
 | 👨‍🦱 | curly_haired_man | | \ud83d\udc68\u200d\ud83e\uddb1 |
 | 👨‍🦳 | white_haired_man | | \ud83d\udc68\u200d\ud83e\uddb3 |
