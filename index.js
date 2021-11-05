@@ -7,7 +7,7 @@
  * @property {Array<string>} tags
  *   Example: `['smile', 'happy']`.
  * @property {string} description
- *   Example: `['grinning face']`.
+ *   Example: `'grinning face'`.
  * @property {string} category
  *   Example: `'Smileys & Emotion'`.
  */

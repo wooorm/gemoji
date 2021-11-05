@@ -7,7 +7,7 @@ import assert from 'node:assert'
 import test from 'tape'
 import {gemoji} from './index.js'
 
-/** @type {Emoji[]} */
+/** @type {Array<Emoji>} */
 const emoji = JSON.parse(String(fs.readFileSync('emoji.json')))
 
 test('gemoji', function (t) {

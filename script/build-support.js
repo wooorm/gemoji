@@ -14,7 +14,7 @@ export default function support() {
 
     function data() {
       const header = ['Emoji', 'Name(s)', 'Tags', 'Escaped Unicode']
-      /** @type {TableRow[]} */
+      /** @type {Array<TableRow>} */
       const rows = [
         u(
           'tableRow',
