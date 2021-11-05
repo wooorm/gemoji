@@ -1,22 +1,39 @@
+/**
+ * @typedef Emoji
+ * @property {string} emoji
+ * @property {string} description
+ * @property {string} category
+ * @property {Array<string>} aliases
+ * @property {Array<string>} tags
+ * @property {string} unicode_version
+ * @property {string} ios_version
+ *
+ * @typedef Gemoji
+ * @property {string} emoji
+ * @property {Array<string>} names
+ * @property {Array<string>} tags
+ * @property {string} description
+ * @property {string} category
+ */
+
 import fs from 'node:fs'
 
-const input = JSON.parse(fs.readFileSync('emoji.json'))
+/** @type {Array<Emoji>} */
+const input = JSON.parse(String(fs.readFileSync('emoji.json')))
 
+/** @type {Array<Gemoji>} */
 const main = []
+/** @type {Record<string, string>} */
 const nameToEmoji = {}
+/** @type {Record<string, string>} */
 const emojiToName = {}
 let index = -1
-let info
-let emoji
-let names
-let name
-let offset
 
 while (++index < input.length) {
-  info = input[index]
-  emoji = info.emoji
-  names = info.aliases
-  name = names[0]
+  const info = input[index]
+  const emoji = info.emoji
+  const names = info.aliases
+  const name = names[0]
 
   // Ignore gemoji without unicode representation.
   if (!emoji) {
@@ -33,7 +50,8 @@ while (++index < input.length) {
   })
 
   emojiToName[emoji] = name
-  offset = -1
+
+  let offset = -1
   while (++offset < names.length) {
     nameToEmoji[names[offset]] = emoji
   }
@@ -41,8 +59,39 @@ while (++index < input.length) {
 
 fs.writeFileSync(
   'index.js',
-  `export const gemoji = ${JSON.stringify(main, null, 2)}
-  export const nameToEmoji = ${JSON.stringify(nameToEmoji, null, 2)}
-  export const emojiToName = ${JSON.stringify(emojiToName, null, 2)}
-  `
+  `/**
+ * @typedef Gemoji
+ * @property {string} emoji
+ *   Example: \`'😀'\`.
+ * @property {Array<string>} names
+ *   Example: \`['grinning']\`.
+ * @property {Array<string>} tags
+ *   Example: \`['smile', 'happy']\`.
+ * @property {string} description
+ *   Example: \`['grinning face']\`.
+ * @property {string} category
+ *   Example: \`'Smileys & Emotion'\`.
+ */
+
+/**
+ * List of gemoji.
+ *
+ * @type {Array<Gemoji>}
+ */
+export const gemoji = ${JSON.stringify(main, null, 2)}
+
+/**
+ * Map of names to emoji.
+ *
+ * @type {Record<string, string>}
+ */
+export const nameToEmoji = ${JSON.stringify(nameToEmoji, null, 2)}
+
+/**
+ * Map of emoji to primary name.
+ *
+ * @type {Record<string, string>}
+ */
+export const emojiToName = ${JSON.stringify(emojiToName, null, 2)}
+`
 )

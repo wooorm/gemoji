@@ -1,3 +1,22 @@
+/**
+ * @typedef Gemoji
+ * @property {string} emoji
+ *   Example: `'😀'`.
+ * @property {Array<string>} names
+ *   Example: `['grinning']`.
+ * @property {Array<string>} tags
+ *   Example: `['smile', 'happy']`.
+ * @property {string} description
+ *   Example: `['grinning face']`.
+ * @property {string} category
+ *   Example: `'Smileys & Emotion'`.
+ */
+
+/**
+ * List of gemoji.
+ *
+ * @type {Array<Gemoji>}
+ */
 export const gemoji = [
   {
     emoji: '😀',
@@ -12684,6 +12703,12 @@ export const gemoji = [
     category: 'Flags'
   }
 ]
+
+/**
+ * Map of names to emoji.
+ *
+ * @type {Record<string, string>}
+ */
 export const nameToEmoji = {
   100: '💯',
   1234: '🔢',
@@ -14541,6 +14566,12 @@ export const nameToEmoji = {
   scotland: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
   wales: '🏴󠁧󠁢󠁷󠁬󠁳󠁿'
 }
+
+/**
+ * Map of emoji to primary name.
+ *
+ * @type {Record<string, string>}
+ */
 export const emojiToName = {
   '😀': 'grinning',
   '😃': 'smiley',

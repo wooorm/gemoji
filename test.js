@@ -1,38 +1,22 @@
+/**
+ * @typedef {import('./script/build-data').Emoji} Emoji
+ */
+
 import fs from 'node:fs'
 import assert from 'node:assert'
 import test from 'tape'
 import {gemoji} from './index.js'
-
-/**
- * @typedef {Object} Gemoji
- * @property {string} emoji
- * @property {string} description
- * @property {string} category
- * @property {string[]} names
- * @property {string[]} tags
- */
-
-/**
- * @typedef {Object} Emoji
- * @property {string} emoji
- * @property {string} description
- * @property {string} category
- * @property {string[]} aliases
- * @property {string[]} tags
- */
 
 /** @type {Emoji[]} */
 const emoji = JSON.parse(String(fs.readFileSync('emoji.json')))
 
 test('gemoji', function (t) {
   let index = -1
-  /** @type {Gemoji} */
-  let info
 
   t.plan(emoji.length)
 
   while (++index < gemoji.length) {
-    info = gemoji[index]
+    const info = gemoji[index]
 
     t.doesNotThrow(function () {
       assert.strictEqual(info.emoji, emoji[index].emoji, 'emoji')

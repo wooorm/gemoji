@@ -1,41 +1,33 @@
+/**
+ * @typedef {import('mdast').Root} Root
+ * @typedef {import('mdast').TableRow} TableRow
+ */
+
 import {zone} from 'mdast-zone'
 import {u} from 'unist-builder'
 import {gemoji} from '../index.js'
 
+/** @type {import('unified').Plugin<[], Root>} */
 export default function support() {
-  return transformer
-}
+  return (tree) => {
+    zone(tree, 'support', (start, _, end) => [start, ...data(), end])
 
-function transformer(tree) {
-  zone(tree, 'support', replace)
-
-  function replace(start, nodes, end) {
-    return [start].concat(data()).concat(end || [])
-  }
-
-  function data() {
-    return [
-      u('paragraph', [
-        u('text', 'Gemoji supports ' + gemoji.length + ' emoji.')
-      ]),
-      table()
-    ]
-  }
-
-  function table() {
-    const header = ['Emoji', 'Name(s)', 'Tags', 'Escaped Unicode']
-
-    return u(
-      'table',
-      {align: []},
-      [
+    function data() {
+      const header = ['Emoji', 'Name(s)', 'Tags', 'Escaped Unicode']
+      /** @type {TableRow[]} */
+      const rows = [
         u(
           'tableRow',
           header.map((value) => u('tableCell', [u('text', value)]))
         )
-      ].concat(
-        gemoji.map(function (info) {
-          return u(
+      ]
+
+      let index = -1
+      while (++index < gemoji.length) {
+        const info = gemoji[index]
+
+        rows.push(
+          u(
             'tableRow',
             [
               info.emoji,
@@ -44,18 +36,27 @@ function transformer(tree) {
               escape(info.emoji)
             ].map((value) => u('tableCell', [u('text', value)]))
           )
-        })
-      )
-    )
-  }
+        )
+      }
 
-  // Escape a string into its unicode points.
-  function escape(value) {
-    return value
-      .split('')
-      .map(function (character) {
-        return '\\u' + character.charCodeAt(0).toString(16)
-      })
-      .join('')
+      return [
+        u('paragraph', [
+          u('text', 'Gemoji supports ' + gemoji.length + ' emoji.')
+        ]),
+        u('table', {align: []}, rows)
+      ]
+    }
+
+    /**
+     * Escape a string into its unicode points.
+     *
+     * @param {string} value
+     */
+    function escape(value) {
+      return value
+        .split('')
+        .map((character) => '\\u' + character.charCodeAt(0).toString(16))
+        .join('')
+    }
   }
 }

@@ -1,6 +1,5 @@
 {
-  "files": ["index.js"],
-  "include": ["*.js"],
+  "include": ["script/**/*.js", "*.js"],
   "compilerOptions": {
     "target": "ES2020",
     "lib": ["ES2020"],
@@ -11,6 +10,7 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": true
   }
 }
