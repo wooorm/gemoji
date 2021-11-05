@@ -23,7 +23,7 @@ function transformer(tree) {
   }
 
   function table() {
-    var header = ['Emoji', 'Name(s)', 'Tags', 'Escaped Unicode']
+    const header = ['Emoji', 'Name(s)', 'Tags', 'Escaped Unicode']
 
     return u(
       'table',

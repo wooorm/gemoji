@@ -1,16 +1,16 @@
 import fs from 'node:fs'
 
-var input = JSON.parse(fs.readFileSync('emoji.json'))
+const input = JSON.parse(fs.readFileSync('emoji.json'))
 
-var main = []
-var nameToEmoji = {}
-var emojiToName = {}
-var index = -1
-var info
-var emoji
-var names
-var name
-var offset
+const main = []
+const nameToEmoji = {}
+const emojiToName = {}
+let index = -1
+let info
+let emoji
+let names
+let name
+let offset
 
 while (++index < input.length) {
   info = input[index]
@@ -41,8 +41,8 @@ while (++index < input.length) {
 
 fs.writeFileSync(
   'index.js',
-  `export var gemoji = ${JSON.stringify(main, null, 2)}
-  export var nameToEmoji = ${JSON.stringify(nameToEmoji, null, 2)}
-  export var emojiToName = ${JSON.stringify(emojiToName, null, 2)}
+  `export const gemoji = ${JSON.stringify(main, null, 2)}
+  export const nameToEmoji = ${JSON.stringify(nameToEmoji, null, 2)}
+  export const emojiToName = ${JSON.stringify(emojiToName, null, 2)}
   `
 )

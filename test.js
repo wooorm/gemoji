@@ -22,12 +22,12 @@ import {gemoji} from './index.js'
  */
 
 /** @type {Emoji[]} */
-var emoji = JSON.parse(String(fs.readFileSync('emoji.json')))
+const emoji = JSON.parse(String(fs.readFileSync('emoji.json')))
 
 test('gemoji', function (t) {
-  var index = -1
+  let index = -1
   /** @type {Gemoji} */
-  var info
+  let info
 
   t.plan(emoji.length)
 

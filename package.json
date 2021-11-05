@@ -66,10 +66,7 @@
   "xo": {
     "prettier": true,
     "rules": {
-      "import/no-mutable-exports": "off",
-      "camelcase": "off",
-      "no-var": "off",
-      "prefer-arrow-callback": "off"
+      "camelcase": "off"
     }
   },
   "remarkConfig": {

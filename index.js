@@ -1,4 +1,4 @@
-export var gemoji = [
+export const gemoji = [
   {
     emoji: '😀',
     names: ['grinning'],
@@ -12684,7 +12684,7 @@ export var gemoji = [
     category: 'Flags'
   }
 ]
-export var nameToEmoji = {
+export const nameToEmoji = {
   100: '💯',
   1234: '🔢',
   grinning: '😀',
@@ -14541,7 +14541,7 @@ export var nameToEmoji = {
   scotland: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
   wales: '🏴󠁧󠁢󠁷󠁬󠁳󠁿'
 }
-export var emojiToName = {
+export const emojiToName = {
   '😀': 'grinning',
   '😃': 'smiley',
   '😄': 'smile',
