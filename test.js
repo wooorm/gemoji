@@ -1,5 +1,5 @@
-import fs from 'fs'
-import assert from 'assert'
+import fs from 'node:fs'
+import assert from 'node:assert'
 import test from 'tape'
 import {gemoji} from './index.js'
 

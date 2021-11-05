@@ -1,5 +1,5 @@
-import zone from 'mdast-zone'
-import u from 'unist-builder'
+import {zone} from 'mdast-zone'
+import {u} from 'unist-builder'
 import {gemoji} from '../index.js'
 
 export default function support() {

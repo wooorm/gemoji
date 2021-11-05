@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from 'node:fs'
 
 var input = JSON.parse(fs.readFileSync('emoji.json'))
 
