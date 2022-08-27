@@ -3,6 +3,7 @@
  * @typedef {import('mdast').TableRow} TableRow
  */
 
+import assert from 'node:assert'
 import {zone} from 'mdast-zone'
 import {u} from 'unist-builder'
 import {gemoji} from '../index.js'
@@ -55,7 +56,11 @@ export default function support() {
     function escape(value) {
       return value
         .split('')
-        .map((character) => '\\u' + character.charCodeAt(0).toString(16))
+        .map((character) => {
+          const cp = character.codePointAt(0)
+          assert(cp)
+          return '\\u' + cp.toString(16)
+        })
         .join('')
     }
   }
