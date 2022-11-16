@@ -18,13 +18,12 @@ Info on gemoji.
     *   [`nameToEmoji`](#nametoemoji)
     *   [`emojiToName`](#emojitoname)
 *   [Types](#types)
-*   [List of gemoji](#list-of-gemoji)
 *   [Data](#data)
 *   [Compatibility](#compatibility)
 *   [Security](#security)
 *   [Related](#related)
 *   [Contribute](#contribute)
-*   [Disclaimer](#disclaimer)
+*   [Notice](#notice)
 *   [License](#license)
 
 ## What is this?
@@ -45,7 +44,7 @@ Use this package if you need:
 ## Install
 
 This package is [ESM only][esm].
-In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
+In Node.js (version 14.14+, 16.0+), install with [npm][]:
 
 ```sh
 npm install gemoji
@@ -71,8 +70,8 @@ See examples below.
 
 ## API
 
-This package exports the following identifiers: `gemoji`, `nameToEmoji`,
-`emojiToName`.
+This package exports the identifiers `gemoji`, `emojiToName`, and
+`nameToEmoji`.
 There is no default export.
 
 ### `gemoji`
@@ -157,17 +156,14 @@ console.log(emojiToName['\uD83D\uDCA9']) //=> hankey
 ## Types
 
 This package is fully typed with [TypeScript][].
-It exports an additional `Gemoji` type that models its respective interface.
-
-## List of gemoji
-
-See [`support.md`][support].
+It exports an additional type `Gemoji`.
 
 ## Data
 
-The emoji list is crawled from [`github/gemoji`][gh] and later processed for
-relevant information.
-See its [license][gh-license] for more information.
+See [`support.md`][support] for what info is included.
+
+The data is crawled from [`github/gemoji`][gh] and later processed for relevant
+information.
 
 No images are included in this repository: the copyrighted material may or may
 not be available on the users computer.
@@ -175,7 +171,7 @@ not be available on the users computer.
 ## Compatibility
 
 This package is at least compatible with all maintained versions of Node.js.
-As of now, that is Node.js 12.20+, 14.14+, and 16.0+.
+As of now, that is Node.js 14.14+ and 16.0+.
 It also works in Deno and modern browsers.
 
 ## Security
@@ -189,18 +185,20 @@ This package is safe.
 *   [`wooorm/emoticon`](https://github.com/wooorm/emoticon)
     — info on ASCII emoticons
 *   [`wooorm/strip-skin-tone`](https://github.com/wooorm/strip-skin-tone)
-    — Strip skin-tones from emoji
+    — strip skin-tones from emoji
 *   [`wooorm.com/checkmoji`](https://wooorm.com/checkmoji/)
-    — Check emoji across platforms
+    — check emoji across platforms
 
 ## Contribute
 
 Yes please!
 See [How to Contribute to Open Source][contribute].
 
-## Disclaimer
+## Notice
 
 `wooorm/gemoji` is not affiliated with **GitHub**.
+
+See its [`github/gemoji`][gh-license] for info on GHs licensing.
 
 ## License
 
