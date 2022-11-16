@@ -89,6 +89,13 @@ export const gemoji = [
     category: 'Smileys & Emotion'
   },
   {
+    emoji: '🫠',
+    names: ['melting_face'],
+    tags: ['sarcasm', 'dread'],
+    description: 'melting face',
+    category: 'Smileys & Emotion'
+  },
+  {
     emoji: '😉',
     names: ['wink'],
     tags: ['flirt'],
@@ -218,7 +225,7 @@ export const gemoji = [
     emoji: '🤗',
     names: ['hugs'],
     tags: [],
-    description: 'hugging face',
+    description: 'smiling face with open hands',
     category: 'Smileys & Emotion'
   },
   {
@@ -226,6 +233,20 @@ export const gemoji = [
     names: ['hand_over_mouth'],
     tags: ['quiet', 'whoops'],
     description: 'face with hand over mouth',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '🫢',
+    names: ['face_with_open_eyes_and_hand_over_mouth'],
+    tags: ['gasp', 'shock'],
+    description: 'face with open eyes and hand over mouth',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '🫣',
+    names: ['face_with_peeking_eye'],
+    tags: [],
+    description: 'face with peeking eye',
     category: 'Smileys & Emotion'
   },
   {
@@ -240,6 +261,13 @@ export const gemoji = [
     names: ['thinking'],
     tags: [],
     description: 'thinking face',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '🫡',
+    names: ['saluting_face'],
+    tags: ['respect'],
+    description: 'saluting face',
     category: 'Smileys & Emotion'
   },
   {
@@ -275,6 +303,13 @@ export const gemoji = [
     names: ['no_mouth'],
     tags: ['mute', 'silence'],
     description: 'face without mouth',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '🫥',
+    names: ['dotted_line_face'],
+    tags: ['invisible'],
+    description: 'dotted line face',
     category: 'Smileys & Emotion'
   },
   {
@@ -428,7 +463,7 @@ export const gemoji = [
     emoji: '😵',
     names: ['dizzy_face'],
     tags: [],
-    description: 'knocked-out face',
+    description: 'face with crossed-out eyes',
     category: 'Smileys & Emotion'
   },
   {
@@ -495,6 +530,13 @@ export const gemoji = [
     category: 'Smileys & Emotion'
   },
   {
+    emoji: '🫤',
+    names: ['face_with_diagonal_mouth'],
+    tags: ['confused'],
+    description: 'face with diagonal mouth',
+    category: 'Smileys & Emotion'
+  },
+  {
     emoji: '😟',
     names: ['worried'],
     tags: ['nervous'],
@@ -548,6 +590,13 @@ export const gemoji = [
     names: ['pleading_face'],
     tags: ['puppy', 'eyes'],
     description: 'pleading face',
+    category: 'Smileys & Emotion'
+  },
+  {
+    emoji: '🥹',
+    names: ['face_holding_back_tears'],
+    tags: ['tears', 'gratitude'],
+    description: 'face holding back tears',
     category: 'Smileys & Emotion'
   },
   {
@@ -1146,6 +1195,34 @@ export const gemoji = [
     category: 'People & Body'
   },
   {
+    emoji: '🫱',
+    names: ['rightwards_hand'],
+    tags: [],
+    description: 'rightwards hand',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫲',
+    names: ['leftwards_hand'],
+    tags: [],
+    description: 'leftwards hand',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫳',
+    names: ['palm_down_hand'],
+    tags: [],
+    description: 'palm down hand',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫴',
+    names: ['palm_up_hand'],
+    tags: [],
+    description: 'palm up hand',
+    category: 'People & Body'
+  },
+  {
     emoji: '👌',
     names: ['ok_hand'],
     tags: [],
@@ -1178,6 +1255,13 @@ export const gemoji = [
     names: ['crossed_fingers'],
     tags: ['luck', 'hopeful'],
     description: 'crossed fingers',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫰',
+    names: ['hand_with_index_finger_and_thumb_crossed'],
+    tags: [],
+    description: 'hand with index finger and thumb crossed',
     category: 'People & Body'
   },
   {
@@ -1244,6 +1328,13 @@ export const gemoji = [
     category: 'People & Body'
   },
   {
+    emoji: '🫵',
+    names: ['index_pointing_at_the_viewer'],
+    tags: [],
+    description: 'index pointing at the viewer',
+    category: 'People & Body'
+  },
+  {
     emoji: '👍',
     names: ['+1', 'thumbsup'],
     tags: ['approve', 'ok'],
@@ -1297,6 +1388,13 @@ export const gemoji = [
     names: ['raised_hands'],
     tags: ['hooray'],
     description: 'raising hands',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫶',
+    names: ['heart_hands'],
+    tags: ['love'],
+    description: 'heart hands',
     category: 'People & Body'
   },
   {
@@ -1465,6 +1563,13 @@ export const gemoji = [
     names: ['lips'],
     tags: ['kiss'],
     description: 'mouth',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫦',
+    names: ['biting_lip'],
+    tags: [],
+    description: 'biting lip',
     category: 'People & Body'
   },
   {
@@ -2301,6 +2406,13 @@ export const gemoji = [
     category: 'People & Body'
   },
   {
+    emoji: '🫅',
+    names: ['person_with_crown'],
+    tags: [],
+    description: 'person with crown',
+    category: 'People & Body'
+  },
+  {
     emoji: '🤴',
     names: ['prince'],
     tags: ['crown', 'royal'],
@@ -2396,6 +2508,20 @@ export const gemoji = [
     names: ['pregnant_woman'],
     tags: [],
     description: 'pregnant woman',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫃',
+    names: ['pregnant_man'],
+    tags: [],
+    description: 'pregnant man',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🫄',
+    names: ['pregnant_person'],
+    tags: [],
+    description: 'pregnant person',
     category: 'People & Body'
   },
   {
@@ -2641,6 +2767,13 @@ export const gemoji = [
     names: ['zombie_woman'],
     tags: [],
     description: 'woman zombie',
+    category: 'People & Body'
+  },
+  {
+    emoji: '🧌',
+    names: ['troll'],
+    tags: [],
+    description: 'troll',
     category: 'People & Body'
   },
   {
@@ -4261,6 +4394,13 @@ export const gemoji = [
     category: 'Animals & Nature'
   },
   {
+    emoji: '🪸',
+    names: ['coral'],
+    tags: [],
+    description: 'coral',
+    category: 'Animals & Nature'
+  },
+  {
     emoji: '🐌',
     names: ['snail'],
     tags: ['slow'],
@@ -4391,6 +4531,13 @@ export const gemoji = [
     names: ['white_flower'],
     tags: [],
     description: 'white flower',
+    category: 'Animals & Nature'
+  },
+  {
+    emoji: '🪷',
+    names: ['lotus'],
+    tags: [],
+    description: 'lotus',
     category: 'Animals & Nature'
   },
   {
@@ -4531,6 +4678,20 @@ export const gemoji = [
     names: ['leaves'],
     tags: ['leaf'],
     description: 'leaf fluttering in wind',
+    category: 'Animals & Nature'
+  },
+  {
+    emoji: '🪹',
+    names: ['empty_nest'],
+    tags: [],
+    description: 'empty nest',
+    category: 'Animals & Nature'
+  },
+  {
+    emoji: '🪺',
+    names: ['nest_with_eggs'],
+    tags: [],
+    description: 'nest with eggs',
     category: 'Animals & Nature'
   },
   {
@@ -4762,6 +4923,13 @@ export const gemoji = [
     names: ['peanuts'],
     tags: [],
     description: 'peanuts',
+    category: 'Food & Drink'
+  },
+  {
+    emoji: '🫘',
+    names: ['beans'],
+    tags: [],
+    description: 'beans',
     category: 'Food & Drink'
   },
   {
@@ -5360,6 +5528,13 @@ export const gemoji = [
     category: 'Food & Drink'
   },
   {
+    emoji: '🫗',
+    names: ['pouring_liquid'],
+    tags: [],
+    description: 'pouring liquid',
+    category: 'Food & Drink'
+  },
+  {
     emoji: '🥤',
     names: ['cup_with_straw'],
     tags: [],
@@ -5427,6 +5602,13 @@ export const gemoji = [
     names: ['hocho', 'knife'],
     tags: ['cut', 'chop'],
     description: 'kitchen knife',
+    category: 'Food & Drink'
+  },
+  {
+    emoji: '🫙',
+    names: ['jar'],
+    tags: [],
+    description: 'jar',
     category: 'Food & Drink'
   },
   {
@@ -5864,6 +6046,13 @@ export const gemoji = [
     category: 'Travel & Places'
   },
   {
+    emoji: '🛝',
+    names: ['playground_slide'],
+    tags: [],
+    description: 'playground slide',
+    category: 'Travel & Places'
+  },
+  {
     emoji: '🎡',
     names: ['ferris_wheel'],
     tags: [],
@@ -6200,6 +6389,13 @@ export const gemoji = [
     category: 'Travel & Places'
   },
   {
+    emoji: '🛞',
+    names: ['wheel'],
+    tags: [],
+    description: 'wheel',
+    category: 'Travel & Places'
+  },
+  {
     emoji: '🚨',
     names: ['rotating_light'],
     tags: ['911', 'emergency'],
@@ -6239,6 +6435,13 @@ export const gemoji = [
     names: ['anchor'],
     tags: ['ship'],
     description: 'anchor',
+    category: 'Travel & Places'
+  },
+  {
+    emoji: '🛟',
+    names: ['ring_buoy'],
+    tags: ['life preserver'],
+    description: 'ring buoy',
     category: 'Travel & Places'
   },
   {
@@ -7369,6 +7572,13 @@ export const gemoji = [
     category: 'Activities'
   },
   {
+    emoji: '🪬',
+    names: ['hamsa'],
+    tags: [],
+    description: 'hamsa',
+    category: 'Activities'
+  },
+  {
     emoji: '🎮',
     names: ['video_game'],
     tags: ['play', 'controller', 'console'],
@@ -7415,6 +7625,13 @@ export const gemoji = [
     names: ['pinata'],
     tags: [],
     description: 'piñata',
+    category: 'Activities'
+  },
+  {
+    emoji: '🪩',
+    names: ['mirror_ball'],
+    tags: ['disco', 'party'],
+    description: 'mirror ball',
     category: 'Activities'
   },
   {
@@ -8080,6 +8297,13 @@ export const gemoji = [
     names: ['battery'],
     tags: ['power'],
     description: 'battery',
+    category: 'Objects'
+  },
+  {
+    emoji: '🪫',
+    names: ['low_battery'],
+    tags: [],
+    description: 'low battery',
     category: 'Objects'
   },
   {
@@ -9063,10 +9287,24 @@ export const gemoji = [
     category: 'Objects'
   },
   {
+    emoji: '🩼',
+    names: ['crutch'],
+    tags: [],
+    description: 'crutch',
+    category: 'Objects'
+  },
+  {
     emoji: '🩺',
     names: ['stethoscope'],
     tags: [],
     description: 'stethoscope',
+    category: 'Objects'
+  },
+  {
+    emoji: '🩻',
+    names: ['x_ray'],
+    tags: [],
+    description: 'x-ray',
     category: 'Objects'
   },
   {
@@ -9210,6 +9448,13 @@ export const gemoji = [
     category: 'Objects'
   },
   {
+    emoji: '🫧',
+    names: ['bubbles'],
+    tags: [],
+    description: 'bubbles',
+    category: 'Objects'
+  },
+  {
     emoji: '🪥',
     names: ['toothbrush'],
     tags: [],
@@ -9277,6 +9522,13 @@ export const gemoji = [
     names: ['placard'],
     tags: [],
     description: 'placard',
+    category: 'Objects'
+  },
+  {
+    emoji: '🪪',
+    names: ['identification_card'],
+    tags: [],
+    description: 'identification card',
     category: 'Objects'
   },
   {
@@ -9998,6 +10250,13 @@ export const gemoji = [
     names: ['heavy_division_sign'],
     tags: [],
     description: 'divide',
+    category: 'Symbols'
+  },
+  {
+    emoji: '🟰',
+    names: ['heavy_equals_sign'],
+    tags: [],
+    description: 'heavy equals sign',
     category: 'Symbols'
   },
   {
@@ -12723,6 +12982,7 @@ export const nameToEmoji = {
   joy: '😂',
   slightly_smiling_face: '🙂',
   upside_down_face: '🙃',
+  melting_face: '🫠',
   wink: '😉',
   blush: '😊',
   innocent: '😇',
@@ -12743,13 +13003,17 @@ export const nameToEmoji = {
   money_mouth_face: '🤑',
   hugs: '🤗',
   hand_over_mouth: '🤭',
+  face_with_open_eyes_and_hand_over_mouth: '🫢',
+  face_with_peeking_eye: '🫣',
   shushing_face: '🤫',
   thinking: '🤔',
+  saluting_face: '🫡',
   zipper_mouth_face: '🤐',
   raised_eyebrow: '🤨',
   neutral_face: '😐',
   expressionless: '😑',
   no_mouth: '😶',
+  dotted_line_face: '🫥',
   face_in_clouds: '😶‍🌫️',
   smirk: '😏',
   unamused: '😒',
@@ -12781,6 +13045,7 @@ export const nameToEmoji = {
   nerd_face: '🤓',
   monocle_face: '🧐',
   confused: '😕',
+  face_with_diagonal_mouth: '🫤',
   worried: '😟',
   slightly_frowning_face: '🙁',
   frowning_face: '☹️',
@@ -12789,6 +13054,7 @@ export const nameToEmoji = {
   astonished: '😲',
   flushed: '😳',
   pleading_face: '🥺',
+  face_holding_back_tears: '🥹',
   frowning: '😦',
   anguished: '😧',
   fearful: '😨',
@@ -12878,11 +13144,16 @@ export const nameToEmoji = {
   hand: '✋',
   raised_hand: '✋',
   vulcan_salute: '🖖',
+  rightwards_hand: '🫱',
+  leftwards_hand: '🫲',
+  palm_down_hand: '🫳',
+  palm_up_hand: '🫴',
   ok_hand: '👌',
   pinched_fingers: '🤌',
   pinching_hand: '🤏',
   v: '✌️',
   crossed_fingers: '🤞',
+  hand_with_index_finger_and_thumb_crossed: '🫰',
   love_you_gesture: '🤟',
   metal: '🤘',
   call_me_hand: '🤙',
@@ -12893,6 +13164,7 @@ export const nameToEmoji = {
   fu: '🖕',
   point_down: '👇',
   point_up: '☝️',
+  index_pointing_at_the_viewer: '🫵',
   '+1': '👍',
   thumbsup: '👍',
   '-1': '👎',
@@ -12906,6 +13178,7 @@ export const nameToEmoji = {
   fist_right: '🤜',
   clap: '👏',
   raised_hands: '🙌',
+  heart_hands: '🫶',
   open_hands: '👐',
   palms_up_together: '🤲',
   handshake: '🤝',
@@ -12930,6 +13203,7 @@ export const nameToEmoji = {
   eye: '👁️',
   tongue: '👅',
   lips: '👄',
+  biting_lip: '🫦',
   baby: '👶',
   child: '🧒',
   boy: '👦',
@@ -13056,6 +13330,7 @@ export const nameToEmoji = {
   construction_worker: '👷',
   construction_worker_man: '👷‍♂️',
   construction_worker_woman: '👷‍♀️',
+  person_with_crown: '🫅',
   prince: '🤴',
   princess: '👸',
   person_with_turban: '👳',
@@ -13071,6 +13346,8 @@ export const nameToEmoji = {
   woman_with_veil: '👰‍♀️',
   bride_with_veil: '👰‍♀️',
   pregnant_woman: '🤰',
+  pregnant_man: '🫃',
+  pregnant_person: '🫄',
   breast_feeding: '🤱',
   woman_feeding_baby: '👩‍🍼',
   man_feeding_baby: '👨‍🍼',
@@ -13106,6 +13383,7 @@ export const nameToEmoji = {
   zombie: '🧟',
   zombie_man: '🧟‍♂️',
   zombie_woman: '🧟‍♀️',
+  troll: '🧌',
   massage: '💆',
   massage_man: '💆‍♂️',
   massage_woman: '💆‍♀️',
@@ -13343,6 +13621,7 @@ export const nameToEmoji = {
   shark: '🦈',
   octopus: '🐙',
   shell: '🐚',
+  coral: '🪸',
   snail: '🐌',
   butterfly: '🦋',
   bug: '🐛',
@@ -13363,6 +13642,7 @@ export const nameToEmoji = {
   bouquet: '💐',
   cherry_blossom: '🌸',
   white_flower: '💮',
+  lotus: '🪷',
   rosette: '🏵️',
   rose: '🌹',
   wilted_flower: '🥀',
@@ -13383,6 +13663,8 @@ export const nameToEmoji = {
   maple_leaf: '🍁',
   fallen_leaf: '🍂',
   leaves: '🍃',
+  empty_nest: '🪹',
+  nest_with_eggs: '🪺',
   grapes: '🍇',
   melon: '🍈',
   watermelon: '🍉',
@@ -13418,6 +13700,7 @@ export const nameToEmoji = {
   onion: '🧅',
   mushroom: '🍄',
   peanuts: '🥜',
+  beans: '🫘',
   chestnut: '🌰',
   bread: '🍞',
   croissant: '🥐',
@@ -13503,6 +13786,7 @@ export const nameToEmoji = {
   beers: '🍻',
   clinking_glasses: '🥂',
   tumbler_glass: '🥃',
+  pouring_liquid: '🫗',
   cup_with_straw: '🥤',
   bubble_tea: '🧋',
   beverage_box: '🧃',
@@ -13514,6 +13798,7 @@ export const nameToEmoji = {
   spoon: '🥄',
   hocho: '🔪',
   knife: '🔪',
+  jar: '🫙',
   amphora: '🏺',
   earth_africa: '🌍',
   earth_americas: '🌎',
@@ -13576,6 +13861,7 @@ export const nameToEmoji = {
   bridge_at_night: '🌉',
   hotsprings: '♨️',
   carousel_horse: '🎠',
+  playground_slide: '🛝',
   ferris_wheel: '🎡',
   roller_coaster: '🎢',
   barber: '💈',
@@ -13625,12 +13911,14 @@ export const nameToEmoji = {
   railway_track: '🛤️',
   oil_drum: '🛢️',
   fuelpump: '⛽',
+  wheel: '🛞',
   rotating_light: '🚨',
   traffic_light: '🚥',
   vertical_traffic_light: '🚦',
   stop_sign: '🛑',
   construction: '🚧',
   anchor: '⚓',
+  ring_buoy: '🛟',
   boat: '⛵',
   sailboat: '⛵',
   canoe: '🛶',
@@ -13794,6 +14082,7 @@ export const nameToEmoji = {
   crystal_ball: '🔮',
   magic_wand: '🪄',
   nazar_amulet: '🧿',
+  hamsa: '🪬',
   video_game: '🎮',
   joystick: '🕹️',
   slot_machine: '🎰',
@@ -13801,6 +14090,7 @@ export const nameToEmoji = {
   jigsaw: '🧩',
   teddy_bear: '🧸',
   pinata: '🪅',
+  mirror_ball: '🪩',
   nesting_dolls: '🪆',
   spades: '♠️',
   hearts: '♥️',
@@ -13899,6 +14189,7 @@ export const nameToEmoji = {
   pager: '📟',
   fax: '📠',
   battery: '🔋',
+  low_battery: '🪫',
   electric_plug: '🔌',
   computer: '💻',
   desktop_computer: '🖥️',
@@ -14043,7 +14334,9 @@ export const nameToEmoji = {
   drop_of_blood: '🩸',
   pill: '💊',
   adhesive_bandage: '🩹',
+  crutch: '🩼',
   stethoscope: '🩺',
+  x_ray: '🩻',
   door: '🚪',
   elevator: '🛗',
   mirror: '🪞',
@@ -14064,6 +14357,7 @@ export const nameToEmoji = {
   roll_of_paper: '🧻',
   bucket: '🪣',
   soap: '🧼',
+  bubbles: '🫧',
   toothbrush: '🪥',
   sponge: '🧽',
   fire_extinguisher: '🧯',
@@ -14074,6 +14368,7 @@ export const nameToEmoji = {
   funeral_urn: '⚱️',
   moyai: '🗿',
   placard: '🪧',
+  identification_card: '🪪',
   atm: '🏧',
   put_litter_in_its_place: '🚮',
   potable_water: '🚰',
@@ -14177,6 +14472,7 @@ export const nameToEmoji = {
   heavy_plus_sign: '➕',
   heavy_minus_sign: '➖',
   heavy_division_sign: '➗',
+  heavy_equals_sign: '🟰',
   infinity: '♾️',
   bangbang: '‼️',
   interrobang: '⁉️',
@@ -14583,6 +14879,7 @@ export const emojiToName = {
   '😂': 'joy',
   '🙂': 'slightly_smiling_face',
   '🙃': 'upside_down_face',
+  '🫠': 'melting_face',
   '😉': 'wink',
   '😊': 'blush',
   '😇': 'innocent',
@@ -14603,13 +14900,17 @@ export const emojiToName = {
   '🤑': 'money_mouth_face',
   '🤗': 'hugs',
   '🤭': 'hand_over_mouth',
+  '🫢': 'face_with_open_eyes_and_hand_over_mouth',
+  '🫣': 'face_with_peeking_eye',
   '🤫': 'shushing_face',
   '🤔': 'thinking',
+  '🫡': 'saluting_face',
   '🤐': 'zipper_mouth_face',
   '🤨': 'raised_eyebrow',
   '😐': 'neutral_face',
   '😑': 'expressionless',
   '😶': 'no_mouth',
+  '🫥': 'dotted_line_face',
   '😶‍🌫️': 'face_in_clouds',
   '😏': 'smirk',
   '😒': 'unamused',
@@ -14641,6 +14942,7 @@ export const emojiToName = {
   '🤓': 'nerd_face',
   '🧐': 'monocle_face',
   '😕': 'confused',
+  '🫤': 'face_with_diagonal_mouth',
   '😟': 'worried',
   '🙁': 'slightly_frowning_face',
   '☹️': 'frowning_face',
@@ -14649,6 +14951,7 @@ export const emojiToName = {
   '😲': 'astonished',
   '😳': 'flushed',
   '🥺': 'pleading_face',
+  '🥹': 'face_holding_back_tears',
   '😦': 'frowning',
   '😧': 'anguished',
   '😨': 'fearful',
@@ -14734,11 +15037,16 @@ export const emojiToName = {
   '🖐️': 'raised_hand_with_fingers_splayed',
   '✋': 'hand',
   '🖖': 'vulcan_salute',
+  '🫱': 'rightwards_hand',
+  '🫲': 'leftwards_hand',
+  '🫳': 'palm_down_hand',
+  '🫴': 'palm_up_hand',
   '👌': 'ok_hand',
   '🤌': 'pinched_fingers',
   '🤏': 'pinching_hand',
   '✌️': 'v',
   '🤞': 'crossed_fingers',
+  '🫰': 'hand_with_index_finger_and_thumb_crossed',
   '🤟': 'love_you_gesture',
   '🤘': 'metal',
   '🤙': 'call_me_hand',
@@ -14748,6 +15056,7 @@ export const emojiToName = {
   '🖕': 'middle_finger',
   '👇': 'point_down',
   '☝️': 'point_up',
+  '🫵': 'index_pointing_at_the_viewer',
   '👍': '+1',
   '👎': '-1',
   '✊': 'fist_raised',
@@ -14756,6 +15065,7 @@ export const emojiToName = {
   '🤜': 'fist_right',
   '👏': 'clap',
   '🙌': 'raised_hands',
+  '🫶': 'heart_hands',
   '👐': 'open_hands',
   '🤲': 'palms_up_together',
   '🤝': 'handshake',
@@ -14780,6 +15090,7 @@ export const emojiToName = {
   '👁️': 'eye',
   '👅': 'tongue',
   '👄': 'lips',
+  '🫦': 'biting_lip',
   '👶': 'baby',
   '🧒': 'child',
   '👦': 'boy',
@@ -14899,6 +15210,7 @@ export const emojiToName = {
   '👷': 'construction_worker',
   '👷‍♂️': 'construction_worker_man',
   '👷‍♀️': 'construction_worker_woman',
+  '🫅': 'person_with_crown',
   '🤴': 'prince',
   '👸': 'princess',
   '👳': 'person_with_turban',
@@ -14913,6 +15225,8 @@ export const emojiToName = {
   '👰‍♂️': 'man_with_veil',
   '👰‍♀️': 'woman_with_veil',
   '🤰': 'pregnant_woman',
+  '🫃': 'pregnant_man',
+  '🫄': 'pregnant_person',
   '🤱': 'breast_feeding',
   '👩‍🍼': 'woman_feeding_baby',
   '👨‍🍼': 'man_feeding_baby',
@@ -14948,6 +15262,7 @@ export const emojiToName = {
   '🧟': 'zombie',
   '🧟‍♂️': 'zombie_man',
   '🧟‍♀️': 'zombie_woman',
+  '🧌': 'troll',
   '💆': 'massage',
   '💆‍♂️': 'massage_man',
   '💆‍♀️': 'massage_woman',
@@ -15179,6 +15494,7 @@ export const emojiToName = {
   '🦈': 'shark',
   '🐙': 'octopus',
   '🐚': 'shell',
+  '🪸': 'coral',
   '🐌': 'snail',
   '🦋': 'butterfly',
   '🐛': 'bug',
@@ -15198,6 +15514,7 @@ export const emojiToName = {
   '💐': 'bouquet',
   '🌸': 'cherry_blossom',
   '💮': 'white_flower',
+  '🪷': 'lotus',
   '🏵️': 'rosette',
   '🌹': 'rose',
   '🥀': 'wilted_flower',
@@ -15218,6 +15535,8 @@ export const emojiToName = {
   '🍁': 'maple_leaf',
   '🍂': 'fallen_leaf',
   '🍃': 'leaves',
+  '🪹': 'empty_nest',
+  '🪺': 'nest_with_eggs',
   '🍇': 'grapes',
   '🍈': 'melon',
   '🍉': 'watermelon',
@@ -15251,6 +15570,7 @@ export const emojiToName = {
   '🧅': 'onion',
   '🍄': 'mushroom',
   '🥜': 'peanuts',
+  '🫘': 'beans',
   '🌰': 'chestnut',
   '🍞': 'bread',
   '🥐': 'croissant',
@@ -15336,6 +15656,7 @@ export const emojiToName = {
   '🍻': 'beers',
   '🥂': 'clinking_glasses',
   '🥃': 'tumbler_glass',
+  '🫗': 'pouring_liquid',
   '🥤': 'cup_with_straw',
   '🧋': 'bubble_tea',
   '🧃': 'beverage_box',
@@ -15346,6 +15667,7 @@ export const emojiToName = {
   '🍴': 'fork_and_knife',
   '🥄': 'spoon',
   '🔪': 'hocho',
+  '🫙': 'jar',
   '🏺': 'amphora',
   '🌍': 'earth_africa',
   '🌎': 'earth_americas',
@@ -15408,6 +15730,7 @@ export const emojiToName = {
   '🌉': 'bridge_at_night',
   '♨️': 'hotsprings',
   '🎠': 'carousel_horse',
+  '🛝': 'playground_slide',
   '🎡': 'ferris_wheel',
   '🎢': 'roller_coaster',
   '💈': 'barber',
@@ -15456,12 +15779,14 @@ export const emojiToName = {
   '🛤️': 'railway_track',
   '🛢️': 'oil_drum',
   '⛽': 'fuelpump',
+  '🛞': 'wheel',
   '🚨': 'rotating_light',
   '🚥': 'traffic_light',
   '🚦': 'vertical_traffic_light',
   '🛑': 'stop_sign',
   '🚧': 'construction',
   '⚓': 'anchor',
+  '🛟': 'ring_buoy',
   '⛵': 'boat',
   '🛶': 'canoe',
   '🚤': 'speedboat',
@@ -15623,6 +15948,7 @@ export const emojiToName = {
   '🔮': 'crystal_ball',
   '🪄': 'magic_wand',
   '🧿': 'nazar_amulet',
+  '🪬': 'hamsa',
   '🎮': 'video_game',
   '🕹️': 'joystick',
   '🎰': 'slot_machine',
@@ -15630,6 +15956,7 @@ export const emojiToName = {
   '🧩': 'jigsaw',
   '🧸': 'teddy_bear',
   '🪅': 'pinata',
+  '🪩': 'mirror_ball',
   '🪆': 'nesting_dolls',
   '♠️': 'spades',
   '♥️': 'hearts',
@@ -15725,6 +16052,7 @@ export const emojiToName = {
   '📟': 'pager',
   '📠': 'fax',
   '🔋': 'battery',
+  '🪫': 'low_battery',
   '🔌': 'electric_plug',
   '💻': 'computer',
   '🖥️': 'desktop_computer',
@@ -15865,7 +16193,9 @@ export const emojiToName = {
   '🩸': 'drop_of_blood',
   '💊': 'pill',
   '🩹': 'adhesive_bandage',
+  '🩼': 'crutch',
   '🩺': 'stethoscope',
+  '🩻': 'x_ray',
   '🚪': 'door',
   '🛗': 'elevator',
   '🪞': 'mirror',
@@ -15886,6 +16216,7 @@ export const emojiToName = {
   '🧻': 'roll_of_paper',
   '🪣': 'bucket',
   '🧼': 'soap',
+  '🫧': 'bubbles',
   '🪥': 'toothbrush',
   '🧽': 'sponge',
   '🧯': 'fire_extinguisher',
@@ -15896,6 +16227,7 @@ export const emojiToName = {
   '⚱️': 'funeral_urn',
   '🗿': 'moyai',
   '🪧': 'placard',
+  '🪪': 'identification_card',
   '🏧': 'atm',
   '🚮': 'put_litter_in_its_place',
   '🚰': 'potable_water',
@@ -15999,6 +16331,7 @@ export const emojiToName = {
   '➕': 'heavy_plus_sign',
   '➖': 'heavy_minus_sign',
   '➗': 'heavy_division_sign',
+  '🟰': 'heavy_equals_sign',
   '♾️': 'infinity',
   '‼️': 'bangbang',
   '⁉️': 'interrobang',
