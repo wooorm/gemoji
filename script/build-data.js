@@ -16,10 +16,10 @@
  * @property {string} category
  */
 
-import fs from 'node:fs'
+import fs from 'node:fs/promises'
 
 /** @type {Array<Emoji>} */
-const input = JSON.parse(String(fs.readFileSync('emoji.json')))
+const input = JSON.parse(String(await fs.readFile('emoji.json')))
 
 /** @type {Array<Gemoji>} */
 const main = []
@@ -57,7 +57,7 @@ while (++index < input.length) {
   }
 }
 
-fs.writeFileSync(
+await fs.writeFile(
   'index.js',
   `/**
  * @typedef Gemoji

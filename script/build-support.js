@@ -3,7 +3,7 @@
  * @typedef {import('mdast').TableRow} TableRow
  */
 
-import assert from 'node:assert'
+import assert from 'node:assert/strict'
 import {zone} from 'mdast-zone'
 import {u} from 'unist-builder'
 import {gemoji} from '../index.js'
