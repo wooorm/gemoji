@@ -53,14 +53,14 @@ npm install gemoji
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import {gemoji} from 'https://esm.sh/gemoji@7'
+import {gemoji} from 'https://esm.sh/gemoji@8'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import {gemoji} from 'https://esm.sh/gemoji@7?bundle'
+  import {gemoji} from 'https://esm.sh/gemoji@8?bundle'
 </script>
 ```
 
