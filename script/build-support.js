@@ -8,8 +8,11 @@ import {zone} from 'mdast-zone'
 import {u} from 'unist-builder'
 import {gemoji} from '../index.js'
 
-/** @type {import('unified').Plugin<[], Root>} */
 export default function support() {
+  /**
+   * @param {Root} tree
+   * @returns {undefined}
+   */
   return (tree) => {
     zone(tree, 'support', (start, _, end) => [start, ...data(), end])
 

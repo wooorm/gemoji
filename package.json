@@ -32,23 +32,24 @@
     "index.js"
   ],
   "devDependencies": {
-    "@types/node": "^18.0.0",
-    "c8": "^7.0.0",
-    "mdast-zone": "^5.0.0",
+    "@types/mdast": "^4.0.0",
+    "@types/node": "^20.0.0",
+    "c8": "^8.0.0",
+    "mdast-zone": "^6.0.0",
     "node-fetch": "^3.0.0",
-    "prettier": "^2.0.0",
+    "prettier": "^3.0.0",
     "remark-cli": "^11.0.0",
     "remark-preset-wooorm": "^9.0.0",
     "type-coverage": "^2.0.0",
     "typescript": "^5.0.0",
-    "unist-builder": "^3.0.0",
-    "xo": "^0.53.0"
+    "unist-builder": "^4.0.0",
+    "xo": "^0.56.0"
   },
   "scripts": {
     "prepack": "npm run build && npm run format",
     "generate": "node --conditions development script/crawl-data.js && node --conditions development script/build-data.js",
     "build": "tsc --build --clean && tsc --build && type-coverage",
-    "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+    "format": "remark . -qfo && prettier . -w --log-level warn && xo --fix",
     "test-api": "node --conditions development test.js",
     "test-coverage": "c8 --check-coverage --100 --reporter lcov npm run test-api",
     "test": "npm run generate && npm run build && npm run format && npm run test-coverage"
