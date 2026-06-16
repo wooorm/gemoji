@@ -57,14 +57,17 @@ export default function support() {
      * @param {string} value
      */
     function escape(value) {
-      return value
-        .split('')
-        .map((character) => {
-          const cp = character.codePointAt(0)
-          assert(cp)
-          return '\\u' + cp.toString(16)
-        })
-        .join('')
+      return (
+        value
+          /* eslint-disable-next-line unicorn/prefer-spread */
+          .split('')
+          .map((character) => {
+            const cp = character.codePointAt(0)
+            assert.ok(cp)
+            return '\\u' + cp.toString(16)
+          })
+          .join('')
+      )
     }
   }
 }

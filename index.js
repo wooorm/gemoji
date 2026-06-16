@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+
 /**
  * @typedef Gemoji
  * @property {string} emoji

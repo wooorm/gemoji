@@ -31,7 +31,7 @@ let index = -1
 
 while (++index < input.length) {
   const info = input[index]
-  const emoji = info.emoji
+  const {emoji} = info
   const names = info.aliases
   const name = names[0]
 
@@ -59,7 +59,9 @@ while (++index < input.length) {
 
 await fs.writeFile(
   'index.js',
-  `/**
+  `/* eslint-disable max-lines */
+
+/**
  * @typedef Gemoji
  * @property {string} emoji
  *   Example: \`'😀'\`.

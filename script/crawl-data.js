@@ -9,5 +9,5 @@ const response = await fetch(
   }
 )
 
-assert(response.body, 'expected body')
+assert.ok(response.body, 'expected body')
 response.body.pipe(fs.createWriteStream('emoji.json'))

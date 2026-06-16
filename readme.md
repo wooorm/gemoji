@@ -9,22 +9,22 @@ Info on gemoji.
 
 ## Contents
 
-*   [What is this?](#what-is-this)
-*   [When should I use this?](#when-should-i-use-this)
-*   [Install](#install)
-*   [Use](#use)
-*   [API](#api)
-    *   [`gemoji`](#gemoji-1)
-    *   [`nameToEmoji`](#nametoemoji)
-    *   [`emojiToName`](#emojitoname)
-*   [Types](#types)
-*   [Data](#data)
-*   [Compatibility](#compatibility)
-*   [Security](#security)
-*   [Related](#related)
-*   [Contribute](#contribute)
-*   [Notice](#notice)
-*   [License](#license)
+* [What is this?](#what-is-this)
+* [When should I use this?](#when-should-i-use-this)
+* [Install](#install)
+* [Use](#use)
+* [API](#api)
+  * [`gemoji`](#gemoji-1)
+  * [`nameToEmoji`](#nametoemoji)
+  * [`emojiToName`](#emojitoname)
+* [Types](#types)
+* [Data](#data)
+* [Compatibility](#compatibility)
+* [Security](#security)
+* [Related](#related)
+* [Contribute](#contribute)
+* [Notice](#notice)
+* [License](#license)
 
 ## What is this?
 
@@ -36,10 +36,10 @@ For example, `:grinning:` can be used for `😀`.
 
 Use this package if you need:
 
-*   info on gemoji, such as associated tags, description, and
-    category
-*   to map between emoji and names and vice versa
-*   to list emoji or names
+* info on gemoji, such as associated tags, description, and
+  category
+* to map between emoji and names and vice versa
+* to list emoji or names
 
 ## Install
 
@@ -79,16 +79,16 @@ There is no default export.
 List of info objects (`Array<Gemoji>`).
 Each `Gemoji` has the following fields:
 
-*   `emoji` (`string`)
-    — example: `😀`
-*   `names` (`Array<string>`)
-    — example: `['grinning']`
-*   `tags` (`Array<string>`)
-    — example: `['smile', 'happy']`
-*   `description` (`string`)
-    — example: `grinning face`
-*   `category` (`string`)
-    — example: `Smileys & Emotion`
+* `emoji` (`string`)
+  — example: `😀`
+* `names` (`Array<string>`)
+  — example: `['grinning']`
+* `tags` (`Array<string>`)
+  — example: `['smile', 'happy']`
+* `description` (`string`)
+  — example: `grinning face`
+* `category` (`string`)
+  — example: `Smileys & Emotion`
 
 ###### Example
 
@@ -180,14 +180,14 @@ This package is safe.
 
 ## Related
 
-*   [`words/emoji-emotion`](https://github.com/words/emoji-emotion)
-    — list of emoji rated for valence
-*   [`wooorm/emoticon`](https://github.com/wooorm/emoticon)
-    — info on ASCII emoticons
-*   [`wooorm/strip-skin-tone`](https://github.com/wooorm/strip-skin-tone)
-    — strip skin-tones from emoji
-*   [`wooorm.com/checkmoji`](https://wooorm.com/checkmoji/)
-    — check emoji across platforms
+* [`words/emoji-emotion`](https://github.com/words/emoji-emotion)
+  — list of emoji rated for valence
+* [`wooorm/emoticon`](https://github.com/wooorm/emoticon)
+  — info on ASCII emoticons
+* [`wooorm/strip-skin-tone`](https://github.com/wooorm/strip-skin-tone)
+  — strip skin-tones from emoji
+* [`wooorm.com/checkmoji`](https://wooorm.com/checkmoji/)
+  — check emoji across platforms
 
 ## Contribute
 
@@ -206,38 +206,38 @@ See its [`github/gemoji`][gh-license] for info on GHs licensing.
 
 <!-- Definitions -->
 
-[build-badge]: https://github.com/wooorm/gemoji/workflows/main/badge.svg
+[author]: https://wooorm.com
 
 [build]: https://github.com/wooorm/gemoji/actions
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/gemoji.svg
-
-[coverage]: https://codecov.io/github/wooorm/gemoji
-
-[downloads-badge]: https://img.shields.io/npm/dm/gemoji.svg
-
-[downloads]: https://www.npmjs.com/package/gemoji
-
-[size-badge]: https://img.shields.io/bundlephobia/minzip/gemoji.svg
-
-[size]: https://bundlephobia.com/result?p=gemoji
-
-[npm]: https://docs.npmjs.com/cli/install
-
-[esmsh]: https://esm.sh
-
-[license]: license
-
-[author]: https://wooorm.com
-
-[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
-
-[typescript]: https://www.typescriptlang.org
+[build-badge]: https://github.com/wooorm/gemoji/workflows/main/badge.svg
 
 [contribute]: https://opensource.guide/how-to-contribute/
 
-[support]: support.md
+[coverage]: https://codecov.io/github/wooorm/gemoji
+
+[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/gemoji.svg
+
+[downloads]: https://www.npmjs.com/package/gemoji
+
+[downloads-badge]: https://img.shields.io/npm/dm/gemoji.svg
+
+[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+
+[esmsh]: https://esm.sh
 
 [gh]: https://github.com/github/gemoji
 
 [gh-license]: https://github.com/github/gemoji/blob/55a0080/LICENSE
+
+[license]: license
+
+[npm]: https://docs.npmjs.com/cli/install
+
+[size]: https://bundlephobia.com/result?p=gemoji
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/gemoji.svg
+
+[support]: support.md
+
+[typescript]: https://www.typescriptlang.org
