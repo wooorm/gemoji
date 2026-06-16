@@ -1,5 +1,5 @@
 /**
- * @typedef {import('./script/build-data.js').Emoji} Emoji
+ * @import {Emoji} from './script/build-data.js'
  */
 
 import fs from 'node:fs/promises'
