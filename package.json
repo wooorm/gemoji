@@ -28,6 +28,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
+    "index.d.ts.map",
     "index.d.ts",
     "index.js"
   ],
